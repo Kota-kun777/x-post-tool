@@ -36,6 +36,66 @@ HISTORY_DIR.mkdir(exist_ok=True)
 SYSTEM_PROMPT_PATH = APP_DIR / "suasi_system_prompt.md"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
 X_TRENDS_CACHE = APP_DIR / "x_trends_cache.json"
+AUTOSAVE_PATH = Path("/tmp/x_post_tool_autosave.json")
+
+# 自動保存対象のセッションキー
+_AUTOSAVE_KEYS = [
+    # トレンドタブ
+    "trend_result", "trend_result_original", "trend_corrections_applied",
+    "trend_factcheck", "trend_revision", "trend_selected_post", "trend_step",
+    "ai_recommendations", "x_trend_items", "manual_topics",
+    # 原稿変換タブ
+    "script_result", "script_result_original", "script_corrections",
+    "script_factcheck", "scr_revision", "scr_selected_post",
+    # 画像コメントタブ
+    "image_result", "image_result_original", "image_corrections",
+    "image_factcheck", "img_revision", "img_selected_post",
+]
+
+
+def _autosave():
+    """重要なセッション状態をファイルに自動保存"""
+    data = {}
+    for key in _AUTOSAVE_KEYS:
+        val = st.session_state.get(key)
+        if val is not None:
+            data[key] = val
+    if data:
+        try:
+            AUTOSAVE_PATH.write_text(json.dumps(data, ensure_ascii=False, default=str), encoding="utf-8")
+        except Exception:
+            pass
+
+
+def _load_autosave():
+    """自動保存データを読み込む（存在する場合）"""
+    try:
+        if AUTOSAVE_PATH.exists():
+            raw = AUTOSAVE_PATH.read_text(encoding="utf-8")
+            return json.loads(raw)
+    except Exception:
+        pass
+    return None
+
+
+def _restore_autosave():
+    """自動保存データをセッションに復元"""
+    data = _load_autosave()
+    if not data:
+        return False
+    for key, val in data.items():
+        if key in _AUTOSAVE_KEYS:
+            st.session_state[key] = val
+    return True
+
+
+def _clear_autosave():
+    """自動保存データを削除"""
+    try:
+        if AUTOSAVE_PATH.exists():
+            AUTOSAVE_PATH.unlink()
+    except Exception:
+        pass
 
 # ──────────────────────────────────────
 # ページ設定
@@ -1531,6 +1591,7 @@ def _do_revision(original_post, instruction, key_prefix):
         "factcheck": fc_result,
     }
     st.session_state.pop(f"{key_prefix}_selected_post", None)
+    _autosave()
     st.rerun()
 
 
@@ -1771,6 +1832,34 @@ if st.session_state.get("view_history"):
     with st.expander("📥 入力"): st.json(entry.get("input", {}))
     st.markdown(entry.get("result", "")); st.stop()
 
+
+# ──────────────────────────────────────
+# 自動保存からの復元チェック
+# ──────────────────────────────────────
+_has_any_result = any(st.session_state.get(k) for k in [
+    "trend_result", "script_result", "image_result",
+])
+if not _has_any_result and not st.session_state.get("_autosave_dismissed"):
+    _saved = _load_autosave()
+    if _saved and any(_saved.get(k) for k in ["trend_result", "script_result", "image_result"]):
+        _tabs_with_data = []
+        if _saved.get("trend_result"):
+            _tabs_with_data.append("トレンド起点")
+        if _saved.get("script_result"):
+            _tabs_with_data.append("原稿変換")
+        if _saved.get("image_result"):
+            _tabs_with_data.append("画像コメント")
+        st.info(f"💾 前回の作成データがあります（{', '.join(_tabs_with_data)}）")
+        col_r, col_d = st.columns(2)
+        with col_r:
+            if st.button("🔄 前回の続きから復元", type="primary", use_container_width=True, key="_restore_btn"):
+                _restore_autosave()
+                st.rerun()
+        with col_d:
+            if st.button("✖️ 新規で始める", use_container_width=True, key="_dismiss_btn"):
+                st.session_state["_autosave_dismissed"] = True
+                _clear_autosave()
+                st.rerun()
 
 # ──────────────────────────────────────
 # メイン: タブ
@@ -2188,6 +2277,7 @@ with tab1:
                     "angles": [s.get("angle", "") for s in selected],
                     "extra": extra,
                 }, corrected_result)
+                _autosave()
                 st.rerun()
 
     # ── STEP 3: 結果 ──
@@ -2230,11 +2320,13 @@ with tab1:
             if st.button("🗑️ クリア", key="cl_t"):
                 for k in _trend_clear_keys:
                     st.session_state.pop(k, None)
+                _autosave()
                 st.rerun()
         with c2:
             if st.button("🔄 新しいトレンド", key="new_t"):
                 for k in _trend_clear_keys:
                     st.session_state.pop(k, None)
+                _autosave()
                 st.rerun()
 
 
@@ -2289,6 +2381,7 @@ with tab2:
             st.session_state.script_factcheck = fc_results
             st.session_state.script_corrections = scr_corrections
             save_history("script", {"script": script_text[:200], "context": script_ctx}, corrected_result)
+            _autosave()
     if st.session_state.get("script_result"):
         st.markdown("---")
         scr_corr = st.session_state.get("script_corrections", False)
@@ -2315,6 +2408,7 @@ with tab2:
                     clear_keys.append(sk)
             for k in clear_keys:
                 st.session_state.pop(k, None)
+            _autosave()
             st.rerun()
 
 
@@ -2374,6 +2468,7 @@ with tab3:
             st.session_state.image_factcheck = fc_results
             st.session_state.image_corrections = img_corrections
             save_history("image", {"image_name": img.name, "desc": img_desc}, corrected_result)
+            _autosave()
     if st.session_state.get("image_result"):
         st.markdown("---")
         img_corr = st.session_state.get("image_corrections", False)
@@ -2400,4 +2495,5 @@ with tab3:
                     clear_keys.append(sk)
             for k in clear_keys:
                 st.session_state.pop(k, None)
+            _autosave()
             st.rerun()
