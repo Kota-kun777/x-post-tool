@@ -182,6 +182,21 @@ def get_char_limit_text(char_type):
 # Xトレンドキャッシュ読み込み（クラウド/同期用）
 # ──────────────────────────────────────
 
+GITHUB_REPO = "Kota-kun777/x-post-tool"
+GITHUB_API_BASE = f"https://api.github.com/repos/{GITHUB_REPO}/contents"
+
+
+def _get_github_token():
+    """GitHub Personal Access Token を取得"""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
+        try:
+            token = st.secrets.get("GITHUB_TOKEN", "")
+        except Exception:
+            token = ""
+    return token
+
+
 @st.cache_data(ttl=600, show_spinner=False)
 def _fetch_trends_from_github():
     """GitHubリポジトリからXトレンドキャッシュをAPI経由で取得（リデプロイ不要）
@@ -190,13 +205,90 @@ def _fetch_trends_from_github():
         dict: キャッシュデータ（成功時）
         None: 取得失敗時
     """
-    GITHUB_API_URL = "https://api.github.com/repos/Kota-kun777/x-post-tool/contents/x_trends_cache.json"
+    GITHUB_API_URL = f"{GITHUB_API_BASE}/x_trends_cache.json"
     try:
         headers = {
             "Accept": "application/vnd.github.v3.raw",
             "User-Agent": "x-post-tool-streamlit",
         }
+        token = _get_github_token()
+        if token:
+            headers["Authorization"] = f"token {token}"
         req = urllib.request.Request(GITHUB_API_URL, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception:
+        return None
+
+
+def _trigger_pc_sync():
+    """GitHub APIで _trigger_sync.json を作成/更新してPCに同期リクエストを送信"""
+    token = _get_github_token()
+    if not token:
+        return False, "GITHUB_TOKEN が未設定です。Streamlit Secrets に追加してください。"
+
+    api_url = f"{GITHUB_API_BASE}/_trigger_sync.json"
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "x-post-tool-streamlit",
+    }
+
+    # 既存ファイルのSHAを取得（更新時に必要）
+    sha = None
+    try:
+        req = urllib.request.Request(api_url, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            sha = data.get("sha")
+    except Exception:
+        pass  # ファイルがまだ存在しない
+
+    # トリガーデータを作成
+    from datetime import timezone as _tz
+    trigger = {
+        "status": "pending",
+        "requested_at": datetime.now(_tz.utc).isoformat(),
+    }
+    content_b64 = base64.b64encode(
+        json.dumps(trigger, ensure_ascii=False, indent=2).encode("utf-8")
+    ).decode("utf-8")
+
+    body = {
+        "message": "trigger: sync request from cloud",
+        "content": content_b64,
+    }
+    if sha:
+        body["sha"] = sha
+
+    try:
+        req = urllib.request.Request(
+            api_url,
+            data=json.dumps(body).encode("utf-8"),
+            headers={**headers, "Content-Type": "application/json"},
+            method="PUT",
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            if resp.status in (200, 201):
+                return True, None
+        return False, "GitHub API エラー"
+    except Exception as e:
+        return False, f"送信失敗: {e}"
+
+
+@st.cache_data(ttl=30, show_spinner=False)
+def _check_trigger_status():
+    """_trigger_sync.json のステータスを確認"""
+    api_url = f"{GITHUB_API_BASE}/_trigger_sync.json"
+    try:
+        headers = {
+            "Accept": "application/vnd.github.v3.raw",
+            "User-Agent": "x-post-tool-streamlit",
+        }
+        token = _get_github_token()
+        if token:
+            headers["Authorization"] = f"token {token}"
+        req = urllib.request.Request(api_url, headers=headers)
         with urllib.request.urlopen(req, timeout=10) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except Exception:
@@ -1346,10 +1438,35 @@ with st.sidebar:
 
     if _is_cloud_environment():
         if not cache_info:
-            st.info("☁️ Xトレンドを下の入力欄から追加できます")
+            st.info("☁️ 下のボタンでPCからXトレンドを取得できます")
+
+        # 🖥️ PCにトレンド取得をリクエスト
+        token = _get_github_token()
+        if token:
+            if st.button("🖥️ PCにトレンド取得をリクエスト", key="trigger_pc_sync", use_container_width=True, type="primary"):
+                with st.spinner("リクエスト送信中..."):
+                    ok, err = _trigger_pc_sync()
+                if ok:
+                    st.success("✅ リクエスト送信！PCで自動実行されます（数分以内）")
+                    st.session_state["_trigger_sent"] = True
+                else:
+                    st.error(f"❌ {err}")
+
+            # トリガーステータス表示
+            trigger = _check_trigger_status()
+            if trigger:
+                if trigger.get("status") == "pending":
+                    st.info("⏳ PC実行待ち... 送信時刻: " + trigger.get("requested_at", "")[:19].replace("T", " "))
+                elif trigger.get("status") == "completed":
+                    completed = trigger.get("completed_at", "")[:19].replace("T", " ")
+                    st.caption(f"✅ 前回PC実行完了: {completed}")
+        else:
+            st.caption("💡 GITHUB_TOKEN を Secrets に追加するとPC連携が使えます")
+
         # 🔄 最新取得ボタン（GitHub APIキャッシュをクリアして再取得）
         if st.button("🔄 Xトレンドを最新に更新", key="refresh_x_trends", use_container_width=True):
             _fetch_trends_from_github.clear()
+            _check_trigger_status.clear()
             st.rerun()
         # 📝 手動入力フォーム
         with st.expander("📝 Xトレンドを手動入力", expanded=not bool(cache_info)):
