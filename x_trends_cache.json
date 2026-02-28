@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-02-28T19:30:00",
+  "count": 5,
+  "trends": [
+    {
+      "title": "確定申告",
+      "post_count": 125000,
+      "category": "ニュース",
+      "time_ago": "トレンド",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "AI規制法案",
+      "post_count": 89000,
+      "category": "テクノロジー",
+      "time_ago": "1時間前",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均",
+      "post_count": 67000,
+      "category": "ビジネス",
+      "time_ago": "2時間前",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "働き方改革",
+      "post_count": 45000,
+      "category": "社会",
+      "time_ago": "3時間前",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "円安ドル高",
+      "post_count": 32000,
+      "category": "経済",
+      "time_ago": "速報",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    }
+  ]
+}
