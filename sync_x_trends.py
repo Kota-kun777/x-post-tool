@@ -66,12 +66,12 @@ def save_cache(trends):
 def git_push():
     """キャッシュファイルをGitHubにプッシュ"""
     import os
-    os.chdir(SCRIPT_DIR.parent)  # リポジトリルートに移動
+    os.chdir(SCRIPT_DIR)  # リポジトリルートに移動
 
     try:
         # ステージング
         subprocess.run(
-            ["git", "add", str(CACHE_FILE.relative_to(SCRIPT_DIR.parent))],
+            ["git", "add", CACHE_FILE.name],
             check=True, capture_output=True, text=True,
         )
 

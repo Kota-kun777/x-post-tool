@@ -182,8 +182,49 @@ def get_char_limit_text(char_type):
 # Xトレンドキャッシュ読み込み（クラウド/同期用）
 # ──────────────────────────────────────
 
+@st.cache_data(ttl=600, show_spinner=False)
+def _fetch_trends_from_github():
+    """GitHubリポジトリからXトレンドキャッシュをAPI経由で取得（リデプロイ不要）
+
+    Returns:
+        dict: キャッシュデータ（成功時）
+        None: 取得失敗時
+    """
+    GITHUB_API_URL = "https://api.github.com/repos/Kota-kun777/x-post-tool/contents/x_trends_cache.json"
+    try:
+        headers = {
+            "Accept": "application/vnd.github.v3.raw",
+            "User-Agent": "x-post-tool-streamlit",
+        }
+        req = urllib.request.Request(GITHUB_API_URL, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception:
+        return None
+
+
+def _load_cache_data():
+    """キャッシュデータを取得（GitHub API優先 → ローカルファイル）"""
+    # 1. クラウド環境: GitHub API から最新を取得
+    if _is_cloud_environment():
+        cache = _fetch_trends_from_github()
+        if cache:
+            return cache, "GitHub"
+
+    # 2. フォールバック: ローカルファイル
+    if X_TRENDS_CACHE.exists():
+        try:
+            cache = json.loads(X_TRENDS_CACHE.read_text(encoding="utf-8"))
+            return cache, "ローカル"
+        except Exception:
+            pass
+    return None, None
+
+
 def load_cached_x_trends(max_age_hours=24):
     """GitHubで同期されたXトレンドキャッシュを読み込む
+
+    優先順位: GitHub API（常に最新） → ローカルファイル
 
     Args:
         max_age_hours: キャッシュの有効期限（時間）。デフォルト24時間
@@ -191,10 +232,10 @@ def load_cached_x_trends(max_age_hours=24):
         list: トレンドリスト（有効なキャッシュがある場合）
         None: キャッシュなし or 期限切れ
     """
-    if not X_TRENDS_CACHE.exists():
+    cache, _source = _load_cache_data()
+    if cache is None:
         return None
     try:
-        cache = json.loads(X_TRENDS_CACHE.read_text(encoding="utf-8"))
         updated_at = datetime.fromisoformat(cache["updated_at"])
         age_hours = (datetime.now() - updated_at).total_seconds() / 3600
         if age_hours > max_age_hours:
@@ -206,10 +247,10 @@ def load_cached_x_trends(max_age_hours=24):
 
 def get_cached_x_trends_info():
     """キャッシュの情報を取得（サイドバー表示用）"""
-    if not X_TRENDS_CACHE.exists():
+    cache, source = _load_cache_data()
+    if cache is None:
         return None
     try:
-        cache = json.loads(X_TRENDS_CACHE.read_text(encoding="utf-8"))
         updated_at = datetime.fromisoformat(cache["updated_at"])
         age_hours = (datetime.now() - updated_at).total_seconds() / 3600
         return {
@@ -217,6 +258,7 @@ def get_cached_x_trends_info():
             "count": cache.get("count", 0),
             "age_hours": round(age_hours, 1),
             "is_fresh": age_hours <= 24,
+            "source": source,
         }
     except Exception:
         return None
@@ -1281,14 +1323,19 @@ with st.sidebar:
     # キャッシュ情報を表示（全環境共通）
     cache_info = get_cached_x_trends_info()
     if cache_info:
+        source_label = f"（{cache_info.get('source', '')}）" if cache_info.get('source') else ""
         if cache_info["is_fresh"]:
-            st.success(f"📦 同期キャッシュ: {cache_info['count']}件\n\n更新: {cache_info['updated_at']}（{cache_info['age_hours']}時間前）")
+            st.success(f"📦 同期キャッシュ{source_label}: {cache_info['count']}件\n\n更新: {cache_info['updated_at']}（{cache_info['age_hours']}時間前）")
         else:
             st.warning(f"📦 キャッシュ期限切れ（{cache_info['age_hours']}時間前）\n\nWindows PCで sync_x_trends.bat を実行してください")
 
     if _is_cloud_environment():
         if not cache_info:
-            st.info("☁️ クラウド環境ではXトレンドはキャッシュ同期で動作します\n\nWindows PCで sync_x_trends.bat を実行すると、Xトレンドが取得できます")
+            st.info("☁️ クラウド環境ではXトレンドはPC同期で動作します\n\nWindows PCで sync_x_trends.bat を実行 → 自動反映されます")
+        # 🔄 最新取得ボタン（GitHub APIキャッシュをクリアして再取得）
+        if st.button("🔄 Xトレンドを最新に更新", key="refresh_x_trends", use_container_width=True):
+            _fetch_trends_from_github.clear()
+            st.rerun()
         st.caption("Google News + Yahoo!リアルタイム検索は常時利用可能")
     else:
         if is_logged_in():
