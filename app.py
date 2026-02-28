@@ -1346,11 +1346,49 @@ with st.sidebar:
 
     if _is_cloud_environment():
         if not cache_info:
-            st.info("☁️ クラウド環境ではXトレンドはPC同期で動作します\n\nWindows PCで sync_x_trends.bat を実行 → 自動反映されます")
+            st.info("☁️ Xトレンドを下の入力欄から追加できます")
         # 🔄 最新取得ボタン（GitHub APIキャッシュをクリアして再取得）
         if st.button("🔄 Xトレンドを最新に更新", key="refresh_x_trends", use_container_width=True):
             _fetch_trends_from_github.clear()
             st.rerun()
+        # 📝 手動入力フォーム
+        with st.expander("📝 Xトレンドを手動入力", expanded=not bool(cache_info)):
+            st.caption("X.comのトレンドをコピーして1行ずつ貼り付け")
+            manual_trends = st.text_area(
+                "トレンド（1行1件）",
+                height=150,
+                placeholder="第三次世界大戦\nイスラエル\n惑星直列\n確定申告\nAI規制法案",
+                key="manual_x_trends",
+            )
+            if st.button("💾 Xトレンドを保存", key="save_manual_trends", use_container_width=True):
+                if manual_trends.strip():
+                    lines = [l.strip() for l in manual_trends.strip().split("\n") if l.strip()]
+                    from datetime import timezone as _tz
+                    new_trends = []
+                    for i, line in enumerate(lines):
+                        new_trends.append({
+                            "title": line,
+                            "post_count": 0,
+                            "category": "トレンド",
+                            "time_ago": "",
+                            "source": "X ニューストレンド（手動）",
+                            "origin": "x_news",
+                        })
+                    cache_data = {
+                        "updated_at": datetime.now(_tz.utc).isoformat(),
+                        "count": len(new_trends),
+                        "trends": new_trends,
+                    }
+                    # ローカルファイルに保存
+                    X_TRENDS_CACHE.write_text(
+                        json.dumps(cache_data, ensure_ascii=False, indent=2),
+                        encoding="utf-8",
+                    )
+                    st.success(f"✅ {len(new_trends)}件のXトレンドを保存しました")
+                    _fetch_trends_from_github.clear()
+                    st.rerun()
+                else:
+                    st.warning("トレンドを入力してください")
         st.caption("Google News + Yahoo!リアルタイム検索は常時利用可能")
     else:
         if is_logged_in():

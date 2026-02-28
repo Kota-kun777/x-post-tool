@@ -43,22 +43,16 @@ STEALTH_ARGS = [
 
 def _launch_context(pw, extra_args=None):
     """ボット検出を回避したブラウザコンテキストを起動"""
-    args = STEALTH_ARGS.copy()
+    args = ["--disable-blink-features=AutomationControlled"]
     if extra_args:
         args.extend(extra_args)
 
     context = pw.chromium.launch_persistent_context(
         BROWSER_DATA_DIR,
         headless=False,
-        channel="chrome",
         locale="ja-JP",
-        viewport={"width": 1280, "height": 900},
-        user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/131.0.0.0 Safari/537.36"
-        ),
-        ignore_default_args=STEALTH_IGNORE_ARGS,
+        viewport={"width": 1400, "height": 900},
+        ignore_default_args=["--enable-automation"],
         args=args,
     )
 
@@ -100,17 +94,33 @@ def do_login():
 
 
 def do_fetch():
-    """保存済みプロファイルでXニューストレンドを取得"""
+    """Xニューストレンドを取得（セッション切れ時は自動でログインを促す）"""
     from playwright.sync_api import sync_playwright
 
-    data_dir = Path(BROWSER_DATA_DIR)
-    if not data_dir.exists():
-        print("プロファイルなし: 先にloginを実行してください", file=sys.stderr)
-        sys.exit(1)
-
     with sync_playwright() as p:
-        context = _launch_context(p, extra_args=["--window-position=-2000,-2000"])
+        context = _launch_context(p)
         page = context.pages[0] if context.pages else context.new_page()
+
+        # まずホームにアクセスしてセッション確認
+        try:
+            page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(3000)
+        except Exception:
+            pass
+
+        url = page.url
+        if "/login" in url or "/i/flow/login" in url:
+            # セッション切れ → ブラウザを表示してログインを促す
+            print("セッション切れ: ブラウザでXにログインしてください", file=sys.stderr)
+            page.goto("https://x.com/login", wait_until="domcontentloaded", timeout=30000)
+            try:
+                page.wait_for_url("**/home**", timeout=300000)
+                print("ログイン成功！", file=sys.stderr)
+                page.wait_for_timeout(3000)
+            except Exception:
+                print("ログインタイムアウト", file=sys.stderr)
+                context.close()
+                sys.exit(2)
 
         # ニュースタブに移動
         try:
@@ -125,15 +135,10 @@ def do_fetch():
             sys.exit(1)
 
         # コンテンツ読み込み待ち
-        page.wait_for_timeout(5000)
+        page.wait_for_timeout(8000)
 
-        # ログインウォールチェック
+        # ログインウォールチェック（exploreページ）
         url = page.url
-        if "/login" in url or "/i/flow/login" in url:
-            print("ログインウォール検出: 再ログインが必要です", file=sys.stderr)
-            context.close()
-            sys.exit(2)
-
         html = page.content()
         if "アカウントを作成" in html and "ログイン" in html and len(html) < 100000:
             print("ログインウォール検出(HTML): 再ログインが必要です", file=sys.stderr)
