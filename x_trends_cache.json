@@ -1,44 +1,148 @@
 {
-  "updated_at": "2026-02-28T10:30:00+00:00",
-  "count": 5,
+  "updated_at": "2026-02-28T11:45:09.068750+00:00",
+  "count": 18,
   "trends": [
     {
-      "title": "確定申告",
-      "post_count": 125000,
-      "category": "ニュース",
-      "time_ago": "トレンド",
+      "title": "みずほFG、AI活用で事務職員最大5000人削減へ",
+      "post_count": 42668,
+      "category": "",
+      "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AI規制法案",
-      "post_count": 89000,
-      "category": "テクノロジー",
-      "time_ago": "1時間前",
+      "title": "Xユーザーらが2月広告収益を公開 ゆる麻布氏125万円稼ぐ",
+      "post_count": 865,
+      "category": "",
+      "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均",
-      "post_count": 67000,
-      "category": "ビジネス",
-      "time_ago": "2時間前",
+      "title": "出生数過去最少更新もこども家庭庁予算7兆円超に批判集中",
+      "post_count": 836,
+      "category": "",
+      "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "働き方改革",
-      "post_count": 45000,
-      "category": "社会",
-      "time_ago": "3時間前",
+      "title": "東京駅周辺地下通路が10駅連結へ 2029年誕生へ",
+      "post_count": 668,
+      "category": "",
+      "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "円安ドル高",
-      "post_count": 32000,
-      "category": "経済",
-      "time_ago": "速報",
+      "title": "高額納税者、増税で海外移住を検討表明",
+      "post_count": 269,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Amazon",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "織り込み済み",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "iPhone 17",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "デジタルゴールド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Type-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株クラの輪を拡げよう",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "急速充電",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-A",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トランプ氏",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイプc",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "OpenAI",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "投資戦略フェア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     }
