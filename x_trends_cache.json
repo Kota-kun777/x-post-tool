@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-02-28T11:45:09.068750+00:00",
-  "count": 18,
+  "updated_at": "2026-02-28T11:47:41.178696+00:00",
+  "count": 17,
   "trends": [
     {
       "title": "みずほFG、AI活用で事務職員最大5000人削減へ",
-      "post_count": 42668,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Xユーザーらが2月広告収益を公開 ゆる麻布氏125万円稼ぐ",
-      "post_count": 865,
+      "post_count": 42683,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +12,15 @@
     },
     {
       "title": "出生数過去最少更新もこども家庭庁予算7兆円超に批判集中",
-      "post_count": 836,
+      "post_count": 888,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "X広告収益2月分で高額報告相次ぐ 764万円超も",
+      "post_count": 872,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +28,7 @@
     },
     {
       "title": "東京駅周辺地下通路が10駅連結へ 2029年誕生へ",
-      "post_count": 668,
+      "post_count": 704,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,7 +36,7 @@
     },
     {
       "title": "高額納税者、増税で海外移住を検討表明",
-      "post_count": 269,
+      "post_count": 272,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -59,15 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "織り込み済み",
+      "title": "iPhone 17",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
+      "title": "Type-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -83,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "Type-C",
+      "title": "USB-A",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -100,14 +100,6 @@
     },
     {
       "title": "急速充電",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "USB-A",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
