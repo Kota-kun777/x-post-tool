@@ -237,7 +237,12 @@ def load_cached_x_trends(max_age_hours=24):
         return None
     try:
         updated_at = datetime.fromisoformat(cache["updated_at"])
-        age_hours = (datetime.now() - updated_at).total_seconds() / 3600
+        # タイムゾーン非対応のタイムスタンプはJSTとみなしてUTC変換
+        if updated_at.tzinfo is None:
+            from datetime import timedelta
+            updated_at = updated_at - timedelta(hours=9)
+        now_utc = datetime.now(updated_at.tzinfo) if updated_at.tzinfo else datetime.utcnow()
+        age_hours = (now_utc - updated_at).total_seconds() / 3600
         if age_hours > max_age_hours:
             return None
         return cache.get("trends", [])
@@ -252,9 +257,19 @@ def get_cached_x_trends_info():
         return None
     try:
         updated_at = datetime.fromisoformat(cache["updated_at"])
-        age_hours = (datetime.now() - updated_at).total_seconds() / 3600
+        # タイムゾーン非対応のタイムスタンプはJSTとみなしてUTC変換
+        if updated_at.tzinfo is None:
+            from datetime import timedelta
+            updated_at_utc = updated_at - timedelta(hours=9)
+        else:
+            updated_at_utc = updated_at
+        now_utc = datetime.now(updated_at_utc.tzinfo) if updated_at_utc.tzinfo else datetime.utcnow()
+        age_hours = (now_utc - updated_at_utc).total_seconds() / 3600
+        # 表示はJST
+        from datetime import timedelta
+        display_time = updated_at if updated_at.tzinfo is None else (updated_at_utc + timedelta(hours=9))
         return {
-            "updated_at": updated_at.strftime("%Y/%m/%d %H:%M"),
+            "updated_at": display_time.strftime("%Y/%m/%d %H:%M"),
             "count": cache.get("count", 0),
             "age_hours": round(age_hours, 1),
             "is_fresh": age_hours <= 24,

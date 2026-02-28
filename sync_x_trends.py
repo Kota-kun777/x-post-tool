@@ -13,7 +13,7 @@ Windows PC用: Xニューストレンドを取得してJSONキャッシュに保
 import json
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -54,7 +54,7 @@ def fetch_trends():
 def save_cache(trends):
     """トレンドをJSONキャッシュファイルに保存"""
     cache_data = {
-        "updated_at": datetime.now().isoformat(),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(trends),
         "trends": trends,
     }
