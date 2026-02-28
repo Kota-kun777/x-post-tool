@@ -1332,24 +1332,93 @@ def _render_post_card(post, key_prefix="", is_selected=False):
 
 
 def display_generated_results(result_text, key_prefix=""):
-    """生成結果を表示し、案選択 → 個別修正の繰り返しフローを提供"""
+    """生成結果を縦フローで表示: 3案 → 選択案 → 修正版"""
     posts = parse_generated_posts(result_text)
     x_ok = all(st.session_state.get(k) for k in ["x_consumer_key", "x_consumer_secret", "x_access_token", "x_access_token_secret"])
 
-    # 修正履歴がある場合のキー
     revision_key = f"{key_prefix}_revision"
     selected_key = f"{key_prefix}_selected_post"
+    selected_post = st.session_state.get(selected_key)
+    has_revision = bool(st.session_state.get(revision_key))
 
-    # ── 修正済みの最新版があれば、それを表示 ──
-    if st.session_state.get(revision_key):
+    # ══════════════════════════════════════
+    # STEP 1: 3案を常に表示
+    # ══════════════════════════════════════
+    for post in posts:
+        is_this_selected = (selected_post and selected_post["number"] == post["number"])
+        _render_post_card(post, key_prefix=key_prefix, is_selected=is_this_selected)
+
+        k = f"{key_prefix}_{post['number']}"
+        col_select, col_copy, col_post_btn = st.columns(3)
+        with col_select:
+            if is_this_selected:
+                st.button(f"✅ 案{post['number']}を選択中", key=f"sel_{k}",
+                          use_container_width=True, disabled=True)
+            else:
+                if st.button(f"✏️ この案を選んで修正", key=f"sel_{k}", use_container_width=True):
+                    st.session_state[selected_key] = post
+                    st.session_state.pop(revision_key, None)
+                    st.rerun()
+        with col_copy:
+            with st.popover("📋 コピー", use_container_width=True):
+                st.text_area("コピー用", value=post["body"], height=300, key=f"cp_{k}")
+        with col_post_btn:
+            if x_ok:
+                with st.popover("🐦 投稿", use_container_width=True):
+                    st.warning("⚠️ Xに投稿します。")
+                    st.text_area("内容", value=post["body"], height=150, key=f"pv_{k}", disabled=True)
+                    if st.button("✅ 確定して投稿", key=f"cf_{k}", type="primary"):
+                        r = post_to_x(post["body"])
+                        if r["success"]:
+                            st.success(f"✅ [見る]({r['url']})")
+                        else:
+                            st.error(f"❌ {r['error']}")
+            else:
+                st.caption("🔒 X API未設定")
+
+        # 図解生成（選択されていない案のみ直下に表示）
+        if not is_this_selected:
+            _render_infographic_ui(post, f"{key_prefix}_{post['number']}")
+
+    # ══════════════════════════════════════
+    # STEP 2: 選択中の案 → 修正指示入力
+    # ══════════════════════════════════════
+    if selected_post and not has_revision:
+        sel = selected_post
+        st.markdown("---")
+        st.markdown(f"#### ⬇️ 【案{sel['number']}】{sel['title']} を修正")
+
+        revision_instruction = st.text_area(
+            "修正指示を入力",
+            height=100,
+            placeholder="例: もっと前向きに、冒頭の数字を変えて、最後に行動を促す一言を追加...",
+            key=f"rev_inst_{key_prefix}",
+        )
+        col_go, col_cancel = st.columns(2)
+        with col_go:
+            if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
+                if revision_instruction.strip():
+                    _do_revision(sel, revision_instruction, key_prefix)
+                else:
+                    st.warning("修正指示を入力してください。")
+        with col_cancel:
+            if st.button("❌ 選択を解除", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
+                st.session_state.pop(selected_key, None)
+                st.rerun()
+
+    # ══════════════════════════════════════
+    # STEP 3: 修正版を下に表示
+    # ══════════════════════════════════════
+    if has_revision:
         revision = st.session_state[revision_key]
-        st.markdown("#### ✏️ 修正版")
-
         revised_post = revision["post"]
+
+        st.markdown("---")
+        st.markdown("#### ⬇️ ✏️ 修正版")
         _render_post_card(revised_post, key_prefix=key_prefix, is_selected=True)
 
         k = f"{key_prefix}_revised"
-        col_copy, col_post, col_back = st.columns(3)
+        col_copy, col_post, col_clear = st.columns(3)
         with col_copy:
             with st.popover("📋 コピー", use_container_width=True):
                 st.text_area("コピー用", value=revised_post["body"], height=300, key=f"cp_{k}")
@@ -1366,19 +1435,19 @@ def display_generated_results(result_text, key_prefix=""):
                             st.error(f"❌ {r['error']}")
             else:
                 st.caption("🔒 X API未設定")
-        with col_back:
-            if st.button("🔙 3案に戻る", key=f"back_{key_prefix}", use_container_width=True):
+        with col_clear:
+            if st.button("🔙 選択を解除", key=f"back_{key_prefix}", use_container_width=True):
                 st.session_state.pop(revision_key, None)
                 st.session_state.pop(selected_key, None)
                 st.rerun()
 
-        # 図解生成
+        # 図解生成（修正版）
         _render_infographic_ui(revised_post, f"{key_prefix}_revised")
 
         # ファクトチェック結果
         fc = revision.get("factcheck")
         if fc:
-            with st.expander("🔍 ファクトチェック結果", expanded=True):
+            with st.expander("🔍 ファクトチェック結果", expanded=False):
                 st.markdown(fc)
 
         # さらに修正
@@ -1403,63 +1472,6 @@ def display_generated_results(result_text, key_prefix=""):
                 for i, h in enumerate(history):
                     st.caption(f"**{i+1}回目:** {h['instruction']}")
 
-        return  # 修正版表示時は3案を隠す
-
-    # ── 3案を表示 ──
-    for post in posts:
-        _render_post_card(post, key_prefix=key_prefix)
-
-        k = f"{key_prefix}_{post['number']}"
-        col_select, col_copy, col_post_btn = st.columns(3)
-        with col_select:
-            if st.button(f"✏️ この案を選んで修正", key=f"sel_{k}", use_container_width=True):
-                st.session_state[selected_key] = post
-                st.rerun()
-        with col_copy:
-            with st.popover("📋 コピー", use_container_width=True):
-                st.text_area("コピー用", value=post["body"], height=300, key=f"cp_{k}")
-        with col_post_btn:
-            if x_ok:
-                with st.popover("🐦 投稿", use_container_width=True):
-                    st.warning("⚠️ Xに投稿します。")
-                    st.text_area("内容", value=post["body"], height=150, key=f"pv_{k}", disabled=True)
-                    if st.button("✅ 確定して投稿", key=f"cf_{k}", type="primary"):
-                        r = post_to_x(post["body"])
-                        if r["success"]:
-                            st.success(f"✅ [見る]({r['url']})")
-                        else:
-                            st.error(f"❌ {r['error']}")
-            else:
-                st.caption("🔒 X API未設定")
-
-        # 図解生成
-        _render_infographic_ui(post, f"{key_prefix}_{post['number']}")
-
-    # ── 案が選択されたら修正指示入力を表示 ──
-    if st.session_state.get(selected_key):
-        sel = st.session_state[selected_key]
-        st.markdown("---")
-        st.markdown(f"#### ✏️ 【案{sel['number']}】を修正")
-        st.info(f"選択中: **{sel['title']}**（{len(sel['body'])}文字）")
-
-        revision_instruction = st.text_area(
-            "修正指示を入力",
-            height=100,
-            placeholder="例: もっと前向きに、冒頭の数字を変えて、最後に行動を促す一言を追加...",
-            key=f"rev_inst_{key_prefix}",
-        )
-        col_go, col_cancel = st.columns(2)
-        with col_go:
-            if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
-                if revision_instruction.strip():
-                    _do_revision(sel, revision_instruction, key_prefix)
-                else:
-                    st.warning("修正指示を入力してください。")
-        with col_cancel:
-            if st.button("❌ キャンセル", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
-                st.session_state.pop(selected_key, None)
-                st.rerun()
-
     with st.expander("📄 生成全文（デバッグ用）"):
         st.text(result_text)
 
@@ -1478,7 +1490,9 @@ def _do_revision(original_post, instruction, key_prefix):
 
 ■ ルール:
 - 修正指示に忠実に従ってください
-- すあし社長の「解説型」トーンを維持してください（仕組みの解説 → 数字の比較 → メカニズムの解明 → 他国比較 → 示唆で締め）
+- 1文目は読者の興味を強く引く一文にすること（意外な数字、逆説的な問い、驚きの事実など）
+- 1文目の後すぐに、前提となる知識や背景を簡潔に説明してから本題に入ること
+- すあし社長の「解説型」トーンを維持してください（興味づけ → 前提知識 → 仕組みの解説 → 数字の比較 → 示唆で締め）
 - 修正後のポストのみを出力してください（タイトルや案番号は不要）
 - 600〜800文字を目安にしてください
 - マークダウン記法は使わないでください（太字、見出し、リスト等は禁止）
@@ -2107,8 +2121,9 @@ with tab1:
 {topics_context}
 
 ■ 重要な指示（必ず守ること）:
+- 【1文目】読者の興味を強く引く一文で始める（意外な数字、逆説的な問い、驚きの事実など）
+- 【前半】1文目の後すぐに、この話の前提となる知識や背景を簡潔にわかりやすく説明する。読者が「なぜこれが重要なのか」を理解できてから本題に入ること
 - 「ニュースの感想」ではなく「仕組み・構造の解説」として書くこと
-- 冒頭は「〜を整理してみましょう」「〜の構造はこうなっています」等の解説導入で始める
 - 具体的な数字は必ず比較セットで使う（「Aは○％なのに、Bは△％」）
 - 「なぜそうなるのか」のメカニズムを必ず解説すること
 - 他国の具体的な国名・人名・制度名を入れること
