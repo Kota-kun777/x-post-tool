@@ -1197,7 +1197,14 @@ def _do_revision(original_post, instruction, key_prefix):
 with st.sidebar:
     st.markdown("## 🔑 API設定")
     if "anthropic_api_key" not in st.session_state:
-        st.session_state.anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        # Streamlit Cloud secrets → 環境変数 の順でAPIキーを取得
+        _ak = os.environ.get("ANTHROPIC_API_KEY", "")
+        if not _ak:
+            try:
+                _ak = st.secrets.get("ANTHROPIC_API_KEY", "")
+            except Exception:
+                _ak = ""
+        st.session_state.anthropic_api_key = _ak
     ak = st.text_input("Anthropic API Key", value=st.session_state.anthropic_api_key, type="password")
     st.session_state.anthropic_api_key = ak
     if ak: st.success("✅ 接続済み")
@@ -1206,7 +1213,13 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("## 🎨 図解生成 (Gemini)")
     if "google_api_key" not in st.session_state:
-        st.session_state.google_api_key = os.environ.get("GOOGLE_API_KEY", "")
+        _gk = os.environ.get("GOOGLE_API_KEY", "")
+        if not _gk:
+            try:
+                _gk = st.secrets.get("GOOGLE_API_KEY", "")
+            except Exception:
+                _gk = ""
+        st.session_state.google_api_key = _gk
     gk = st.text_input("Google API Key", value=st.session_state.google_api_key, type="password", key="gak")
     st.session_state.google_api_key = gk
     if gk:
