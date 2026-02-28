@@ -915,6 +915,53 @@ def search_facts_for_topics(selected_topics, progress=None):
 
 
 # ──────────────────────────────────────
+# トピック方向性分析エージェント
+# ──────────────────────────────────────
+
+def analyze_topic_angles(topics_context, search_facts_text=""):
+    """トピックを分析し、3案それぞれの最適な方向性を提案する"""
+    api_key = st.session_state.get("anthropic_api_key", "")
+    if not api_key:
+        return None
+    client = anthropic.Anthropic(api_key=api_key)
+
+    user_msg = f"""以下のトピックについて、Xポストを3つの異なる切り口で作成します。
+各切り口の最適な「方向性」を具体的に提案してください。
+
+■ トピック情報:
+{topics_context}
+
+■ 参考となる最新情報:
+{search_facts_text if search_facts_text else "（なし）"}
+
+■ 3つの切り口:
+【案1】仕組みや歴史解説型 — テーマの基本構造を整理して「なぜそうなるのか」を解き明かす
+【案2】国際比較型 — 他国の事例と比較して日本の状況を立体的に見せる
+【案3】鋭い考察・今後のシナリオ型 — テーマの本質を鋭く分析し、今後の展開シナリオを提示する
+
+■ 出力フォーマット（必ずこの形式で）:
+【案1の方向性】このトピックの場合、具体的にどの仕組み・歴史を軸に解説すべきか（1-2文）
+【案2の方向性】どの国との比較が最も効果的か、何を比較軸にすべきか（1-2文）
+【案3の方向性】どの側面を鋭く考察し、どんなシナリオを描くべきか（1-2文）
+
+各方向性は具体的に（「税制なら所得税 vs 金融所得課税の構造」のように）書いてください。
+抽象的な提案（「多角的に分析する」等）はNG。
+"""
+
+    try:
+        with st.spinner("🎯 トピックに最適な切り口を分析中..."):
+            response = client.messages.create(
+                model=CLAUDE_MODEL,
+                max_tokens=1000,
+                system="あなたはXポストの企画ディレクターです。トピックの特性を見極め、各切り口で最も読者の興味を引く具体的な方向性を提案してください。簡潔に、しかし具体的に。",
+                messages=[{"role": "user", "content": user_msg}],
+            )
+        return response.content[0].text
+    except Exception:
+        return None
+
+
+# ──────────────────────────────────────
 # ファクトチェックエージェント
 # ──────────────────────────────────────
 
@@ -978,6 +1025,60 @@ def run_factcheck(post_body, search_results_text=""):
             messages=[{"role": "user", "content": user_msg}],
         )
     return response.content[0].text
+
+
+def _factcheck_has_issues(fc_text):
+    """ファクトチェック結果に問題があるかどうかを判定"""
+    if not fc_text:
+        return False
+    return "\u26a0\ufe0f" in fc_text or "\u274c" in fc_text
+
+
+def auto_correct_post(post_body, factcheck_result, search_results_text=""):
+    """ファクトチェック結果に基づいてポストを自動修正する"""
+    api_key = st.session_state.get("anthropic_api_key", "")
+    if not api_key:
+        return post_body
+    client = anthropic.Anthropic(api_key=api_key)
+
+    user_msg = f"""以下のXポスト原稿にファクトチェックで問題が見つかりました。
+ファクトチェック結果の指摘に基づいて、修正版のポストを出力してください。
+
+■ 元のポスト原稿:
+{post_body}
+
+■ ファクトチェック結果:
+{factcheck_result}
+
+■ 参考情報（検索結果）:
+{search_results_text if search_results_text else "（なし）"}
+
+■ 修正ルール:
+- ファクトチェックで指摘された箇所のみを修正する
+- 修正が必要ない箇所は元の文章をそのまま維持する
+- すあし社長のトーン・文体は絶対に変えない
+- 修正後も600〜800文字の範囲を維持する
+- マークダウン記法は使わない（太字、見出し、リスト等は禁止）
+- 修正後のポスト本文のみを出力する（説明やコメントは不要）
+"""
+
+    system_prompt = load_system_prompt() + ENHANCED_GENERATION_PROMPT + """
+
+## 追加指示: ファクトチェック修正モード
+あなたは今、ファクトチェックで指摘された問題を修正しています。
+元のポストの良い部分（構造、トーン、フック）は維持しつつ、事実誤認のみを最小限に修正してください。
+"""
+
+    try:
+        response = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=2000,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_msg}],
+        )
+        return response.content[0].text.strip()
+    except Exception:
+        return post_body  # エラー時は元のテキストを返す
 
 
 # ──────────────────────────────────────
@@ -1051,7 +1152,7 @@ def generate_infographic(post_body):
         st.error("❌ google-genai がインストールされていません。\n`pip install google-genai Pillow` を実行してください。")
         return None
 
-    model = st.session_state.get("gemini_model", "gemini-2.5-flash-image")
+    model = st.session_state.get("gemini_model", "gemini-3.1-flash-image-preview")
 
     # キャラクター参照画像を読み込み
     char_img = _load_character_image()
@@ -1096,40 +1197,119 @@ def generate_infographic(post_body):
         return None
 
 
+def generate_infographic_with_model(post_body, model_id):
+    """Gemini画像生成（モデル指定版）"""
+    google_api_key = st.session_state.get("google_api_key", "")
+    if not google_api_key:
+        st.error("🔑 サイドバーから Google API Key を設定してください。")
+        return None
+    try:
+        from google import genai
+        from google.genai import types
+    except ImportError:
+        st.error("❌ google-genai がインストールされていません。")
+        return None
+
+    char_img = _load_character_image()
+    if char_img is not None:
+        prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:600])
+        contents = [prompt, char_img]
+    else:
+        prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:600])
+        contents = [prompt]
+
+    try:
+        client = genai.Client(api_key=google_api_key)
+        model_short = model_id.split("-")[1] if "-" in model_id else model_id
+        with st.spinner(f"🎨 図解を生成中（{model_short}）..."):
+            response = client.models.generate_content(
+                model=model_id,
+                contents=contents,
+                config=types.GenerateContentConfig(response_modalities=["IMAGE"]),
+            )
+        parts = []
+        try:
+            parts = response.candidates[0].content.parts
+        except (AttributeError, IndexError):
+            parts = getattr(response, "parts", [])
+        for part in parts:
+            if getattr(part, "inline_data", None) is not None:
+                return part.inline_data.data
+        st.warning("⚠️ 画像が生成されませんでした。再試行してください。")
+        return None
+    except Exception as e:
+        st.error(f"❌ 図解生成エラー: {str(e)}")
+        return None
+
+
+# モデル別表示用の定義
+_INFOGRAPHIC_MODELS = {
+    "gemini-2.5-flash-image": {"label": "Flash 安定", "suffix": "flash_stable"},
+    "gemini-3.1-flash-image-preview": {"label": "Flash 最新", "suffix": "flash_latest"},
+    "gemini-3-pro-image-preview": {"label": "Pro 最高品質", "suffix": "pro"},
+}
+
+
 def _render_infographic_ui(post, key_suffix):
-    """図解生成ボタンと画像表示のUIを描画"""
+    """図解生成ボタンと画像表示のUIを描画（モデル比較タブ付き）"""
     infographic_key = f"infographic_{key_suffix}"
     has_google_key = bool(st.session_state.get("google_api_key"))
 
     if not has_google_key:
         return  # Google APIキー未設定時は何も表示しない
 
-    # 既に生成済みの場合は表示
-    if st.session_state.get(infographic_key):
-        img_bytes = st.session_state[infographic_key]
-        st.image(img_bytes, caption="📊 生成された図解", use_container_width=True)
-        col_dl, col_regen = st.columns(2)
-        with col_dl:
-            st.download_button(
-                "💾 図解をダウンロード",
-                data=img_bytes,
-                file_name=f"infographic_{key_suffix}.png",
-                mime="image/png",
-                key=f"dl_img_{key_suffix}",
-                use_container_width=True,
-            )
-        with col_regen:
-            if st.button("🔄 図解を再生成", key=f"regen_img_{key_suffix}", use_container_width=True):
-                img_data = generate_infographic(post["body"])
-                if img_data:
-                    st.session_state[infographic_key] = img_data
-                    st.rerun()
+    # モデルごとのセッションキー
+    model_keys = {mid: f"infographic_{key_suffix}_{info['suffix']}" for mid, info in _INFOGRAPHIC_MODELS.items()}
+
+    # 後方互換: 旧キーを現在のモデルキーに移行
+    has_any = any(st.session_state.get(mk) for mk in model_keys.values())
+    if st.session_state.get(infographic_key) and not has_any:
+        cur_model = st.session_state.get("gemini_model", "gemini-3.1-flash-image-preview")
+        if cur_model in model_keys:
+            st.session_state[model_keys[cur_model]] = st.session_state[infographic_key]
+            has_any = True
+
+    if has_any:
+        # タブで各モデルの結果を表示・比較
+        tab_labels = [info["label"] for info in _INFOGRAPHIC_MODELS.values()]
+        tabs = st.tabs(tab_labels)
+        for tab, (model_id, info) in zip(tabs, _INFOGRAPHIC_MODELS.items()):
+            mk = model_keys[model_id]
+            with tab:
+                img_bytes = st.session_state.get(mk)
+                if img_bytes:
+                    st.image(img_bytes, caption=f"📊 {info['label']}", use_container_width=True)
+                    col_dl, col_regen = st.columns(2)
+                    with col_dl:
+                        st.download_button(
+                            "💾 DL",
+                            data=img_bytes,
+                            file_name=f"infographic_{key_suffix}_{info['suffix']}.png",
+                            mime="image/png",
+                            key=f"dl_img_{key_suffix}_{info['suffix']}",
+                            use_container_width=True,
+                        )
+                    with col_regen:
+                        if st.button("🔄 再生成", key=f"regen_{key_suffix}_{info['suffix']}", use_container_width=True):
+                            img_data = generate_infographic_with_model(post["body"], model_id)
+                            if img_data:
+                                st.session_state[mk] = img_data
+                                st.rerun()
+                else:
+                    if st.button(f"🎨 {info['label']}で生成", key=f"gen_{key_suffix}_{info['suffix']}", use_container_width=True):
+                        img_data = generate_infographic_with_model(post["body"], model_id)
+                        if img_data:
+                            st.session_state[mk] = img_data
+                            st.rerun()
     else:
-        # 生成ボタン
+        # 初回: 選択中のモデルで生成ボタン
         if st.button("🎨 この内容の図解を生成", key=f"gen_img_{key_suffix}", use_container_width=True):
+            cur_model = st.session_state.get("gemini_model", "gemini-3.1-flash-image-preview")
             img_data = generate_infographic(post["body"])
             if img_data:
-                st.session_state[infographic_key] = img_data
+                if cur_model in model_keys:
+                    st.session_state[model_keys[cur_model]] = img_data
+                st.session_state[infographic_key] = img_data  # 後方互換
                 st.rerun()
 
 
@@ -1376,15 +1556,16 @@ with st.sidebar:
     else:
         st.caption("💡 図解生成にはGoogle APIキーが必要")
     gemini_model_options = {
-        "gemini-2.5-flash-image（安定・高速）": "gemini-2.5-flash-image",
-        "gemini-3.1-flash-image-preview（最新Flash）": "gemini-3.1-flash-image-preview",
-        "gemini-3-pro-image-preview（最高品質Pro）": "gemini-3-pro-image-preview",
+        "Flash 安定": "gemini-2.5-flash-image",
+        "Flash 最新 \u2728": "gemini-3.1-flash-image-preview",
+        "Pro 最高品質": "gemini-3-pro-image-preview",
     }
-    gemini_label = st.selectbox(
+    gemini_label = st.radio(
         "図解モデル",
         options=list(gemini_model_options.keys()),
-        index=0,
+        index=1,
         key="gemini_model_select",
+        horizontal=True,
     )
     st.session_state.gemini_model = gemini_model_options[gemini_label]
 
@@ -1899,16 +2080,29 @@ with tab1:
                         for fact in facts:
                             topics_context += f"  - {fact}\n"
 
+                # ── STEP A.5: トピック方向性分析 ──
+                gen_progress.info("🎯 トピックに最適な切り口を分析中...")
+                all_search_text_for_analysis = ""
+                for facts_list in topic_facts.values():
+                    all_search_text_for_analysis += "\n".join(facts_list) + "\n"
+                angle_directions = analyze_topic_angles(topics_context, all_search_text_for_analysis)
+
                 # ── STEP B: ポスト生成 ──
                 gen_progress.info("🤖 すあし社長スタイルのポストを生成中...")
                 user_msg = f"""以下のトピックについて、すあし社長スタイルのXポストを3案生成してください。
 各案600〜800文字で、それぞれ異なる切り口で仕組み・構造を解説するスタイルにしてください。
 
 ■ 生成する3案（各600〜800文字）:
-【案1】仕組み解説型 — テーマの基本構造を整理して「なぜそうなるのか」を解き明かす
+【案1】仕組みや歴史解説型 — テーマの基本構造を整理して「なぜそうなるのか」を解き明かす
 【案2】国際比較型 — 他国の事例と比較して日本の状況を立体的に見せる
-【案3】逆説・発見型 — 「一見〜だが、実は〜」という意外な構造を提示する
-
+【案3】鋭い考察・今後のシナリオ型 — テーマの本質を鋭く分析し、今後の展開シナリオを提示する
+"""
+                if angle_directions:
+                    user_msg += f"""
+■ 各案の方向性（この方向性に沿って書いてください）:
+{angle_directions}
+"""
+                user_msg += f"""
 ■ 選定されたトピック:
 {topics_context}
 
@@ -1948,35 +2142,68 @@ with tab1:
                     if fc:
                         fc_results[post["number"]] = fc
 
+                # ── STEP D: ファクトチェック結果に基づく自動修正 ──
+                corrected_result = result
+                corrections_applied = False
+                if any(_factcheck_has_issues(fc) for fc in fc_results.values()):
+                    gen_progress.info("✏️ ファクトチェック結果に基づいてポストを修正中...")
+                    corrected_posts_text = []
+                    for post in posts:
+                        fc = fc_results.get(post["number"])
+                        if fc and _factcheck_has_issues(fc):
+                            corrected_body = auto_correct_post(post["body"], fc, all_search_text)
+                            corrected_posts_text.append(
+                                f"【案{post['number']}】{post.get('title', '')}\n{corrected_body}"
+                            )
+                            corrections_applied = True
+                        else:
+                            corrected_posts_text.append(
+                                f"【案{post['number']}】{post.get('title', '')}\n{post['body']}"
+                            )
+                    corrected_result = "\n\n".join(corrected_posts_text)
+
                 gen_progress.empty()
-                st.session_state.trend_result = result
+                st.session_state.trend_result = corrected_result
+                st.session_state.trend_result_original = result
                 st.session_state.trend_factcheck = fc_results
+                st.session_state.trend_corrections_applied = corrections_applied
                 st.session_state.trend_step = 3
                 save_history("trend", {
                     "selected_topics": [s["title"] for s in selected],
                     "angles": [s.get("angle", "") for s in selected],
                     "extra": extra,
-                }, result)
+                }, corrected_result)
                 st.rerun()
 
     # ── STEP 3: 結果 ──
     if st.session_state.get("trend_result") and st.session_state.get("trend_step", 1) >= 3:
         st.markdown("---")
-        st.markdown("### ③ ✨ 生成結果")
+        corrections_applied = st.session_state.get("trend_corrections_applied", False)
+        if corrections_applied:
+            st.markdown("### ③ ✨ 生成結果（ファクトチェック修正済み ✅）")
+            st.success("🔍 ファクトチェックで検出された問題を自動修正しました")
+        else:
+            st.markdown("### ③ ✨ 生成結果（ファクトチェック済み ✅）")
         display_generated_results(st.session_state.trend_result, "trend")
 
-        # ファクトチェック結果を表示
+        # ファクトチェック詳細
         fc_results = st.session_state.get("trend_factcheck", {})
         if fc_results:
-            with st.expander("🔍 ファクトチェック結果", expanded=True):
+            with st.expander("🔍 ファクトチェック詳細", expanded=False):
+                if corrections_applied:
+                    st.info("以下は初回生成時のファクトチェック結果です。問題箇所は自動修正済みです。")
                 for num, fc_text in fc_results.items():
                     st.markdown(f"**案{num}:**")
                     st.markdown(fc_text)
                     st.markdown("---")
+        if corrections_applied:
+            with st.expander("📝 修正前の元テキスト", expanded=False):
+                st.text(st.session_state.get("trend_result_original", ""))
 
         c1, c2 = st.columns(2)
         _trend_clear_keys = [
-            "trend_result", "ai_recommendations", "raw_news", "related_news",
+            "trend_result", "trend_result_original", "trend_corrections_applied",
+            "ai_recommendations", "raw_news", "related_news",
             "trend_step", "manual_topics", "x_trend_items", "yahoo_items",
             "trend_revision", "trend_selected_post", "trend_factcheck",
         ]
@@ -2028,21 +2255,46 @@ with tab2:
                 fc = run_factcheck(post["body"])
                 if fc:
                     fc_results[post["number"]] = fc
-            st.session_state.script_result = result
+            # 自動修正
+            corrected_result = result
+            scr_corrections = False
+            if any(_factcheck_has_issues(fc) for fc in fc_results.values()):
+                corrected_posts_text = []
+                for post in posts:
+                    fc = fc_results.get(post["number"])
+                    if fc and _factcheck_has_issues(fc):
+                        corrected_body = auto_correct_post(post["body"], fc)
+                        corrected_posts_text.append(f"【案{post['number']}】{post.get('title', '')}\n{corrected_body}")
+                        scr_corrections = True
+                    else:
+                        corrected_posts_text.append(f"【案{post['number']}】{post.get('title', '')}\n{post['body']}")
+                corrected_result = "\n\n".join(corrected_posts_text)
+            st.session_state.script_result = corrected_result
+            st.session_state.script_result_original = result
             st.session_state.script_factcheck = fc_results
-            save_history("script", {"script": script_text[:200], "context": script_ctx}, result)
+            st.session_state.script_corrections = scr_corrections
+            save_history("script", {"script": script_text[:200], "context": script_ctx}, corrected_result)
     if st.session_state.get("script_result"):
-        st.markdown("---"); st.markdown("## ✨ 生成結果")
+        st.markdown("---")
+        scr_corr = st.session_state.get("script_corrections", False)
+        if scr_corr:
+            st.markdown("## ✨ 生成結果（ファクトチェック修正済み ✅）")
+            st.success("🔍 ファクトチェックで検出された問題を自動修正しました")
+        else:
+            st.markdown("## ✨ 生成結果（ファクトチェック済み ✅）")
         display_generated_results(st.session_state.script_result, "scr")
         fc_results = st.session_state.get("script_factcheck", {})
         if fc_results:
-            with st.expander("🔍 ファクトチェック結果", expanded=True):
+            with st.expander("🔍 ファクトチェック詳細", expanded=False):
+                if scr_corr:
+                    st.info("問題箇所は自動修正済みです。")
                 for num, fc_text in fc_results.items():
                     st.markdown(f"**案{num}:**")
                     st.markdown(fc_text)
                     st.markdown("---")
         if st.button("🗑️ クリア", key="cl_s"):
-            clear_keys = ["script_result", "scr_revision", "scr_selected_post", "script_factcheck"]
+            clear_keys = ["script_result", "script_result_original", "script_corrections",
+                          "scr_revision", "scr_selected_post", "script_factcheck"]
             for sk in list(st.session_state.keys()):
                 if sk.startswith("infographic_scr_"):
                     clear_keys.append(sk)
@@ -2088,21 +2340,46 @@ with tab3:
                 fc = run_factcheck(post["body"])
                 if fc:
                     fc_results[post["number"]] = fc
-            st.session_state.image_result = result
+            # 自動修正
+            corrected_result = result
+            img_corrections = False
+            if any(_factcheck_has_issues(fc) for fc in fc_results.values()):
+                corrected_posts_text = []
+                for post in posts:
+                    fc = fc_results.get(post["number"])
+                    if fc and _factcheck_has_issues(fc):
+                        corrected_body = auto_correct_post(post["body"], fc)
+                        corrected_posts_text.append(f"【案{post['number']}】{post.get('title', '')}\n{corrected_body}")
+                        img_corrections = True
+                    else:
+                        corrected_posts_text.append(f"【案{post['number']}】{post.get('title', '')}\n{post['body']}")
+                corrected_result = "\n\n".join(corrected_posts_text)
+            st.session_state.image_result = corrected_result
+            st.session_state.image_result_original = result
             st.session_state.image_factcheck = fc_results
-            save_history("image", {"image_name": img.name, "desc": img_desc}, result)
+            st.session_state.image_corrections = img_corrections
+            save_history("image", {"image_name": img.name, "desc": img_desc}, corrected_result)
     if st.session_state.get("image_result"):
-        st.markdown("---"); st.markdown("## ✨ 生成結果")
+        st.markdown("---")
+        img_corr = st.session_state.get("image_corrections", False)
+        if img_corr:
+            st.markdown("## ✨ 生成結果（ファクトチェック修正済み ✅）")
+            st.success("🔍 ファクトチェックで検出された問題を自動修正しました")
+        else:
+            st.markdown("## ✨ 生成結果（ファクトチェック済み ✅）")
         display_generated_results(st.session_state.image_result, "img")
         fc_results = st.session_state.get("image_factcheck", {})
         if fc_results:
-            with st.expander("🔍 ファクトチェック結果", expanded=True):
+            with st.expander("🔍 ファクトチェック詳細", expanded=False):
+                if img_corr:
+                    st.info("問題箇所は自動修正済みです。")
                 for num, fc_text in fc_results.items():
                     st.markdown(f"**案{num}:**")
                     st.markdown(fc_text)
                     st.markdown("---")
         if st.button("🗑️ クリア", key="cl_i"):
-            clear_keys = ["image_result", "img_revision", "img_selected_post", "image_factcheck"]
+            clear_keys = ["image_result", "image_result_original", "image_corrections",
+                          "img_revision", "img_selected_post", "image_factcheck"]
             for sk in list(st.session_state.keys()):
                 if sk.startswith("infographic_img_"):
                     clear_keys.append(sk)
