@@ -1089,16 +1089,17 @@ CHARACTER_IMG_PATH = APP_DIR / "character_ref.png"
 
 INFOGRAPHIC_PROMPT = """この画像のキャラクターを使って、以下のポスト内容をわかりやすく図解したインフォグラフィック画像を1枚生成してください。
 
-■ ポスト内容:
+■ ポスト内容（要点のみ抽出して図解に使用すること）:
 {post_body}
 
 ■ キャラクターの使い方:
-- 添付画像のキャラクターをそのままのデザインで図解の中に自然に配置する
+- 添付画像のキャラクターをそのままのデザインで図解の中心に大きく配置する
 - キャラクターがデータを指さしたり、吹き出しで一言コメントするポーズにする
 - キャラクターのデザインは変えないこと（服装・顔・色すべてそのまま）
 
 ■ 図解のスタイル:
-- 文字は極力少なく、数字とアイコンで直感的にわかるデザイン
+- 【最重要】画像内の文字は最小限にすること。長い文章は絶対に入れない
+- テキストはキーワード・数字・短いラベル（5文字以内）のみ使用
 - 比較がある場合 → 大きさの違う棒グラフやアイコンで視覚的に表現
 - 因果関係 → 矢印やフローで表現
 - キーとなる数字は超大きく太く目立たせる
@@ -1110,11 +1111,12 @@ INFOGRAPHIC_PROMPT = """この画像のキャラクターを使って、以下�
 
 INFOGRAPHIC_PROMPT_NO_REF = """以下のポスト内容をわかりやすく図解したインフォグラフィック画像を1枚生成してください。
 
-■ ポスト内容:
+■ ポスト内容（要点のみ抽出して図解に使用すること）:
 {post_body}
 
 ■ 図解のスタイル:
-- 文字は極力少なく、数字とアイコンで直感的にわかるデザイン
+- 【最重要】画像内の文字は最小限にすること。長い文章は絶対に入れない
+- テキストはキーワード・数字・短いラベル（5文字以内）のみ使用
 - 比較がある場合 → 大きさの違う棒グラフやアイコンで視覚的に表現
 - 因果関係 → 矢印やフローで表現
 - キーとなる数字は超大きく太く目立たせる
@@ -1152,18 +1154,18 @@ def generate_infographic(post_body):
         st.error("❌ google-genai がインストールされていません。\n`pip install google-genai Pillow` を実行してください。")
         return None
 
-    model = st.session_state.get("gemini_model", "gemini-3.1-flash-image-preview")
+    model = st.session_state.get("gemini_model", "gemini-3-pro-image-preview")
 
     # キャラクター参照画像を読み込み
     char_img = _load_character_image()
 
     if char_img is not None:
         # 参照画像付き: [テキスト, 画像] を送信（Google AI Studio と同じ方式）
-        prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:600])
+        prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:300])
         contents = [prompt, char_img]
     else:
         # 参照画像なし: テキストのみ
-        prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:600])
+        prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:300])
         contents = [prompt]
 
     try:
@@ -1212,10 +1214,10 @@ def generate_infographic_with_model(post_body, model_id):
 
     char_img = _load_character_image()
     if char_img is not None:
-        prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:600])
+        prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:300])
         contents = [prompt, char_img]
     else:
-        prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:600])
+        prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:300])
         contents = [prompt]
 
     try:
@@ -1244,9 +1246,8 @@ def generate_infographic_with_model(post_body, model_id):
 
 # モデル別表示用の定義
 _INFOGRAPHIC_MODELS = {
-    "gemini-2.5-flash-image": {"label": "Flash 安定", "suffix": "flash_stable"},
-    "gemini-3.1-flash-image-preview": {"label": "Flash 最新", "suffix": "flash_latest"},
     "gemini-3-pro-image-preview": {"label": "Pro 最高品質", "suffix": "pro"},
+    "gemini-3.1-flash-image-preview": {"label": "Flash 最新", "suffix": "flash_latest"},
 }
 
 
@@ -1264,7 +1265,7 @@ def _render_infographic_ui(post, key_suffix):
     # 後方互換: 旧キーを現在のモデルキーに移行
     has_any = any(st.session_state.get(mk) for mk in model_keys.values())
     if st.session_state.get(infographic_key) and not has_any:
-        cur_model = st.session_state.get("gemini_model", "gemini-3.1-flash-image-preview")
+        cur_model = st.session_state.get("gemini_model", "gemini-3-pro-image-preview")
         if cur_model in model_keys:
             st.session_state[model_keys[cur_model]] = st.session_state[infographic_key]
             has_any = True
@@ -1304,7 +1305,7 @@ def _render_infographic_ui(post, key_suffix):
     else:
         # 初回: 選択中のモデルで生成ボタン
         if st.button("🎨 この内容の図解を生成", key=f"gen_img_{key_suffix}", use_container_width=True):
-            cur_model = st.session_state.get("gemini_model", "gemini-3.1-flash-image-preview")
+            cur_model = st.session_state.get("gemini_model", "gemini-3-pro-image-preview")
             img_data = generate_infographic(post["body"])
             if img_data:
                 if cur_model in model_keys:
@@ -1556,14 +1557,13 @@ with st.sidebar:
     else:
         st.caption("💡 図解生成にはGoogle APIキーが必要")
     gemini_model_options = {
-        "Flash 安定": "gemini-2.5-flash-image",
-        "Flash 最新 \u2728": "gemini-3.1-flash-image-preview",
         "Pro 最高品質": "gemini-3-pro-image-preview",
+        "Flash 最新": "gemini-3.1-flash-image-preview",
     }
     gemini_label = st.radio(
         "図解モデル",
         options=list(gemini_model_options.keys()),
-        index=1,
+        index=0,
         key="gemini_model_select",
         horizontal=True,
     )
