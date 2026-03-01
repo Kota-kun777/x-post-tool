@@ -142,8 +142,51 @@ st.markdown("""
 
 section[data-testid="stSidebar"] { background: linear-gradient(180deg, #0f0c29, #1a1a2e); }
 section[data-testid="stSidebar"] .stMarkdown { color: rgba(255,255,255,0.85); }
+
+/* コピー成功トースト */
+.copy-toast {
+    position: fixed; top: 20px; right: 20px; z-index: 9999;
+    background: #4CAF50; color: #fff; padding: 12px 24px;
+    border-radius: 8px; font-size: 14px; font-weight: 600;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    animation: fadeInOut 2s ease-in-out forwards;
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(-10px); }
+    15% { opacity: 1; transform: translateY(0); }
+    75% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
 </style>
 """, unsafe_allow_html=True)
+
+
+def _copy_button(text, key):
+    """ワンクリックでクリップボードにコピーするボタン"""
+    import html as html_mod
+    escaped = html_mod.escape(text).replace("`", "&#96;").replace("$", "&#36;")
+    # hidden textarea + JS copy
+    copy_html = f'''
+    <textarea id="cptxt_{key}" style="position:absolute;left:-9999px">{escaped}</textarea>
+    <button onclick="
+        var t=document.getElementById('cptxt_{key}');
+        t.style.position='static';t.select();
+        document.execCommand('copy');
+        t.style.position='absolute';
+        var d=document.createElement('div');
+        d.className='copy-toast';d.textContent='✅ コピーしました';
+        document.body.appendChild(d);
+        setTimeout(function(){{d.remove()}},2100);
+    " style="
+        background:linear-gradient(135deg,#1DA1F2,#0d8bd9);color:#fff;
+        border:none;padding:8px 16px;border-radius:8px;cursor:pointer;
+        font-size:14px;font-weight:600;width:100%;
+        transition:transform 0.1s;
+    " onmousedown="this.style.transform='scale(0.97)'" onmouseup="this.style.transform='scale(1)'">
+        📋 コピー
+    </button>
+    '''
+    st.markdown(copy_html, unsafe_allow_html=True)
 
 
 # ──────────────────────────────────────
@@ -581,12 +624,17 @@ Xのタイムラインでスクロールの手を止めさせる「衝撃の事�
 悪い例: ❌「〜が話題になっています」（ニュースの繰り返し）
 冒頭1文で「え、どういうこと？」と思わせてから、解説に入ること。
 
-**② 前提知識の解説: そもそもこれは何か？を丁寧に教える**（3-5文）
-読者の多くが知らない前提知識・キーワードの意味・地理的背景を分かりやすく説明する。
-- 地理的な話題 → 場所・位置関係・なぜその場所が重要かを解説
-- 制度の話題 → 仕組み・ルールの基本を具体的に説明
-- 技術の話題 → 何ができて何ができないかを平易に説明
-「ここまでが前提です。ここからが本題」という流れを意識すること。
+**② 前提知識+「なぜ？」の解説: そもそもこれは何か？なぜ起きているのか？を丁寧に教える**（4-6文）
+読者の多くが知らない前提知識を説明し、さらに「なぜこれが問題になっているのか」「なぜ今これが起きているのか」の理由を明示する。
+前提 → 理由（なぜ？） → 本題、の順番を守ること。「なぜ」を入れることで読者は「へぇ、そういう理由か」と腹落ちし、続きを読む動機が生まれる。
+
+- 地理的な話題 → 場所・位置関係を説明し → **なぜその場所が世界にとって重要なのか**を理由とセットで解説
+  - 良い例:「ホルムズ海峡は幅33キロ。ペルシャ湾から外海に出る唯一の出口です。なぜこんな狭い海峡が世界を揺るがすのか。世界の石油輸送量の約20%がここを通過しているからなんです」
+- 制度の話題 → 仕組みの基本を説明し → **なぜその制度が今問題になっているのか**を背景とセットで解説
+  - 良い例:「累進課税は収入が上がるほど税率が上がる仕組みです。最高税率は55%。なぜこれが議論になるのか。実は株の利益には別の税率が適用されて、どれだけ儲けても一律20%なんです」
+- 技術の話題 → 何ができるかを説明し → **なぜ今それが急速に広がっているのか**を理由とセットで解説
+
+「なぜ？」に対する答えが出たところで、「ここからが本題です」と自然に次の展開に入ること。
 
 **③ 歴史との比較: 過去の事例で裏付ける**（2-4文）
 過去に同様の出来事がどう起きたか、具体的な年代・数字・事件名で示す。
@@ -1007,29 +1055,35 @@ def _auto_fix_factcheck_issues(posts, fc_results, search_text, system_prompt, pr
 
 CHARACTER_IMG_PATH = APP_DIR / "character_ref.png"
 
-INFOGRAPHIC_PROMPT = """この画像のキャラクターを使って、以下のポスト内容をわかりやすく図解したインフォグラフィック画像を1枚生成してください。
+INFOGRAPHIC_PROMPT = """以下のポスト内容をわかりやすく図解したインフォグラフィック画像を1枚生成してください。
 
 ■ ポスト内容:
 {post_body}
 
-■ キャラクターの使い方:
-- 添付画像のキャラクターをそのままのデザインで図解の中に自然に配置する
-- キャラクターがデータを指さしたり、吹き出しで一言コメントするポーズにする
+■ キャラクターの使い方（重要: 控えめに）:
+- 添付画像のキャラクターは「案内役」として画像の隅（右下 or 左下）に小さく1体だけ配置する
+- サイズは画像全体の10〜15%以下。主役は図解であり、キャラクターではない
+- キャラクターがデータを指さすか、軽くうなずくポーズ程度にとどめる
 - キャラクターのデザインは変えないこと（服装・顔・色すべてそのまま）
+- 吹き出しは不要。キャラクターは脇役として自然に紛れ込む存在にすること
+
+■ 図解の核心（最重要）:
+- **文字は極力なくす。** 使うのはキーワード（名詞のみ）と数字だけ。文章は一切入れない
+- 構造・推移・流れ・因果関係を**矢印・アイコン・グラフ・フロー図**で視覚的に表現する
+- パッと見て3秒で「構造がわかる」ビジュアルにする
 
 ■ 背景:
 - 世界地図をベースにした背景を使用する
-- トピックに関係する地域にフォーカスする（海外の話題→該当国・地域を強調、日本の話題→日本にフォーカス）
+- トピックに関係する地域にフォーカスする（海外→該当国・地域を強調、日本→日本にフォーカス）
 - 地図上に矢印・アイコン・数字を直接配置し、地理的な文脈を視覚化する
 
-■ 図解のスタイル:
-- 文字は最小限にし、要約キーワードのみ使う（長い文章は絶対に入れない）
-- 数字・アイコン・矢印・フローで流れや構造を直感的に伝える
-- 比較 → 大小差のあるグラフやアイコンで視覚表現
-- 因果関係 → 矢印やフローチャートで表現
+■ 表現テクニック:
+- 比較 → 大小差のあるバーチャートやアイコンサイズで表現（テキスト不要）
+- 因果関係 → 太い矢印でA→Bの流れを示す
+- 推移・変化 → 折れ線グラフや段階的フロー図
+- 対立構造 → 左右対比レイアウト
 - キーとなる数字は超大きく太く目立たせる
-- 色: 世界地図はダークネイビー(#1a1a2e)基調、スカイブルー(#1DA1F2)で該当地域を強調、アクセントにオレンジ(#FFA500)
-- パッと見て3秒で「なるほど！」とわかるビジュアル
+- 色: ダークネイビー(#1a1a2e)基調、スカイブルー(#1DA1F2)で強調、アクセントにオレンジ(#FFA500)
 - 正方形（1:1）フォーマット
 - 右下に小さく「大人の学び直しTV」
 """
@@ -1039,19 +1093,23 @@ INFOGRAPHIC_PROMPT_NO_REF = """以下のポスト内容をわかりやすく図�
 ■ ポスト内容:
 {post_body}
 
+■ 図解の核心（最重要）:
+- **文字は極力なくす。** 使うのはキーワード（名詞のみ）と数字だけ。文章は一切入れない
+- 構造・推移・流れ・因果関係を**矢印・アイコン・グラフ・フロー図**で視覚的に表現する
+- パッと見て3秒で「構造がわかる」ビジュアルにする
+
 ■ 背景:
 - 世界地図をベースにした背景を使用する
-- トピックに関係する地域にフォーカスする（海外の話題→該当国・地域を強調、日本の話題→日本にフォーカス）
+- トピックに関係する地域にフォーカスする（海外→該当国・地域を強調、日本→日本にフォーカス）
 - 地図上に矢印・アイコン・数字を直接配置し、地理的な文脈を視覚化する
 
-■ 図解のスタイル:
-- 文字は最小限にし、要約キーワードのみ使う（長い文章は絶対に入れない）
-- 数字・アイコン・矢印・フローで流れや構造を直感的に伝える
-- 比較 → 大小差のあるグラフやアイコンで視覚表現
-- 因果関係 → 矢印やフローチャートで表現
+■ 表現テクニック:
+- 比較 → 大小差のあるバーチャートやアイコンサイズで表現（テキスト不要）
+- 因果関係 → 太い矢印でA→Bの流れを示す
+- 推移・変化 → 折れ線グラフや段階的フロー図
+- 対立構造 → 左右対比レイアウト
 - キーとなる数字は超大きく太く目立たせる
-- 色: 世界地図はダークネイビー(#1a1a2e)基調、スカイブルー(#1DA1F2)で該当地域を強調、アクセントにオレンジ(#FFA500)
-- パッと見て3秒で「なるほど！」とわかるビジュアル
+- 色: ダークネイビー(#1a1a2e)基調、スカイブルー(#1DA1F2)で強調、アクセントにオレンジ(#FFA500)
 - 正方形（1:1）フォーマット
 - 右下に小さく「大人の学び直しTV」
 """
@@ -1171,16 +1229,28 @@ def _render_infographic_ui(post, key_suffix):
 # ──────────────────────────────────────
 
 def _render_post_card(post, key_prefix="", is_selected=False):
-    """ポストカードをStreamlitネイティブ部品でレンダリング"""
-    border = is_selected
+    """ポストカードを見やすいレイアウトでレンダリング"""
     with st.container(border=True):
-        # ヘッダー行: タイトル + スコア
+        # ヘッダー行
         score_str = f"　`{post['score']}/100`" if post.get("score") else ""
-        st.markdown(f"**【案{post['number']}】{post['title']}**{score_str}")
-        # 本文
-        st.markdown(post["body"])
-        # 文字数
-        st.caption(f"📏 {len(post['body'])}文字")
+        title = post.get("title", "")
+        st.markdown(f"**【案{post['number']}】{title}**{score_str}")
+        # 本文（読みやすいフォントサイズ）
+        body_html = post["body"].replace("\n", "<br>")
+        st.markdown(
+            f'<div style="line-height:1.9;font-size:0.98rem;color:rgba(255,255,255,0.92);'
+            f'padding:0.8rem 0;white-space:pre-wrap;">{body_html}</div>',
+            unsafe_allow_html=True,
+        )
+        # 文字数バッジ
+        char_count = len(post["body"])
+        badge_color = "#4CAF50" if 500 <= char_count <= 800 else "#FFA500"
+        st.markdown(
+            f'<span style="background:{badge_color}20;color:{badge_color};'
+            f'padding:2px 10px;border-radius:12px;font-size:0.82rem;font-weight:500;">'
+            f'📏 {char_count}文字</span>',
+            unsafe_allow_html=True,
+        )
 
 
 def display_generated_results(result_text, key_prefix="", auto_fixed=None):
@@ -1204,12 +1274,11 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
         k = f"{key_prefix}_{post['number']}"
         col_select, col_copy, col_post_btn = st.columns(3)
         with col_select:
-            if st.button(f"✏️ この案を選んで修正", key=f"sel_{k}", use_container_width=True):
+            if st.button(f"✏️ この案を修正", key=f"sel_{k}", use_container_width=True):
                 st.session_state[selected_key] = post
                 st.rerun()
         with col_copy:
-            with st.popover("📋 コピー", use_container_width=True):
-                st.text_area("コピー用", value=post["body"], height=300, key=f"cp_{k}")
+            _copy_button(post["body"], f"cp_{k}")
         with col_post_btn:
             if x_ok:
                 with st.popover("🐦 投稿", use_container_width=True):
@@ -1242,8 +1311,7 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
                 fix_k = f"{key_prefix}_autofix_{num}"
                 col_fc_copy, col_fc_post, col_fc_select = st.columns(3)
                 with col_fc_copy:
-                    with st.popover("📋 コピー", use_container_width=True):
-                        st.text_area("コピー用", value=fix_data["fixed"], height=300, key=f"cp_{fix_k}")
+                    _copy_button(fix_data["fixed"], f"cp_{fix_k}")
                 with col_fc_post:
                     if x_ok:
                         with st.popover("🐦 投稿", use_container_width=True):
@@ -1272,27 +1340,27 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
     if st.session_state.get(selected_key):
         sel = st.session_state[selected_key]
         st.markdown("---")
-        st.markdown(f"#### ✏️ 【案{sel['number']}】を修正")
         sel_title = sel.get('title', f"案{sel['number']}")
-        st.info(f"選択中: **{sel_title}**（{len(sel['body'])}文字）")
-
-        revision_instruction = st.text_area(
-            "修正指示を入力",
-            height=100,
-            placeholder="例: もっと前向きに、冒頭の数字を変えて、最後に行動を促す一言を追加...",
-            key=f"rev_inst_{key_prefix}",
-        )
-        col_go, col_cancel = st.columns(2)
-        with col_go:
-            if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
-                if revision_instruction.strip():
-                    _do_revision(sel, revision_instruction, key_prefix)
-                else:
-                    st.warning("修正指示を入力してください。")
-        with col_cancel:
-            if st.button("❌ キャンセル", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
-                st.session_state.pop(selected_key, None)
-                st.rerun()
+        with st.container(border=True):
+            st.markdown(f"#### ✏️ 【案{sel['number']}】を修正")
+            st.caption(f"{sel_title}（{len(sel['body'])}文字）を修正します。検索→生成→ファクトチェック→自動修正の順で処理します。")
+            revision_instruction = st.text_area(
+                "どう修正しますか？",
+                height=100,
+                placeholder="例: もっと前向きに、冒頭の数字を変えて、最後に行動を促す一言を追加...",
+                key=f"rev_inst_{key_prefix}",
+            )
+            col_go, col_cancel = st.columns([3, 1])
+            with col_go:
+                if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
+                    if revision_instruction.strip():
+                        _do_revision(sel, revision_instruction, key_prefix)
+                    else:
+                        st.warning("修正指示を入力してください。")
+            with col_cancel:
+                if st.button("キャンセル", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
+                    st.session_state.pop(selected_key, None)
+                    st.rerun()
 
     # ═══════════════════════════════════
     # SECTION 4: 修正版（最下部）
@@ -1308,8 +1376,7 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
         k = f"{key_prefix}_revised"
         col_copy, col_post, col_clear = st.columns(3)
         with col_copy:
-            with st.popover("📋 コピー", use_container_width=True):
-                st.text_area("コピー用", value=revised_post["body"], height=300, key=f"cp_{k}")
+            _copy_button(revised_post["body"], f"cp_{k}")
         with col_post:
             if x_ok:
                 with st.popover("🐦 投稿", use_container_width=True):
@@ -1339,18 +1406,19 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
                 st.markdown(fc)
 
         # さらに修正
-        st.markdown("##### 🔄 さらに修正する")
-        further_instruction = st.text_area(
-            "修正指示",
-            height=80,
-            placeholder="例: もう少し短く、冒頭をもっとインパクトのある数字にして...",
-            key=f"further_{key_prefix}",
-        )
-        if st.button("🔄 この案をさらに修正", type="primary", use_container_width=True, key=f"revise_again_{key_prefix}"):
-            if further_instruction.strip():
-                _do_revision(revised_post, further_instruction, key_prefix)
-            else:
-                st.warning("修正指示を入力してください。")
+        with st.container(border=True):
+            st.markdown("##### 🔄 さらに修正する")
+            further_instruction = st.text_area(
+                "追加の修正指示",
+                height=80,
+                placeholder="例: もう少し短く、冒頭をもっとインパクトのある数字にして...",
+                key=f"further_{key_prefix}",
+            )
+            if st.button("🔄 修正版をさらに修正", type="primary", use_container_width=True, key=f"revise_again_{key_prefix}"):
+                if further_instruction.strip():
+                    _do_revision(revised_post, further_instruction, key_prefix)
+                else:
+                    st.warning("修正指示を入力してください。")
 
         # 修正履歴
         history = revision.get("history", [])
@@ -1364,9 +1432,19 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
 
 
 def _do_revision(original_post, instruction, key_prefix):
-    """選択された案に対して修正を実行"""
+    """選択された案に対して修正を実行（検索→生成→FC→要確認なら再修正）"""
     system_prompt = load_system_prompt() + ENHANCED_GENERATION_PROMPT
+    progress = st.empty()
 
+    # ── STEP 1: 修正に必要な最新情報を検索 ──
+    progress.info("🔍 修正に必要な最新情報を検索中...")
+    search_keywords = original_post["body"][:150].replace("\n", " ")
+    search_facts = search_topic_facts(search_keywords, max_results=5)
+    search_text = "\n".join(search_facts) if search_facts else ""
+
+    # ── STEP 2: 修正版を生成 ──
+    progress.info("🤖 修正版を生成中...")
+    search_section = f"\n■ 最新のWeb検索結果（正確な記述の参考にすること）:\n{search_text}\n" if search_text else ""
     msg = f"""以下のXポストを、修正指示に従って修正してください。
 
 ■ 元のポスト（案{original_post['number']}）:
@@ -1374,24 +1452,66 @@ def _do_revision(original_post, instruction, key_prefix):
 
 ■ 修正指示:
 {instruction}
-
+{search_section}
 ■ ルール:
 - 修正指示に忠実に従ってください
 - すあし社長の「解説型」トーンを維持してください（仕組みの解説 → 数字の比較 → メカニズムの解明 → 他国比較 → 示唆で締め）
 - 修正後のポストのみを出力してください（タイトルや案番号は不要）
 - 600〜800文字を目安にしてください
 - マークダウン記法は使わないでください（太字、見出し、リスト等は禁止）
+- 検索結果の情報を参照し、数字や事実を正確に記述してください
 """
     result = generate_with_claude(
         messages=[{"role": "user", "content": msg}],
         system_prompt=system_prompt,
     )
-
-    # 修正後テキストをクリーンアップ
     body = result.strip()
 
-    # ファクトチェック
-    fc_result = run_factcheck(body)
+    # ── STEP 3: ファクトチェック ──
+    progress.info("🔍 ファクトチェック中...")
+    fc_result = run_factcheck(body, search_text)
+
+    # ── STEP 4: 要確認ありなら自動再修正 ──
+    if fc_result and ("⚠️" in fc_result or "❌" in fc_result):
+        progress.info("🔧 ファクトチェック指摘を自動修正中...")
+        api_key = st.session_state.get("anthropic_api_key", "")
+        if api_key:
+            client = anthropic.Anthropic(api_key=api_key)
+            fix_msg = f"""以下のXポストに対してファクトチェックで指摘がありました。
+指摘内容に基づいて事実関係を修正してください。
+
+■ ポスト:
+{body}
+
+■ ファクトチェックの指摘:
+{fc_result}
+
+■ 参考情報:
+{search_text if search_text else '（なし）'}
+
+■ ルール:
+- 指摘された箇所のみ修正する（構成やトーンは維持）
+- 不確実な情報には「〜と言われている」等の留保をつける
+- 修正後のポストのみを出力する
+- マークダウン記法は使わない
+- 600〜800文字を目安にする
+"""
+            try:
+                with st.spinner("🔧 自動修正中..."):
+                    response = client.messages.create(
+                        model=CLAUDE_MODEL,
+                        max_tokens=4096,
+                        system=system_prompt,
+                        messages=[{"role": "user", "content": fix_msg}],
+                    )
+                body = response.content[0].text.strip()
+                # 修正版を再度ファクトチェック
+                progress.info("🔍 修正版を再チェック中...")
+                fc_result = run_factcheck(body, search_text)
+            except Exception:
+                pass  # 自動修正に失敗した場合は元の版を使用
+
+    progress.empty()
 
     # 修正履歴を保持
     revision_key = f"{key_prefix}_revision"
