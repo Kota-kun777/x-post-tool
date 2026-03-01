@@ -1,51 +1,83 @@
 {
-  "updated_at": "2026-02-28T11:47:41.178696+00:00",
-  "count": 17,
+  "updated_at": "2026-03-01T23:34:12.077943+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "みずほFG、AI活用で事務職員最大5000人削減へ",
-      "post_count": 42683,
+      "title": "ホルムズ海峡で石油タンカー攻撃、4人負傷　トランプ氏がイランに強硬警告",
+      "post_count": 6312,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "出生数過去最少更新もこども家庭庁予算7兆円超に批判集中",
-      "post_count": 888,
+      "title": "メタプラネットCEOのAI実験でビットコインが満場一致の選択に",
+      "post_count": 789,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "X広告収益2月分で高額報告相次ぐ 764万円超も",
-      "post_count": 872,
+      "title": "OPECプラス8カ国、4月から原油日量20万6千バレル増産で原則合意",
+      "post_count": 509,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東京駅周辺地下通路が10駅連結へ 2029年誕生へ",
-      "post_count": 704,
+      "title": "ChatGPTとGeminiのユーザー間で熱い比較議論が広がる",
+      "post_count": 55,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高額納税者、増税で海外移住を検討表明",
-      "post_count": 272,
+      "title": "OpenClaw、AI自動化の革新かセキュリティの脅威か",
+      "post_count": 42,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Amazon",
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "安全資産",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "インデックス",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ウクライナ",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,23 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Type-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "デジタルゴールド",
+      "title": "マーケット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,15 +99,15 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-A",
+      "title": "共同通信",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#株クラの輪を拡げよう",
+      "title": "#FIRE自己紹介",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,41 +115,9 @@
       "origin": "x_news"
     },
     {
-      "title": "急速充電",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ氏",
+      "title": "ベネズエラ",
       "post_count": 0,
       "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイプc",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "OpenAI",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "投資戦略フェア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
