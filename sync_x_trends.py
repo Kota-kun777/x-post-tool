@@ -15,6 +15,13 @@ import subprocess
 import sys
 from datetime import datetime, timezone, timedelta
 
+# Windows cp932 でエモジが出力できない問題を回避
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 # 日本時間 (JST = UTC+9)
 JST = timezone(timedelta(hours=9))
 from pathlib import Path
