@@ -13,7 +13,10 @@ Windows PC用: Xニューストレンドを取得してJSONキャッシュに保
 import json
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+# 日本時間 (JST = UTC+9)
+JST = timezone(timedelta(hours=9))
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -54,7 +57,7 @@ def fetch_trends():
 def save_cache(trends):
     """トレンドをJSONキャッシュファイルに保存"""
     cache_data = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "updated_at": datetime.now(JST).isoformat(),
         "count": len(trends),
         "trends": trends,
     }
@@ -64,44 +67,86 @@ def save_cache(trends):
 
 
 def git_push():
-    """キャッシュファイルをGitHubにプッシュ"""
+    """キャッシュファイルをGitHub API経由でx-post-toolリポジトリに直接プッシュ"""
     import os
-    os.chdir(SCRIPT_DIR)  # リポジトリルートに移動
+    import base64
+    import urllib.request
+
+    REPO = "Kota-kun777/x-post-tool"
+    FILE_PATH = "x_trends_cache.json"
+    API_URL = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
+
+    # GitHubトークンを取得（gh CLI の認証を利用）
+    try:
+        token_result = subprocess.run(
+            ["gh", "auth", "token"],
+            capture_output=True, text=True, timeout=10,
+        )
+        token = token_result.stdout.strip()
+        if not token:
+            print("❌ GitHubトークンが取得できません。gh auth login を実行してください")
+            return
+    except Exception as e:
+        print(f"❌ gh CLIエラー: {e}")
+        return
 
     try:
-        # ステージング
-        subprocess.run(
-            ["git", "add", CACHE_FILE.name],
-            check=True, capture_output=True, text=True,
-        )
+        # 1. 既存ファイルのSHAを取得（更新に必要）
+        req = urllib.request.Request(API_URL, headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "User-Agent": "x-post-tool-sync",
+        })
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            existing = json.loads(resp.read().decode("utf-8"))
+            sha = existing["sha"]
 
-        # 変更があるか確認
-        diff = subprocess.run(
-            ["git", "diff", "--cached", "--name-only"],
-            capture_output=True, text=True,
-        )
-        if not diff.stdout.strip():
-            print("ℹ️ 変更なし（前回と同じトレンド）。プッシュをスキップします")
-            return
+        # 2. ファイル内容をBase64エンコード
+        content = CACHE_FILE.read_text(encoding="utf-8")
+        content_b64 = base64.b64encode(content.encode("utf-8")).decode("ascii")
 
-        # コミット
-        now = datetime.now().strftime("%Y-%m-%d %H:%M")
-        subprocess.run(
-            ["git", "commit", "-m", f"sync: X trends update {now}"],
-            check=True, capture_output=True, text=True,
-        )
+        # 3. GitHub API でファイルを更新
+        now = datetime.now(JST).strftime("%Y-%m-%d %H:%M")
+        payload = json.dumps({
+            "message": f"sync: X trends update {now}",
+            "content": content_b64,
+            "sha": sha,
+        }).encode("utf-8")
 
-        # プッシュ
-        subprocess.run(
-            ["git", "push"],
-            check=True, capture_output=True, text=True,
-        )
-        print("✅ GitHubにプッシュしました")
+        req = urllib.request.Request(API_URL, data=payload, method="PUT", headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "Content-Type": "application/json",
+            "User-Agent": "x-post-tool-sync",
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            if resp.status == 200:
+                print("✅ x-post-tool リポジトリにプッシュしました")
+            else:
+                print(f"⚠️ レスポンス: {resp.status}")
 
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Git操作に失敗しました: {e}")
-        if e.stderr:
-            print(f"   {e.stderr.strip()}")
+    except urllib.error.HTTPError as e:
+        print(f"❌ GitHub APIエラー: {e.code} {e.reason}")
+        if e.code == 422:
+            print("   （内容が前回と同じ可能性があります）")
+    except Exception as e:
+        print(f"❌ プッシュ失敗: {e}")
+
+    # AI_Workspace リポジトリにもプッシュ（ローカルgit）
+    try:
+        os.chdir(SCRIPT_DIR)
+        subprocess.run(["git", "add", CACHE_FILE.name], capture_output=True, text=True)
+        diff = subprocess.run(["git", "diff", "--cached", "--name-only"], capture_output=True, text=True)
+        if diff.stdout.strip():
+            now = datetime.now(JST).strftime("%Y-%m-%d %H:%M")
+            subprocess.run(
+                ["git", "commit", "-m", f"sync: X trends update {now}"],
+                capture_output=True, text=True,
+            )
+            subprocess.run(["git", "push"], capture_output=True, text=True)
+            print("✅ AI_Workspace リポジトリにもプッシュしました")
+    except Exception:
+        pass  # AI_Workspace側は失敗しても問題ない
 
 
 def main():
