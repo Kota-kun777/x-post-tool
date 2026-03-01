@@ -1280,9 +1280,8 @@ with st.sidebar:
     else:
         st.caption("💡 図解生成にはGoogle APIキーが必要")
     gemini_model_options = {
-        "gemini-2.5-flash-image（安定・高速）": "gemini-2.5-flash-image",
-        "gemini-3.1-flash-image-preview（最新Flash）": "gemini-3.1-flash-image-preview",
         "gemini-3-pro-image-preview（最高品質Pro）": "gemini-3-pro-image-preview",
+        "gemini-3.1-flash-image-preview（最新Flash）": "gemini-3.1-flash-image-preview",
     }
     gemini_label = st.selectbox(
         "図解モデル",
@@ -1292,15 +1291,21 @@ with st.sidebar:
     )
     st.session_state.gemini_model = gemini_model_options[gemini_label]
 
-    # キャラクター参照画像（トグル式）
-    if CHARACTER_IMG_PATH.exists():
-        use_char = st.checkbox("🧑‍💼 すあし社長キャラを図解に使う", value=True, key="use_char_img")
-        st.session_state.use_character = use_char
-        if use_char:
-            st.image(str(CHARACTER_IMG_PATH), width=60)
-            with st.expander("キャラ画像を変更", expanded=False):
+    # キャラクター参照画像（デフォルトON、タブで切替）
+    char_mode = st.radio(
+        "キャラ画像",
+        ["🧑‍💼 キャラ画像あり（推奨）", "📊 キャラなし"],
+        index=0,
+        horizontal=True,
+        key="char_mode_radio",
+    )
+    st.session_state.use_character = ("キャラ画像あり" in char_mode)
+    if st.session_state.use_character:
+        if CHARACTER_IMG_PATH.exists():
+            st.image(str(CHARACTER_IMG_PATH), width=60, caption="すあし社長キャラ")
+            with st.expander("画像を差し替え", expanded=False):
                 char_upload = st.file_uploader(
-                    "新しい画像に差し替え",
+                    "新しい画像をアップロード",
                     type=["png", "jpg", "jpeg", "webp"],
                     key="char_img_replace",
                 )
@@ -1308,18 +1313,17 @@ with st.sidebar:
                     CHARACTER_IMG_PATH.write_bytes(char_upload.read())
                     st.success("✅ 差し替え完了")
                     st.rerun()
-    else:
-        st.session_state.use_character = False
-        char_upload = st.file_uploader(
-            "🧑‍💼 すあし社長キャラ画像",
-            type=["png", "jpg", "jpeg", "webp"],
-            key="char_img_upload",
-        )
-        if char_upload is not None:
-            CHARACTER_IMG_PATH.write_bytes(char_upload.read())
-            st.success("✅ キャラ画像を保存しました！")
-            st.rerun()
-        st.caption("💡 図解にすあし社長キャラを組み込めます")
+        else:
+            char_upload = st.file_uploader(
+                "キャラ画像をアップロード",
+                type=["png", "jpg", "jpeg", "webp"],
+                key="char_img_upload",
+            )
+            if char_upload is not None:
+                CHARACTER_IMG_PATH.write_bytes(char_upload.read())
+                st.success("✅ キャラ画像を保存しました！")
+                st.rerun()
+            st.caption("💡 キャラ画像をアップロードすると図解に組み込めます")
 
     st.markdown("---")
     with st.expander("🐦 X API設定（任意）", expanded=False):
