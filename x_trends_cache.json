@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-01T23:34:12.077943+09:00",
-  "count": 15,
+  "updated_at": "2026-03-02T01:37:33.929562+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "ホルムズ海峡で石油タンカー攻撃、4人負傷　トランプ氏がイランに強硬警告",
-      "post_count": 6312,
+      "title": "トランプのイラン攻撃でハメネイ師死亡、オバマ政策批判の声広がる",
+      "post_count": 4816,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "OnlyFans、一人当たり売上高でNVIDIAやAppleを圧倒",
+      "post_count": 1163,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,54 +20,30 @@
     },
     {
       "title": "メタプラネットCEOのAI実験でビットコインが満場一致の選択に",
-      "post_count": 789,
+      "post_count": 811,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OPECプラス8カ国、4月から原油日量20万6千バレル増産で原則合意",
-      "post_count": 509,
+      "title": "日本企業で若手75％が生成AI未使用、幹部との格差顕在化",
+      "post_count": 274,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ChatGPTとGeminiのユーザー間で熱い比較議論が広がる",
-      "post_count": 55,
+      "title": "パワーカップルの世帯年収基準が上がった？ Xで議論広がる",
+      "post_count": 44,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenClaw、AI自動化の革新かセキュリティの脅威か",
-      "post_count": 42,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株式市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "安全資産",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "インデックス",
+      "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,17 +59,17 @@
       "origin": "x_news"
     },
     {
-      "title": "ウクライナ",
+      "title": "口座開設",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "地政学リスク",
+      "title": "共同通信",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -99,9 +83,9 @@
       "origin": "x_news"
     },
     {
-      "title": "共同通信",
+      "title": "USB C",
       "post_count": 0,
-      "category": "ニュース · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
