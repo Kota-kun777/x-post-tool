@@ -162,31 +162,36 @@ section[data-testid="stSidebar"] .stMarkdown { color: rgba(255,255,255,0.85); }
 
 
 def _copy_button(text, key):
-    """ワンクリックでクリップボードにコピーするボタン"""
+    """ワンクリックでクリップボードにコピーするボタン（components.html使用）"""
+    import streamlit.components.v1 as components
     import html as html_mod
     escaped = html_mod.escape(text).replace("`", "&#96;").replace("$", "&#36;")
-    # hidden textarea + JS copy
     copy_html = f'''
-    <textarea id="cptxt_{key}" style="position:absolute;left:-9999px">{escaped}</textarea>
-    <button onclick="
-        var t=document.getElementById('cptxt_{key}');
-        t.style.position='static';t.select();
-        document.execCommand('copy');
-        t.style.position='absolute';
-        var d=document.createElement('div');
-        d.className='copy-toast';d.textContent='✅ コピーしました';
-        document.body.appendChild(d);
-        setTimeout(function(){{d.remove()}},2100);
-    " style="
+    <textarea id="cptxt_{key}" style="position:fixed;left:-9999px;top:-9999px">{escaped}</textarea>
+    <button id="cpbtn_{key}" style="
         background:linear-gradient(135deg,#1DA1F2,#0d8bd9);color:#fff;
-        border:none;padding:8px 16px;border-radius:8px;cursor:pointer;
+        border:none;padding:8px 20px;border-radius:8px;cursor:pointer;
         font-size:14px;font-weight:600;width:100%;
-        transition:transform 0.1s;
-    " onmousedown="this.style.transform='scale(0.97)'" onmouseup="this.style.transform='scale(1)'">
-        📋 コピー
-    </button>
+        transition:all 0.15s;
+    ">📋 コピー</button>
+    <script>
+    document.getElementById("cpbtn_{key}").addEventListener("click", function() {{
+        var ta = document.getElementById("cptxt_{key}");
+        ta.style.position = "static";
+        ta.select();
+        document.execCommand("copy");
+        ta.style.position = "fixed";
+        this.textContent = "✅ コピーしました";
+        this.style.background = "#4CAF50";
+        var btn = this;
+        setTimeout(function() {{
+            btn.textContent = "📋 コピー";
+            btn.style.background = "linear-gradient(135deg,#1DA1F2,#0d8bd9)";
+        }}, 1500);
+    }});
+    </script>
     '''
-    st.markdown(copy_html, unsafe_allow_html=True)
+    components.html(copy_html, height=42)
 
 
 # ──────────────────────────────────────
@@ -1067,23 +1072,25 @@ INFOGRAPHIC_PROMPT = """以下のポスト内容をわかりやすく図解し�
 - キャラクターのデザインは変えないこと（服装・顔・色すべてそのまま）
 - 吹き出しは不要。キャラクターは脇役として自然に紛れ込む存在にすること
 
-■ 図解の核心（最重要）:
-- **文字は極力なくす。** 使うのはキーワード（名詞のみ）と数字だけ。文章は一切入れない
-- 構造・推移・流れ・因果関係を**矢印・アイコン・グラフ・フロー図**で視覚的に表現する
-- パッと見て3秒で「構造がわかる」ビジュアルにする
+■ 最重要ルール: シンプルに大きく描く
+- 要素は最大3〜4個に絞る。細々した情報を詰め込まない
+- 1つの図に1つのメッセージ。「全体の流れ」「構造」「概念」のどれかに集中する
+- 文字は超大きいキーワード（2〜4語）と数字（2〜3個）だけ。文章は絶対に入れない
+- 余白をたっぷり取る。詰め込みすぎない
+
+■ 図解パターン（内容に合わせて1つ選ぶ）:
+- 因果関係 → 大きな太い矢印でA→Bの流れ。要素は2〜3個
+- 比較 → 左右に大きく2つ並べる。サイズ差で一目瞭然にする
+- 推移 → シンプルな折れ線or階段チャート。ポイントは1〜2箇所だけ強調
+- 構造 → 中心に核となる概念、周りに2〜3個の要素を配置
 
 ■ 背景:
-- 世界地図をベースにした背景を使用する
-- トピックに関係する地域にフォーカスする（海外→該当国・地域を強調、日本→日本にフォーカス）
-- 地図上に矢印・アイコン・数字を直接配置し、地理的な文脈を視覚化する
+- 世界地図をベースにした背景（ダークネイビー #1a1a2e 基調）
+- トピックに関係する地域をスカイブルー(#1DA1F2)で大きくハイライト
+- アクセントにオレンジ(#FFA500)
 
-■ 表現テクニック:
-- 比較 → 大小差のあるバーチャートやアイコンサイズで表現（テキスト不要）
-- 因果関係 → 太い矢印でA→Bの流れを示す
-- 推移・変化 → 折れ線グラフや段階的フロー図
-- 対立構造 → 左右対比レイアウト
-- キーとなる数字は超大きく太く目立たせる
-- 色: ダークネイビー(#1a1a2e)基調、スカイブルー(#1DA1F2)で強調、アクセントにオレンジ(#FFA500)
+■ 色とフォーマット:
+- キー数字は画像の1/4サイズくらい超大きく太く
 - 正方形（1:1）フォーマット
 - 右下に小さく「大人の学び直しTV」
 """
@@ -1093,23 +1100,25 @@ INFOGRAPHIC_PROMPT_NO_REF = """以下のポスト内容をわかりやすく図�
 ■ ポスト内容:
 {post_body}
 
-■ 図解の核心（最重要）:
-- **文字は極力なくす。** 使うのはキーワード（名詞のみ）と数字だけ。文章は一切入れない
-- 構造・推移・流れ・因果関係を**矢印・アイコン・グラフ・フロー図**で視覚的に表現する
-- パッと見て3秒で「構造がわかる」ビジュアルにする
+■ 最重要ルール: シンプルに大きく描く
+- 要素は最大3〜4個に絞る。細々した情報を詰め込まない
+- 1つの図に1つのメッセージ。「全体の流れ」「構造」「概念」のどれかに集中する
+- 文字は超大きいキーワード（2〜4語）と数字（2〜3個）だけ。文章は絶対に入れない
+- 余白をたっぷり取る。詰め込みすぎない
+
+■ 図解パターン（内容に合わせて1つ選ぶ）:
+- 因果関係 → 大きな太い矢印でA→Bの流れ。要素は2〜3個
+- 比較 → 左右に大きく2つ並べる。サイズ差で一目瞭然にする
+- 推移 → シンプルな折れ線or階段チャート。ポイントは1〜2箇所だけ強調
+- 構造 → 中心に核となる概念、周りに2〜3個の要素を配置
 
 ■ 背景:
-- 世界地図をベースにした背景を使用する
-- トピックに関係する地域にフォーカスする（海外→該当国・地域を強調、日本→日本にフォーカス）
-- 地図上に矢印・アイコン・数字を直接配置し、地理的な文脈を視覚化する
+- 世界地図をベースにした背景（ダークネイビー #1a1a2e 基調）
+- トピックに関係する地域をスカイブルー(#1DA1F2)で大きくハイライト
+- アクセントにオレンジ(#FFA500)
 
-■ 表現テクニック:
-- 比較 → 大小差のあるバーチャートやアイコンサイズで表現（テキスト不要）
-- 因果関係 → 太い矢印でA→Bの流れを示す
-- 推移・変化 → 折れ線グラフや段階的フロー図
-- 対立構造 → 左右対比レイアウト
-- キーとなる数字は超大きく太く目立たせる
-- 色: ダークネイビー(#1a1a2e)基調、スカイブルー(#1DA1F2)で強調、アクセントにオレンジ(#FFA500)
+■ 色とフォーマット:
+- キー数字は画像の1/4サイズくらい超大きく太く
 - 正方形（1:1）フォーマット
 - 右下に小さく「大人の学び直しTV」
 """
@@ -1198,7 +1207,7 @@ def _render_infographic_ui(post, key_suffix):
     # 既に生成済みの場合は表示
     if st.session_state.get(infographic_key):
         img_bytes = st.session_state[infographic_key]
-        st.image(img_bytes, caption="📊 生成された図解", use_container_width=True)
+        st.image(img_bytes, caption="📊 生成された図解", width=400)
         col_dl, col_regen = st.columns(2)
         with col_dl:
             st.download_button(
@@ -1253,8 +1262,28 @@ def _render_post_card(post, key_prefix="", is_selected=False):
         )
 
 
+def _render_post_actions(post_body, key, x_ok):
+    """ポストのアクションボタン（コピー・投稿）を表示"""
+    col_copy, col_post = st.columns(2)
+    with col_copy:
+        _copy_button(post_body, f"cp_{key}")
+    with col_post:
+        if x_ok:
+            with st.popover("🐦 投稿", use_container_width=True):
+                st.warning("⚠️ Xに投稿します。")
+                st.text_area("内容", value=post_body, height=150, key=f"pv_{key}", disabled=True)
+                if st.button("✅ 確定して投稿", key=f"cf_{key}", type="primary"):
+                    r = post_to_x(post_body)
+                    if r["success"]:
+                        st.success(f"✅ [見る]({r['url']})")
+                    else:
+                        st.error(f"❌ {r['error']}")
+        else:
+            st.caption("🔒 X API未設定")
+
+
 def display_generated_results(result_text, key_prefix="", auto_fixed=None):
-    """生成結果を表示し、案選択 → 個別修正の繰り返しフローを提供（上→下の流れ）"""
+    """2カラムレイアウト: 左=ポスト本文、右=進捗・FC・履歴"""
     posts = parse_generated_posts(result_text)
     x_ok = all(st.session_state.get(k) for k in ["x_consumer_key", "x_consumer_secret", "x_access_token", "x_access_token_secret"])
 
@@ -1263,172 +1292,176 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
     if auto_fixed is None:
         auto_fixed = st.session_state.get(f"{key_prefix}_auto_fixed", {})
 
-    # ═══════════════════════════════════
-    # SECTION 1: 3案を常に表示（上部）
-    # ═══════════════════════════════════
-    st.markdown("##### 📝 生成された3案")
-    for post in posts:
-        is_sel = (st.session_state.get(selected_key, {}).get("number") == post["number"])
-        _render_post_card(post, key_prefix=key_prefix, is_selected=is_sel)
+    # 右カラム用データを事前収集
+    fc_results = st.session_state.get(f"{key_prefix.split('_')[0]}_factcheck", {}) if key_prefix else {}
+    # トレンドモードの場合は trend_factcheck を参照
+    if not fc_results:
+        for fc_key_candidate in ["trend_factcheck", "script_factcheck", "image_factcheck"]:
+            fc_results = st.session_state.get(fc_key_candidate, {})
+            if fc_results:
+                break
 
-        k = f"{key_prefix}_{post['number']}"
-        col_select, col_copy, col_post_btn = st.columns(3)
-        with col_select:
-            if st.button(f"✏️ この案を修正", key=f"sel_{k}", use_container_width=True):
-                st.session_state[selected_key] = post
-                st.rerun()
-        with col_copy:
-            _copy_button(post["body"], f"cp_{k}")
-        with col_post_btn:
-            if x_ok:
-                with st.popover("🐦 投稿", use_container_width=True):
-                    st.warning("⚠️ Xに投稿します。")
-                    st.text_area("内容", value=post["body"], height=150, key=f"pv_{k}", disabled=True)
-                    if st.button("✅ 確定して投稿", key=f"cf_{k}", type="primary"):
-                        r = post_to_x(post["body"])
-                        if r["success"]:
-                            st.success(f"✅ [見る]({r['url']})")
-                        else:
-                            st.error(f"❌ {r['error']}")
-            else:
-                st.caption("🔒 X API未設定")
+    # ╔═══════════════════════════════════╗
+    # ║  2カラムレイアウト                  ║
+    # ╚═══════════════════════════════════╝
+    col_left, col_right = st.columns([3, 2])
 
-        # 図解生成
-        _render_infographic_ui(post, f"{key_prefix}_{post['number']}")
+    # ── 左カラム: ポスト本文 ──
+    with col_left:
+        st.markdown("##### 📝 生成された3案")
+        for post in posts:
+            is_sel = (st.session_state.get(selected_key, {}).get("number") == post["number"])
+            _render_post_card(post, key_prefix=key_prefix, is_selected=is_sel)
 
-    # ═══════════════════════════════════
-    # SECTION 2: ファクトチェック自動修正版（中部）
-    # ═══════════════════════════════════
-    if auto_fixed:
-        st.markdown("---")
-        st.markdown("##### 🔧 ファクトチェック自動修正版")
-        st.caption("ファクトチェックで指摘があった案を自動修正しました")
-        for num, fix_data in auto_fixed.items():
+            k = f"{key_prefix}_{post['number']}"
+            c1, c2, c3 = st.columns(3)
+            with c1:
+                if st.button(f"✏️ 修正", key=f"sel_{k}", use_container_width=True):
+                    st.session_state[selected_key] = post
+                    st.rerun()
+            with c2:
+                _copy_button(post["body"], f"cp_{k}")
+            with c3:
+                _render_infographic_ui(post, f"{key_prefix}_{post['number']}")
+
+        # ── FC自動修正版 ──
+        if auto_fixed:
+            st.markdown("---")
+            st.markdown("##### 🔧 自動修正版")
+            for num, fix_data in auto_fixed.items():
+                with st.container(border=True):
+                    st.markdown(f"**案{num} 修正版**")
+                    body_html = fix_data["fixed"].replace("\n", "<br>")
+                    st.markdown(f'<div style="line-height:1.9;font-size:0.98rem;padding:0.5rem 0;">{body_html}</div>', unsafe_allow_html=True)
+                    fix_k = f"{key_prefix}_autofix_{num}"
+                    c1, c2, c3 = st.columns(3)
+                    with c1:
+                        _copy_button(fix_data["fixed"], f"cp_{fix_k}")
+                    with c2:
+                        if st.button("✏️ さらに修正", key=f"sel_{fix_k}", use_container_width=True):
+                            fixed_post = {"number": num, "title": f"案{num}（自動修正版）", "body": fix_data["fixed"], "score": "", "emotion": "", "hook": "", "timing": ""}
+                            st.session_state[selected_key] = fixed_post
+                            st.rerun()
+                    with c3:
+                        _render_post_actions(fix_data["fixed"], fix_k, x_ok)
+
+        # ── 修正版 ──
+        if st.session_state.get(revision_key):
+            revision = st.session_state[revision_key]
+            st.markdown("---")
+            st.markdown("##### ✏️ 修正版")
+            revised_post = revision["post"]
+            _render_post_card(revised_post, key_prefix=key_prefix, is_selected=True)
+
+            k = f"{key_prefix}_revised"
+            c1, c2, c3 = st.columns(3)
+            with c1:
+                _copy_button(revised_post["body"], f"cp_{k}")
+            with c2:
+                _render_post_actions(revised_post["body"], k, x_ok)
+            with c3:
+                if st.button("🗑️ クリア", key=f"clear_rev_{key_prefix}", use_container_width=True):
+                    st.session_state.pop(revision_key, None)
+                    st.session_state.pop(selected_key, None)
+                    st.rerun()
+
+            _render_infographic_ui(revised_post, f"{key_prefix}_revised")
+
+            # さらに修正
             with st.container(border=True):
-                st.markdown(f"**案{num} 修正版**")
-                st.markdown(fix_data["fixed"])
-                st.caption(f"📏 {len(fix_data['fixed'])}文字")
-                fix_k = f"{key_prefix}_autofix_{num}"
-                col_fc_copy, col_fc_post, col_fc_select = st.columns(3)
-                with col_fc_copy:
-                    _copy_button(fix_data["fixed"], f"cp_{fix_k}")
-                with col_fc_post:
-                    if x_ok:
-                        with st.popover("🐦 投稿", use_container_width=True):
-                            st.warning("⚠️ Xに投稿します。")
-                            st.text_area("内容", value=fix_data["fixed"], height=150, key=f"pv_{fix_k}", disabled=True)
-                            if st.button("✅ 確定して投稿", key=f"cf_{fix_k}", type="primary"):
-                                r = post_to_x(fix_data["fixed"])
-                                if r["success"]:
-                                    st.success(f"✅ [見る]({r['url']})")
-                                else:
-                                    st.error(f"❌ {r['error']}")
+                st.markdown("**🔄 さらに修正する**")
+                further_instruction = st.text_area(
+                    "修正指示",
+                    height=80,
+                    placeholder="例: もう少し短く、冒頭をもっとインパクトのある数字にして...",
+                    key=f"further_{key_prefix}",
+                )
+                if st.button("🔄 修正版をさらに修正", type="primary", use_container_width=True, key=f"revise_again_{key_prefix}"):
+                    if further_instruction.strip():
+                        _do_revision(revised_post, further_instruction, key_prefix)
                     else:
-                        st.caption("🔒 X API未設定")
-                with col_fc_select:
-                    if st.button("✏️ さらに修正", key=f"sel_{fix_k}", use_container_width=True):
-                        fixed_post = {"number": num, "title": f"案{num}（自動修正版）", "body": fix_data["fixed"], "score": "", "emotion": "", "hook": "", "timing": ""}
-                        st.session_state[selected_key] = fixed_post
-                        st.rerun()
+                        st.warning("修正指示を入力してください。")
 
-                with st.expander("📋 指摘内容を見る"):
+    # ── 右カラム: 進捗・FC・修正指示・履歴 ──
+    with col_right:
+        st.markdown("##### 📊 進捗パネル")
+
+        # 状況サマリー
+        has_revision = bool(st.session_state.get(revision_key))
+        has_auto_fix = bool(auto_fixed)
+        has_selected = bool(st.session_state.get(selected_key))
+        status_items = ["✅ 3案生成済み"]
+        if fc_results:
+            all_ok = all("✅" in str(v) for v in fc_results.values())
+            status_items.append("✅ FC全案OK" if all_ok else "⚠️ FC指摘あり")
+        if has_auto_fix:
+            status_items.append(f"🔧 {len(auto_fixed)}案を自動修正")
+        if has_selected:
+            sel = st.session_state[selected_key]
+            status_items.append(f"✏️ 案{sel['number']}を選択中")
+        if has_revision:
+            rev_count = len(st.session_state[revision_key].get("history", [])) + 1
+            status_items.append(f"📝 修正{rev_count}回目")
+        for item in status_items:
+            st.markdown(f"- {item}")
+
+        # ファクトチェック結果
+        if fc_results:
+            with st.expander("🔍 ファクトチェック結果", expanded=True):
+                for num, fc_text in fc_results.items():
+                    st.markdown(f"**案{num}:**")
+                    st.markdown(fc_text)
+                    if num != list(fc_results.keys())[-1]:
+                        st.markdown("---")
+
+        # 自動修正の指摘詳細
+        if auto_fixed:
+            with st.expander("📋 自動修正の指摘内容"):
+                for num, fix_data in auto_fixed.items():
+                    st.markdown(f"**案{num}:**")
                     st.markdown(fix_data["fc_text"])
 
-    # ═══════════════════════════════════
-    # SECTION 3: 案選択 → 修正指示（下部）
-    # ═══════════════════════════════════
-    if st.session_state.get(selected_key):
-        sel = st.session_state[selected_key]
-        st.markdown("---")
-        sel_title = sel.get('title', f"案{sel['number']}")
-        with st.container(border=True):
-            st.markdown(f"#### ✏️ 【案{sel['number']}】を修正")
-            st.caption(f"{sel_title}（{len(sel['body'])}文字）を修正します。検索→生成→ファクトチェック→自動修正の順で処理します。")
-            revision_instruction = st.text_area(
-                "どう修正しますか？",
-                height=100,
-                placeholder="例: もっと前向きに、冒頭の数字を変えて、最後に行動を促す一言を追加...",
-                key=f"rev_inst_{key_prefix}",
-            )
-            col_go, col_cancel = st.columns([3, 1])
-            with col_go:
+        # 修正版のFC結果
+        if has_revision:
+            fc = st.session_state[revision_key].get("factcheck")
+            if fc:
+                with st.expander("🔍 修正版FC結果", expanded=True):
+                    st.markdown(fc)
+
+        # 修正指示入力
+        if has_selected and not has_revision:
+            st.markdown("---")
+            sel = st.session_state[selected_key]
+            sel_title = sel.get('title', f"案{sel['number']}")
+            with st.container(border=True):
+                st.markdown(f"**✏️ 案{sel['number']}を修正**")
+                st.caption(f"{sel_title}（{len(sel['body'])}文字）")
+                revision_instruction = st.text_area(
+                    "どう修正しますか？",
+                    height=100,
+                    placeholder="例: もっと前向きに、数字を変えて...",
+                    key=f"rev_inst_{key_prefix}",
+                )
                 if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
                     if revision_instruction.strip():
                         _do_revision(sel, revision_instruction, key_prefix)
                     else:
                         st.warning("修正指示を入力してください。")
-            with col_cancel:
                 if st.button("キャンセル", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
                     st.session_state.pop(selected_key, None)
                     st.rerun()
 
-    # ═══════════════════════════════════
-    # SECTION 4: 修正版（最下部）
-    # ═══════════════════════════════════
-    if st.session_state.get(revision_key):
-        revision = st.session_state[revision_key]
-        st.markdown("---")
-        st.markdown("##### ✏️ 修正版")
-
-        revised_post = revision["post"]
-        _render_post_card(revised_post, key_prefix=key_prefix, is_selected=True)
-
-        k = f"{key_prefix}_revised"
-        col_copy, col_post, col_clear = st.columns(3)
-        with col_copy:
-            _copy_button(revised_post["body"], f"cp_{k}")
-        with col_post:
-            if x_ok:
-                with st.popover("🐦 投稿", use_container_width=True):
-                    st.warning("⚠️ Xに投稿します。")
-                    st.text_area("内容", value=revised_post["body"], height=150, key=f"pv_{k}", disabled=True)
-                    if st.button("✅ 確定して投稿", key=f"cf_{k}", type="primary"):
-                        r = post_to_x(revised_post["body"])
-                        if r["success"]:
-                            st.success(f"✅ [見る]({r['url']})")
-                        else:
-                            st.error(f"❌ {r['error']}")
-            else:
-                st.caption("🔒 X API未設定")
-        with col_clear:
-            if st.button("🗑️ 修正版をクリア", key=f"clear_rev_{key_prefix}", use_container_width=True):
-                st.session_state.pop(revision_key, None)
-                st.session_state.pop(selected_key, None)
-                st.rerun()
-
-        # 図解生成
-        _render_infographic_ui(revised_post, f"{key_prefix}_revised")
-
-        # ファクトチェック結果
-        fc = revision.get("factcheck")
-        if fc:
-            with st.expander("🔍 修正版のファクトチェック結果", expanded=True):
-                st.markdown(fc)
-
-        # さらに修正
-        with st.container(border=True):
-            st.markdown("##### 🔄 さらに修正する")
-            further_instruction = st.text_area(
-                "追加の修正指示",
-                height=80,
-                placeholder="例: もう少し短く、冒頭をもっとインパクトのある数字にして...",
-                key=f"further_{key_prefix}",
-            )
-            if st.button("🔄 修正版をさらに修正", type="primary", use_container_width=True, key=f"revise_again_{key_prefix}"):
-                if further_instruction.strip():
-                    _do_revision(revised_post, further_instruction, key_prefix)
-                else:
-                    st.warning("修正指示を入力してください。")
-
         # 修正履歴
-        history = revision.get("history", [])
-        if history:
-            with st.expander(f"📜 修正履歴（{len(history)}回）"):
-                for i, h in enumerate(history):
-                    st.caption(f"**{i+1}回目:** {h['instruction']}")
+        if has_revision:
+            history = st.session_state[revision_key].get("history", [])
+            if history:
+                with st.expander(f"📜 修正履歴（{len(history)}回）"):
+                    for i, h in enumerate(history):
+                        st.caption(f"**{i+1}回目:** {h['instruction']}")
 
-    with st.expander("📄 生成全文（デバッグ用）"):
-        st.text(result_text)
+        # デバッグ
+        with st.expander("📄 生成全文（デバッグ用）"):
+            st.text(result_text)
 
 
 def _do_revision(original_post, instruction, key_prefix):
