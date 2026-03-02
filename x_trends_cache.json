@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-03-02T10:29:17.519816+09:00",
-  "count": 23,
+  "updated_at": "2026-03-02T11:29:17.015952+09:00",
+  "count": 24,
   "trends": [
     {
+      "title": "豊島区役所でネパール人男性の児童手当申請写真が拡散",
+      "post_count": 22218,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "OnlyFans、一人当たり売上高でNVIDIAやAppleを圧倒",
+      "post_count": 1459,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "日本企業で若手75％が生成AI未使用、幹部との格差顕在化",
-      "post_count": 489,
+      "post_count": 519,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "田中渓氏が指摘、外資エリートは冷笑上手くいじられ下手",
-      "post_count": 162,
+      "title": "TBS「Mr.サンデー」で日経平均10万円の可能性、日経平均10万円の可能性を特集し投資家に警戒の声",
+      "post_count": 310,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claudeの「Import Memory」機能でChatGPTユーザー移行が加速",
-      "post_count": 110,
+      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模に",
+      "post_count": 130,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ダイニーCEO山田氏退任、後任に大友氏が就任",
-      "post_count": 59,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Google、新画像生成AI「Nano Banana 2」をリリース",
-      "post_count": 30,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米軍MIL規格",
+      "title": "OpenAI",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -59,9 +59,17 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ氏",
+      "title": "トランプ大統領",
       "post_count": 0,
       "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "全面保護",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,22 +91,6 @@
       "origin": "x_news"
     },
     {
-      "title": "OpenAI",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "地政学リスク",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "Type-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -107,9 +99,17 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "トランプ氏",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "iPhone 17",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -131,33 +131,9 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "マンデー",
       "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イスラエル",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -171,9 +147,41 @@
       "origin": "x_news"
     },
     {
-      "title": "中東情勢",
+      "title": "イスラエル",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "保護フィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
