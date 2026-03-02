@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-02T19:29:16.484063+09:00",
-  "count": 26,
+  "updated_at": "2026-03-02T20:29:17.083060+09:00",
+  "count": 30,
   "trends": [
     {
-      "title": "日本企業でAI格差深刻　若手中堅75％が全く未使用",
-      "post_count": 715,
+      "title": "日本政府、中東緊迫で自衛隊の邦人退避支援態勢を整える",
+      "post_count": 3920,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,38 +12,46 @@
     },
     {
       "title": "竹花貴騎氏のnewgoldオフィス写真に合成疑惑再燃",
-      "post_count": 712,
+      "post_count": 792,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米軍、イラン攻撃でトランプ氏のAI使用停止指示直後にクロード活用",
-      "post_count": 247,
+      "title": "姫路城入城料が市外客2500円に大幅値上げ",
+      "post_count": 338,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メルカリが匿名返品機能を順次開始 個人情報守りトラブル減へ",
-      "post_count": 156,
+      "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
+      "post_count": 266,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "西岡孝洋氏、すんでのプロデューサーに就任 不動産テック新天地へ",
-      "post_count": 61,
+      "title": "Google AntigravityがAIツールとしてXで注目を集める",
+      "post_count": 228,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "強化ガラス",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,9 +59,9 @@
       "origin": "x_news"
     },
     {
-      "title": "商船三井",
+      "title": "USB-C",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -75,23 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "持ち越し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン攻撃",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "調整可能",
+      "title": "オーディオ",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -99,15 +91,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖",
+      "title": "保護フィルム",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "三菱商事",
+      "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱重工",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,39 +123,15 @@
       "origin": "x_news"
     },
     {
+      "title": "持ち越し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "楽天銀行",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "強化ガラス",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱重工",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "安全資産",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,7 +147,31 @@
       "origin": "x_news"
     },
     {
+      "title": "ゴールド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商船三井",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -203,9 +203,41 @@
       "origin": "x_news"
     },
     {
+      "title": "住友ファーマ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガラスフィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "iPhone 17",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
