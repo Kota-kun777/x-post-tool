@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-02T14:29:16.992533+09:00",
-  "count": 15,
+  "updated_at": "2026-03-02T15:29:17.431633+09:00",
+  "count": 22,
   "trends": [
     {
       "title": "OnlyFans、一人当たり売上高でNVIDIAやAppleを圧倒",
-      "post_count": 1571,
+      "post_count": 1595,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,7 @@
     },
     {
       "title": "偽村上世彰投稿が広がり資産マインド議論沸騰",
-      "post_count": 745,
+      "post_count": 782,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +20,7 @@
     },
     {
       "title": "日本企業でAI格差深刻　若手中堅75％が全く未使用",
-      "post_count": 637,
+      "post_count": 641,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +28,30 @@
     },
     {
       "title": "TBS「Mr.サンデー」で日経平均10万円の可能性、日経平均10万円の可能性を特集し投資家に警戒の声",
-      "post_count": 365,
+      "post_count": 373,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で総額10兆円規模に",
-      "post_count": 244,
+      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
+      "post_count": 258,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "地政学リスク",
+      "title": "楽天銀行",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "安全資産",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,6 +67,14 @@
       "origin": "x_news"
     },
     {
+      "title": "三菱UFJ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "条件達成",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -67,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "楽天銀行",
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,9 +99,41 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "ホルムズ海峡",
       "post_count": 0,
       "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株式市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン情勢",
+      "post_count": 0,
+      "category": "ニュース · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガラスフィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -99,7 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マーケット",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -118,6 +166,14 @@
       "title": "保護フィルム",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
