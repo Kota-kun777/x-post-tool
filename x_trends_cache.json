@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-02T09:57:25.582084+09:00",
-  "count": 18,
+  "updated_at": "2026-03-02T10:03:50.084019+09:00",
+  "count": 20,
   "trends": [
     {
       "title": "高槻市役所でネパール在住子どもの児童手当申請写真が波紋",
-      "post_count": 17211,
+      "post_count": 17534,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,7 @@
     },
     {
       "title": "日本企業で若手75％が生成AI未使用、幹部との格差顕在化",
-      "post_count": 474,
+      "post_count": 478,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +20,7 @@
     },
     {
       "title": "TBS「Mr.サンデー」で日経平均10万円の可能性、日経平均10万円の可能性を特集し投資家に警戒の声",
-      "post_count": 278,
+      "post_count": 281,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +28,7 @@
     },
     {
       "title": "食料品消費税ゼロ化の影響試算に批判集中、Xで議論白熱",
-      "post_count": 48,
+      "post_count": 51,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,7 +36,7 @@
     },
     {
       "title": "ダイニーCEO山田氏退任、後任に大友氏が就任",
-      "post_count": 39,
+      "post_count": 48,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -59,6 +59,14 @@
       "origin": "x_news"
     },
     {
+      "title": "トランプ大統領",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -70,6 +78,14 @@
       "title": "ケーブル",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マンデー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -91,23 +107,15 @@
       "origin": "x_news"
     },
     {
+      "title": "Type-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "トランプ氏",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マンデー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イスラエル",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -118,6 +126,14 @@
       "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イスラエル",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
