@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-03T01:29:16.857357+09:00",
-  "count": 20,
+  "updated_at": "2026-03-03T02:29:18.174758+09:00",
+  "count": 21,
   "trends": [
     {
       "title": "高市早苗首相、SANAE TOKEN関与を完全否定　価格40%超急落",
-      "post_count": 32154,
+      "post_count": 37122,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,7 @@
     },
     {
       "title": "「本当の金持ちは高級車や時計を買わない」投稿がXで大反響、富裕層の消費観で賛否",
-      "post_count": 1432,
+      "post_count": 1440,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,30 +20,30 @@
     },
     {
       "title": "TBS「Mr.サンデー」で日経平均10万円の可能性、日経平均10万円の可能性を特集し投資家に警戒の声",
-      "post_count": 624,
+      "post_count": 632,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ビットコイン下落中、クジラの大量買いが過去最高に",
-      "post_count": 393,
+      "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
+      "post_count": 362,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 316,
+      "title": "芦屋市長、公約通り退職金2300万円不支給へ",
+      "post_count": 214,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ウクライナ",
+      "title": "ドローン",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -51,15 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖",
+      "title": "#株主優待",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ミームコイン",
+      "title": "三菱UFJ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "ミームコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,31 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱UFJ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ドローン",
+      "title": "ウクライナ",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -131,15 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "Type-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "地政学リスク",
+      "title": "新規登録",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,9 +131,41 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
+      "title": "タイプc",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Type-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガラスフィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "サナエトークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
