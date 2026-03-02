@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-03T05:29:17.874080+09:00",
-  "count": 22,
+  "updated_at": "2026-03-03T06:29:22.176610+09:00",
+  "count": 21,
   "trends": [
     {
       "title": "「本当の金持ちは高級車や時計を買わない」投稿がXで大反響、富裕層の消費観で賛否",
-      "post_count": 1444,
+      "post_count": 1446,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ビットコイン下落中、クジラの大量買いが過去最高に",
-      "post_count": 402,
+      "title": "国会議員の給与を平均年収並みに引き下げよ、投稿が議論を呼ぶ",
+      "post_count": 682,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +20,7 @@
     },
     {
       "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
-      "post_count": 386,
+      "post_count": 392,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,40 +28,16 @@
     },
     {
       "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 324,
+      "post_count": 325,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イランキャスター爆撃動画はフェイクと判明 2025年事件を捏造",
-      "post_count": 137,
+      "title": "Claude Codeサーバー障害で開発者生産性ストップ　「あと一歩だったのに」",
+      "post_count": 129,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱UFJ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ大統領",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#株主優待",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,14 +59,6 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ケーブル",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -107,6 +75,14 @@
       "origin": "x_news"
     },
     {
+      "title": "トランプ大統領",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "新規登録",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -118,6 +94,22 @@
       "title": "タイプc",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ミームコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -147,9 +139,17 @@
       "origin": "x_news"
     },
     {
-      "title": "ミームコイン",
+      "title": "iPhone 17",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガラスフィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -164,14 +164,6 @@
     },
     {
       "title": "Claude",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ガラスフィルム",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
