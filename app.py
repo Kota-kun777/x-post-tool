@@ -1077,11 +1077,14 @@ INFOGRAPHIC_PROMPT = """以下のポスト内容を「概念・構造・流れ�
 ■ ポスト内容:
 {post_body}
 
-■ 最重要: ビジュアルで「構造」と「流れ」を伝える
+■ 最重要: テキストは極力減らし、ビジュアルで伝える
 - この図の目的は「読まなくても見るだけで仕組みがわかる」こと
-- テキストの羅列ではなく、矢印・図形・アイコン・サイズ差で関係性を表現する
-- 「原因→メカニズム→結果」「A vs B」「全体→部分」などの構造をビジュアルで示す
-- 数字は視覚的なインパクトで伝える（巨大フォント、グラフ、パーセンテージバー等）
+- テキストの羅列は絶対NG。文章は一切入れない。単語と数字のみ
+- 画像内のテキストは合計20語以内に制限する（タイトル含む）
+- 数字は巨大フォントで（画像の1/5サイズ）。「30%」「2兆円」のように
+- キーワードは最大3〜5語。それ以外はアイコン・矢印・色・サイズ差で表現する
+- 説明文や解説テキストは入れない。概念はイラストとアイコンで伝える
+- 「原因→結果」「A vs B」「全体→部分」の構造をビジュアルのみで示す
 
 ■ キャラクターの使い方:
 - 添付画像のキャラクターを「案内役」として配置する（画像全体の15〜20%程度のサイズ）
@@ -1123,11 +1126,14 @@ INFOGRAPHIC_PROMPT_NO_REF = """以下のポスト内容を「概念・構造・�
 ■ ポスト内容:
 {post_body}
 
-■ 最重要: ビジュアルで「構造」と「流れ」を伝える
+■ 最重要: テキストは極力減らし、ビジュアルで伝える
 - この図の目的は「読まなくても見るだけで仕組みがわかる」こと
-- テキストの羅列ではなく、矢印・図形・アイコン・サイズ差で関係性を表現する
-- 「原因→メカニズム→結果」「A vs B」「全体→部分」などの構造をビジュアルで示す
-- 数字は視覚的なインパクトで伝える（巨大フォント、グラフ、パーセンテージバー等）
+- テキストの羅列は絶対NG。文章は一切入れない。単語と数字のみ
+- 画像内のテキストは合計20語以内に制限する（タイトル含む）
+- 数字は巨大フォントで（画像の1/5サイズ）。「30%」「2兆円」のように
+- キーワードは最大3〜5語。それ以外はアイコン・矢印・色・サイズ差で表現する
+- 説明文や解説テキストは入れない。概念はイラストとアイコンで伝える
+- 「原因→結果」「A vs B」「全体→部分」の構造をビジュアルのみで示す
 
 ■ レイアウト構成:
 1. 画像上部: インパクトのある大タイトル（白or黄色の太字。テーマのキーワードを凝縮）
@@ -1172,7 +1178,7 @@ def _load_character_image():
 
 
 def generate_infographic(post_body):
-    """Gemini画像生成でポスト内容の図解を生成（キャラ参照画像付き）"""
+    """Gemini画像生成でポスト内容の図解を1枚生成"""
     google_api_key = st.session_state.get("google_api_key", "")
     if not google_api_key:
         st.error("🔑 サイドバーから Google API Key を設定してください。")
@@ -1186,85 +1192,131 @@ def generate_infographic(post_body):
         return None
 
     model = st.session_state.get("gemini_model", "gemini-2.5-flash-image")
-
-    # キャラクター参照画像を読み込み
     char_img = _load_character_image()
 
     if char_img is not None:
-        # 参照画像付き: [テキスト, 画像] を送信（Google AI Studio と同じ方式）
         prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:600])
         contents = [prompt, char_img]
     else:
-        # 参照画像なし: テキストのみ
         prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:600])
         contents = [prompt]
 
     try:
         client = genai.Client(api_key=google_api_key)
-
-        with st.spinner("🎨 図解を生成中（30秒ほどかかります）..."):
-            response = client.models.generate_content(
-                model=model,
-                contents=contents,
-                config=types.GenerateContentConfig(
-                    response_modalities=["IMAGE"],
-                ),
-            )
-
-        # レスポンスから画像バイトを取得
+        response = client.models.generate_content(
+            model=model,
+            contents=contents,
+            config=types.GenerateContentConfig(response_modalities=["IMAGE"]),
+        )
         parts = []
         try:
             parts = response.candidates[0].content.parts
         except (AttributeError, IndexError):
             parts = getattr(response, "parts", [])
-
         for part in parts:
             if getattr(part, "inline_data", None) is not None:
                 return part.inline_data.data
-
-        st.warning("⚠️ 画像が生成されませんでした。再試行してください。")
         return None
-
     except Exception as e:
         st.error(f"❌ 図解生成エラー: {str(e)}")
         return None
 
 
+def generate_infographic_batch(post_body, count=3):
+    """図解を同時に複数枚生成（並列API呼び出し）"""
+    import concurrent.futures
+    google_api_key = st.session_state.get("google_api_key", "")
+    if not google_api_key:
+        st.error("🔑 サイドバーから Google API Key を設定してください。")
+        return []
+
+    try:
+        from google import genai
+        from google.genai import types
+    except ImportError:
+        st.error("❌ google-genai がインストールされていません。")
+        return []
+
+    model = st.session_state.get("gemini_model", "gemini-2.5-flash-image")
+    char_img = _load_character_image()
+
+    if char_img is not None:
+        prompt = INFOGRAPHIC_PROMPT.format(post_body=post_body[:600])
+        contents = [prompt, char_img]
+    else:
+        prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:600])
+        contents = [prompt]
+
+    def _gen_one(_idx):
+        """1枚生成"""
+        try:
+            client = genai.Client(api_key=google_api_key)
+            response = client.models.generate_content(
+                model=model,
+                contents=contents,
+                config=types.GenerateContentConfig(response_modalities=["IMAGE"]),
+            )
+            parts = []
+            try:
+                parts = response.candidates[0].content.parts
+            except (AttributeError, IndexError):
+                parts = getattr(response, "parts", [])
+            for part in parts:
+                if getattr(part, "inline_data", None) is not None:
+                    return part.inline_data.data
+            return None
+        except Exception:
+            return None
+
+    results = []
+    with st.spinner(f"🎨 図解を{count}枚同時生成中（30〜60秒ほどかかります）..."):
+        with concurrent.futures.ThreadPoolExecutor(max_workers=count) as executor:
+            futures = [executor.submit(_gen_one, i) for i in range(count)]
+            for f in concurrent.futures.as_completed(futures):
+                img = f.result()
+                if img:
+                    results.append(img)
+    return results
+
+
 def _render_infographic_ui(post, key_suffix):
-    """図解生成ボタンと画像表示のUIを描画"""
+    """図解生成ボタンと画像表示のUI（3枚同時生成対応）"""
     infographic_key = f"infographic_{key_suffix}"
     has_google_key = bool(st.session_state.get("google_api_key"))
 
     if not has_google_key:
         return  # Google APIキー未設定時は何も表示しない
 
-    # 既に生成済みの場合は表示
-    if st.session_state.get(infographic_key):
-        img_bytes = st.session_state[infographic_key]
-        st.image(img_bytes, caption="📊 生成された図解", width=400)
-        col_dl, col_regen = st.columns(2)
-        with col_dl:
-            st.download_button(
-                "💾 図解をダウンロード",
-                data=img_bytes,
-                file_name=f"infographic_{key_suffix}.png",
-                mime="image/png",
-                key=f"dl_img_{key_suffix}",
-                use_container_width=True,
-            )
-        with col_regen:
-            if st.button("🔄 図解を再生成", key=f"regen_img_{key_suffix}", use_container_width=True):
-                img_data = generate_infographic(post["body"])
-                if img_data:
-                    st.session_state[infographic_key] = img_data
-                    st.rerun()
-    else:
-        # 生成ボタン
-        if st.button("🎨 この内容の図解を生成", key=f"gen_img_{key_suffix}", use_container_width=True):
-            img_data = generate_infographic(post["body"])
-            if img_data:
-                st.session_state[infographic_key] = img_data
+    # 既に生成済みの場合は表示（リスト or 単体互換）
+    stored = st.session_state.get(infographic_key)
+    if stored:
+        images = stored if isinstance(stored, list) else [stored]
+        cols = st.columns(len(images))
+        for i, img_bytes in enumerate(images):
+            with cols[i]:
+                st.image(img_bytes, caption=f"図解 {i+1}", width=300)
+                st.download_button(
+                    f"💾 DL",
+                    data=img_bytes,
+                    file_name=f"infographic_{key_suffix}_{i+1}.png",
+                    mime="image/png",
+                    key=f"dl_img_{key_suffix}_{i}",
+                    use_container_width=True,
+                )
+        if st.button("🔄 3枚再生成", key=f"regen_img_{key_suffix}", use_container_width=True):
+            results = generate_infographic_batch(post["body"], count=3)
+            if results:
+                st.session_state[infographic_key] = results
                 st.rerun()
+    else:
+        # 3枚同時生成ボタン
+        if st.button("🎨 図解を3枚生成", key=f"gen_img_{key_suffix}", use_container_width=True):
+            results = generate_infographic_batch(post["body"], count=3)
+            if results:
+                st.session_state[infographic_key] = results
+                st.rerun()
+            else:
+                st.warning("⚠️ 図解を生成できませんでした。再試行してください。")
 
 
 # ──────────────────────────────────────
@@ -1339,68 +1391,78 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
             post["body"] = auto_fixed[post["number"]]["fixed"]
             post["_auto_fixed"] = True
 
-    st.markdown("##### 📝 生成された3案（ファクトチェック済み）")
+    # 修正版がある場合は初案を折りたたむ
+    has_revision = bool(st.session_state.get(revision_key))
+    initial_label = "📝 生成された3案（ファクトチェック済み）" if not has_revision else "📝 初回生成の3案（クリックで展開）"
+    with st.expander(initial_label, expanded=not has_revision):
+        for post in posts:
+            # ── 各案: 左=ポスト本文＋ボタン、右=FC詳細 ──
+            col_post, col_info = st.columns([5, 3])
 
-    for post in posts:
-        # ── 各案: 左=ポスト本文、右=FC詳細（折りたたみ） ──
-        col_post, col_info = st.columns([5, 3])
-
-        with col_post:
-            _render_post_card(post, key_prefix=key_prefix)
-            k = f"{key_prefix}_{post['number']}"
-            c1, c2, c3 = st.columns(3)
-            with c1:
-                if st.button("✏️ 修正", key=f"sel_{k}", use_container_width=True):
-                    st.session_state[selected_key] = post
-                    st.rerun()
-            with c2:
-                _copy_button(post["body"], f"cp_{k}")
-            with c3:
-                _render_infographic_ui(post, f"{key_prefix}_{post['number']}")
-
-        with col_info:
-            # FC結果（折りたたみ）
-            fc_text = fc_results.get(post["number"], "")
-            if fc_text:
-                is_ok = "✅" in fc_text and "⚠️" not in fc_text and "❌" not in fc_text
-                label = "✅ FC: 問題なし" if is_ok else "⚠️ ファクトチェック結果"
-                with st.expander(label, expanded=False):
-                    st.markdown(fc_text)
-            # 自動修正の指摘詳細（折りたたみ）
-            if post.get("_auto_fixed") and auto_fixed and post["number"] in auto_fixed:
-                with st.expander("🔧 自動修正の詳細", expanded=False):
-                    st.markdown(auto_fixed[post["number"]]["fc_text"])
-
-        # ── 修正指示入力（この案が選択中の場合、ポストの下に表示） ──
-        if (st.session_state.get(selected_key, {}).get("number") == post["number"]
-                and not st.session_state.get(revision_key)):
-            with st.container(border=True):
-                sel = st.session_state[selected_key]
-                st.markdown(f"**✏️ 案{sel['number']}を修正**")
-                st.caption(f"{len(sel['body'])}文字")
-                revision_instruction = st.text_area(
-                    "どう修正しますか？",
-                    height=100,
-                    placeholder="例: もっと前向きに、数字を変えて...",
-                    key=f"rev_inst_{key_prefix}",
-                )
-                c_go, c_cancel = st.columns(2)
-                with c_go:
-                    if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
-                        if revision_instruction.strip():
-                            _do_revision(sel, revision_instruction, key_prefix)
-                        else:
-                            st.warning("修正指示を入力してください。")
-                with c_cancel:
-                    if st.button("キャンセル", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
-                        st.session_state.pop(selected_key, None)
+            with col_post:
+                # 冒頭プレビュー + 全文展開
+                preview = post["body"][:120].replace("\n", " ") + "..."
+                st.markdown(f"**案{post['number']}** | {len(post['body'])}文字")
+                st.caption(preview)
+                with st.expander("全文を表示", expanded=False):
+                    body_html = post["body"].replace("\n", "<br>")
+                    st.markdown(
+                        f'<div style="line-height:1.9;font-size:0.95rem;color:rgba(255,255,255,0.9);padding:0.5rem 0;">{body_html}</div>',
+                        unsafe_allow_html=True,
+                    )
+                k = f"{key_prefix}_{post['number']}"
+                c1, c2, c3 = st.columns(3)
+                with c1:
+                    if st.button("✏️ 修正", key=f"sel_{k}", use_container_width=True):
+                        st.session_state[selected_key] = post
                         st.rerun()
+                with c2:
+                    _copy_button(post["body"], f"cp_{k}")
+                with c3:
+                    _render_infographic_ui(post, f"{key_prefix}_{post['number']}")
 
-    # ── 修正版（ファクトチェック済み） ──
+            with col_info:
+                fc_text = fc_results.get(post["number"], "")
+                if fc_text:
+                    is_ok = "✅" in fc_text and "⚠️" not in fc_text and "❌" not in fc_text
+                    label = "✅ FC: 問題なし" if is_ok else "⚠️ FC結果"
+                    with st.expander(label, expanded=False):
+                        st.markdown(fc_text)
+                if post.get("_auto_fixed") and auto_fixed and post["number"] in auto_fixed:
+                    with st.expander("🔧 自動修正", expanded=False):
+                        st.markdown(auto_fixed[post["number"]]["fc_text"])
+
+            # 修正指示入力
+            if (st.session_state.get(selected_key, {}).get("number") == post["number"]
+                    and not st.session_state.get(revision_key)):
+                with st.container(border=True):
+                    sel = st.session_state[selected_key]
+                    st.markdown(f"**✏️ 案{sel['number']}を修正**")
+                    st.caption(f"{len(sel['body'])}文字")
+                    revision_instruction = st.text_area(
+                        "どう修正しますか？",
+                        height=100,
+                        placeholder="例: もっと前向きに、数字を変えて...",
+                        key=f"rev_inst_{key_prefix}",
+                    )
+                    c_go, c_cancel = st.columns(2)
+                    with c_go:
+                        if st.button("🤖 修正版を生成", type="primary", use_container_width=True, key=f"go_rev_{key_prefix}"):
+                            if revision_instruction.strip():
+                                _do_revision(sel, revision_instruction, key_prefix)
+                            else:
+                                st.warning("修正指示を入力してください。")
+                    with c_cancel:
+                        if st.button("キャンセル", use_container_width=True, key=f"cancel_rev_{key_prefix}"):
+                            st.session_state.pop(selected_key, None)
+                            st.rerun()
+
+    # ── 修正版（メイン表示: 最新の修正版が一番下にメインで表示） ──
     if st.session_state.get(revision_key):
         revision = st.session_state[revision_key]
         st.markdown("---")
-        st.markdown("##### ✏️ 修正版（ファクトチェック済み）")
+        rev_count = len(revision.get("history", [])) + 1
+        st.markdown(f"### ✨ 最新版（修正{rev_count}回目・ファクトチェック済み）")
         revised_post = revision["post"]
 
         col_post, col_info = st.columns([5, 3])
@@ -1806,155 +1868,156 @@ with tab1:
     st.markdown("---")
 
     # ── STEP 1: 自動取得 ──
-    st.markdown("### ① トレンドニュースを取得")
-    st.caption("ボタンを押すだけで、今のトレンドニュースを自動取得し、すあし社長向きのトピックをAIが厳選します。")
+    _step1_expanded = st.session_state.get("trend_step", 1) <= 1
+    with st.expander("① トレンドニュースを取得", expanded=_step1_expanded):
+        st.caption("ボタンを押すだけで、今のトレンドニュースを自動取得し、すあし社長向きのトピックをAIが厳選します。")
 
-    col_fetch, col_manual = st.columns([2, 1])
-    with col_fetch:
-        fetch_clicked = st.button("🔍 今のトレンドを取得して分析する", type="primary", use_container_width=True, key="fetch_btn")
-    with col_manual:
-        with st.popover("✏️ 手動入力"):
-            manual_input = st.text_area("トピックを1行ずつ", height=100, placeholder="少子化\nAI規制\n円安", key="manual_in")
-            if st.button("追加", key="add_manual"):
-                if manual_input.strip():
-                    manual_topics = [l.strip() for l in manual_input.strip().split("\n") if l.strip()]
-                    st.session_state.manual_topics = manual_topics
-                    st.rerun()
+        col_fetch, col_manual = st.columns([2, 1])
+        with col_fetch:
+            fetch_clicked = st.button("🔍 今のトレンドを取得して分析する", type="primary", use_container_width=True, key="fetch_btn")
+        with col_manual:
+            with st.popover("✏️ 手動入力"):
+                manual_input = st.text_area("トピックを1行ずつ", height=100, placeholder="少子化\nAI規制\n円安", key="manual_in")
+                if st.button("追加", key="add_manual"):
+                    if manual_input.strip():
+                        manual_topics = [l.strip() for l in manual_input.strip().split("\n") if l.strip()]
+                        st.session_state.manual_topics = manual_topics
+                        st.rerun()
 
-    if fetch_clicked:
-        if not st.session_state.get("anthropic_api_key"):
-            st.error("🔑 APIキーを設定してください")
-        else:
-            # 前回の結果をクリア
-            for key in ["ai_recommendations", "x_trend_items", "related_news", "raw_news", "trend_step"]:
-                if key in st.session_state:
-                    del st.session_state[key]
+        if fetch_clicked:
+            if not st.session_state.get("anthropic_api_key"):
+                st.error("🔑 APIキーを設定してください")
+            else:
+                # 前回の結果をクリア
+                for key in ["ai_recommendations", "x_trend_items", "related_news", "raw_news", "trend_step"]:
+                    if key in st.session_state:
+                        del st.session_state[key]
 
-            # ===== トレンド取得（優先度順） =====
-            progress = st.empty()
+                # ===== トレンド取得（優先度順） =====
+                progress = st.empty()
 
-            # ── 1. Xニューストレンド（メイン） ──
-            x_news_items = []
-            x_login_warning = None
+                # ── 1. Xニューストレンド（メイン） ──
+                x_news_items = []
+                x_login_warning = None
 
-            # クラウド環境: GitHubで同期されたキャッシュから読み込み
-            cached_trends = load_cached_x_trends(max_age_hours=24)
-            if cached_trends:
-                progress.info("📱 【1/3】Xトレンドをキャッシュから読み込み中...")
-                for item in cached_trends:
-                    count_str = f" ({item['post_count']:,}件のポスト)" if item.get('post_count') else ""
-                    x_news_items.append({
-                        "title": item["title"] + count_str,
-                        "source": "X ニューストレンド（同期）",
-                        "link": f"https://x.com/search?q={urllib.parse.quote(item['title'])}",
-                        "published": item.get("time_ago", ""),
-                        "origin": "x_news",
-                        "post_count": item.get("post_count", 0),
-                    })
-                progress.info(f"✅ Xニュース（キャッシュ）: {len(x_news_items)}件")
-            elif is_logged_in():
-                # ローカル環境: Playwrightで直接取得
-                progress.info("📱 【1/3】Xのニュースタブからトレンドを取得中...")
-                x_news = fetch_x_news_trends()
-                if x_news == "login_required":
-                    x_login_warning = "⚠️ Xのセッションが切れています。サイドバーから再ログインしてください"
-                elif x_news and isinstance(x_news, list):
-                    for item in x_news:
-                        count_str = f" ({item['post_count']:,}件のポスト)" if item['post_count'] else ""
+                # クラウド環境: GitHubで同期されたキャッシュから読み込み
+                cached_trends = load_cached_x_trends(max_age_hours=24)
+                if cached_trends:
+                    progress.info("📱 【1/3】Xトレンドをキャッシュから読み込み中...")
+                    for item in cached_trends:
+                        count_str = f" ({item['post_count']:,}件のポスト)" if item.get('post_count') else ""
                         x_news_items.append({
                             "title": item["title"] + count_str,
-                            "source": "X ニューストレンド",
+                            "source": "X ニューストレンド（同期）",
                             "link": f"https://x.com/search?q={urllib.parse.quote(item['title'])}",
                             "published": item.get("time_ago", ""),
                             "origin": "x_news",
                             "post_count": item.get("post_count", 0),
                         })
-                    progress.info(f"✅ Xニュース: {len(x_news_items)}件取得")
+                    progress.info(f"✅ Xニュース（キャッシュ）: {len(x_news_items)}件")
+                elif is_logged_in():
+                    # ローカル環境: Playwrightで直接取得
+                    progress.info("📱 【1/3】Xのニュースタブからトレンドを取得中...")
+                    x_news = fetch_x_news_trends()
+                    if x_news == "login_required":
+                        x_login_warning = "⚠️ Xのセッションが切れています。サイドバーから再ログインしてください"
+                    elif x_news and isinstance(x_news, list):
+                        for item in x_news:
+                            count_str = f" ({item['post_count']:,}件のポスト)" if item['post_count'] else ""
+                            x_news_items.append({
+                                "title": item["title"] + count_str,
+                                "source": "X ニューストレンド",
+                                "link": f"https://x.com/search?q={urllib.parse.quote(item['title'])}",
+                                "published": item.get("time_ago", ""),
+                                "origin": "x_news",
+                                "post_count": item.get("post_count", 0),
+                            })
+                        progress.info(f"✅ Xニュース: {len(x_news_items)}件取得")
+                    else:
+                        x_login_warning = "⚠️ Xニュース取得失敗。サイドバーから再ログインを試してください"
                 else:
-                    x_login_warning = "⚠️ Xニュース取得失敗。サイドバーから再ログインを試してください"
-            else:
-                x_login_warning = "💡 サイドバーからXにログインすると、Xニューストレンドも取得できます"
+                    x_login_warning = "💡 サイドバーからXにログインすると、Xニューストレンドも取得できます"
 
-            # ── 2. Google News（世の中のトレンド） ──
-            progress.info("📰 【2/3】Google Newsからトレンドを取得中...")
-            google_items = fetch_google_news()
+                # ── 2. Google News（世の中のトレンド） ──
+                progress.info("📰 【2/3】Google Newsからトレンドを取得中...")
+                google_items = fetch_google_news()
 
-            # ── 3. Yahoo!リアルタイム検索（補足） ──
-            progress.info("🔍 【3/3】Yahoo!リアルタイム検索で補足情報を取得中...")
-            yahoo_items = fetch_yahoo_realtime_supplementary()
+                # ── 3. Yahoo!リアルタイム検索（補足） ──
+                progress.info("🔍 【3/3】Yahoo!リアルタイム検索で補足情報を取得中...")
+                yahoo_items = fetch_yahoo_realtime_supplementary()
 
-            # 取得状況を表示
-            counts = []
-            if x_news_items:
-                counts.append(f"🐦 Xニュース {len(x_news_items)}件")
-            if google_items:
-                counts.append(f"📰 Google News {len(google_items)}件")
-            if yahoo_items:
-                counts.append(f"🔍 Yahoo!補足 {len(yahoo_items)}件")
-            progress.info(f"✅ 取得完了: {' + '.join(counts)}" if counts else "⚠️ トレンドを取得できませんでした")
-
-            if x_login_warning:
-                st.warning(x_login_warning)
-
-            # セッションに保存
-            st.session_state.x_trend_items = x_news_items
-            st.session_state.yahoo_items = yahoo_items
-
-            all_items = x_news_items + google_items + yahoo_items
-            if not all_items:
-                st.error("ニュースの取得に失敗しました。インターネット接続を確認してください。")
-            else:
-                st.session_state.raw_news = all_items
-
-                # AIにはGoogle Newsのみ送信して選定
+                # 取得状況を表示
+                counts = []
+                if x_news_items:
+                    counts.append(f"🐦 Xニュース {len(x_news_items)}件")
                 if google_items:
-                    progress.info("🤖 Google Newsからすあし社長向きのトピックをAIが選定中...")
-                    try:
-                        recommendations = ai_recommend_topics(google_items, st.session_state.anthropic_api_key)
-                    except Exception as e:
-                        recommendations = []
-                        st.error(f"AI選定エラー: {str(e)}")
-                else:
-                    recommendations = []
+                    counts.append(f"📰 Google News {len(google_items)}件")
+                if yahoo_items:
+                    counts.append(f"🔍 Yahoo!補足 {len(yahoo_items)}件")
+                progress.info(f"✅ 取得完了: {' + '.join(counts)}" if counts else "⚠️ トレンドを取得できませんでした")
 
-                if recommendations:
-                    st.session_state.ai_recommendations = recommendations
-                    # 関連ニュースも先に取得
-                    progress.info("📰 関連ニュースを収集中...")
-                    related = {}
-                    for rec in recommendations:
-                        keyword = rec.get("title", "")[:20]
-                        articles = fetch_related_news(keyword, max_results=3)
-                        related[rec["title"]] = articles
-                    st.session_state.related_news = related
-                    progress.empty()
-                    st.session_state.trend_step = 2
-                    st.rerun()
+                if x_login_warning:
+                    st.warning(x_login_warning)
+
+                # セッションに保存
+                st.session_state.x_trend_items = x_news_items
+                st.session_state.yahoo_items = yahoo_items
+
+                all_items = x_news_items + google_items + yahoo_items
+                if not all_items:
+                    st.error("ニュースの取得に失敗しました。インターネット接続を確認してください。")
                 else:
-                    progress.empty()
-                    # Xトレンド or Yahoo補足があればそれだけで表示
-                    if x_news_items or yahoo_items:
+                    st.session_state.raw_news = all_items
+
+                    # AIにはGoogle Newsのみ送信して選定
+                    if google_items:
+                        progress.info("🤖 Google Newsからすあし社長向きのトピックをAIが選定中...")
+                        try:
+                            recommendations = ai_recommend_topics(google_items, st.session_state.anthropic_api_key)
+                        except Exception as e:
+                            recommendations = []
+                            st.error(f"AI選定エラー: {str(e)}")
+                    else:
+                        recommendations = []
+
+                    if recommendations:
+                        st.session_state.ai_recommendations = recommendations
+                        # 関連ニュースも先に取得
+                        progress.info("📰 関連ニュースを収集中...")
+                        related = {}
+                        for rec in recommendations:
+                            keyword = rec.get("title", "")[:20]
+                            articles = fetch_related_news(keyword, max_results=3)
+                            related[rec["title"]] = articles
+                        st.session_state.related_news = related
+                        progress.empty()
                         st.session_state.trend_step = 2
-                        st.session_state.related_news = {}
                         st.rerun()
                     else:
-                        # フォールバック: AI選定が失敗しても生データを表示
-                        st.warning("⚠️ AI選定が失敗しましたが、取得したトレンドを直接表示します。")
-                        fallback_recs = []
-                        for item in google_items[:10]:
-                            fallback_recs.append({
-                                "title": item["title"],
-                                "reason": item.get("source", ""),
-                                "angle": "直接取得（AI選定スキップ）",
-                                "pillars": [],
-                                "hook_type": "",
-                                "score": 70,
-                            })
-                        if fallback_recs:
-                            st.session_state.ai_recommendations = fallback_recs
-                            st.session_state.related_news = {}
+                        progress.empty()
+                        # Xトレンド or Yahoo補足があればそれだけで表示
+                        if x_news_items or yahoo_items:
                             st.session_state.trend_step = 2
+                            st.session_state.related_news = {}
                             st.rerun()
+                        else:
+                            # フォールバック: AI選定が失敗しても生データを表示
+                            st.warning("⚠️ AI選定が失敗しましたが、取得したトレンドを直接表示します。")
+                            fallback_recs = []
+                            for item in google_items[:10]:
+                                fallback_recs.append({
+                                    "title": item["title"],
+                                    "reason": item.get("source", ""),
+                                    "angle": "直接取得（AI選定スキップ）",
+                                    "pillars": [],
+                                    "hook_type": "",
+                                    "score": 70,
+                                })
+                            if fallback_recs:
+                                st.session_state.ai_recommendations = fallback_recs
+                                st.session_state.related_news = {}
+                                st.session_state.trend_step = 2
+                                st.rerun()
 
     # ── STEP 2: トピック選択 ──
     has_x = bool(st.session_state.get("x_trend_items"))
@@ -1963,146 +2026,147 @@ with tab1:
 
     if has_x or has_ai or has_yahoo:
         st.markdown("---")
-        st.markdown("### ② トピックを選択")
-        st.caption("ポストにしたいトピックにチェックを入れてください。")
+        _step2_expanded = st.session_state.get("trend_step", 1) <= 2
+        with st.expander("### ② トピックを選択", expanded=_step2_expanded):
+            st.caption("ポストにしたいトピックにチェックを入れてください。")
 
-        selected = []
-        rec_idx = 0
+            selected = []
+            rec_idx = 0
 
-        # 手動トピック
-        if st.session_state.get("manual_topics"):
-            st.markdown("**✏️ 手動追加トピック:**")
-            for j, mt in enumerate(st.session_state.manual_topics):
-                if st.checkbox(f"✏️ {mt}", key=f"manual_{j}", value=True):
-                    selected.append({"title": mt, "angle": "手動入力", "pillars": [], "hook_type": ""})
+            # 手動トピック
+            if st.session_state.get("manual_topics"):
+                st.markdown("**✏️ 手動追加トピック:**")
+                for j, mt in enumerate(st.session_state.manual_topics):
+                    if st.checkbox(f"✏️ {mt}", key=f"manual_{j}", value=True):
+                        selected.append({"title": mt, "angle": "手動入力", "pillars": [], "hook_type": ""})
 
-        # ── 🐦 Xニューストレンド（メイン） ──
-        if has_x:
-            x_items = st.session_state.x_trend_items
-            st.markdown(f"#### 🐦 Xニューストレンド（{len(x_items)}件）")
-            st.caption("Xの「話題を検索」→ ニュースタブから取得。今X上で最も話題になっているニュースです。")
+            # ── 🐦 Xニューストレンド（メイン） ──
+            if has_x:
+                x_items = st.session_state.x_trend_items
+                st.markdown(f"#### 🐦 Xニューストレンド（{len(x_items)}件）")
+                st.caption("Xの「話題を検索」→ ニュースタブから取得。今X上で最も話題になっているニュースです。")
 
-            for item in x_items:
-                label = f"🐦 {item['title']}"
-                checked = st.checkbox(label, key=f"x_news_{rec_idx}", value=False)
-                if checked:
-                    selected.append({
-                        "title": item["title"],
-                        "angle": "Xニューストレンド",
-                        "pillars": [],
-                        "hook_type": "トレンド起点",
-                        "score": 90,
-                    })
-                rec_idx += 1
+                for item in x_items:
+                    label = f"🐦 {item['title']}"
+                    checked = st.checkbox(label, key=f"x_news_{rec_idx}", value=False)
+                    if checked:
+                        selected.append({
+                            "title": item["title"],
+                            "angle": "Xニューストレンド",
+                            "pillars": [],
+                            "hook_type": "トレンド起点",
+                            "score": 90,
+                        })
+                    rec_idx += 1
 
-        # ── 🌐 世の中のトレンド（AI選定） ──
-        if has_ai:
-            recs = st.session_state.ai_recommendations
-            st.markdown(f"#### 🌐 世の中のトレンド（AI厳選 {len(recs)}件）")
-            st.caption("Google Newsからすあし社長向きのトピックをAIが厳選。")
+            # ── 🌐 世の中のトレンド（AI選定） ──
+            if has_ai:
+                recs = st.session_state.ai_recommendations
+                st.markdown(f"#### 🌐 世の中のトレンド（AI厳選 {len(recs)}件）")
+                st.caption("Google Newsからすあし社長向きのトピックをAIが厳選。")
 
-            def _show_rec(rec, idx, default_checked=False):
-                """推薦カードを表示して選択状態を返す"""
-                pillars_str = " × ".join(rec.get("pillars", []))
-                hook_str = rec.get("hook_type", "")
-                score = rec.get("score", 0)
-                if score >= 90: badge = "🔥"
-                elif score >= 80: badge = "⭐"
-                else: badge = "📌"
-                checked = st.checkbox(f"{badge} **{rec['title']}**", key=f"rec_{idx}", value=default_checked)
-                st.markdown(f"""<div class="trend-card">
+                def _show_rec(rec, idx, default_checked=False):
+                    """推薦カードを表示して選択状態を返す"""
+                    pillars_str = " × ".join(rec.get("pillars", []))
+                    hook_str = rec.get("hook_type", "")
+                    score = rec.get("score", 0)
+                    if score >= 90: badge = "🔥"
+                    elif score >= 80: badge = "⭐"
+                    else: badge = "📌"
+                    checked = st.checkbox(f"{badge} **{rec['title']}**", key=f"rec_{idx}", value=default_checked)
+                    st.markdown(f"""<div class="trend-card">
     <div class="trend-title">{rec['title']}</div>
     <div class="trend-source">🏷️ {pillars_str}　｜　🎣 {hook_str}　｜　📊 相性度: {score}/100</div>
     <div class="trend-reason">💡 {rec.get('angle', '')}</div>
 </div>""", unsafe_allow_html=True)
-                rel = st.session_state.get("related_news", {}).get(rec["title"], [])
-                if rel:
-                    with st.expander(f"📰 関連ニュース ({len(rel)}件)", expanded=False):
-                        for art in rel:
-                            st.caption(f"• {art['title']}（{art['source']}）")
-                return checked
-
-            first_ai_idx = rec_idx
-            for rec in recs:
-                if _show_rec(rec, rec_idx, default_checked=(rec_idx == first_ai_idx and not has_x)):
-                    selected.append(rec)
-                rec_idx += 1
-
-        # ── 🔍 Yahoo!リアルタイム補足 ──
-        if has_yahoo:
-            yahoo_items = st.session_state.yahoo_items
-            with st.expander(f"🔍 Yahoo!リアルタイム補足（{len(yahoo_items)}件）", expanded=False):
-                st.caption("Yahoo!リアルタイム検索からの補足情報。X上で今話題のポストを参考にできます。")
-
-                categories = {}
-                for item in yahoo_items:
-                    cat = item.get("category", "その他")
-                    if cat not in categories:
-                        categories[cat] = []
-                    categories[cat].append(item)
-
-                for cat, items in categories.items():
-                    st.markdown(f"**{cat}**")
-                    for item in items:
-                        label = f"🔍 {item['title']}"
-                        checked = st.checkbox(label, key=f"yahoo_{rec_idx}", value=False)
-                        if item.get("full_text") and item["full_text"] != item["title"]:
-                            st.caption(f"💬 {item['full_text'][:120]}")
-                        if checked:
-                            selected.append({
-                                "title": item["title"],
-                                "angle": f"Yahoo!リアルタイム（{cat}）",
-                                "pillars": [],
-                                "hook_type": "トレンド起点",
-                                "score": 70,
-                                "full_text": item.get("full_text", ""),
-                            })
-                        rec_idx += 1
-
-        # 追加コンテキスト
-        extra = st.text_area("📌 追加コンテキスト（任意）", height=80,
-            placeholder="関連する原稿や追加情報...", key="trend_extra")
-
-        # 修正指示
-        modify_instruction = st.text_area("✏️ 修正指示（任意）", height=80,
-            placeholder="例: もっと前向きに、若者向けの語り口で、米国との比較を入れて...", key="trend_modify")
-
-        if selected:
-            if st.button("🤖 すあし社長スタイルのポストを生成", type="primary", use_container_width=True, key="gen_btn"):
-                system_prompt = load_system_prompt()
-                gen_progress = st.empty()
-
-                # ── STEP A: 選択トピックの最新情報をWeb検索 ──
-                gen_progress.info("🔍 選択トピックの最新情報をWeb検索中...")
-                topic_facts = search_facts_for_topics(selected, progress=gen_progress)
-
-                # 選択トピックの情報を構築（検索結果付き）
-                topics_context = ""
-                for s in selected:
-                    topics_context += f"\n### トピック: {s['title']}\n"
-                    if s.get("angle"):
-                        topics_context += f"- 切り口: {s['angle']}\n"
-                    if s.get("pillars"):
-                        topics_context += f"- 柱の組合せ: {' × '.join(s['pillars'])}\n"
-                    if s.get("hook_type"):
-                        topics_context += f"- フック型: {s['hook_type']}\n"
-                    # 関連ニュース
-                    rel = st.session_state.get("related_news", {}).get(s["title"], [])
+                    rel = st.session_state.get("related_news", {}).get(rec["title"], [])
                     if rel:
-                        topics_context += "- 関連ニュース:\n"
-                        for art in rel:
-                            topics_context += f"  - {art['title']}（{art['source']}）\n"
-                    # Web検索結果を追加
-                    clean_title = re.sub(r'\s*\(\d[\d,]*件のポスト\)', '', s['title']).strip()
-                    facts = topic_facts.get(clean_title, [])
-                    if facts:
-                        topics_context += "- 最新のWeb検索結果（事実確認用）:\n"
-                        for fact in facts:
-                            topics_context += f"  - {fact}\n"
+                        with st.expander(f"📰 関連ニュース ({len(rel)}件)", expanded=False):
+                            for art in rel:
+                                st.caption(f"• {art['title']}（{art['source']}）")
+                    return checked
 
-                # ── STEP B: ポスト生成 ──
-                gen_progress.info("🤖 すあし社長スタイルのポストを生成中...")
-                user_msg = f"""以下のトピックについて、すあし社長スタイルのXポストを3案生成してください。
+                first_ai_idx = rec_idx
+                for rec in recs:
+                    if _show_rec(rec, rec_idx, default_checked=(rec_idx == first_ai_idx and not has_x)):
+                        selected.append(rec)
+                    rec_idx += 1
+
+            # ── 🔍 Yahoo!リアルタイム補足 ──
+            if has_yahoo:
+                yahoo_items = st.session_state.yahoo_items
+                with st.expander(f"🔍 Yahoo!リアルタイム補足（{len(yahoo_items)}件）", expanded=False):
+                    st.caption("Yahoo!リアルタイム検索からの補足情報。X上で今話題のポストを参考にできます。")
+
+                    categories = {}
+                    for item in yahoo_items:
+                        cat = item.get("category", "その他")
+                        if cat not in categories:
+                            categories[cat] = []
+                        categories[cat].append(item)
+
+                    for cat, items in categories.items():
+                        st.markdown(f"**{cat}**")
+                        for item in items:
+                            label = f"🔍 {item['title']}"
+                            checked = st.checkbox(label, key=f"yahoo_{rec_idx}", value=False)
+                            if item.get("full_text") and item["full_text"] != item["title"]:
+                                st.caption(f"💬 {item['full_text'][:120]}")
+                            if checked:
+                                selected.append({
+                                    "title": item["title"],
+                                    "angle": f"Yahoo!リアルタイム（{cat}）",
+                                    "pillars": [],
+                                    "hook_type": "トレンド起点",
+                                    "score": 70,
+                                    "full_text": item.get("full_text", ""),
+                                })
+                            rec_idx += 1
+
+            # 追加コンテキスト
+            extra = st.text_area("📌 追加コンテキスト（任意）", height=80,
+                placeholder="関連する原稿や追加情報...", key="trend_extra")
+
+            # 修正指示
+            modify_instruction = st.text_area("✏️ 修正指示（任意）", height=80,
+                placeholder="例: もっと前向きに、若者向けの語り口で、米国との比較を入れて...", key="trend_modify")
+
+            if selected:
+                if st.button("🤖 すあし社長スタイルのポストを生成", type="primary", use_container_width=True, key="gen_btn"):
+                    system_prompt = load_system_prompt()
+                    gen_progress = st.empty()
+
+                    # ── STEP A: 選択トピックの最新情報をWeb検索 ──
+                    gen_progress.info("🔍 選択トピックの最新情報をWeb検索中...")
+                    topic_facts = search_facts_for_topics(selected, progress=gen_progress)
+
+                    # 選択トピックの情報を構築（検索結果付き）
+                    topics_context = ""
+                    for s in selected:
+                        topics_context += f"\n### トピック: {s['title']}\n"
+                        if s.get("angle"):
+                            topics_context += f"- 切り口: {s['angle']}\n"
+                        if s.get("pillars"):
+                            topics_context += f"- 柱の組合せ: {' × '.join(s['pillars'])}\n"
+                        if s.get("hook_type"):
+                            topics_context += f"- フック型: {s['hook_type']}\n"
+                        # 関連ニュース
+                        rel = st.session_state.get("related_news", {}).get(s["title"], [])
+                        if rel:
+                            topics_context += "- 関連ニュース:\n"
+                            for art in rel:
+                                topics_context += f"  - {art['title']}（{art['source']}）\n"
+                        # Web検索結果を追加
+                        clean_title = re.sub(r'\s*\(\d[\d,]*件のポスト\)', '', s['title']).strip()
+                        facts = topic_facts.get(clean_title, [])
+                        if facts:
+                            topics_context += "- 最新のWeb検索結果（事実確認用）:\n"
+                            for fact in facts:
+                                topics_context += f"  - {fact}\n"
+
+                    # ── STEP B: ポスト生成 ──
+                    gen_progress.info("🤖 すあし社長スタイルのポストを生成中...")
+                    user_msg = f"""以下のトピックについて、すあし社長スタイルのXポストを3案生成してください。
 各案600〜800文字で、それぞれ異なる切り口で仕組み・構造を解説するスタイルにしてください。
 
 ■ 生成する3案（各600〜800文字）:
@@ -2124,45 +2188,45 @@ with tab1:
 - 現在の米国大統領はドナルド・トランプ（第2期、2025年1月就任）です
 - 人名・政権名・数値などの事実情報は検索結果に基づき正確に記述すること
 """
-                if extra.strip():
-                    user_msg += f"\n■ 追加コンテキスト:\n{extra}\n"
-                if modify_instruction.strip():
-                    user_msg += f"\n■ 修正指示（これを最優先で反映してください）:\n{modify_instruction}\n"
+                    if extra.strip():
+                        user_msg += f"\n■ 追加コンテキスト:\n{extra}\n"
+                    if modify_instruction.strip():
+                        user_msg += f"\n■ 修正指示（これを最優先で反映してください）:\n{modify_instruction}\n"
 
-                enhanced_system = system_prompt + ENHANCED_GENERATION_PROMPT
-                result = generate_with_claude(
-                    messages=[{"role": "user", "content": user_msg}],
-                    system_prompt=enhanced_system,
-                )
+                    enhanced_system = system_prompt + ENHANCED_GENERATION_PROMPT
+                    result = generate_with_claude(
+                        messages=[{"role": "user", "content": user_msg}],
+                        system_prompt=enhanced_system,
+                    )
 
-                # ── STEP C: ファクトチェック ──
-                gen_progress.info("🔍 ファクトチェック中...")
-                # 各案を解析してファクトチェック
-                posts = parse_generated_posts(result)
-                all_search_text = ""
-                for facts_list in topic_facts.values():
-                    all_search_text += "\n".join(facts_list) + "\n"
+                    # ── STEP C: ファクトチェック ──
+                    gen_progress.info("🔍 ファクトチェック中...")
+                    # 各案を解析してファクトチェック
+                    posts = parse_generated_posts(result)
+                    all_search_text = ""
+                    for facts_list in topic_facts.values():
+                        all_search_text += "\n".join(facts_list) + "\n"
 
-                fc_results = {}
-                for post in posts:
-                    fc = run_factcheck(post["body"], all_search_text)
-                    if fc:
-                        fc_results[post["number"]] = fc
+                    fc_results = {}
+                    for post in posts:
+                        fc = run_factcheck(post["body"], all_search_text)
+                        if fc:
+                            fc_results[post["number"]] = fc
 
-                # ── STEP D: 要確認ありの案を自動修正 ──
-                auto_fixed = _auto_fix_factcheck_issues(posts, fc_results, all_search_text, enhanced_system, gen_progress)
+                    # ── STEP D: 要確認ありの案を自動修正 ──
+                    auto_fixed = _auto_fix_factcheck_issues(posts, fc_results, all_search_text, enhanced_system, gen_progress)
 
-                gen_progress.empty()
-                st.session_state.trend_result = result
-                st.session_state.trend_factcheck = fc_results
-                st.session_state.trend_auto_fixed = auto_fixed
-                st.session_state.trend_step = 3
-                save_history("trend", {
-                    "selected_topics": [s["title"] for s in selected],
-                    "angles": [s.get("angle", "") for s in selected],
-                    "extra": extra,
-                }, result)
-                st.rerun()
+                    gen_progress.empty()
+                    st.session_state.trend_result = result
+                    st.session_state.trend_factcheck = fc_results
+                    st.session_state.trend_auto_fixed = auto_fixed
+                    st.session_state.trend_step = 3
+                    save_history("trend", {
+                        "selected_topics": [s["title"] for s in selected],
+                        "angles": [s.get("angle", "") for s in selected],
+                        "extra": extra,
+                    }, result)
+                    st.rerun()
 
     # ── STEP 3: 結果 ──
     if st.session_state.get("trend_result") and st.session_state.get("trend_step", 1) >= 3:
