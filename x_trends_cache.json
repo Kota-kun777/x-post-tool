@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-02T12:29:16.923768+09:00",
-  "count": 22,
+  "updated_at": "2026-03-02T13:29:16.529938+09:00",
+  "count": 18,
   "trends": [
     {
-      "title": "OnlyFans、一人当たり売上高でNVIDIAやAppleを圧倒",
-      "post_count": 1486,
+      "title": "国内金価格が過去最高値更新 1g2万9865円に急騰",
+      "post_count": 1183,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "偽村上世彰投稿が広がり資産マインド議論沸騰",
-      "post_count": 610,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本企業で若手75％が生成AI未使用、幹部との格差顕在化",
-      "post_count": 581,
+      "title": "日本企業でAI格差深刻　若手中堅75％が全く未使用",
+      "post_count": 619,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +20,15 @@
     },
     {
       "title": "TBS「Mr.サンデー」で日経平均10万円の可能性、日経平均10万円の可能性を特集し投資家に警戒の声",
-      "post_count": 325,
+      "post_count": 345,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
+      "post_count": 219,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,48 +36,16 @@
     },
     {
       "title": "円安でマレーシア移住者に日本帰国検討増、生活費実態",
-      "post_count": 78,
+      "post_count": 101,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株式市場",
+      "title": "三菱重工",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "全面保護",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ氏",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ケーブル",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -91,15 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "イラン情勢",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ガラスフィルム",
+      "title": "全面保護",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -107,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ドローン",
+      "title": "トランプ大統領",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -123,30 +91,6 @@
       "origin": "x_news"
     },
     {
-      "title": "Type-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "地政学リスク",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "リスクオフ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,9 +99,33 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "楽天銀行",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ドローン",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -171,9 +139,9 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-C",
+      "title": "原油価格",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
