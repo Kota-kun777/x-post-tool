@@ -1,15 +1,7 @@
 {
-  "updated_at": "2026-03-03T03:29:17.390999+09:00",
-  "count": 23,
+  "updated_at": "2026-03-03T04:29:17.755759+09:00",
+  "count": 22,
   "trends": [
-    {
-      "title": "トランプ大統領、イラン攻撃で「大規模な波がまもなく来る」と警告",
-      "post_count": 4709,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
     {
       "title": "「本当の金持ちは高級車や時計を買わない」投稿がXで大反響、富裕層の消費観で賛否",
       "post_count": 1441,
@@ -19,24 +11,32 @@
       "origin": "x_news"
     },
     {
+      "title": "Claudeが世界的なサービス障害、数千ユーザーに影響",
+      "post_count": 537,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
-      "post_count": 371,
+      "post_count": 381,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 318,
+      "title": "松本人志、高須クリニック新CMで2年ぶり地上波復帰　親子で意見対立も父が私財投じ釈明",
+      "post_count": 142,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高須克弥氏、息子CM反対に私財還元で反論",
-      "post_count": 195,
+      "title": "Claude Ads登場、広告監査を5分で自動化もセキュリティリスク警鐘",
+      "post_count": 98,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "強化ガラス",
+      "title": "USB-A",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -59,17 +59,17 @@
       "origin": "x_news"
     },
     {
-      "title": "moomoo証券",
+      "title": "トランプ大統領",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ドローン",
+      "title": "強化ガラス",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -91,22 +91,6 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ミームコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "三菱UFJ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -115,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "紹介コード",
+      "title": "新規登録",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,6 +115,22 @@
       "origin": "x_news"
     },
     {
+      "title": "ドローン",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "保護フィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "Type-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -139,7 +139,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ゴールド",
+      "title": "ミームコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,15 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Claude",
+      "title": "iPhone 17",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -171,7 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
+      "title": "Claude",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
