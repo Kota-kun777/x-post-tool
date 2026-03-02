@@ -1304,16 +1304,17 @@ def _render_infographic_ui(post, key_suffix):
     if not has_google_key:
         return  # Google APIキー未設定時は何も表示しない
 
-    # 既に生成済みの場合は表示（リスト or 単体互換）
+    # 既に生成済みの場合は表示（タブ切り替えで1枚ずつ表示）
     stored = st.session_state.get(infographic_key)
     if stored:
         images = stored if isinstance(stored, list) else [stored]
-        cols = st.columns(len(images))
+        tab_labels = [f"図解 {i+1}" for i in range(len(images))]
+        img_tabs = st.tabs(tab_labels)
         for i, img_bytes in enumerate(images):
-            with cols[i]:
-                st.image(img_bytes, caption=f"図解 {i+1}", width=300)
+            with img_tabs[i]:
+                st.image(img_bytes, use_container_width=True)
                 st.download_button(
-                    f"💾 DL",
+                    f"💾 図解{i+1}をダウンロード",
                     data=img_bytes,
                     file_name=f"infographic_{key_suffix}_{i+1}.png",
                     mime="image/png",
