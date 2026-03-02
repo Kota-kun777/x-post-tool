@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-02T22:29:16.647886+09:00",
-  "count": 27,
+  "updated_at": "2026-03-02T23:29:17.060207+09:00",
+  "count": 24,
   "trends": [
     {
-      "title": "中東衝突でガソリン価格急騰の懸念広がる",
-      "post_count": 38716,
+      "title": "ホルムズ海峡封鎖で日本エネルギー供給に危機 高市首相が備蓄254日分を明言",
+      "post_count": 46806,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,102 +12,38 @@
     },
     {
       "title": "高市首相、SANAE TOKEN関与を完全否定　国民に注意喚起",
-      "post_count": 10477,
+      "post_count": 18740,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均5万8000円台で5営業日ぶり反落、中東情勢が影響",
-      "post_count": 771,
+      "title": "「本当の金持ちは高級車や時計を買わない」投稿がXで大反響、富裕層の消費観で賛否",
+      "post_count": 1406,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン攻撃で原油高騰、日本ガソリン値上げの懸念広がる",
-      "post_count": 413,
+      "title": "中東緊張で米国株先物1%超下落、日経も連れ安",
+      "post_count": 188,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 311,
+      "title": "Google AntigravityでClaudeの力を最大化、Xで話題沸騰",
+      "post_count": 134,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "三菱UFJ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ホルムズ海峡封鎖",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "オーディオ",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "サナエトークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#カビュウ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
+      "title": "XAUUSD",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +59,47 @@
       "origin": "x_news"
     },
     {
-      "title": "紹介コード",
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱UFJ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い増し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホルムズ海峡封鎖",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#カビュウ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,15 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "強化ガラス",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "XAUUSD",
+      "title": "サナエトークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +123,15 @@
       "origin": "x_news"
     },
     {
-      "title": "住友ファーマ",
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商船三井",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,15 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "リスクオフ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "有事の金",
+      "title": "紹介コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,14 +163,6 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "保護フィルム",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -212,6 +172,22 @@
     },
     {
       "title": "ガラスフィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リスクオフ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "iPhone 17",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
