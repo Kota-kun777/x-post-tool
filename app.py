@@ -1085,6 +1085,8 @@ INFOGRAPHIC_PROMPT = """以下のポスト内容を「概念・構造・流れ�
 - キーワードは最大3〜5語。それ以外はアイコン・矢印・色・サイズ差で表現する
 - 説明文や解説テキストは入れない。概念はイラストとアイコンで伝える
 - 「原因→結果」「A vs B」「全体→部分」の構造をビジュアルのみで示す
+- ★ 画像内のテキストは全て日本語で記述すること（英語は使用しない）
+- タイトル・キーワード・数字の単位・吹き出しなど、全てのテキスト要素を日本語にする
 
 ■ キャラクターの使い方:
 - 添付画像のキャラクターを「案内役」として配置する（画像全体の15〜20%程度のサイズ）
@@ -1134,6 +1136,8 @@ INFOGRAPHIC_PROMPT_NO_REF = """以下のポスト内容を「概念・構造・�
 - キーワードは最大3〜5語。それ以外はアイコン・矢印・色・サイズ差で表現する
 - 説明文や解説テキストは入れない。概念はイラストとアイコンで伝える
 - 「原因→結果」「A vs B」「全体→部分」の構造をビジュアルのみで示す
+- ★ 画像内のテキストは全て日本語で記述すること（英語は使用しない）
+- タイトル・キーワード・数字の単位・吹き出しなど、全てのテキスト要素を日本語にする
 
 ■ レイアウト構成:
 1. 画像上部: インパクトのある大タイトル（白or黄色の太字。テーマのキーワードを凝縮）
@@ -1223,8 +1227,8 @@ def generate_infographic(post_body):
 
 
 def generate_infographic_batch(post_body, count=3):
-    """図解を同時に複数枚生成（並列API呼び出し）"""
-    import concurrent.futures
+    """図解を1枚ずつ順番に生成（進捗表示付き・レート制限対策）"""
+    import time
     google_api_key = st.session_state.get("google_api_key", "")
     if not google_api_key:
         st.error("🔑 サイドバーから Google API Key を設定してください。")
@@ -1247,8 +1251,12 @@ def generate_infographic_batch(post_body, count=3):
         prompt = INFOGRAPHIC_PROMPT_NO_REF.format(post_body=post_body[:600])
         contents = [prompt]
 
-    def _gen_one(_idx):
-        """1枚生成"""
+    results = []
+    progress_bar = st.progress(0, text=f"🎨 図解を生成中... (0/{count}枚)")
+    status_text = st.empty()
+
+    for idx in range(count):
+        status_text.info(f"🎨 {idx+1}/{count}枚目を生成中... （1枚あたり30〜60秒）")
         try:
             client = genai.Client(api_key=google_api_key)
             response = client.models.generate_content(
@@ -1261,21 +1269,30 @@ def generate_infographic_batch(post_body, count=3):
                 parts = response.candidates[0].content.parts
             except (AttributeError, IndexError):
                 parts = getattr(response, "parts", [])
+            img_data = None
             for part in parts:
                 if getattr(part, "inline_data", None) is not None:
-                    return part.inline_data.data
-            return None
-        except Exception:
-            return None
+                    img_data = part.inline_data.data
+                    break
+            if img_data:
+                results.append(img_data)
+                progress_bar.progress((idx + 1) / count, text=f"✅ {len(results)}/{count}枚 完了")
+                status_text.success(f"✅ {idx+1}枚目 生成完了！（計{len(results)}/{count}枚）")
+            else:
+                progress_bar.progress((idx + 1) / count, text=f"⚠️ {idx+1}枚目失敗 ({len(results)}/{count}枚)")
+                status_text.warning(f"⚠️ {idx+1}枚目の生成に失敗しました")
+        except Exception as e:
+            progress_bar.progress((idx + 1) / count, text=f"⚠️ {idx+1}枚目エラー ({len(results)}/{count}枚)")
+            status_text.warning(f"⚠️ {idx+1}枚目でエラー: {str(e)[:80]}")
 
-    results = []
-    with st.spinner(f"🎨 図解を{count}枚同時生成中（30〜60秒ほどかかります）..."):
-        with concurrent.futures.ThreadPoolExecutor(max_workers=count) as executor:
-            futures = [executor.submit(_gen_one, i) for i in range(count)]
-            for f in concurrent.futures.as_completed(futures):
-                img = f.result()
-                if img:
-                    results.append(img)
+        # レート制限対策: 次の生成まで少し待つ
+        if idx < count - 1:
+            time.sleep(2)
+
+    progress_bar.empty()
+    status_text.empty()
+    if results:
+        st.success(f"✅ 図解 {len(results)}/{count}枚の生成が完了しました！")
     return results
 
 
@@ -1457,13 +1474,30 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
                             st.session_state.pop(selected_key, None)
                             st.rerun()
 
-    # ── 修正版（メイン表示: 最新の修正版が一番下にメインで表示） ──
+    # ── 修正版（過去の修正は畳み、最新版を一番下にメイン表示） ──
     if st.session_state.get(revision_key):
         revision = st.session_state[revision_key]
-        st.markdown("---")
-        rev_count = len(revision.get("history", [])) + 1
-        st.markdown(f"### ✨ 最新版（修正{rev_count}回目・ファクトチェック済み）")
+        history = revision.get("history", [])
         revised_post = revision["post"]
+
+        # ── 過去の修正結果を畳みで表示（2回目以降の修正がある場合） ──
+        for i in range(len(history) - 1):
+            h = history[i]
+            # この修正の結果 = 次の修正の "before" テキスト
+            result_body = history[i + 1]["before"]
+            preview = result_body[:100].replace("\n", " ")
+            st.markdown("---")
+            with st.expander(f"📝 修正{i+1}回目: 「{h['instruction'][:40]}」 | {preview}...", expanded=False):
+                body_html = result_body.replace("\n", "<br>")
+                st.markdown(
+                    f'<div style="line-height:1.9;font-size:0.9rem;color:rgba(255,255,255,0.7);padding:0.5rem 0;">{body_html}</div>',
+                    unsafe_allow_html=True,
+                )
+
+        # ── 最新版をメイン表示 ──
+        st.markdown("---")
+        rev_count = len(history)
+        st.markdown(f"### ✨ 最新版（修正{rev_count}回目・ファクトチェック済み）")
 
         col_post, col_info = st.columns([5, 3])
         with col_post:
@@ -1486,12 +1520,6 @@ def display_generated_results(result_text, key_prefix="", auto_fixed=None):
             if fc:
                 with st.expander("🔍 修正版FC結果", expanded=False):
                     st.markdown(fc)
-            # 修正履歴（折りたたみ）
-            history = revision.get("history", [])
-            if history:
-                with st.expander(f"📜 修正履歴（{len(history)}回）", expanded=False):
-                    for i, h in enumerate(history):
-                        st.caption(f"**{i+1}回目:** {h['instruction']}")
 
         _render_infographic_ui(revised_post, f"{key_prefix}_revised")
 
