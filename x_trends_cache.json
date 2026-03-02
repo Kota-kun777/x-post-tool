@@ -1,57 +1,65 @@
 {
-  "updated_at": "2026-03-03T06:29:22.176610+09:00",
-  "count": 21,
+  "updated_at": "2026-03-03T08:29:21.303610+09:00",
+  "count": 19,
   "trends": [
     {
-      "title": "「本当の金持ちは高級車や時計を買わない」投稿がXで大反響、富裕層の消費観で賛否",
-      "post_count": 1446,
+      "title": "Claudeの利用急増でサービス障害、メモリ無料化が人気の原動力",
+      "post_count": 3733,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "国会議員の給与を平均年収並みに引き下げよ、投稿が議論を呼ぶ",
-      "post_count": 682,
+      "title": "ビットコイン下落中、クジラの大量買いが過去最高に",
+      "post_count": 428,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
-      "post_count": 392,
+      "title": "AWSドバイデータセンターで不明物体衝突、火災で中東サービス障害",
+      "post_count": 126,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 325,
+      "title": "PayPay、ナスダック上場へ　ビザら数百億円出資",
+      "post_count": 77,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Codeサーバー障害で開発者生産性ストップ　「あと一歩だったのに」",
-      "post_count": 129,
+      "title": "中東緊迫でもFANG+指数1.15%上昇　テック株の強靭さが際立つ",
+      "post_count": 40,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "USB-A",
+      "title": "ナスダック",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ミサイル",
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン攻撃",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -59,15 +67,31 @@
       "origin": "x_news"
     },
     {
-      "title": "ケーブル",
+      "title": "クリプト",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "強化ガラス",
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米国市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ケーブル",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -83,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
+      "title": "溝口さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,15 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "タイプc",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ミームコイン",
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,23 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "地政学リスク",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "保護フィルム",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Type-C",
+      "title": "USB-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -139,22 +139,6 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ガラスフィルム",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "サナエトークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -163,9 +147,9 @@
       "origin": "x_news"
     },
     {
-      "title": "Claude",
+      "title": "パランティア",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
