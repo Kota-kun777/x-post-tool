@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-03T04:29:17.755759+09:00",
+  "updated_at": "2026-03-03T05:29:17.874080+09:00",
   "count": 22,
   "trends": [
     {
       "title": "「本当の金持ちは高級車や時計を買わない」投稿がXで大反響、富裕層の消費観で賛否",
-      "post_count": 1441,
+      "post_count": 1444,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claudeが世界的なサービス障害、数千ユーザーに影響",
-      "post_count": 537,
+      "title": "ビットコイン下落中、クジラの大量買いが過去最高に",
+      "post_count": 402,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,24 +20,40 @@
     },
     {
       "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
-      "post_count": 381,
+      "post_count": 386,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "松本人志、高須クリニック新CMで2年ぶり地上波復帰　親子で意見対立も父が私財投じ釈明",
-      "post_count": 142,
+      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
+      "post_count": 324,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Ads登場、広告監査を5分で自動化もセキュリティリスク警鐘",
-      "post_count": 98,
+      "title": "イランキャスター爆撃動画はフェイクと判明 2025年事件を捏造",
+      "post_count": 137,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱UFJ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トランプ大統領",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "ミサイル",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -67,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "強化ガラス",
+      "title": "iPhone 17",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -83,17 +99,9 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "強化ガラス",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱UFJ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -115,14 +123,6 @@
       "origin": "x_news"
     },
     {
-      "title": "ドローン",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "保護フィルム",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -139,17 +139,17 @@
       "origin": "x_news"
     },
     {
-      "title": "ミームコイン",
+      "title": "ドローン",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
+      "title": "ミームコイン",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
