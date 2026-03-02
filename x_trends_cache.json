@@ -1,73 +1,49 @@
 {
-  "updated_at": "2026-03-02T20:29:17.083060+09:00",
-  "count": 30,
+  "updated_at": "2026-03-02T21:29:17.140891+09:00",
+  "count": 31,
   "trends": [
     {
-      "title": "日本政府、中東緊迫で自衛隊の邦人退避支援態勢を整える",
-      "post_count": 3920,
+      "title": "中東衝突でガソリン価格急騰の懸念広がる",
+      "post_count": 23554,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "竹花貴騎氏のnewgoldオフィス写真に合成疑惑再燃",
-      "post_count": 792,
+      "title": "日経平均5万8000円台で5営業日ぶり反落、中東情勢が影響",
+      "post_count": 626,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "姫路城入城料が市外客2500円に大幅値上げ",
-      "post_count": 338,
+      "title": "米軍、イラン攻撃でClaude使用か　使用停止命令直後に報じられる",
+      "post_count": 392,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン通貨リアル、米イスラエル攻撃で過去最安値166万超に",
-      "post_count": 266,
+      "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
+      "post_count": 306,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Google AntigravityがAIツールとしてXで注目を集める",
-      "post_count": 228,
+      "title": "Claude CodeがXで話題 コーディング支援ツールの初体験報告相次ぐ",
+      "post_count": 73,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "強化ガラス",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱UFJ",
+      "title": "ゴールド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,17 +59,33 @@
       "origin": "x_news"
     },
     {
-      "title": "オーディオ",
+      "title": "楽天銀行",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "保護フィルム",
+      "title": "サナエトークン",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株主優待",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -107,15 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱重工",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "全面保護",
+      "title": "強化ガラス",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -123,15 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "持ち越し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "楽天銀行",
+      "title": "XAUUSD",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +123,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ゴールド",
+      "title": "三菱UFJ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱重工",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "商船三井",
+      "title": "有事の金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,7 +155,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "商船三井",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -187,9 +171,25 @@
       "origin": "x_news"
     },
     {
-      "title": "タイプc",
+      "title": "住友ファーマ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "持ち越し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -203,9 +203,17 @@
       "origin": "x_news"
     },
     {
-      "title": "住友ファーマ",
+      "title": "タイプc",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "保護フィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -227,17 +235,17 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
+      "title": "原油価格",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "iPhone 17",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
