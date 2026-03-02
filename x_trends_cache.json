@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-02T16:29:22.699787+09:00",
-  "count": 29,
+  "updated_at": "2026-03-02T17:29:17.491479+09:00",
+  "count": 26,
   "trends": [
     {
-      "title": "AI生成のセクシー軍医美女画像が中東情勢で大拡散",
-      "post_count": 732,
+      "title": "高市首相、石油備蓄254日分を明言　ホルムズ海峡封鎖懸念で国民不安",
+      "post_count": 2483,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,23 +12,15 @@
     },
     {
       "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 271,
+      "post_count": 282,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claudeが他社AIのメモリを簡単にインポート可能に",
-      "post_count": 180,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "アモデイ氏、オープンソースAI民主化の幻想を否定しClaudeの倫理告白が話題",
-      "post_count": 97,
+      "title": "ランサーズでシステム開発委託、納品後不具合で100万円損失のトラブル",
+      "post_count": 195,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,86 +28,14 @@
     },
     {
       "title": "OpenAIのGPT-5.4リークがGitHubで話題に",
-      "post_count": 19,
+      "post_count": 25,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Type-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株式市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "持ち越し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "条件達成",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱重工",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "全面保護",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
+      "title": "ゴールド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,6 +51,14 @@
       "origin": "x_news"
     },
     {
+      "title": "ユニチカ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "三菱UFJ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -139,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "楽天銀行",
+      "title": "三菱重工",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +75,55 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "USB-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイプc",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガラスフィルム",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "条件達成",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Type-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "持ち越し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +139,15 @@
       "origin": "x_news"
     },
     {
-      "title": "寄り付き",
+      "title": "イラン情勢",
+      "post_count": 0,
+      "category": "ニュース · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "楽天銀行",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,25 +163,9 @@
       "origin": "x_news"
     },
     {
-      "title": "中東情勢",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ガラスフィルム",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン情勢",
-      "post_count": 0,
-      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -211,15 +179,7 @@
       "origin": "x_news"
     },
     {
-      "title": "保護フィルム",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "リスクオフ",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -227,7 +187,23 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "寄り付き",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リスクオフ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
