@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-02T21:29:17.140891+09:00",
-  "count": 31,
+  "updated_at": "2026-03-02T22:29:16.647886+09:00",
+  "count": 27,
   "trends": [
     {
       "title": "中東衝突でガソリン価格急騰の懸念広がる",
-      "post_count": 23554,
+      "post_count": 38716,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "高市首相、SANAE TOKEN関与を完全否定　国民に注意喚起",
+      "post_count": 10477,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,15 +20,15 @@
     },
     {
       "title": "日経平均5万8000円台で5営業日ぶり反落、中東情勢が影響",
-      "post_count": 626,
+      "post_count": 771,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米軍、イラン攻撃でClaude使用か　使用停止命令直後に報じられる",
-      "post_count": 392,
+      "title": "イラン攻撃で原油高騰、日本ガソリン値上げの懸念広がる",
+      "post_count": 413,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,24 +36,40 @@
     },
     {
       "title": "ソフトバンクG、OpenAIに300億ドル追加出資で累計10兆円規模",
-      "post_count": 306,
+      "post_count": 311,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude CodeがXで話題 コーディング支援ツールの初体験報告相次ぐ",
-      "post_count": 73,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ゴールド",
+      "title": "三菱UFJ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホルムズ海峡封鎖",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商船三井",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "オーディオ",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "楽天銀行",
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "#カビュウ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -84,6 +108,22 @@
     },
     {
       "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱重工",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "紹介コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,47 +155,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ユニチカ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱UFJ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱重工",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "有事の金",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
+      "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,30 +171,6 @@
       "origin": "x_news"
     },
     {
-      "title": "住友ファーマ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "持ち越し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "リスクオフ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -203,7 +179,23 @@
       "origin": "x_news"
     },
     {
-      "title": "タイプc",
+      "title": "有事の金",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "iPhone 17",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -219,31 +211,7 @@
       "origin": "x_news"
     },
     {
-      "title": "地政学リスク",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ガラスフィルム",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "iPhone 17",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
