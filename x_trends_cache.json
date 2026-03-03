@@ -1,26 +1,34 @@
 {
-  "updated_at": "2026-03-04T03:29:20.522023+09:00",
-  "count": 30,
+  "updated_at": "2026-03-04T04:29:17.573177+09:00",
+  "count": 32,
   "trends": [
     {
-      "title": "日銀、ブロックチェーンで中央銀行マネー決済の実験開始",
-      "post_count": 8414,
+      "title": "ClaudeがApp Store無料アプリ1位に、ChatGPT離れで障害連発",
+      "post_count": 15791,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "相模原スーパーでトイレットペーパー品薄、中東情勢でパニック買い再燃",
-      "post_count": 4571,
+      "title": "日銀がブロックチェーン活用の中央銀行マネー決済実験を本格化",
+      "post_count": 8734,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中国台湾侵攻デマがXで広がる、米イラン戦の隙を指摘",
-      "post_count": 2219,
+      "title": "XENIS電動バイクのクラウドファンディングで内部暴露投稿が拡散",
+      "post_count": 2690,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "サウジ米大使館がイラン製ドローン攻撃で被弾、トランプ氏「兵器備蓄は無限」",
+      "post_count": 2216,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,32 +36,8 @@
     },
     {
       "title": "SBI北尾氏、AI活用で新卒採用を大幅抑制へ",
-      "post_count": 1047,
+      "post_count": 1095,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "OpenAI、国防総省とのAI契約を修正し国内監視を明示禁止",
-      "post_count": 423,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "データ無制限",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -67,22 +51,6 @@
       "origin": "x_news"
     },
     {
-      "title": "大幅下落",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "パニック売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -91,9 +59,57 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均株価",
+      "title": "ウクライナ",
       "post_count": 0,
-      "category": "トレンドトピック: 日経平均先物",
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リスクオフ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "岐阜さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "データ無制限",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -107,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#SANAETOKEN",
+      "title": "大幅下落",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -116,6 +132,14 @@
     },
     {
       "title": "レバレッジ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "新生活先行セール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +171,7 @@
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,23 +187,31 @@
       "origin": "x_news"
     },
     {
+      "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キャッシュ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均株価",
+      "post_count": 0,
+      "category": "トレンドトピック: 日経平均先物",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ナンピン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "安全資産",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新生活先行セール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,31 +227,15 @@
       "origin": "x_news"
     },
     {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ニデック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "岐阜さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "リスクオフ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ノーポジ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -235,7 +251,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ウクライナ",
+      "title": "トランプさん",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
