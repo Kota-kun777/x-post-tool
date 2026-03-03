@@ -1,57 +1,49 @@
 {
-  "updated_at": "2026-03-03T11:29:20.334226+09:00",
-  "count": 26,
+  "updated_at": "2026-03-03T12:29:21.334020+09:00",
+  "count": 27,
   "trends": [
     {
-      "title": "ClaudeがApp Store無料アプリ首位、ChatGPTを抜く",
-      "post_count": 6954,
+      "title": "Claude AI、無料メモリ機能開放でChatGPT抜きApp Store首位に",
+      "post_count": 8771,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "HR NOTE面接動画の坂本健氏、上から目線追及に批判集中",
-      "post_count": 1141,
+      "title": "中東情勢悪化で日経平均1330円安、銀行株急落",
+      "post_count": 353,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claudeが急増需要で障害、人気App首位に",
-      "post_count": 1056,
+      "title": "飲食店倒産1000件超の2025年、仕込み代行シコメルが売上21.5億円達成",
+      "post_count": 139,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "新卒求人で年収1500万円提示、氷河期世代の不満爆発",
-      "post_count": 950,
+      "title": "LINE BITMAX、2026年6月1日サービス終了を発表",
+      "post_count": 85,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "QDレーザがストップ高、光電融合株が急騰",
-      "post_count": 219,
+      "title": "市場急落でも三菱商事株が年初来高値更新、バフェット保有と原油高が後押し",
+      "post_count": 80,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
+      "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,6 +59,30 @@
       "origin": "x_news"
     },
     {
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "重複なし",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "オーディオ",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -75,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "クリプト",
+      "title": "#日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +99,15 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "キャラクター風",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "押し目買い",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "パランティア",
+      "title": "クリプト",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,15 +139,7 @@
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナスダック",
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均株価",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,6 +163,22 @@
       "origin": "x_news"
     },
     {
+      "title": "パランティア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -156,30 +188,6 @@
     },
     {
       "title": "浜松ホトニクス",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ウクライナ",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "地政学リスク",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "SANAE TOKEN",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
