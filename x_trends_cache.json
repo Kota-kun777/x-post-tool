@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-03T12:29:21.334020+09:00",
-  "count": 27,
+  "updated_at": "2026-03-03T13:29:18.946763+09:00",
+  "count": 24,
   "trends": [
     {
-      "title": "Claude AI、無料メモリ機能開放でChatGPT抜きApp Store首位に",
-      "post_count": 8771,
+      "title": "中東情勢悪化で日経平均1432円安 前引け5万6727円",
+      "post_count": 3302,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中東情勢悪化で日経平均1330円安、銀行株急落",
-      "post_count": 353,
+      "title": "新卒年収1500万円求人で中堅世代の不満爆発",
+      "post_count": 1236,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,54 +20,38 @@
     },
     {
       "title": "飲食店倒産1000件超の2025年、仕込み代行シコメルが売上21.5億円達成",
-      "post_count": 139,
+      "post_count": 284,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "LINE BITMAX、2026年6月1日サービス終了を発表",
-      "post_count": 85,
+      "title": "Claudeが無料メモリ機能開放でApp Store1位獲得",
+      "post_count": 237,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "市場急落でも三菱商事株が年初来高値更新、バフェット保有と原油高が後押し",
-      "post_count": 80,
+      "title": "LINE BITMAXが6月1日サービス終了へ 出金手続き急げ",
+      "post_count": 216,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "地政学リスク",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,15 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "オーディオ",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,6 +83,14 @@
       "origin": "x_news"
     },
     {
+      "title": "クリプト",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "押し目買い",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -115,15 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "強化ガラス",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "クリプト",
+      "title": "浜松ホトニクス",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,14 +115,6 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,9 +123,9 @@
       "origin": "x_news"
     },
     {
-      "title": "iPhone 17",
+      "title": "三菱商事",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -179,6 +147,14 @@
       "origin": "x_news"
     },
     {
+      "title": "強化ガラス",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -187,7 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "浜松ホトニクス",
+      "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,9 +171,9 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-C",
+      "title": "SANAE TOKEN",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
