@@ -1,57 +1,49 @@
 {
-  "updated_at": "2026-03-03T09:29:20.686497+09:00",
+  "updated_at": "2026-03-03T10:29:19.618109+09:00",
   "count": 28,
   "trends": [
     {
-      "title": "イラン革命防衛隊がホルムズ海峡封鎖宣言、米軍否定で原油急騰",
-      "post_count": 3472,
+      "title": "イラン危機で中国人3000人超退避　北京行き航空券高騰の噂広がる",
+      "post_count": 10021,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "河野太郎氏、社会保険料事業主負担の実質労働者転嫁を指摘",
-      "post_count": 324,
+      "title": "ClaudeがChatGPTを抜き米App Store無料アプリ首位に",
+      "post_count": 5706,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "テキーラ32杯飲ませ女性死亡 被告がわいせつ目的否認",
-      "post_count": 194,
+      "title": "新卒求人で年収1500万円提示、氷河期世代の不満爆発",
+      "post_count": 796,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "クウェート上空で米F-15戦闘機3機が友軍誤射で墜落",
-      "post_count": 77,
+      "title": "ビットコイン下落中、クジラの大量買いが過去最高に",
+      "post_count": 440,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AWSドバイデータセンター火災、中東情勢と重なり業界衝撃",
-      "post_count": 76,
+      "title": "AWSドバイ拠点で物体衝突、火災と大規模障害発生",
+      "post_count": 210,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "パランティア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争",
+      "title": "イラン攻撃",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -59,31 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "トークン",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トランプ大統領",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,15 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "プラネット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ケーブル",
+      "title": "強化ガラス",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -115,23 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新規登録",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,6 +107,38 @@
       "origin": "x_news"
     },
     {
+      "title": "パランティア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイプc",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "#ドル円",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,7 +147,23 @@
       "origin": "x_news"
     },
     {
-      "title": "中東情勢",
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "プラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "SANAE TOKEN",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,39 +179,23 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
+      "title": "浜松ホトニクス",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ゴールド",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "iPhone 17",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイプc",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -219,7 +211,15 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-C",
+      "title": "サナエトークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Claude",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
