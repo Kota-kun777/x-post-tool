@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-04T02:29:17.419428+09:00",
-  "count": 35,
+  "updated_at": "2026-03-04T03:29:20.522023+09:00",
+  "count": 30,
   "trends": [
     {
-      "title": "日銀がブロックチェーンで当座預金決済の実験を発表",
-      "post_count": 8059,
+      "title": "日銀、ブロックチェーンで中央銀行マネー決済の実験開始",
+      "post_count": 8414,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "相模原スーパーでトイレットペーパー品薄写真が広がり、オイルショック再来の懸念",
-      "post_count": 4203,
+      "title": "相模原スーパーでトイレットペーパー品薄、中東情勢でパニック買い再燃",
+      "post_count": 4571,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中国台湾侵攻デマがXで広がる、米イラン戦の隙を指摘",
+      "post_count": 2219,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +28,7 @@
     },
     {
       "title": "SBI北尾氏、AI活用で新卒採用を大幅抑制へ",
-      "post_count": 1010,
+      "post_count": 1047,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,86 +36,14 @@
     },
     {
       "title": "OpenAI、国防総省とのAI契約を修正し国内監視を明示禁止",
-      "post_count": 419,
+      "post_count": 423,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "AI同士が謎の電子音で高速会話するデモが話題",
-      "post_count": 248,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "大幅下落",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "信用買い",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "パニック売り",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "バーゲンセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブロックチェーン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "データ無制限",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "大幅下落",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マーケット",
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +83,31 @@
       "origin": "x_news"
     },
     {
-      "title": "キャッシュ",
+      "title": "パニック売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均株価",
+      "post_count": 0,
+      "category": "トレンドトピック: 日経平均先物",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#SANAETOKEN",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#SANAETOKEN",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,15 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ナンピン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "リスクオフ",
+      "title": "狼狽売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -203,55 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#株式投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#NISA",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "エスサイエンス",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ミームコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "岐阜さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新生活先行セール",
+      "title": "ナンピン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -267,6 +179,46 @@
       "origin": "x_news"
     },
     {
+      "title": "新生活先行セール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ミームコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ニデック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "岐阜さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リスクオフ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ノーポジ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -275,7 +227,15 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプさん",
+      "title": "サナエトークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ウクライナ",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
