@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-03T20:29:19.644300+09:00",
-  "count": 31,
+  "updated_at": "2026-03-03T21:29:24.188306+09:00",
+  "count": 32,
   "trends": [
     {
       "title": "日経平均1778円安で大幅続落、中東情勢緊迫化が影響",
-      "post_count": 10672,
+      "post_count": 13707,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,32 +12,40 @@
     },
     {
       "title": "パキスタン・カラチの米総領事館で海兵隊がデモ隊に発砲、多数死傷",
-      "post_count": 3879,
+      "post_count": 9784,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "片山さつき財務大臣、国会でクリプト専門用語連発 周囲ポカン",
-      "post_count": 2676,
+      "title": "首相官邸が偽サイト詐欺に注意喚起　高市首相名悪用相次ぐ",
+      "post_count": 5626,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "岡部氏がSANAE TOKENとJPYCの厳格な違いを強調",
-      "post_count": 434,
+      "title": "東京大空襲と原爆投下、単一攻撃死者数世界ワースト3として話題に",
+      "post_count": 1779,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AWS中東データセンター3カ所、ドローン攻撃で深刻被害",
-      "post_count": 214,
+      "title": "SBI北尾氏、AI活用で新卒採用を大幅抑制へ",
+      "post_count": 453,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トランプコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,15 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖",
+      "title": "エスサイエンス",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "パニック売り",
+      "title": "#TradeNote",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,14 +83,6 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "USB-A",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
@@ -91,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "住友ファーマ",
+      "title": "JX金属",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,23 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "岐阜さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "リスクオフ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "#高配当株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +131,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ナンピン",
+      "title": "大幅下落",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "安全資産",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用買い",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#ドル円",
+      "title": "ブロックチェーン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,15 +171,23 @@
       "origin": "x_news"
     },
     {
-      "title": "USB C",
+      "title": "ナンピン",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#カビュウ",
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株式投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,23 +203,7 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ノーポジ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#高配当株",
+      "title": "#カビュウ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -227,7 +219,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "ノーポジ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -235,7 +227,15 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
+      "title": "住友ファーマ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リスクオフ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -246,6 +246,14 @@
       "title": "Claude",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "溝口さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
