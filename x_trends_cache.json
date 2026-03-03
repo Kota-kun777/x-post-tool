@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-03-04T06:29:17.368683+09:00",
-  "count": 27,
+  "updated_at": "2026-03-04T08:29:22.075808+09:00",
+  "count": 26,
   "trends": [
     {
-      "title": "トランプ大統領、サウジ米大使館攻撃に「備蓄兵器無限、永遠に戦える」と強気投稿",
-      "post_count": 2595,
+      "title": "日銀がブロックチェーン活用の中央銀行マネー決済実験を本格化",
+      "post_count": 10862,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中国台湾侵攻デマがXで広がる、米イラン戦の隙を指摘",
-      "post_count": 2242,
+      "title": "XENIS電動バイクのクラウドファンディングで内部暴露投稿が拡散",
+      "post_count": 3060,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "SBI北尾社長、新卒採用をAI活用で大幅削減へ",
-      "post_count": 1171,
+      "title": "ホルムズ海峡封鎖で原油高騰、世界株安が広がる",
+      "post_count": 1180,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAI、国防総省とのAI契約を修正し国内監視を明示禁止",
-      "post_count": 441,
+      "title": "大阪府警警部補、変死現場から1011万円持ち去り逮捕",
+      "post_count": 272,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン情勢緊迫で円安加速、1ドル157円台後半に片山財務相が注視表明",
-      "post_count": 142,
+      "title": "SBI北尾氏、新卒採用をAIで大幅削減へ",
+      "post_count": 143,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホールド",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "サナエトークン",
+      "title": "パニック売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均株価",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,9 +67,17 @@
       "origin": "x_news"
     },
     {
-      "title": "ドローン",
+      "title": "大幅下落",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "#米国株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,17 +99,17 @@
       "origin": "x_news"
     },
     {
-      "title": "イスラエル",
+      "title": "日経先物",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖",
+      "title": "株式市場",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -123,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "日本市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,15 +147,39 @@
       "origin": "x_news"
     },
     {
-      "title": "Type-C",
+      "title": "ゴールド",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "株式市場",
+      "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブロックチェーン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#NISA",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リスクオフ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +195,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ナンピン",
+      "title": "岐阜さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,49 +203,9 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
+      "title": "マーケット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "アメリカ",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ニデック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ウクライナ",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプさん",
-      "post_count": 0,
-      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
