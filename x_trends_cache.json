@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-03-03T08:29:21.303610+09:00",
-  "count": 19,
+  "updated_at": "2026-03-03T09:29:20.686497+09:00",
+  "count": 28,
   "trends": [
     {
-      "title": "Claudeの利用急増でサービス障害、メモリ無料化が人気の原動力",
-      "post_count": 3733,
+      "title": "イラン革命防衛隊がホルムズ海峡封鎖宣言、米軍否定で原油急騰",
+      "post_count": 3472,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ビットコイン下落中、クジラの大量買いが過去最高に",
-      "post_count": 428,
+      "title": "河野太郎氏、社会保険料事業主負担の実質労働者転嫁を指摘",
+      "post_count": 324,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AWSドバイデータセンターで不明物体衝突、火災で中東サービス障害",
-      "post_count": 126,
+      "title": "テキーラ32杯飲ませ女性死亡 被告がわいせつ目的否認",
+      "post_count": 194,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "PayPay、ナスダック上場へ　ビザら数百億円出資",
+      "title": "クウェート上空で米F-15戦闘機3機が友軍誤射で墜落",
       "post_count": 77,
       "category": "",
       "time_ago": "",
@@ -35,15 +35,15 @@
       "origin": "x_news"
     },
     {
-      "title": "中東緊迫でもFANG+指数1.15%上昇　テック株の強靭さが際立つ",
-      "post_count": 40,
+      "title": "AWSドバイデータセンター火災、中東情勢と重なり業界衝撃",
+      "post_count": 76,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ナスダック",
+      "title": "パランティア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,15 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン攻撃",
+      "title": "イラン戦争",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -67,7 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "クリプト",
+      "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +83,23 @@
       "origin": "x_news"
     },
     {
-      "title": "米国市場",
+      "title": "住友ファーマ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "クリプト",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "プラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,9 +115,57 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "#株主優待",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米国市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#ドル円",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -115,9 +179,41 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "ゴールド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "iPhone 17",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイプc",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "地政学リスク",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ウクライナ",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -126,30 +222,6 @@
       "title": "USB-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ドローン",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "サナエトークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "パランティア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
