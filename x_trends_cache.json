@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-03T16:29:23.874526+09:00",
-  "count": 29,
+  "updated_at": "2026-03-03T17:29:20.622113+09:00",
+  "count": 34,
   "trends": [
     {
-      "title": "なか卯で汁ぶっかけられカメラ逆ギレの衝撃体験が話題",
-      "post_count": 6309,
+      "title": "なか卯で豚汁かけられ元市議が加害者晒し投稿が拡散",
+      "post_count": 7193,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均1700円超安、中東情勢緊迫で全面安 三菱商事は高値更新",
-      "post_count": 2197,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ大統領、イランへ「大規模攻撃間もなく」と示唆　米兵死者6人",
-      "post_count": 644,
+      "title": "日経平均、3日に1778円安で今年最大の下落",
+      "post_count": 2990,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,64 +20,24 @@
     },
     {
       "title": "岡部氏がSANAE TOKENとJPYCの厳格な違いを強調",
-      "post_count": 333,
+      "post_count": 365,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均急落でも三菱商事株が年初来高値更新",
+      "title": "高市首相、イランに自制促すもXで批判集中",
+      "post_count": 318,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "国民民主・浅野議員、暗号資産税制前倒しを提案　財務相は慎重姿勢",
       "post_count": 76,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ホリエモン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マシュマロ感",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -99,23 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "スクイーズ風",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ポジション",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "安全資産",
+      "title": "JX金属",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +67,95 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
+      "title": "#SANAETOKEN",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-A",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#高配当株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱UFJ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マシュマロ感",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "スクイーズ風",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ミームコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "押し目買い",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,6 +171,14 @@
       "origin": "x_news"
     },
     {
+      "title": "安全資産",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "クリプト",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,7 +187,23 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "ノーポジ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "岐阜さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,30 +219,6 @@
       "origin": "x_news"
     },
     {
-      "title": "ノーポジ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "住友ファーマ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -203,7 +227,23 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
+      "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -227,7 +267,7 @@
       "origin": "x_news"
     },
     {
-      "title": "SANAE TOKEN",
+      "title": "溝口さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
