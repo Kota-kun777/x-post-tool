@@ -1,34 +1,26 @@
 {
-  "updated_at": "2026-03-04T23:29:17.350866+09:00",
-  "count": 30,
+  "updated_at": "2026-03-05T00:29:17.291948+09:00",
+  "count": 27,
   "trends": [
     {
-      "title": "高市首相の名を冠した「サナエトークン」無登録発行で大炎上",
-      "post_count": 205459,
+      "title": "高市首相の名を冠した仮想通貨「サナエトークン」が無許可販売疑いで大炎上",
+      "post_count": 225414,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "池袋中国人街で日本円使わず中国スマホ決済主流に",
-      "post_count": 98030,
+      "title": "イラン発射ミサイル、NATOがトルコ領空で撃墜",
+      "post_count": 42829,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "韓国株式市場が史上最悪の12%暴落、サーキットブレーカー発動",
-      "post_count": 26688,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン工作員がCIAに接触、戦争終結協議を提案",
-      "post_count": 22390,
+      "title": "イラン最高指導者ハメネイ師死去1週間、次男死亡情報が広がるも生存か",
+      "post_count": 7205,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,24 +28,16 @@
     },
     {
       "title": "日経平均、史上5番目の下げ幅で54,245円に急落",
-      "post_count": 1103,
+      "post_count": 4039,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "SBI北尾氏、AI活用で新卒採用を大幅削減の方針表明",
+      "post_count": 2402,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -75,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#TradeNote",
+      "title": "狼狽売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "東京海上",
+      "title": "デジタルゴールド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,15 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "積水ハウス",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
+      "title": "モメンタム",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,23 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三井住友",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "大幅下落",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い増し",
+      "title": "#日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +115,39 @@
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "三井住友",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナンピン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い増し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,22 +171,6 @@
       "origin": "x_news"
     },
     {
-      "title": "ブロックチェーン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナンピン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "#NISA",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -203,7 +179,15 @@
       "origin": "x_news"
     },
     {
-      "title": "moomoo証券",
+      "title": "停戦協議",
+      "post_count": 0,
+      "category": "ニュース · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -219,14 +203,6 @@
       "origin": "x_news"
     },
     {
-      "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "KOSPI",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -235,9 +211,9 @@
       "origin": "x_news"
     },
     {
-      "title": "信用買い",
+      "title": "トランプさん",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
