@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-04T08:29:22.075808+09:00",
-  "count": 26,
+  "updated_at": "2026-03-04T09:29:19.787564+09:00",
+  "count": 32,
   "trends": [
     {
-      "title": "日銀がブロックチェーン活用の中央銀行マネー決済実験を本格化",
-      "post_count": 10862,
+      "title": "ドバイ案件でコスプレ界に危険な勧誘警報広がる",
+      "post_count": 14226,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,40 +12,32 @@
     },
     {
       "title": "XENIS電動バイクのクラウドファンディングで内部暴露投稿が拡散",
-      "post_count": 3060,
+      "post_count": 3149,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖で原油高騰、世界株安が広がる",
-      "post_count": 1180,
+      "title": "OpenAI、国防総省とのAI契約を修正し国内監視を明示禁止",
+      "post_count": 475,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "大阪府警警部補、変死現場から1011万円持ち去り逮捕",
-      "post_count": 272,
+      "title": "イラン情勢緊迫で円安加速、1ドル157円台後半に片山財務相が注視表明",
+      "post_count": 217,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "SBI北尾氏、新卒採用をAIで大幅削減へ",
-      "post_count": 143,
+      "title": "メタプラネット、指名委員会等設置会社へ移行を発表",
+      "post_count": 101,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "米国市場",
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "テスタさん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -68,6 +76,14 @@
     },
     {
       "title": "大幅下落",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#米国株",
+      "title": "招待コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,23 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株式市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "強化ガラス",
+      "title": "米軍MIL規格",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -123,15 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ナスダック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本市場",
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,15 +139,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ゴールド",
+      "title": "強化ガラス",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "日本市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,7 +163,55 @@
       "origin": "x_news"
     },
     {
-      "title": "#NISA",
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ゴールド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "押し目買い",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "安全資産",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナンピン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -187,6 +227,14 @@
       "origin": "x_news"
     },
     {
+      "title": "岐阜さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "地政学リスク",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -195,7 +243,7 @@
       "origin": "x_news"
     },
     {
-      "title": "岐阜さん",
+      "title": "#NISA",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
