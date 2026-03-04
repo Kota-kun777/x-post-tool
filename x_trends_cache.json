@@ -1,34 +1,18 @@
 {
-  "updated_at": "2026-03-05T00:29:17.291948+09:00",
-  "count": 27,
+  "updated_at": "2026-03-05T01:29:18.557148+09:00",
+  "count": 23,
   "trends": [
     {
-      "title": "高市首相の名を冠した仮想通貨「サナエトークン」が無許可販売疑いで大炎上",
-      "post_count": 225414,
+      "title": "高市首相「存じ上げません」とサナエトークン関与否定　プロジェクト側が補償約束",
+      "post_count": 241295,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン発射ミサイル、NATOがトルコ領空で撃墜",
-      "post_count": 42829,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン最高指導者ハメネイ師死去1週間、次男死亡情報が広がるも生存か",
-      "post_count": 7205,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均、史上5番目の下げ幅で54,245円に急落",
-      "post_count": 4039,
+      "title": "新川崎駅付近の人身事故で品川駅大混雑、首都圏交通に大混乱",
+      "post_count": 27603,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +20,30 @@
     },
     {
       "title": "SBI北尾氏、AI活用で新卒採用を大幅削減の方針表明",
-      "post_count": 2402,
+      "post_count": 2487,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "品川駅、人身事故でフェス級大混雑",
+      "post_count": 1105,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均大幅安も夜間先物が急反発、反発期待高まる",
+      "post_count": 293,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "配当利回り",
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均",
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#カビュウ",
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,38 +123,6 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナンピン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -163,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,17 +147,17 @@
       "origin": "x_news"
     },
     {
-      "title": "停戦協議",
+      "title": "ホリエモン",
       "post_count": 0,
-      "category": "ニュース · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "FANG",
+      "title": "停戦協議",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
