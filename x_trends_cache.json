@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-04T21:29:18.412843+09:00",
-  "count": 30,
+  "updated_at": "2026-03-04T22:29:17.320623+09:00",
+  "count": 28,
   "trends": [
     {
-      "title": "JR横須賀線人身事故で複数路線止まり、品川駅大混雑",
-      "post_count": 13372,
+      "title": "イラン情報機関がCIAに接触、戦争終結協議の用意示唆で日経先物急反発",
+      "post_count": 12016,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トランプ大統領、イラン先制攻撃を「感じた直感」で正当化",
+      "post_count": 2523,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,38 +20,30 @@
     },
     {
       "title": "SBI北尾社長、AI活用で新卒採用大幅削減を絶対命令",
-      "post_count": 2042,
+      "post_count": 2202,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "アンソロピック、年売上190億ドル突破　クロードが市場をリード",
-      "post_count": 903,
+      "title": "溝口勇児氏のサナエトークン、高市首相無断使用で大炎上",
+      "post_count": 1411,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ハノイで特殊詐欺拠点摘発、日本人4人含む7人拘束",
-      "post_count": 201,
+      "title": "イラン投資家、攻撃でビットコインを自己保管へ大量移し",
+      "post_count": 312,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAI、国防総省契約を修正　アルトマンCEOが謝罪とユーザー離れ対応",
-      "post_count": 143,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
+      "title": "三菱HCC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,30 +75,6 @@
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "積水ハウス",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "#TradeNote",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -107,23 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱HCC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "配当利回り",
+      "title": "岐阜さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三井住友",
+      "title": "配当利回り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "XAUUSD",
+      "title": "積水ハウス",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,15 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ステーブルコイン",
+      "title": "#カビュウ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,7 +131,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ホールド",
+      "title": "ブリヂストン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#高配当株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,23 +163,15 @@
       "origin": "x_news"
     },
     {
+      "title": "買い増し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "信用取引",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "信用買い",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#高配当株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -235,7 +195,31 @@
       "origin": "x_news"
     },
     {
-      "title": "#株式投資",
+      "title": "信用買い",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "KOSPI",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナンピン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経VI",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
