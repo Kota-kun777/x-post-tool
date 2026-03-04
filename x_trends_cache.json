@@ -1,59 +1,11 @@
 {
-  "updated_at": "2026-03-05T02:29:20.482840+09:00",
-  "count": 16,
+  "updated_at": "2026-03-05T03:29:17.605372+09:00",
+  "count": 11,
   "trends": [
     {
-      "title": "高市首相の名前を冠した仮想通貨「サナエトークン」が大炎上、金融庁が調査へ",
-      "post_count": 252344,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "横須賀線人身事故で品川駅が大混雑、京急も影響",
-      "post_count": 28555,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "SBI北尾社長、AI活用で新卒採用大幅削減を宣言",
-      "post_count": 2537,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "「我田引水力」がXで注目を集め言葉の力を実感",
-      "post_count": 457,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均3日続落、約2000円安で54,245円引け 中東情勢悪化で全面安",
-      "post_count": 440,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均先物",
+      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ミサイル",
-      "post_count": 0,
-      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -75,7 +27,15 @@
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "日経平均先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホリエモン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,15 +51,15 @@
       "origin": "x_news"
     },
     {
-      "title": "買い増し",
+      "title": "ミサイル",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホリエモン",
+      "title": "狼狽売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
