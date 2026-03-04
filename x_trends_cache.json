@@ -1,115 +1,43 @@
 {
-  "updated_at": "2026-03-04T18:29:18.001955+09:00",
-  "count": 28,
+  "updated_at": "2026-03-04T19:29:18.474843+09:00",
+  "count": 31,
   "trends": [
     {
-      "title": "日経平均3日続落、2033円安で5万4245円　イラン情勢緊迫が売り加速",
-      "post_count": 10916,
+      "title": "日経平均3日続落、2033円安の5万4245円で着地",
+      "post_count": 11853,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "XENIS電動バイクのクラウドファンディングで内部暴露投稿が拡散",
-      "post_count": 3843,
+      "title": "米国防次官が認める、ハメネイ師殺害はイスラエル作戦",
+      "post_count": 856,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "オープンAI、国防総省契約を修正　アルトマンCEOが「急ぎすぎた」と釈明",
-      "post_count": 233,
+      "title": "インドネシアで日本人13人拘束　特殊詐欺関与の疑い",
+      "post_count": 383,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "WEIN/BACKSTAGE広報「一睡もせず」投稿が炎上　SANAE TOKEN騒動拡大",
-      "post_count": 224,
+      "title": "イラン取引所から暗号資産1,030万ドル流出　米イスラエル空爆後",
+      "post_count": 206,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ピザハットが吉村家監修の家系ラーメンピザを発売",
-      "post_count": 63,
+      "title": "林尚弘氏、溝口勇児氏支援をファンに呼びかけ「25億円必要？」",
+      "post_count": 74,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱UFJ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ステーブルコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#株式投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "大幅下落",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "パニック売り",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -123,7 +51,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ブロックチェーン",
+      "title": "ビットコ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株クラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,6 +83,14 @@
       "origin": "x_news"
     },
     {
+      "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "Amazon",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ミームコイン",
+      "title": "#高配当株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +107,15 @@
       "origin": "x_news"
     },
     {
-      "title": "証券口座",
+      "title": "米軍MIL規格",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "溝口さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -187,7 +139,71 @@
       "origin": "x_news"
     },
     {
-      "title": "日経VI",
+      "title": "#カビュウ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ステーブルコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "XAUUSD",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ミームコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株式投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブロックチェーン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "バーゲンセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -203,6 +219,14 @@
       "origin": "x_news"
     },
     {
+      "title": "日経VI",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ナンピン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -211,7 +235,7 @@
       "origin": "x_news"
     },
     {
-      "title": "新生活先行セール",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -219,7 +243,7 @@
       "origin": "x_news"
     },
     {
-      "title": "KOSPI",
+      "title": "新生活先行セール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
