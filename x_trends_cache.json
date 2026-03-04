@@ -1,34 +1,26 @@
 {
-  "updated_at": "2026-03-05T06:29:17.721252+09:00",
-  "count": 13,
+  "updated_at": "2026-03-05T07:29:17.401076+09:00",
+  "count": 19,
   "trends": [
     {
-      "title": "高市早苗首相の名前入り仮想通貨「SANAE TOKEN」無登録発行で金融庁が調査検討",
-      "post_count": 285689,
+      "title": "高市首相の名を冠した仮想通貨「SANAE TOKEN」が無登録発行で大炎上",
+      "post_count": 303267,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "JR横須賀線人身事故で品川駅大混雑、東横線も遅延",
-      "post_count": 29754,
+      "title": "横須賀線人身事故で品川駅大混雑、夜に東横線も",
+      "post_count": 30171,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "SBI北尾氏が生成AIで新卒採用を大幅削減へ",
-      "post_count": 2692,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "NYT報道：イラン情報省がCIAに停戦打診か、即否定で対立",
-      "post_count": 849,
+      "title": "イラン停戦打診報道に即否定、米イスラエル攻撃で紛争5日目",
+      "post_count": 580,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,24 +28,32 @@
     },
     {
       "title": "日経平均急落後、夜間先物が2000円超反発　中東リスクで市場揺れ",
-      "post_count": 195,
+      "post_count": 437,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
+      "title": "高市首相名義暗号資産「SANAE TOKEN」騒動、溝口氏が謝罪表明",
+      "post_count": 182,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "日経平均先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "スペイン",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -67,7 +67,31 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ミサイル",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,6 +107,38 @@
       "origin": "x_news"
     },
     {
+      "title": "リバウンド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#NISA",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -91,17 +147,9 @@
       "origin": "x_news"
     },
     {
-      "title": "ミサイル",
+      "title": "ドローン",
       "post_count": 0,
       "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
