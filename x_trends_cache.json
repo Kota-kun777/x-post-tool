@@ -1,43 +1,75 @@
 {
-  "updated_at": "2026-03-05T19:29:19.637664+09:00",
+  "updated_at": "2026-03-05T21:29:27.058528+09:00",
   "count": 21,
   "trends": [
     {
-      "title": "イラン副外務大臣、米代替案次第で核プログラム放棄示唆",
-      "post_count": 2454,
+      "title": "溝口勇児氏、SANAE TOKEN騒動で長文投稿し批判集中",
+      "post_count": 4040,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン革命防衛隊、米タンカー攻撃主張 ペルシャ湾で炎上報じる",
-      "post_count": 1956,
+      "title": "積水ハウス、減益見通しでも1円増配と配当下限145円に引き上げ",
+      "post_count": 614,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "積水ハウス過去最高益更新も次期減益見通し、増配で投資家歓迎",
-      "post_count": 493,
+      "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
+      "post_count": 491,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "国民負担率、2025年度に46.1％へ低下の見通し",
-      "post_count": 424,
+      "title": "小麦の奴隷、ピーク124店舗から36店舗に急減　堀江氏プロデュースのベーカリー",
+      "post_count": 165,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ポッカサッポロ、自販機事業をライフドリンクに約4万台譲渡へ",
-      "post_count": 174,
+      "title": "PayPayの米国NASDAQ上場、抽選申し込みが活発化",
+      "post_count": 124,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ボラティリティ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "テクニカル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#TradeNote",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,30 +91,6 @@
       "origin": "x_news"
     },
     {
-      "title": "#高配当株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "QDレーザ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "紹介キャンペーン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -91,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "暗号資産",
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "スマホ代",
+      "title": "#高配当株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,15 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "買い戻し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ボラティリティ",
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,6 +131,14 @@
       "origin": "x_news"
     },
     {
+      "title": "暗号資産",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "リバウンド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -139,7 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株式投資",
+      "title": "一喜一憂",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,15 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新規登録",
+      "title": "ホリエモン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
