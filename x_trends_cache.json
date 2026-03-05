@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-03-05T08:29:22.856465+09:00",
-  "count": 27,
+  "updated_at": "2026-03-05T09:29:17.471930+09:00",
+  "count": 24,
   "trends": [
     {
-      "title": "高市首相の名を冠したトークンが未登録販売で問題に",
-      "post_count": 324665,
+      "title": "米潜水艦がイラン艦デナをインド洋で魚雷撃沈、テヘラン空爆も激化",
+      "post_count": 49280,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "横須賀線人身事故で品川駅地獄絵図、夜に東横線も影響",
-      "post_count": 30598,
+      "title": "品川駅で京急乗換え大行列、人身事故が連鎖引き起こす",
+      "post_count": 31105,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン停戦打診報道に即否定、トランプ政権懐疑的で戦争長期化",
-      "post_count": 1765,
+      "title": "イラン、米イスラエル攻撃直後に停戦打診か NYT報道も即否定",
+      "post_count": 2684,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ウォーレン議員、トランプ政権のイラン戦争に計画なしと批判",
-      "post_count": 342,
+      "title": "ホルムズ海峡封鎖でタンカー150隻超立ち往生、トランプ氏保険策に疑問",
+      "post_count": 376,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Google Workspace CLIツール「gws」が公開、開発者から注目",
-      "post_count": 262,
+      "title": "カタールLNG生産全面停止　イラン攻撃で世界供給2割影響",
+      "post_count": 163,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "プラネット",
+      "title": "#BTC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "米国市場",
+      "title": "中東情勢",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#アマゾン",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,15 +75,23 @@
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
+      "title": "積水ハウス",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
+      "title": "買い戻し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ボラティリティ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "株式市場",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ステーブルコイン",
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,31 +131,23 @@
       "origin": "x_news"
     },
     {
+      "title": "ステーブルコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,46 +163,6 @@
       "origin": "x_news"
     },
     {
-      "title": "スペイン",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均株価",
-      "post_count": 0,
-      "category": "トレンドトピック: 日経平均先物",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ミサイル",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ドローン",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ナスダック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -212,6 +172,22 @@
     },
     {
       "title": "#NISA",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "KOSPI",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "プラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
