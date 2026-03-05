@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-06T07:29:19.304710+09:00",
-  "count": 17,
+  "updated_at": "2026-03-06T08:29:19.540951+09:00",
+  "count": 19,
   "trends": [
     {
-      "title": "高市首相の名を冠した仮想通貨、無登録販売で大炎上",
-      "post_count": 715692,
+      "title": "高市首相の名前入り仮想通貨「サナエトークン」、無登録発行で金融庁が調査開始",
+      "post_count": 733090,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,46 +12,38 @@
     },
     {
       "title": "高市首相、ティール氏と先端技術会談　パランティア監視懸念で議論過熱",
-      "post_count": 101811,
+      "post_count": 127886,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIが最新AIモデル「GPT-5.4」を発表、ChatGPTとAPIで即時提供",
-      "post_count": 16993,
+      "title": "OpenAIがGPT-5.4を公開、コンピュータ操作で人間超えの性能達成",
+      "post_count": 19226,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相の名を冠したサナエトークン、無登録発行で金融庁が調査開始",
-      "post_count": 992,
+      "title": "ホルムズ海峡封鎖で原油高騰、日本は254日備蓄で耐えられる",
+      "post_count": 9742,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
-      "post_count": 594,
+      "title": "米中央軍、イラン作戦を9月まで想定　長期化懸念広がる",
+      "post_count": 2830,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均先物",
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,14 +67,6 @@
       "origin": "x_news"
     },
     {
-      "title": "ナスダック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ホリエモン",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,9 +91,9 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均株価",
+      "title": "トランプ政権",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -123,9 +107,41 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ政権",
+      "title": "#日経平均",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "溝口さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
