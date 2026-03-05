@@ -1,43 +1,51 @@
 {
-  "updated_at": "2026-03-06T06:29:18.982138+09:00",
-  "count": 14,
+  "updated_at": "2026-03-06T07:29:19.304710+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "高市早苗首相の名を冠した「SANAE TOKEN」無登録発行で金融庁調査検討",
-      "post_count": 700433,
+      "title": "高市首相の名を冠した仮想通貨、無登録販売で大炎上",
+      "post_count": 715692,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIがGPT-5.4発表、PC操作で人間超えの性能達成",
-      "post_count": 14565,
+      "title": "高市首相、ティール氏と先端技術会談　パランティア監視懸念で議論過熱",
+      "post_count": 101811,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "KOSPIが前日の最大下落から12%超急騰 韓国株劇的V字回復",
-      "post_count": 1401,
+      "title": "OpenAIが最新AIモデル「GPT-5.4」を発表、ChatGPTとAPIで即時提供",
+      "post_count": 16993,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相、国保有個人情報民間活用を指示　監視社会懸念広がる",
-      "post_count": 1142,
+      "title": "高市首相の名を冠したサナエトークン、無登録発行で金融庁が調査開始",
+      "post_count": 992,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖でアジアにエネルギー危機、日本は石油254日備蓄で耐久力",
-      "post_count": 88,
+      "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
+      "post_count": 594,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,7 +59,39 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均株価",
+      "title": "Amazonクーポン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイムセール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,23 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い戻し",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
