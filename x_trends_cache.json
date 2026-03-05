@@ -1,105 +1,49 @@
 {
-  "updated_at": "2026-03-05T14:29:22.330717+09:00",
+  "updated_at": "2026-03-05T15:29:22.927080+09:00",
   "count": 21,
   "trends": [
     {
-      "title": "中国政府、大手石油企業にディーゼル・ガソリン輸出停止を指示　中東危機で国内優先",
-      "post_count": 1603,
+      "title": "エヌビディアCEO、OpenAI投資を「最後かも」と示唆　AI軍事倫理争いも激化",
+      "post_count": 1090,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米国防長官、イラン指揮官の殺害を発表　トランプ暗殺計画阻止",
-      "post_count": 725,
+      "title": "KOSPIが前日の最大下落から12%超急騰 韓国株劇的V字回復",
+      "post_count": 819,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "積水ハウス、過去最高売上更新も次期減益予想　15期連続増配達成",
-      "post_count": 260,
+      "title": "岐阜暴威氏、日経55,555超えで東京徒歩宣言が大盛り上がりも約束翻す",
+      "post_count": 593,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "モルガン・スタンレー、日銀4月利上げを6月以降に遅れると指摘",
-      "post_count": 190,
+      "title": "中東情勢緊迫で日銀4月利上げに影　モルガン先送り指摘も関係者堅持",
+      "post_count": 392,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ボラティリティ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "暗号資産",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "招待コード",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "スマホ代",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い戻し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "積水ハウス、増収増益で14期連続増配を継続　配当下限を145円に引き上げ",
+      "post_count": 293,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "新生活先行セール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "暗号資産",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +67,31 @@
       "origin": "x_news"
     },
     {
-      "title": "リバウンド",
+      "title": "買い戻し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "スマホ代",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ボラティリティ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +107,31 @@
       "origin": "x_news"
     },
     {
-      "title": "#株式投資",
+      "title": "日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リバウンド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "寄り付き",
+      "title": "プラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +155,15 @@
       "origin": "x_news"
     },
     {
-      "title": "プラネット",
+      "title": "#株式投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "寄り付き",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
