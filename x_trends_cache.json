@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-06T02:29:18.332570+09:00",
-  "count": 13,
+  "updated_at": "2026-03-06T03:29:18.574889+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "高市首相の名を冠した仮想通貨、無登録発行で大炎上",
-      "post_count": 674070,
+      "title": "高市首相の名前入り仮想通貨、無登録販売で炎上・中止",
+      "post_count": 679458,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,15 +12,7 @@
     },
     {
       "title": "ホルムズ海峡封鎖で原油高騰、日本は254日備蓄で耐えられる",
-      "post_count": 9398,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日立、イタリア・トリノ地下鉄2号線に888億円受注",
-      "post_count": 2027,
+      "post_count": 9461,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,30 +20,38 @@
     },
     {
       "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
-      "post_count": 831,
+      "post_count": 842,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東京オフィス市場、2025年に過去最高需要で逼迫",
-      "post_count": 317,
+      "title": "外務省がUAE全土に渡航中止勧告 ドバイWC日本馬遠征に打撃",
+      "post_count": 141,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "中東戦争1週間、日本の高備蓄がアジア危機の緩衝材に",
+      "post_count": 52,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン戦争",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +75,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ホリエモン",
+      "title": "一喜一憂",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トークン",
+      "title": "ホリエモン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
