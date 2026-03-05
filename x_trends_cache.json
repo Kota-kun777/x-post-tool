@@ -1,49 +1,57 @@
 {
-  "updated_at": "2026-03-05T18:29:21.558450+09:00",
-  "count": 22,
+  "updated_at": "2026-03-05T19:29:19.637664+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "イラン革命防衛隊、米タンカー攻撃主張でホルムズ海峡封鎖 日本企業が石油備蓄放出要請",
-      "post_count": 1354,
+      "title": "イラン副外務大臣、米代替案次第で核プログラム放棄示唆",
+      "post_count": 2454,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "北京スシローでマグロに「寄生虫の卵」主張、当局が検査着手",
-      "post_count": 886,
+      "title": "イラン革命防衛隊、米タンカー攻撃主張 ペルシャ湾で炎上報じる",
+      "post_count": 1956,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン、ホルムズ海峡封鎖宣言　「生物兵器」警告は未確認",
-      "post_count": 209,
+      "title": "積水ハウス過去最高益更新も次期減益見通し、増配で投資家歓迎",
+      "post_count": 493,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "PayPayの米国NASDAQ上場、抽選申し込みが活発化",
-      "post_count": 111,
+      "title": "国民負担率、2025年度に46.1％へ低下の見通し",
+      "post_count": 424,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "印西市駅前データセンター計画、住民10人が建築確認取り消し訴訟",
-      "post_count": 82,
+      "title": "ポッカサッポロ、自販機事業をライフドリンクに約4万台譲渡へ",
+      "post_count": 174,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "スマホ代",
+      "title": "日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +75,15 @@
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄",
+      "title": "#TradeNote",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "紹介キャンペーン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,23 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日本株",
+      "title": "スマホ代",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +123,23 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "リバウンド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#株式投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -140,30 +156,6 @@
     },
     {
       "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#株式投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#サナエトークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "寄り付き",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
