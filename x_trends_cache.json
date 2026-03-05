@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-06T04:29:19.097857+09:00",
-  "count": 17,
+  "updated_at": "2026-03-06T05:29:19.175919+09:00",
+  "count": 15,
   "trends": [
     {
       "title": "高市早苗首相の名を冠した仮想通貨「SANAE TOKEN」無登録販売で炎上、金融庁が調査へ",
-      "post_count": 685065,
+      "post_count": 691225,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "OpenAIが最新AIモデル「GPT-5.4」を発表 人間超えのベンチマーク実績",
+      "post_count": 11320,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,31 +20,23 @@
     },
     {
       "title": "ホルムズ海峡封鎖で原油高騰、日本は254日備蓄で耐えられる",
-      "post_count": 9484,
+      "post_count": 9507,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIが最先端AIモデル「GPT-5.4」を発表、事実性と効率を大幅向上",
-      "post_count": 7709,
+      "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
+      "post_count": 848,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米株式市場大幅安、中東情勢緊迫でダウ1000ポイント超下落",
-      "post_count": 207,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東戦争1週間でアジア石油危機連鎖の懸念、日本は254日備蓄で当面安心",
-      "post_count": 71,
+      "title": "NYダウ1073ドル安、中東情勢緊迫で株安加速",
+      "post_count": 289,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,30 +44,6 @@
     },
     {
       "title": "Amazonクーポン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "溝口さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#アマゾン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "一喜一憂",
+      "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "レバレッジ",
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "moomoo証券",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -124,6 +100,14 @@
     },
     {
       "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホリエモン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
