@@ -1,34 +1,26 @@
 {
-  "updated_at": "2026-03-06T11:29:20.205335+09:00",
-  "count": 20,
+  "updated_at": "2026-03-06T12:29:19.396305+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "高市首相、米パランティアのティール氏と会談　Xで監視懸念の声",
-      "post_count": 195286,
+      "title": "OpenAIが最新AIモデル「GPT-5.4」をリリース、人間超えのコンピュータ操作を実現",
+      "post_count": 24869,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "国防総省、アンソロピックをサプライチェーン・リスクに指定",
-      "post_count": 10068,
+      "title": "ホルムズ海峡封鎖で原油高騰、日本は254日備蓄で耐えられる",
+      "post_count": 9861,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中東緊迫でエミレーツ航空ドバイ便運休、日本人数百人足止め",
-      "post_count": 7254,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
-      "post_count": 938,
+      "title": "イラン報復攻撃で中東空域混乱、日本人脱出に政府支援本格化",
+      "post_count": 8431,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,30 +28,22 @@
     },
     {
       "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
-      "post_count": 632,
+      "post_count": 637,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "ニチイ学館、AIラジオ「RADIO TIME MACHINE」を介護施設に導入",
+      "post_count": 595,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Amazonクーポン",
+      "title": "ホリエモン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "積水ハウス",
+      "title": "ボラティリティ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "溝口さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,15 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +91,23 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ナスダック",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +147,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ボラティリティ",
+      "title": "買い戻し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
