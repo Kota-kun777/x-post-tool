@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-07T04:29:19.166372+09:00",
-  "count": 11,
+  "updated_at": "2026-03-07T05:29:17.121319+09:00",
+  "count": 8,
   "trends": [
     {
-      "title": "Olive春の大型アップデート、PayPayポイントとVポイントが3月24日から相互交換",
-      "post_count": 6039,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "介護施設でAIラジオが登場　ダイヤルで過去のニュースとヒット曲を楽しむ",
-      "post_count": 5031,
+      "post_count": 5053,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物、夜間取引で3%超安　トランプ氏イラン強硬姿勢と雇用悪化で",
-      "post_count": 647,
+      "title": "日経平均先物、夜間取引で3%超急落　トランプ発言と雇用悪化が原因",
+      "post_count": 697,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +20,15 @@
     },
     {
       "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 523,
+      "post_count": 528,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Xで広がる「腕一本で1000円稼ぐ」初収益体験談",
+      "post_count": 444,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,54 +36,30 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 362,
+      "post_count": 373,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株主優待",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新規登録",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "雇用統計",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "無条件降伏",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
