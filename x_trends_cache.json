@@ -1,67 +1,43 @@
 {
-  "updated_at": "2026-03-06T14:29:20.622238+09:00",
+  "updated_at": "2026-03-06T15:29:20.014715+09:00",
   "count": 22,
   "trends": [
     {
+      "title": "横須賀米軍イージス艦がイラン攻撃参加、「赤旗」報道で安保違反論争",
+      "post_count": 3986,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ニチイ学館、AIラジオ「RADIO TIME MACHINE」で回想法を支援 介護施設に導入検証開始",
-      "post_count": 1662,
+      "post_count": 2155,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
-      "post_count": 649,
+      "title": "イランの山岳地形が「天然の要塞」としてXで注目",
+      "post_count": 454,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AnthropicレポートがAIの仕事影響を分析、中小企業生存策に注目集まる",
-      "post_count": 380,
+      "title": "中東緊迫でガソリン価格急騰、備蓄254日分で政府冷静対応",
+      "post_count": 372,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "スシロー株価北京異物騒動で14％急落もスンスンコラボが人気",
-      "post_count": 59,
+      "title": "デジタル庁「源内」で国産AI7種を大規模試用へ",
+      "post_count": 303,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "DeNA × AI Day 2026、渋谷で開幕　AIオールイン1年の成果公開",
-      "post_count": 58,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ポジション",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -76,6 +52,14 @@
     },
     {
       "title": "招待コード",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,15 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "デンソー",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い戻し",
+      "title": "紹介キャンペーン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,9 +123,25 @@
       "origin": "x_news"
     },
     {
+      "title": "買い戻し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "デンソー",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -171,7 +163,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ボラティリティ",
+      "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
