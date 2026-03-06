@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-06T13:29:21.659173+09:00",
-  "count": 23,
+  "updated_at": "2026-03-06T14:29:20.622238+09:00",
+  "count": 22,
   "trends": [
     {
-      "title": "高市首相、米パランティアのティール氏と会談　Xで監視懸念の声",
-      "post_count": 245208,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ニチイ学館、AIラジオ「RADIO TIME MACHINE」を介護施設に導入",
-      "post_count": 1071,
+      "title": "ニチイ学館、AIラジオ「RADIO TIME MACHINE」で回想法を支援 介護施設に導入検証開始",
+      "post_count": 1662,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,23 +12,31 @@
     },
     {
       "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
-      "post_count": 644,
+      "post_count": 649,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OTC類似薬負担増で保険料1人400円軽減の見込み",
-      "post_count": 622,
+      "title": "AnthropicレポートがAIの仕事影響を分析、中小企業生存策に注目集まる",
+      "post_count": 380,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "キオクシア株、2カ月で年間売買代金超えの異次元ペース",
-      "post_count": 76,
+      "title": "スシロー株価北京異物騒動で14％急落もスンスンコラボが人気",
+      "post_count": 59,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "DeNA × AI Day 2026、渋谷で開幕　AIオールイン1年の成果公開",
+      "post_count": 58,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,22 +44,6 @@
     },
     {
       "title": "ポジション",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い戻し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "トークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "レバレッジ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#アマゾン",
+      "title": "招待コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,15 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "一喜一憂",
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,6 +99,30 @@
       "origin": "x_news"
     },
     {
+      "title": "溝口さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "一喜一憂",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "デンソー",
       "post_count": 0,
       "category": "政治 · トレンド",
@@ -131,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "FANG",
+      "title": "買い戻し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,15 +155,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ボラティリティ",
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,7 +171,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ホリエモン",
+      "title": "ボラティリティ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
