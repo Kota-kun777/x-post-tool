@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-03-07T05:29:17.121319+09:00",
-  "count": 8,
+  "updated_at": "2026-03-07T06:29:17.233307+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "介護施設でAIラジオが登場　ダイヤルで過去のニュースとヒット曲を楽しむ",
-      "post_count": 5053,
+      "title": "WTI原油92ドル超え、2年4ヶ月ぶり高値更新　中東緊張で供給懸念",
+      "post_count": 7301,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物、夜間取引で3%超急落　トランプ発言と雇用悪化が原因",
-      "post_count": 697,
+      "title": "田尾耕太郎氏、REAL VALUE CLUBを3月末で卒業発表",
+      "post_count": 1340,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 528,
+      "title": "日経平均先物が一時1900円超安、原油高と米雇用悪化で急落",
+      "post_count": 765,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Xで広がる「腕一本で1000円稼ぐ」初収益体験談",
-      "post_count": 444,
+      "title": "スペイン首相の戦争反対演説がXで広がり、日本高市首相のイラン非難に批判集まる",
+      "post_count": 600,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +36,38 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 373,
+      "post_count": 385,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "雇用統計",
+      "title": "日経平均先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイムセール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Amazonクーポン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +83,31 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "#アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "雇用統計",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
