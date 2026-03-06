@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-07T02:29:17.378458+09:00",
-  "count": 14,
+  "updated_at": "2026-03-07T04:29:19.166372+09:00",
+  "count": 11,
   "trends": [
     {
       "title": "Olive春の大型アップデート、PayPayポイントとVポイントが3月24日から相互交換",
-      "post_count": 5978,
+      "post_count": 6039,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,15 +12,15 @@
     },
     {
       "title": "介護施設でAIラジオが登場　ダイヤルで過去のニュースとヒット曲を楽しむ",
-      "post_count": 4999,
+      "post_count": 5031,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日銀副総裁インフレ状態と指摘、財務相はデフレ再燃警戒で認識差",
-      "post_count": 1576,
+      "title": "日経平均先物、夜間取引で3%超安　トランプ氏イラン強硬姿勢と雇用悪化で",
+      "post_count": 647,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +28,7 @@
     },
     {
       "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 517,
+      "post_count": 523,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,32 +36,8 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 345,
+      "post_count": 362,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#投資家さんとつながりたい",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -75,23 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "株主優待",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
