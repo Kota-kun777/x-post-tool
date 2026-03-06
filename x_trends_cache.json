@@ -1,43 +1,51 @@
 {
-  "updated_at": "2026-03-06T08:29:19.540951+09:00",
-  "count": 19,
+  "updated_at": "2026-03-06T09:29:25.059606+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "高市首相の名前入り仮想通貨「サナエトークン」、無登録発行で金融庁が調査開始",
-      "post_count": 733090,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "高市首相、ティール氏と先端技術会談　パランティア監視懸念で議論過熱",
-      "post_count": 127886,
+      "post_count": 151676,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIがGPT-5.4を公開、コンピュータ操作で人間超えの性能達成",
-      "post_count": 19226,
+      "title": "OpenAIがGPT-5.4を公開、コンピュータ操作で人間超えの性能",
+      "post_count": 21227,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖で原油高騰、日本は254日備蓄で耐えられる",
-      "post_count": 9742,
+      "title": "中東緊迫で日経急落もFANG+指数が健闘、日本投資家から絶賛の声",
+      "post_count": 7464,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米中央軍、イラン作戦を9月まで想定　長期化懸念広がる",
-      "post_count": 2830,
+      "title": "高市首相名を冠したサナエトークン、プロジェクトが中止に",
+      "post_count": 6728,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
+      "post_count": 898,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "Amazonクーポン",
+      "title": "溝口さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +67,15 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,63 +99,15 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ政権",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナスダック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "溝口さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
