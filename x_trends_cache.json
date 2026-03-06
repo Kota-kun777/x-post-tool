@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-06T16:29:27.910289+09:00",
-  "count": 15,
+  "updated_at": "2026-03-06T18:29:23.623714+09:00",
+  "count": 23,
   "trends": [
     {
-      "title": "小野田経済安保相、閣議に5分遅刻で謝罪 渋滞が原因",
-      "post_count": 7525,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ニチイ学館、AIラジオ「RADIO TIME MACHINE」で回想法を支援 介護施設に導入検証開始",
-      "post_count": 2554,
+      "title": "ニチイ学館がAIラジオ「RADIO TIME MACHINE」で回想法を実現",
+      "post_count": 3389,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,32 +12,32 @@
     },
     {
       "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
-      "post_count": 1039,
+      "post_count": 1079,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ZEN大学教授・江渡浩一郎氏、児童買春容疑で逮捕　Xでエプスタイン陰謀論広がる",
-      "post_count": 618,
+      "title": "日銀副総裁「インフレ状態」 vs 財務相「デフレ未脱却」の見解相違",
+      "post_count": 988,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ClawX登場でOpenClawが非エンジニアに身近に",
-      "post_count": 71,
+      "title": "Xがクリエイター向け「Creator Subscriptions 2.0」を発表、スレッド有料限定機能追加",
+      "post_count": 525,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "東芝、2028年度再上場へ負債7500億円に一本化",
+      "post_count": 243,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "FANG",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,6 +83,14 @@
       "origin": "x_news"
     },
     {
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,15 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "溝口さん",
+      "title": "#日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -116,6 +108,78 @@
     },
     {
       "title": "株主優待",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "積水ハウス",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "グロース",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "雇用統計",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ノートレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
