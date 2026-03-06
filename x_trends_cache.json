@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-03-06T18:29:23.623714+09:00",
-  "count": 23,
+  "updated_at": "2026-03-06T19:29:25.604761+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "ニチイ学館がAIラジオ「RADIO TIME MACHINE」で回想法を実現",
-      "post_count": 3389,
+      "title": "ホルムズ海峡封鎖でガソリン価格上昇へ、日本は備蓄で耐久力",
+      "post_count": 11954,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
-      "post_count": 1079,
+      "title": "OliveがPayPay連携で春の大規模アップデート　Vポイント相互交換3月24日開始",
+      "post_count": 4278,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日銀副総裁「インフレ状態」 vs 財務相「デフレ未脱却」の見解相違",
-      "post_count": 988,
+      "title": "ポーラ号、AISオフでホルムズ海峡突破　タイ向け原油積みへ",
+      "post_count": 2018,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Xがクリエイター向け「Creator Subscriptions 2.0」を発表、スレッド有料限定機能追加",
-      "post_count": 525,
+      "title": "日銀副総裁「インフレ状態」財務相「デフレリスク残る」認識違いが注目",
+      "post_count": 1104,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,46 +36,14 @@
     },
     {
       "title": "東芝、2028年度再上場へ負債7500億円に一本化",
-      "post_count": 243,
+      "post_count": 313,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "住友ファーマ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "招待コード",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +59,31 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "招待コード",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#TradeNote",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株主優待",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "株主優待",
+      "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,22 +147,6 @@
       "origin": "x_news"
     },
     {
-      "title": "雇用統計",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ノートレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "トークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -179,7 +155,15 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
+      "title": "雇用統計",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
