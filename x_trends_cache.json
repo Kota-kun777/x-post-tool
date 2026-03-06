@@ -1,26 +1,34 @@
 {
-  "updated_at": "2026-03-06T22:29:20.357631+09:00",
-  "count": 15,
+  "updated_at": "2026-03-06T23:29:20.387159+09:00",
+  "count": 13,
   "trends": [
     {
+      "title": "高市首相名仮想通貨「サナエトークン」プロジェクト中止",
+      "post_count": 22964,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "Oliveが春のアップデート PayPayポイント相互交換開始",
-      "post_count": 5435,
+      "post_count": 5626,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "政府、中東危機で石油備蓄放出を検討 初の単独措置か",
-      "post_count": 3579,
+      "title": "日本政府、国家石油備蓄放出を検討　イラン情勢悪化で",
+      "post_count": 5148,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本人ジャーナリスト須賀川氏、ベイルート到着　空爆続く中現場報告開始",
-      "post_count": 2722,
+      "title": "日銀副総裁インフレ状態指摘も財務相はデフレ警戒を強調",
+      "post_count": 1482,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +36,22 @@
     },
     {
       "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 454,
+      "post_count": 479,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メンズ脱毛クリア社に消費者庁が行政処分 高額契約勧誘で",
-      "post_count": 146,
-      "category": "",
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,15 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "住友ファーマ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "雇用統計",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -76,30 +76,6 @@
     },
     {
       "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -116,6 +92,14 @@
     },
     {
       "title": "トークン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "雇用統計",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
