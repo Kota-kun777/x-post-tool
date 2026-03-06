@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-07T01:29:17.906015+09:00",
-  "count": 16,
+  "updated_at": "2026-03-07T02:29:17.378458+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "Oliveが春のアップデート PayPayポイント相互交換開始",
-      "post_count": 5898,
+      "title": "Olive春の大型アップデート、PayPayポイントとVポイントが3月24日から相互交換",
+      "post_count": 5978,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日銀副総裁「インフレ状態」財務相「デフレ脱却未達」温度差で市場動揺",
-      "post_count": 1561,
+      "title": "介護施設でAIラジオが登場　ダイヤルで過去のニュースとヒット曲を楽しむ",
+      "post_count": 4999,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日銀副総裁インフレ状態と指摘、財務相はデフレ再燃警戒で認識差",
+      "post_count": 1576,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +28,7 @@
     },
     {
       "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 505,
+      "post_count": 517,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,30 +36,22 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 339,
+      "post_count": 345,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メンズ脱毛クリア社に消費者庁が行政処分 高額契約勧誘で",
-      "post_count": 194,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株主優待",
+      "title": "イラン戦争",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,9 +75,9 @@
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
+      "title": "日経平均先物",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -91,23 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "デンソー",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
