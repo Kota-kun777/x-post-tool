@@ -1,10 +1,26 @@
 {
-  "updated_at": "2026-03-06T20:29:22.429323+09:00",
-  "count": 19,
+  "updated_at": "2026-03-06T21:29:25.708023+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "5ちゃんねるの主要ドメイン「5ch.net」が動物虐待コンテンツで永久停止",
-      "post_count": 16549,
+      "title": "OliveがPayPay連携で春の大規模アップデート　Vポイント相互交換3月24日開始",
+      "post_count": 5158,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "デンソーがロームに1.3兆円買収提案　パワー半導体再編加速へ",
+      "post_count": 4610,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日銀副総裁インフレ状態認めるも財務相はデフレ警戒を強調",
+      "post_count": 1323,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,78 +28,22 @@
     },
     {
       "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 388,
+      "post_count": 426,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東芝、2028年度再上場へ負債7500億円に一本化",
-      "post_count": 355,
+      "title": "メンズ脱毛クリア社に消費者庁が行政処分 高額契約勧誘で",
+      "post_count": 133,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "田尾耕太郎氏、REAL VALUE CLUBを3月限りで卒業発表",
-      "post_count": 0,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "住友ファーマ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株主優待",
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "グロース",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "FANG",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "積水ハウス",
+      "title": "住友ファーマ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +91,15 @@
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "ブリヂストン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -140,6 +108,14 @@
     },
     {
       "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "グロース",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
