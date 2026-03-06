@@ -1,75 +1,43 @@
 {
-  "updated_at": "2026-03-07T07:29:18.574936+09:00",
-  "count": 13,
+  "updated_at": "2026-03-07T08:29:19.237355+09:00",
+  "count": 12,
   "trends": [
     {
-      "title": "日経平均先物が一時1900円超安、原油高と米雇用悪化で急落",
-      "post_count": 808,
+      "title": "ハノイでガソリン不足深刻化、中東情勢の余波",
+      "post_count": 2174,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "スペイン首相の「戦争反対」演説がXで注目、日本の高市首相対応に批判",
-      "post_count": 670,
+      "title": "出光興産、ホルムズ海峡封鎖長期化でエチレン生産停止の可能性を通知",
+      "post_count": 464,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Codeの本格学習コミュニティが日本で広がる",
-      "post_count": 534,
+      "title": "ハメネイ師死去に日本人弔問、鳩山氏記帳で賛否広がる",
+      "post_count": 297,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "溝口勇児氏、サナエトークン炎上で擁護派に「黙ってて」",
-      "post_count": 219,
+      "title": "JEPQの3月分配金が入金され投資家が喜びの報告相次ぐ",
+      "post_count": 70,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
-      "post_count": 184,
+      "title": "ホワイトハウス、イラン攻撃PR動画にゲーム映像混入で国内外から批判殺到",
+      "post_count": 62,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイムセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Amazonクーポン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "無条件降伏",
-      "post_count": 0,
-      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,9 +51,25 @@
       "origin": "x_news"
     },
     {
+      "title": "日経平均先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "無条件降伏",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -102,6 +86,14 @@
       "title": "雇用統計",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タンカー",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
