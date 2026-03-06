@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-06T10:29:20.209692+09:00",
-  "count": 17,
+  "updated_at": "2026-03-06T11:29:20.205335+09:00",
+  "count": 20,
   "trends": [
     {
       "title": "高市首相、米パランティアのティール氏と会談　Xで監視懸念の声",
-      "post_count": 174286,
+      "post_count": 195286,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIがGPT-5.4をリリース、PC操作で人間超えの性能達成",
-      "post_count": 22718,
+      "title": "国防総省、アンソロピックをサプライチェーン・リスクに指定",
+      "post_count": 10068,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東緊迫でエミレーツ航空ドバイ便運休、日本人数百人足止め",
+      "post_count": 7254,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,62 +28,22 @@
     },
     {
       "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
-      "post_count": 921,
+      "post_count": 938,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本生命米国法人がOpenAIを提訴、ChatGPTの非弁行為で1030万ドル請求",
-      "post_count": 637,
+      "title": "15歳中学3年生・近藤にこるさんがEdFusionを正式設立",
+      "post_count": 632,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ガソリン価格3週連続上昇 中東情勢でさらに高騰懸念",
-      "post_count": 338,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "グロース",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "積水ハウス",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
+      "title": "#日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "Amazonクーポン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均",
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トークン",
+      "title": "積水ハウス",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +91,63 @@
       "origin": "x_news"
     },
     {
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "グロース",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "雇用統計",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
