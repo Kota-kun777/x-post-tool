@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-03-07T06:29:17.233307+09:00",
-  "count": 14,
+  "updated_at": "2026-03-07T07:29:18.574936+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "WTI原油92ドル超え、2年4ヶ月ぶり高値更新　中東緊張で供給懸念",
-      "post_count": 7301,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "田尾耕太郎氏、REAL VALUE CLUBを3月末で卒業発表",
-      "post_count": 1340,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "日経平均先物が一時1900円超安、原油高と米雇用悪化で急落",
-      "post_count": 765,
+      "post_count": 808,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "スペイン首相の戦争反対演説がXで広がり、日本高市首相のイラン非難に批判集まる",
-      "post_count": 600,
+      "title": "スペイン首相の「戦争反対」演説がXで注目、日本の高市首相対応に批判",
+      "post_count": 670,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 385,
+      "title": "Claude Codeの本格学習コミュニティが日本で広がる",
+      "post_count": 534,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "溝口勇児氏、サナエトークン炎上で擁護派に「黙ってて」",
+      "post_count": 219,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
+      "post_count": 184,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,14 +44,6 @@
     },
     {
       "title": "日経平均先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#アマゾン",
+      "title": "新規口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,9 +83,9 @@
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
+      "title": "#アマゾン",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
