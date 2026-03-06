@@ -1,34 +1,18 @@
 {
-  "updated_at": "2026-03-06T09:29:25.059606+09:00",
-  "count": 15,
+  "updated_at": "2026-03-06T10:29:20.209692+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "高市首相、ティール氏と先端技術会談　パランティア監視懸念で議論過熱",
-      "post_count": 151676,
+      "title": "高市首相、米パランティアのティール氏と会談　Xで監視懸念の声",
+      "post_count": 174286,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIがGPT-5.4を公開、コンピュータ操作で人間超えの性能",
-      "post_count": 21227,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東緊迫で日経急落もFANG+指数が健闘、日本投資家から絶賛の声",
-      "post_count": 7464,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "高市首相名を冠したサナエトークン、プロジェクトが中止に",
-      "post_count": 6728,
+      "title": "OpenAIがGPT-5.4をリリース、PC操作で人間超えの性能達成",
+      "post_count": 22718,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +20,46 @@
     },
     {
       "title": "積水ハウス、減益見通しも1円増配で株主還元強化",
-      "post_count": 898,
+      "post_count": 921,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
+      "title": "日本生命米国法人がOpenAIを提訴、ChatGPTの非弁行為で1030万ドル請求",
+      "post_count": 637,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガソリン価格3週連続上昇 中東情勢でさらに高騰懸念",
+      "post_count": 338,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "グロース",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "積水ハウス",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +75,39 @@
       "origin": "x_news"
     },
     {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "溝口さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トークン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,39 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#アマゾン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トークン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新規登録",
+      "title": "ボラティリティ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
