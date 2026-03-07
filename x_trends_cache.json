@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-08T07:29:18.724855+09:00",
-  "count": 16,
+  "updated_at": "2026-03-08T08:29:18.362155+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "Anonymousがエプスタインファイル全公開予告も信憑性低く、日本政府は伊藤氏調査見送りで批判",
-      "post_count": 119235,
+      "title": "公明党、統一地方選で独自候補擁立を決定へ 中道改革連合合流見送り",
+      "post_count": 28531,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "公明党、統一地方選で中道改革連合合流見送り独自候補擁立へ",
-      "post_count": 27464,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Anthropicレポート：ClaudeデータでAIの労働市場影響を分析",
-      "post_count": 876,
+      "title": "GoogleのAIツールNotebookLMとGeminiが業務効率を劇的に向上",
+      "post_count": 1194,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +20,15 @@
     },
     {
       "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 869,
+      "post_count": 906,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Anthropicレポート：ClaudeデータでAIの労働市場影響を分析",
+      "post_count": 891,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,14 +44,6 @@
     },
     {
       "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,31 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マグネット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ケーブル",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "オーディオ",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,6 +83,22 @@
       "origin": "x_news"
     },
     {
+      "title": "ケーブル",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ホワイト",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -124,6 +108,14 @@
     },
     {
       "title": "#FIRE自己紹介",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新生活セール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
