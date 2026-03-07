@@ -1,81 +1,49 @@
 {
-  "updated_at": "2026-03-07T10:29:20.744468+09:00",
-  "count": 16,
+  "updated_at": "2026-03-07T11:29:19.230915+09:00",
+  "count": 10,
   "trends": [
     {
-      "title": "横浜駅痴漢冤罪事件、加害女性の不起訴決定　被害男性「無念」と投稿",
-      "post_count": 11863,
+      "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
+      "post_count": 1519,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "オラクルとOpenAI、アビリーンAIデータセンター拡張を断念",
-      "post_count": 1177,
+      "title": "衆院でNISA海外流出指摘、ひろゆき氏が国内株限定を提案",
+      "post_count": 1173,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ政権、ホルムズ海峡船舶に最大200億ドルの再保険プログラム発表",
-      "post_count": 801,
+      "title": "米株式市場続落、雇用悪化と原油高でスタグフレーション懸念",
+      "post_count": 514,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIがGPT-5.4をリリース、実務効率を大幅向上",
-      "post_count": 227,
+      "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
+      "post_count": 457,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Anthropicレポート：AIがプログラマー業務の75％をカバーも活用は33％止まり",
-      "post_count": 89,
+      "title": "AIブームに飛び込まず独自領域に集中せよ 中小企業の生存策が話題",
+      "post_count": 345,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "日経平均先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "大幅下落",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マンデー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トークン",
+      "title": "ブラックロック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,23 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "デンソー",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "雇用統計",
+      "title": "新生活セール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
