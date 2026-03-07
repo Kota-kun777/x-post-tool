@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-07T14:29:18.995422+09:00",
-  "count": 11,
+  "updated_at": "2026-03-07T15:29:20.759501+09:00",
+  "count": 9,
   "trends": [
     {
-      "title": "オラクルとOpenAI、テキサスStargateデータセンター拡張を断念",
-      "post_count": 2811,
+      "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
+      "post_count": 3356,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "衆院でNISA資金海外流出論争、投資家がXで税収還元を強調",
-      "post_count": 2272,
+      "title": "国会で新NISA資金の海外流出指摘、投資家が利益還流で反論",
+      "post_count": 2433,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +20,15 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 488,
+      "post_count": 497,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物、夜間取引で3%超急落　米国株安とイラン情勢が重し",
-      "post_count": 127,
+      "title": "溝口勇児氏、サナエトークン問題で自虐投稿が反響",
+      "post_count": 325,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,8 +36,16 @@
     },
     {
       "title": "JEPQの3月分配金が入金され投資家が喜びの報告相次ぐ",
-      "post_count": 79,
+      "post_count": 80,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株主優待",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -54,30 +62,6 @@
       "title": "無条件降伏",
       "post_count": 0,
       "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株主優待",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
