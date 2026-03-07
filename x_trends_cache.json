@@ -1,18 +1,34 @@
 {
-  "updated_at": "2026-03-08T02:29:17.651550+09:00",
+  "updated_at": "2026-03-08T03:29:18.024790+09:00",
   "count": 10,
   "trends": [
     {
       "title": "公明党、統一地方選で独自候補擁立を決定 中道改革連合合流見送り",
-      "post_count": 25362,
+      "post_count": 25633,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "新NISAで海外株資金急増、国会で家計流出議論 一方SNSで「NISA貧乏」話題",
-      "post_count": 5677,
+      "title": "出光興産、ホルムズ封鎖長期化でエチレン生産停止の可能性を通知",
+      "post_count": 19864,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新NISAめぐり海外流出と貧乏生活の議論が広がる",
+      "post_count": 5951,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン軍報道官、ホルムズ海峡封鎖せず米イス関連船以外通過OK",
+      "post_count": 1726,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,24 +36,16 @@
     },
     {
       "title": "Anthropicレポート：ClaudeデータでAIの労働市場影響を分析",
-      "post_count": 795,
+      "post_count": 805,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 771,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプのイラン「無条件降伏」要求に日本史引き合い議論",
+      "title": "NISA貧乏",
       "post_count": 0,
-      "category": "",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,17 +67,9 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "イラン戦争",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブラックロック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
