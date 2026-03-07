@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-07T09:29:26.007144+09:00",
-  "count": 19,
+  "updated_at": "2026-03-07T10:29:20.744468+09:00",
+  "count": 16,
   "trends": [
     {
       "title": "横浜駅痴漢冤罪事件、加害女性の不起訴決定　被害男性「無念」と投稿",
-      "post_count": 5612,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "介護施設でAIラジオが登場　ダイヤルで過去のニュースとヒット曲を楽しむ",
-      "post_count": 5345,
+      "post_count": 11863,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +12,7 @@
     },
     {
       "title": "オラクルとOpenAI、アビリーンAIデータセンター拡張を断念",
-      "post_count": 842,
+      "post_count": 1177,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,70 +20,30 @@
     },
     {
       "title": "トランプ政権、ホルムズ海峡船舶に最大200億ドルの再保険プログラム発表",
-      "post_count": 404,
+      "post_count": 801,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIが最新AIモデル「GPT-5.4」をリリース、実務業務を強化",
-      "post_count": 146,
+      "title": "OpenAIがGPT-5.4をリリース、実務効率を大幅向上",
+      "post_count": 227,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東情勢",
-      "post_count": 0,
-      "category": "政治 · トレンド",
+      "title": "Anthropicレポート：AIがプログラマー業務の75％をカバーも活用は33％止まり",
+      "post_count": 89,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "日経先物",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "大幅下落",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "招待コード",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "雇用統計",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,25 +59,33 @@
       "origin": "x_news"
     },
     {
+      "title": "大幅下落",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マンデー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "無条件降伏",
       "post_count": 0,
       "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ大統領",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -139,6 +99,22 @@
       "origin": "x_news"
     },
     {
+      "title": "トランプ大統領",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "中東情勢",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "デンソー",
       "post_count": 0,
       "category": "政治 · トレンド",
@@ -147,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マンデー",
+      "title": "雇用統計",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
