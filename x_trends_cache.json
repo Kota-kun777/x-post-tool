@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-07T11:29:19.230915+09:00",
-  "count": 10,
+  "updated_at": "2026-03-07T12:29:18.927746+09:00",
+  "count": 11,
   "trends": [
     {
       "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
-      "post_count": 1519,
+      "post_count": 1861,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "衆院でNISA海外流出指摘、ひろゆき氏が国内株限定を提案",
-      "post_count": 1173,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米株式市場続落、雇用悪化と原油高でスタグフレーション懸念",
-      "post_count": 514,
+      "title": "衆院本会議でNISAの海外資金流出が議論に",
+      "post_count": 1704,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +20,7 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 457,
+      "post_count": 468,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,7 +28,15 @@
     },
     {
       "title": "AIブームに飛び込まず独自領域に集中せよ 中小企業の生存策が話題",
-      "post_count": 345,
+      "post_count": 347,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "JEPQの3月分配金が入金され投資家が喜びの報告相次ぐ",
+      "post_count": 75,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,6 +44,14 @@
     },
     {
       "title": "日経平均先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブラックロック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブラックロック",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
