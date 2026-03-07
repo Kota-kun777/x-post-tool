@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-07T12:29:18.927746+09:00",
+  "updated_at": "2026-03-07T13:29:20.296779+09:00",
   "count": 11,
   "trends": [
     {
-      "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
-      "post_count": 1861,
+      "title": "北京スシローでマグロに寄生虫卵クレーム、当局が検査開始 株価急落後反発",
+      "post_count": 25979,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "衆院本会議でNISAの海外資金流出が議論に",
-      "post_count": 1704,
+      "title": "オラクルとOpenAI、テキサスAIデータセンター拡張を断念",
+      "post_count": 2335,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "衆院でNISA資金海外流出論争、投資家がXで税収還元を強調",
+      "post_count": 2052,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,23 +28,15 @@
     },
     {
       "title": "ブラックロック・ジャパン、日本株に強気姿勢を維持 中東情勢でも買い継続促す",
-      "post_count": 468,
+      "post_count": 476,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AIブームに飛び込まず独自領域に集中せよ 中小企業の生存策が話題",
-      "post_count": 347,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "JEPQの3月分配金が入金され投資家が喜びの報告相次ぐ",
-      "post_count": 75,
+      "title": "Anthropicレポート：AIがプログラマー業務の75％をカバーも活用は33％止まり",
+      "post_count": 321,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブラックロック",
+      "title": "米雇用統計",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,17 +75,17 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "#日経平均株価",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "新生活セール",
+      "title": "トランプ大統領",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
