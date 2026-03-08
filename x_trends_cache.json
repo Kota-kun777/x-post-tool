@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-08T13:29:20.269819+09:00",
-  "count": 13,
+  "updated_at": "2026-03-08T14:29:17.901478+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "小泉進次郎防衛大臣のAI活用発言にパランティア提携疑惑",
-      "post_count": 2006,
+      "title": "GoogleのGeminiが業務効率化を変えるWorkspace連携術",
+      "post_count": 1635,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,23 +12,23 @@
     },
     {
       "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 1022,
+      "post_count": 1032,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米国サマータイム開始で日本時間の米国株取引が1時間早まる",
-      "post_count": 90,
+      "title": "石川県立図書館で読書インフルエンサー対談 大盛況の新時代イベント",
+      "post_count": 113,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "神谷宗幣議員、参院委で相続税廃止を提案し反響",
-      "post_count": 87,
+      "title": "DeNA南場会長、AI活用1年で開発生産性20倍達成を報告",
+      "post_count": 75,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -43,7 +43,7 @@
       "origin": "x_news"
     },
     {
-      "title": "下落相場",
+      "title": "サイドFIRE",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,9 +67,9 @@
       "origin": "x_news"
     },
     {
-      "title": "ケーブル",
+      "title": "moomoo証券",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -86,6 +86,14 @@
       "title": "#FIRE自己紹介",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ケーブル",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
