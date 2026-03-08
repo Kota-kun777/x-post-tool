@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-08T12:29:19.989382+09:00",
-  "count": 12,
+  "updated_at": "2026-03-08T13:29:20.269819+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "#FIRE自己紹介イベントで早期リタイア後の夢を共有",
-      "post_count": 1549,
+      "title": "小泉進次郎防衛大臣のAI活用発言にパランティア提携疑惑",
+      "post_count": 2006,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,23 +12,23 @@
     },
     {
       "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 1009,
+      "post_count": 1022,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "モンベルの1万円台リュックがラン活の高騰市場に新風",
+      "title": "米国サマータイム開始で日本時間の米国株取引が1時間早まる",
+      "post_count": 90,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "神谷宗幣議員、参院委で相続税廃止を提案し反響",
       "post_count": 87,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "急成長SaaS企業Sales Marker、被保険者数1カ月で32%減の異変",
-      "post_count": 82,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -43,6 +43,14 @@
       "origin": "x_news"
     },
     {
+      "title": "下落相場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -51,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "下落相場",
+      "title": "余剰資金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
