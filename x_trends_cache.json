@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-08T15:29:19.411866+09:00",
-  "count": 14,
+  "updated_at": "2026-03-08T16:29:25.905032+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "GoogleのGeminiが業務効率化を変えるWorkspace連携術",
-      "post_count": 1692,
+      "title": "トランプ大統領、イランに「無条件降伏」を要求",
+      "post_count": 4343,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新NISAで「NISA貧乏」なるか 若者の投資と生活のジレンマ",
+      "post_count": 2151,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,23 +20,15 @@
     },
     {
       "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 1046,
+      "post_count": 1060,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "SNS起業家が循環取引で年商水増し？Xで指摘広がる",
-      "post_count": 244,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "石川県立図書館で読書インフルエンサー対談 大盛況の新時代イベント",
-      "post_count": 113,
+      "title": "DeNA南場会長、AI活用1年で開発生産性20倍達成を報告",
+      "post_count": 365,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -43,7 +43,7 @@
       "origin": "x_news"
     },
     {
-      "title": "サイドFIRE",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "余剰資金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "余剰資金",
+      "title": "サイドFIRE",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -86,14 +86,6 @@
       "title": "ケーブル",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
