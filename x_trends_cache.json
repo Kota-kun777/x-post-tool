@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-09T06:29:20.621143+09:00",
-  "count": 8,
+  "updated_at": "2026-03-09T07:29:19.469715+09:00",
+  "count": 12,
   "trends": [
     {
-      "title": "石川県知事選 山野之義氏が僅差で初当選 馳浩氏破る",
-      "post_count": 42438,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 17358,
+      "post_count": 17700,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "DeNA南場会長、AIオールイン1年で生産性20倍達成も人材シフトに課題",
-      "post_count": 2485,
+      "title": "イスラエル軍のテヘラン石油施設攻撃で黒い雨、原油高騰と日本ガソリン値上げ加速",
+      "post_count": 3951,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "DeNA南場会長、AIオールイン1年後の厳しい現実を告白",
+      "post_count": 2616,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,16 +28,32 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1788,
+      "post_count": 1818,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ガソリン大幅値上げ告知で全国のスタンドに給油ラッシュ",
-      "post_count": 1455,
+      "title": "日経平均先物、時間外で6%超急落　中東情勢悪化と原油高が要因",
+      "post_count": 103,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "産業・研究開発用品",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,9 +67,25 @@
       "origin": "x_news"
     },
     {
-      "title": "ケーブル",
+      "title": "イラン戦争",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "招待コード",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホワイト",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
