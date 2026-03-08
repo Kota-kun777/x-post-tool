@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-09T07:29:19.469715+09:00",
-  "count": 12,
+  "updated_at": "2026-03-09T08:29:19.318560+09:00",
+  "count": 13,
   "trends": [
     {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 17700,
+      "post_count": 18082,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イスラエル軍のテヘラン石油施設攻撃で黒い雨、原油高騰と日本ガソリン値上げ加速",
-      "post_count": 3951,
+      "title": "堀江貴文氏、自身を「詐欺師」と呼んだユーザーへ投稿削除と告訴警告",
+      "post_count": 8085,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +20,7 @@
     },
     {
       "title": "DeNA南場会長、AIオールイン1年後の厳しい現実を告白",
-      "post_count": 2616,
+      "post_count": 2814,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +28,22 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1818,
+      "post_count": 1877,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物、時間外で6%超急落　中東情勢悪化と原油高が要因",
-      "post_count": 103,
+      "title": "ドル円158円台突入、中東緊張で有事のドル買い加速",
+      "post_count": 91,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "原油価格",
+      "title": "産業・研究開発用品",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "産業・研究開発用品",
+      "title": "楽天モバイル",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,14 +67,6 @@
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "招待コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -83,7 +75,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ホワイト",
+      "title": "サマータイム",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "革命防衛隊",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経時間外",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
