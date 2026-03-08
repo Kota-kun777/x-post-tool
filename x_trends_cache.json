@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-08T18:29:22.551609+09:00",
-  "count": 13,
+  "updated_at": "2026-03-08T19:29:19.541269+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "トランプ大統領、英国のイラン戦争支援を拒否「すでに勝利した」",
-      "post_count": 9324,
+      "title": "テヘラン石油施設空爆で黒煙充満、住民避難相次ぐ",
+      "post_count": 187060,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 1082,
+      "title": "政府チャーター機、中東邦人100人以上を成田へ輸送",
+      "post_count": 22280,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "トランプ大統領、イラン作戦で勝利宣言し英国支援を拒否",
+      "post_count": 10515,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +28,7 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 959,
+      "post_count": 1076,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +36,14 @@
     },
     {
       "title": "DeNA南場会長のAI講演全文公開で反響　速さと専門性の重要性強調",
-      "post_count": 583,
+      "post_count": 858,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプのイラン「無条件降伏」要求に日本史引き合い議論",
-      "post_count": 0,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "招待コード",
+      "title": "サイドFIRE",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "自己投資",
+      "title": "余剰資金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "余剰資金",
+      "title": "自己投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,9 +83,9 @@
       "origin": "x_news"
     },
     {
-      "title": "サイドFIRE",
+      "title": "ケーブル",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -94,6 +94,14 @@
       "title": "USB-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#FIRE自己紹介",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
