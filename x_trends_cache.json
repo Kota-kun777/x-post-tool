@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-09T03:29:19.260467+09:00",
-  "count": 9,
+  "updated_at": "2026-03-09T04:29:17.696252+09:00",
+  "count": 8,
   "trends": [
     {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 16685,
+      "post_count": 16872,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "REAL VALUE CLUB年会費1000万円の価値をめぐる議論が続く",
+      "post_count": 3385,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +20,7 @@
     },
     {
       "title": "DeNA南場会長、AIオールイン1年で生産性20倍達成も人材シフトに課題",
-      "post_count": 2363,
+      "post_count": 2401,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,30 +28,22 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1724,
+      "post_count": 1745,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米国で夏時間が始まり日本時間との時差が縮小",
-      "post_count": 1089,
+      "title": "トランプ大統領のイラン作戦「重大発表」噂で日本投資家警戒",
+      "post_count": 370,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領のイラン強硬発言で中東緊張高まり「重大発表」噂広がる",
-      "post_count": 352,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "NISA貧乏",
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -62,14 +62,6 @@
       "title": "USB-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マンデー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
