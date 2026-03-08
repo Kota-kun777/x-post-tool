@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-09T02:29:20.777884+09:00",
+  "updated_at": "2026-03-09T03:29:19.260467+09:00",
   "count": 9,
   "trends": [
     {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 16397,
+      "post_count": 16685,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,7 @@
     },
     {
       "title": "DeNA南場会長、AIオールイン1年で生産性20倍達成も人材シフトに課題",
-      "post_count": 2327,
+      "post_count": 2363,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,40 +20,24 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1699,
+      "post_count": 1724,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米国でサマータイム開始、日本との時差が13時間に",
-      "post_count": 1044,
+      "title": "米国で夏時間が始まり日本時間との時差が縮小",
+      "post_count": 1089,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Codeが本番インフラを破壊、2.5年分データ消失の事故",
-      "post_count": 81,
+      "title": "トランプ大統領のイラン強硬発言で中東緊張高まり「重大発表」噂広がる",
+      "post_count": 352,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マンデー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -70,6 +54,22 @@
       "title": "ケーブル",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マンデー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
