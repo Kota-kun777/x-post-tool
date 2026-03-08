@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-08T20:29:18.098145+09:00",
-  "count": 15,
+  "updated_at": "2026-03-08T21:29:19.380885+09:00",
+  "count": 16,
   "trends": [
     {
+      "title": "公明党、統一地方選で独自候補擁立を決定 中道改革連合合流見送り",
+      "post_count": 43490,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 11911,
+      "post_count": 12942,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "安積中学校いじめ被害者が加害者謝罪要求 実名公表宣言で反響",
-      "post_count": 4519,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "安積中学校いじめ被害者が加害者名公開を宣言、学校対応に疑問の声",
-      "post_count": 2894,
+      "title": "DeNA南場智子会長のAI講演、生産性20倍達成と組織課題を赤裸々に語る",
+      "post_count": 1604,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +28,7 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1157,
+      "post_count": 1296,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +36,14 @@
     },
     {
       "title": "投資家ら「ブラックマンデー」警戒 高まる 先物下落続く",
-      "post_count": 151,
+      "post_count": 273,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "株主優待",
+      "title": "サイドFIRE",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,15 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "下落相場",
+      "title": "原油価格",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "サイドFIRE",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +83,15 @@
       "origin": "x_news"
     },
     {
-      "title": "自己投資",
+      "title": "NISA貧乏",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マンデー",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -100,6 +100,14 @@
     },
     {
       "title": "余剰資金",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "自己投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
