@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-08T17:29:25.537521+09:00",
-  "count": 15,
+  "updated_at": "2026-03-08T18:29:22.551609+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利した戦争に後から加わるな」",
-      "post_count": 7336,
+      "title": "トランプ大統領、英国のイラン戦争支援を拒否「すでに勝利した」",
+      "post_count": 9324,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,23 +12,23 @@
     },
     {
       "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 1072,
+      "post_count": 1082,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "MIT生がNotebookLMで48時間に1学期分をマスターした話が話題",
-      "post_count": 860,
+      "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
+      "post_count": 959,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "石川県立図書館で読書インフルエンサー対談 大盛況の新時代イベント",
-      "post_count": 115,
+      "title": "DeNA南場会長のAI講演全文公開で反響　速さと専門性の重要性強調",
+      "post_count": 583,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -43,7 +43,7 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "招待コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "招待コード",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,22 +67,6 @@
       "origin": "x_news"
     },
     {
-      "title": "moomoo証券",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新規登録",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "余剰資金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -91,17 +75,9 @@
       "origin": "x_news"
     },
     {
-      "title": "ケーブル",
+      "title": "株主優待",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "USB-C",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -110,6 +86,14 @@
       "title": "サイドFIRE",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "USB-C",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
