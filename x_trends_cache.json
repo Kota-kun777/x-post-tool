@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-08T16:29:25.905032+09:00",
-  "count": 13,
+  "updated_at": "2026-03-08T17:29:25.537521+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "トランプ大統領、イランに「無条件降伏」を要求",
-      "post_count": 4343,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新NISAで「NISA貧乏」なるか 若者の投資と生活のジレンマ",
-      "post_count": 2151,
+      "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利した戦争に後から加わるな」",
+      "post_count": 7336,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +12,23 @@
     },
     {
       "title": "トランプ大統領、イランに無条件降伏要求　ネットで戦略論争",
-      "post_count": 1060,
+      "post_count": 1072,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "DeNA南場会長、AI活用1年で開発生産性20倍達成を報告",
-      "post_count": 365,
+      "title": "MIT生がNotebookLMで48時間に1学期分をマスターした話が話題",
+      "post_count": 860,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "石川県立図書館で読書インフルエンサー対談 大盛況の新時代イベント",
+      "post_count": 115,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -51,14 +51,6 @@
       "origin": "x_news"
     },
     {
-      "title": "余剰資金",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "招待コード",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -67,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "サイドFIRE",
+      "title": "自己投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -76,6 +68,22 @@
     },
     {
       "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "余剰資金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -94,6 +102,14 @@
       "title": "USB-C",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "サイドFIRE",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
