@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-10T04:29:22.486142+09:00",
-  "count": 14,
+  "updated_at": "2026-03-10T05:29:21.046000+09:00",
+  "count": 16,
   "trends": [
     {
       "title": "溝口勇児氏、サナエトークン釈明で過去ミームコイン実績が矛盾指摘",
-      "post_count": 11011,
+      "post_count": 11819,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "茂木外相、イラン外相と電話会談で湾岸攻撃非難と沈静化要請",
-      "post_count": 4188,
+      "title": "トランプ大統領、イラン戦争「ほぼ完了」とCBSに語る　市場が即座に上昇",
+      "post_count": 11302,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +20,15 @@
     },
     {
       "title": "岐阜暴威氏の「日経7万」投稿が逆神炸裂で大ウケ",
-      "post_count": 1484,
+      "post_count": 1499,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "40代の幸福度U字カーブが注目を集める",
-      "post_count": 713,
+      "title": "ガソリン価格200円超えの可能性、中東情勢で原油高騰",
+      "post_count": 260,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -43,6 +43,30 @@
       "origin": "x_news"
     },
     {
+      "title": "長期投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -51,7 +75,15 @@
       "origin": "x_news"
     },
     {
-      "title": "全面保護",
+      "title": "家電アクセサリ・サプライ",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ウェアラブルデバイス",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -67,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "買い増し",
+      "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "信用取引",
+      "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -86,22 +118,6 @@
       "title": "TACO",
       "post_count": 0,
       "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
