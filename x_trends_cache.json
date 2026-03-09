@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-09T11:29:19.800208+09:00",
-  "count": 19,
+  "updated_at": "2026-03-09T12:29:24.941358+09:00",
+  "count": 20,
   "trends": [
     {
-      "title": "WTI原油が3年8カ月ぶり100ドル超え、中東緊張で急騰",
-      "post_count": 49544,
+      "title": "摂津市議会、全会一致で米イスラエル対イラン攻撃に抗議決議",
+      "post_count": 18917,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 19107,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "堀江貴文氏、「詐欺師」中傷に法的措置予告も過去発言がブーメランに",
-      "post_count": 9796,
+      "title": "米当局、ハールク島接収を協議　イラン石油輸出の要衝",
+      "post_count": 4489,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,15 +20,23 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1992,
+      "post_count": 2036,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン情勢緊迫で家庭電気代6月から上昇、年1.5万円負担増の試算",
-      "post_count": 684,
+      "title": "スタバのギフトカードが実質無利子資金3000億円を生む仕組み",
+      "post_count": 501,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "箕輪厚介氏の「日本言葉遣い協会」がサンデージャポンで話題に",
+      "post_count": 123,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -59,39 +59,23 @@
       "origin": "x_news"
     },
     {
-      "title": "オーディオ",
+      "title": "#日本株",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "産業・研究開発用品",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "下落相場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "招待コード",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
+      "title": "長期投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均株価",
+      "title": "新規登録",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +123,31 @@
       "origin": "x_news"
     },
     {
+      "title": "日経時間外",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "日経平均先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "寄り付き",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
