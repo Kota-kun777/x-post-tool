@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-09T08:29:19.318560+09:00",
-  "count": 13,
+  "updated_at": "2026-03-09T09:29:19.201591+09:00",
+  "count": 15,
   "trends": [
     {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 18082,
+      "post_count": 18490,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "堀江貴文氏、自身を「詐欺師」と呼んだユーザーへ投稿削除と告訴警告",
-      "post_count": 8085,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "DeNA南場会長、AIオールイン1年後の厳しい現実を告白",
-      "post_count": 2814,
+      "title": "堀江貴文氏、AI学校中傷投稿に名誉毀損警告",
+      "post_count": 8802,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +20,30 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1877,
+      "post_count": 1924,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ドル円158円台突入、中東緊張で有事のドル買い加速",
-      "post_count": 91,
+      "title": "Wi-Fiだけで壁越し人間検知？ RuViewプロジェクトの興奮と疑問",
+      "post_count": 194,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "産業・研究開発用品",
+      "title": "AnthropicがClaudeのSkills構築ガイドを公開、業務自動化熱が高まる",
+      "post_count": 20,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,39 @@
       "origin": "x_news"
     },
     {
-      "title": "楽天モバイル",
+      "title": "#日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "パニック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "綿100",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "下落相場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,25 +99,9 @@
       "origin": "x_news"
     },
     {
-      "title": "招待コード",
+      "title": "産業・研究開発用品",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "サマータイム",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "革命防衛隊",
-      "post_count": 0,
-      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -99,9 +115,9 @@
       "origin": "x_news"
     },
     {
-      "title": "USB-C",
+      "title": "新生活セール",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
