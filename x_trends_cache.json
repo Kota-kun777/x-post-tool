@@ -1,18 +1,34 @@
 {
-  "updated_at": "2026-03-09T12:29:24.941358+09:00",
-  "count": 20,
+  "updated_at": "2026-03-09T13:29:21.122745+09:00",
+  "count": 28,
   "trends": [
     {
-      "title": "摂津市議会、全会一致で米イスラエル対イラン攻撃に抗議決議",
-      "post_count": 18917,
+      "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
+      "post_count": 19653,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米当局、ハールク島接収を協議　イラン石油輸出の要衝",
-      "post_count": 4489,
+      "title": "高市首相名「サナエトークン」騒動、運営が謝罪　金融庁が調査検討",
+      "post_count": 18123,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "堀江貴文氏「詐欺師」批判に告訴予告も過去発言がブーメランに",
+      "post_count": 10803,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "DeNA南場会長、AIで生産性20倍も人材シフトの壁に直面",
+      "post_count": 3842,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,30 +36,14 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 2036,
+      "post_count": 2093,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "スタバのギフトカードが実質無利子資金3000億円を生む仕組み",
-      "post_count": 501,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "箕輪厚介氏の「日本言葉遣い協会」がサンデージャポンで話題に",
-      "post_count": 123,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "サーキットブレーカー発動",
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,15 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "証券口座",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "サーキットブレーカー発動",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,39 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "産業・研究開発用品",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "下落相場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "楽天モバイル",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "新規登録",
+      "title": "パニック売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "パニック売り",
+      "title": "産業・研究開発用品",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経時間外",
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +107,95 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
+      "title": "下落相場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "長期投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "余剰資金",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "新規登録",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "NISA",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ安",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "打診買い",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用買い",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "為替介入",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,9 +211,9 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "TACO",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
