@@ -1,34 +1,18 @@
 {
-  "updated_at": "2026-03-10T00:29:24.611784+09:00",
+  "updated_at": "2026-03-10T01:29:18.937747+09:00",
   "count": 28,
   "trends": [
     {
-      "title": "イスラエル軍のテヘラン石油施設攻撃で原油114ドル超、日経平均4000円超安",
-      "post_count": 165876,
+      "title": "溝口勇児氏、サナエトークン釈明で過去ミームコイン発言が矛盾",
+      "post_count": 7882,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "G7財務相、原油高騰で石油備蓄放出を協議　必要なら対応で一致",
-      "post_count": 6267,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "岐阜暴威氏「日経は７万」投稿で株クラが逆神ミーム爆発、日経大幅下落",
-      "post_count": 1187,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "外務省、来週前半に和平調停担当室を新設へ",
-      "post_count": 496,
+      "title": "被保険者DB、企業社員数の増減を月次で可視化するツールが注目",
+      "post_count": 366,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -43,6 +27,46 @@
       "origin": "x_news"
     },
     {
+      "title": "加藤公一レオ氏がXで匿名誹謗中傷「抹殺マニュアル」を公開",
+      "post_count": 85,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "田端信太郎氏の「日経6万円前夜祭」投稿が投資家に苦笑を誘う",
+      "post_count": 78,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "下落相場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株式市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "リーマンショック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -51,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "パニック売り",
+      "title": "大幅下落",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -60,22 +84,6 @@
     },
     {
       "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱商事",
+      "title": "紹介キャンペーン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "ミームコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "押し目買い",
+      "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱UFJ",
+      "title": "バーゲンセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +155,15 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "原油価格",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,23 +179,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "TACO",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株式市場",
+      "title": "長期投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,7 +195,7 @@
       "origin": "x_news"
     },
     {
-      "title": "バーゲンセール",
+      "title": "日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -203,9 +203,9 @@
       "origin": "x_news"
     },
     {
-      "title": "長期投資",
+      "title": "TACO",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
