@@ -1,26 +1,34 @@
 {
-  "updated_at": "2026-03-09T18:29:21.213721+09:00",
-  "count": 22,
+  "updated_at": "2026-03-09T19:29:20.510243+09:00",
+  "count": 25,
   "trends": [
     {
-      "title": "ホルムズ海峡封鎖で日本政府、石油備蓄放出準備と調達拡大へ",
-      "post_count": 1913,
+      "title": "高市首相のイラン非難発言にXで批判相次ぐ",
+      "post_count": 1622,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均、過去3番目の2892円安で終了 イラン情勢緊迫化が直撃",
-      "post_count": 736,
+      "title": "サウジアラビア、イランに攻撃停止を強く要求",
+      "post_count": 359,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中野サンプラザ跡地、再開発が新計画で復活へ 2034年完成目指す",
-      "post_count": 196,
+      "title": "日経平均大幅安でもオリエンタルランドが逆行高、夢の国に注目集まる",
+      "post_count": 252,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "確定申告期限迫る中、e-Tax詐欺メール被害が急増",
+      "post_count": 95,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,24 +36,8 @@
     },
     {
       "title": "ローソンの市民開発者、社員の3分の1に拡大　店舗課題は残る",
-      "post_count": 54,
+      "post_count": 86,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三井住友建設、三井住建道路を完全子会社化へTOB発表",
-      "post_count": 42,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "下落相場",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +59,31 @@
       "origin": "x_news"
     },
     {
-      "title": "新規登録",
+      "title": "証券口座",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経VI",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -78,6 +94,38 @@
       "title": "個人投資家",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "パニック売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株式市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "携帯電話・スマートフォン",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -99,31 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ安",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "バーゲンセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経VI",
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +171,7 @@
       "origin": "x_news"
     },
     {
-      "title": "証券口座",
+      "title": "長期投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,9 +179,9 @@
       "origin": "x_news"
     },
     {
-      "title": "産業・研究開発用品",
+      "title": "ケーブル",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
