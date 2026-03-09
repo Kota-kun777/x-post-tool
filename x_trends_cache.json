@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-03-10T06:29:18.021556+09:00",
-  "count": 17,
+  "updated_at": "2026-03-10T07:29:19.328548+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "イスラエル軍のテヘラン石油施設攻撃で原油114ドル超、日経平均4000円超安",
-      "post_count": 186634,
+      "title": "原油価格が歴史的大暴落、ホルムズ海峡通過再開で市場反転",
+      "post_count": 56795,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、イラン戦争「ほぼ完了」と宣言 原油価格急落",
-      "post_count": 53053,
+      "title": "溝口勇児氏、サナエトークン釈明で「ミームコイン知らなかった」発言に矛盾指摘相次ぐ",
+      "post_count": 15238,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "溝口勇児氏、サナエトークン釈明で過去ミームコイン実績が矛盾発覚",
-      "post_count": 13269,
+      "title": "トランプ大統領とプーチン大統領、イランとウクライナで電話協議",
+      "post_count": 3923,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "FiNCの過去決算をめぐる擁護と批判の議論",
-      "post_count": 1473,
+      "title": "X Moneyベータ版が米国でスタート 高金利6％と3％キャッシュバック",
+      "post_count": 783,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領「イラン戦争ほぼ完了」発言で原油急落・NY株反発",
-      "post_count": 1192,
+      "title": "北海道檜山地方で45年ぶりの深発地震 M5.9",
+      "post_count": 299,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "買い増し",
+      "title": "S&P500",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均",
+      "title": "米国市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "家電アクセサリ・サプライ",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "長期投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,31 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "全面保護",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "急速充電",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "S&P500",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "家電アクセサリ・サプライ",
+      "title": "イヤホン・ヘッドホン",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
       "time_ago": "",
@@ -115,23 +107,23 @@
       "origin": "x_news"
     },
     {
-      "title": "イヤホン・ヘッドホン",
+      "title": "買い増し",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "TACO",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ氏",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
