@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-09T10:29:20.231051+09:00",
+  "updated_at": "2026-03-09T11:29:19.800208+09:00",
   "count": 19,
   "trends": [
     {
+      "title": "WTI原油が3年8カ月ぶり100ドル超え、中東緊張で急騰",
+      "post_count": 49544,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "トランプ大統領、英国のイラン戦争支援を拒否「勝利済みの戦争に後から加わるな」",
-      "post_count": 18811,
+      "post_count": 19107,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "堀江貴文氏、SNS批判に告訴予告　過去発言でブーメラン指摘も",
-      "post_count": 9375,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "DeNA南場会長、AIで生産性20倍も人材シフトの壁に直面",
-      "post_count": 3175,
+      "title": "堀江貴文氏、「詐欺師」中傷に法的措置予告も過去発言がブーメランに",
+      "post_count": 9796,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +28,22 @@
     },
     {
       "title": "MIT院生がNotebookLMで48時間で1学期分をマスターした学習法が話題",
-      "post_count": 1965,
+      "post_count": 1992,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相、パランティア共同創業者ティール氏と会談　SNSで監視社会懸念広がる",
-      "post_count": 1789,
+      "title": "イラン情勢緊迫で家庭電気代6月から上昇、年1.5万円負担増の試算",
+      "post_count": 684,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "バーゲンセール",
+      "title": "サーキットブレーカー発動",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,55 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物",
+      "title": "オーディオ",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "パニック売り",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "綿100",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "下落相場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経時間外",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "産業・研究開発用品",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +83,23 @@
       "origin": "x_news"
     },
     {
+      "title": "長期投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "moomoo証券",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "楽天モバイル",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -140,6 +116,30 @@
     },
     {
       "title": "#日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "バーゲンセール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "パニック売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
