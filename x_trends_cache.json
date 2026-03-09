@@ -1,51 +1,43 @@
 {
-  "updated_at": "2026-03-10T07:29:19.328548+09:00",
-  "count": 16,
+  "updated_at": "2026-03-10T08:29:18.328397+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "原油価格が歴史的大暴落、ホルムズ海峡通過再開で市場反転",
-      "post_count": 56795,
+      "title": "WTI原油価格が1日で30%超急落、ホルムズ海峡通過再開で市場安心",
+      "post_count": 121178,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "溝口勇児氏、サナエトークン釈明で「ミームコイン知らなかった」発言に矛盾指摘相次ぐ",
-      "post_count": 15238,
+      "title": "溝口勇児氏、サナエトークン騒動で過去ミームコイン経験否定が矛盾指摘",
+      "post_count": 17775,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領とプーチン大統領、イランとウクライナで電話協議",
-      "post_count": 3923,
+      "title": "40代の幸福度U字カーブが注目を集める",
+      "post_count": 747,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "X Moneyベータ版が米国でスタート 高金利6％と3％キャッシュバック",
-      "post_count": 783,
+      "title": "日経平均過去3番目の下落幅、終値2892円安の5万2728円",
+      "post_count": 93,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "北海道檜山地方で45年ぶりの深発地震 M5.9",
-      "post_count": 299,
+      "title": "田端信太郎氏の「日経6万円前夜祭」投稿が投資家に苦笑を誘う",
+      "post_count": 81,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "S&P500",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,15 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "家電アクセサリ・サプライ",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
+      "title": "S&P500",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,17 +59,33 @@
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
+      "title": "#日経平均",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イヤホン・ヘッドホン",
+      "title": "株式市場",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -107,6 +107,14 @@
       "origin": "x_news"
     },
     {
+      "title": "イヤホン・ヘッドホン",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "買い増し",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -115,7 +123,23 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均",
+      "title": "長期投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "狼狽売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -126,6 +150,22 @@
       "title": "TACO",
       "post_count": 0,
       "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#wti",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用取引",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
