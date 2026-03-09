@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-03-09T19:29:20.510243+09:00",
-  "count": 25,
+  "updated_at": "2026-03-09T20:29:21.417644+09:00",
+  "count": 29,
   "trends": [
     {
-      "title": "高市首相のイラン非難発言にXで批判相次ぐ",
-      "post_count": 1622,
+      "title": "ブラックロックがGPIF最大委託先、株安で年金不安広がる",
+      "post_count": 907,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "サウジアラビア、イランに攻撃停止を強く要求",
-      "post_count": 359,
+      "title": "40代の幸福度U字カーブが注目を集める",
+      "post_count": 551,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均大幅安でもオリエンタルランドが逆行高、夢の国に注目集まる",
-      "post_count": 252,
+      "title": "GPIFのブラックロック委託に年金不安広がる",
+      "post_count": 515,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "確定申告期限迫る中、e-Tax詐欺メール被害が急増",
-      "post_count": 95,
+      "title": "高市首相、ホルムズ封鎖を存立危機事態と認定せず",
+      "post_count": 410,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ローソンの市民開発者、社員の3分の1に拡大　店舗課題は残る",
-      "post_count": 86,
+      "title": "金融庁発表：2月の証券口座不正被害128億円、前月比48億円増",
+      "post_count": 73,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "恐怖指数",
+      "title": "パニック売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "バーゲンセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "証券口座",
+      "title": "三菱商事",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,23 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経VI",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
+      "title": "押し目買い",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "パニック売り",
+      "title": "#株式投資",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄",
+      "title": "moomoo証券",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,17 +107,25 @@
       "origin": "x_news"
     },
     {
-      "title": "携帯電話・スマートフォン",
+      "title": "#日経平均",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "moomoo証券",
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "携帯電話・スマートフォン",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -147,7 +139,23 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "ナンピン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "証券口座",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +171,31 @@
       "origin": "x_news"
     },
     {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -187,15 +219,15 @@
       "origin": "x_news"
     },
     {
-      "title": "TACO",
+      "title": "新生活セール",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "新生活セール",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
