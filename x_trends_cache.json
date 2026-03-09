@@ -1,26 +1,34 @@
 {
-  "updated_at": "2026-03-09T16:29:32.717705+09:00",
-  "count": 28,
+  "updated_at": "2026-03-09T17:29:24.067357+09:00",
+  "count": 26,
   "trends": [
     {
       "title": "堀江貴文氏「詐欺師」中傷に告訴予告も過去発言がブーメランに",
-      "post_count": 12012,
+      "post_count": 12257,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "スタバのギフトカードが実質無利子資金3000億円を生む仕組み",
-      "post_count": 514,
+      "title": "日経平均過去3番目の下げ幅、原油高で急落",
+      "post_count": 3274,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "アゼルバイジャン、イランに人道支援の意向表明　米イス攻撃下で首脳電話会談",
-      "post_count": 478,
+      "title": "G7が緊急石油備蓄放出を協議、原油価格が急騰から急落",
+      "post_count": 2038,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "プーチン大統領、イラン大統領と電話で中東即時停戦を呼びかけ",
+      "post_count": 388,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +36,14 @@
     },
     {
       "title": "日経平均大幅安でもオリエンタルランドが逆行高、夢の国に注目集まる",
-      "post_count": 206,
+      "post_count": 221,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Chatworkアカウント乗っ取り被害がフリーランスで急増",
-      "post_count": 38,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "サーキットブレーカー発動",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "余剰資金",
+      "title": "狼狽売り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "バーゲンセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,9 +67,17 @@
       "origin": "x_news"
     },
     {
-      "title": "携帯電話・スマートフォン",
+      "title": "打診買い",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "パニック売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,7 +91,15 @@
       "origin": "x_news"
     },
     {
-      "title": "産業・研究開発用品",
+      "title": "長期投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,15 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "買い増し",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "長期投資",
+      "title": "ストップ安",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,31 +139,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ安",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "バーゲンセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
+      "title": "産業・研究開発用品",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,7 +155,7 @@
       "origin": "x_news"
     },
     {
-      "title": "狼狽売り",
+      "title": "#日経平均",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,15 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "イヤホン・ヘッドホン",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "寄り付き",
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -195,7 +171,7 @@
       "origin": "x_news"
     },
     {
-      "title": "打診買い",
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -203,7 +179,15 @@
       "origin": "x_news"
     },
     {
-      "title": "日経VI",
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "余剰資金",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
