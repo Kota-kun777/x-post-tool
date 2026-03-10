@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-11T00:29:21.526931+09:00",
-  "count": 13,
+  "updated_at": "2026-03-11T05:29:17.126618+09:00",
+  "count": 10,
   "trends": [
     {
-      "title": "ホルムズ海峡でタンカー位置情報オフ通過、原油価格急落",
-      "post_count": 737,
+      "title": "高市政権がAIロボット・半導体など61分野を成長戦略の優先対象に選定",
+      "post_count": 5017,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "アサヒグループ、サイバー攻撃後の決算発表 最終利益26%減も通期予想据え置き",
-      "post_count": 639,
+      "title": "イスラエル外相、米国とイラン戦終結時期を協議へ",
+      "post_count": 391,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ＪＸ金属、半導体材料増産に230億円投資　チリ銅鉱山売却で資金",
+      "post_count": 181,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,30 +28,22 @@
     },
     {
       "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 102,
+      "post_count": 150,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ゴールドマン判断引き上げでレーザーテック株が14%急伸首位",
-      "post_count": 70,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ログイン後",
+      "title": "ホルムズ海峡",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,31 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ジャパンディスプレイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "フルレバ",
+      "title": "岡部さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "信用取引",
+      "title": "フルレバ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
