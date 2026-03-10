@@ -1,18 +1,34 @@
 {
-  "updated_at": "2026-03-10T20:29:17.804181+09:00",
-  "count": 24,
+  "updated_at": "2026-03-10T21:29:19.176828+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "Xが米国で「X Money」ベータ版開始、高金利6％と3％キャッシュバック提供",
-      "post_count": 6502,
+      "title": "水谷隼氏、日経急落後の株投資で440万円含み益も即座に逆転損失",
+      "post_count": 3761,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "アサヒGHD、サイバー攻撃遅れ決算発表 最終利益26%減も通期据え置き",
-      "post_count": 456,
+      "title": "片山財務相「NISA貧乏」目的化を否定、教育強化を強調",
+      "post_count": 1657,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "政府がAIロボットなど61品目を優先投資対象に選定",
+      "post_count": 403,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "投資家がダイドーリミテッド信用3倍レバで1.5億円溶かし退場宣言",
+      "post_count": 192,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,46 +36,22 @@
     },
     {
       "title": "ゴールドマン判断引き上げでレーザーテック株が14%急伸首位",
-      "post_count": 64,
+      "post_count": 67,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "起業家・梅田氏、新設法人で銀行口座開設を断られる",
-      "post_count": 56,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "起業家が法人口座開設を銀行で断られ体験談が話題",
-      "post_count": 47,
-      "category": "",
+      "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "株式市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "信用取引",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄",
+      "title": "日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,17 +115,9 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "トランプ氏",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -155,7 +139,7 @@
       "origin": "x_news"
     },
     {
-      "title": "買い戻し",
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,15 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ氏",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均株価",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,7 +155,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "ミームコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
