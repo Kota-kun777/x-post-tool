@@ -1,89 +1,49 @@
 {
-  "updated_at": "2026-03-10T09:29:20.406553+09:00",
-  "count": 16,
+  "updated_at": "2026-03-10T10:29:22.594009+09:00",
+  "count": 20,
   "trends": [
     {
-      "title": "原油価格急落、WTIが84ドル割れ　ホルムズ海峡通過再開で市場安心",
-      "post_count": 25707,
+      "title": "閣僚3人がWBC観戦、中東危機下で波紋広がる",
+      "post_count": 12464,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、イラン先制攻撃の理由を「1週間以内の攻撃計画阻止」と説明",
-      "post_count": 1462,
+      "title": "40代の幸福度U字カーブが注目を集める",
+      "post_count": 777,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "政府チャーター機で中東邦人281人帰国　累計380人超",
-      "post_count": 1094,
+      "title": "OpenAI軍事契約で幹部離脱とQuitGPT運動広がる　Anthropicは政府提訴",
+      "post_count": 611,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "OpenAIの軍事契約で社内外反発、アンソロピックは政府提訴",
-      "post_count": 309,
+      "title": "日経先物夜間取引で2000円超急反発、投資家興奮の声",
+      "post_count": 280,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均先物、昨日の急落から夜間で4％超反発　投資家は安堵の声",
-      "post_count": 184,
+      "title": "田端信太郎氏の「日経6万円前夜祭」投稿が投資家に苦笑を誘う",
+      "post_count": 81,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "S&P500",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "狼狽売り",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "急速充電",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "産業・研究開発用品",
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +67,15 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "リバウンド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,9 +91,73 @@
       "origin": "x_news"
     },
     {
-      "title": "ウェアラブルデバイス",
+      "title": "#日本株",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い増し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "狼狽売り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い戻し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "TACO",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "原油高騰",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#wti",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
