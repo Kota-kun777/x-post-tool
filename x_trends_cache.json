@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-10T18:29:19.001827+09:00",
+  "updated_at": "2026-03-10T19:29:21.747659+09:00",
   "count": 19,
   "trends": [
     {
-      "title": "イラン情勢で原油高騰、政府がガソリン補助金検討",
-      "post_count": 4876,
+      "title": "防衛省、富士駐屯地に長射程ミサイルを31日配備へ 地元で不安広がる",
+      "post_count": 4611,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,7 @@
     },
     {
       "title": "少量飲酒でも脳萎縮のリスク、2022年研究が再注目",
-      "post_count": 967,
+      "post_count": 1186,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,32 +20,24 @@
     },
     {
       "title": "日経平均が前場急落後、後場で1519円高の54,248円で大反発",
-      "post_count": 491,
+      "post_count": 875,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "アサヒGHD、サイバー攻撃遅れ決算発表 最終利益26%減も通期予想維持",
-      "post_count": 382,
+      "title": "アサヒグループHD、サイバー攻撃影響で3Q利益26%減も配当据え置き",
+      "post_count": 427,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中東4カ国、石油生産を最大670万バレル/日削減",
-      "post_count": 71,
+      "title": "30歳の残酷な真実がXで話題に広がる",
+      "post_count": 123,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +51,15 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "三菱HCキャピタル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#TradeNote",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,23 +75,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ミームコイン",
+      "title": "トランプ大統領",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トレーダー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "買い戻し",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,9 +99,25 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領",
+      "title": "NISA貧乏",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "買い戻し",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -123,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -132,14 +140,6 @@
     },
     {
       "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
