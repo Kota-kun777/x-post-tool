@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-10T21:29:19.176828+09:00",
-  "count": 21,
+  "updated_at": "2026-03-10T22:29:17.390143+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "水谷隼氏、日経急落後の株投資で440万円含み益も即座に逆転損失",
-      "post_count": 3761,
+      "title": "Xが米国で高金利6％のX Moneyベータ版開始",
+      "post_count": 7325,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "片山財務相「NISA貧乏」目的化を否定、教育強化を強調",
-      "post_count": 1657,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "政府がAIロボットなど61品目を優先投資対象に選定",
-      "post_count": 403,
+      "title": "トランプ氏、イランにホルムズ海峡封鎖で20倍攻撃を警告",
+      "post_count": 2212,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,30 +20,30 @@
     },
     {
       "title": "投資家がダイドーリミテッド信用3倍レバで1.5億円溶かし退場宣言",
-      "post_count": 192,
+      "post_count": 705,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ゴールドマン判断引き上げでレーザーテック株が14%急伸首位",
-      "post_count": 67,
+      "title": "溝口勇児氏、SNS批判に法的対応を本格化",
+      "post_count": 356,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "ＪＸ金属、半導体材料増産に230億円投資　チリ銅鉱山売却で資金",
+      "post_count": 126,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "株式市場",
+      "title": "日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,23 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱HCキャピタル",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
+      "title": "三菱hcキャピタル",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日経平均株価",
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,15 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ氏",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Bitcoin",
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +115,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Bitcoin",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -158,14 +134,6 @@
       "title": "ミームコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプさん",
-      "post_count": 0,
-      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
