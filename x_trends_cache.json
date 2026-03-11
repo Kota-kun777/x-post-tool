@@ -1,26 +1,34 @@
 {
-  "updated_at": "2026-03-11T10:29:17.411545+09:00",
-  "count": 25,
+  "updated_at": "2026-03-11T12:29:26.058208+09:00",
+  "count": 20,
   "trends": [
     {
-      "title": "Xが米国で高金利6％のX Moneyベータ版開始",
-      "post_count": 9522,
+      "title": "離島コワーキングスペース、1年半で閉店　起業家が6000万円借金経緯を告白",
+      "post_count": 4742,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "大島のコワーキングスペース「LLACハウス」、開業1年半で閉店へ　6000万円借金に苦しむ",
-      "post_count": 4294,
+      "title": "日経平均が朝の取引で1,200円超上昇 55,400円台回復",
+      "post_count": 962,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "アサヒグループ、サイバー攻撃後の決算発表 最終利益26%減も通期予想据え置き",
-      "post_count": 689,
+      "title": "高市首相の名前利用トークン「サナエトークン」が暴落・中止に追い込まれる",
+      "post_count": 322,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Xでバズるポストの秘訣は「修飾語を少なく」讃岐うどん式",
+      "post_count": 255,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,102 +36,14 @@
     },
     {
       "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 171,
+      "post_count": 184,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "静岡歯科医、患者にわいせつ行為で3回目の逮捕　Xで復帰再犯の誤解広がる",
-      "post_count": 67,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "溝口さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ジャパンディスプレイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナスダック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "ファミペイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ホールド",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#米国株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ大統領",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ボラティリティ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "JPYC",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "株式市場",
+      "title": "中東情勢",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ミームコイン",
+      "title": "溝口さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +83,23 @@
       "origin": "x_news"
     },
     {
-      "title": "信用取引",
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ダイドーリミテッド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -179,15 +115,39 @@
       "origin": "x_news"
     },
     {
-      "title": "トランプ氏",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "JPYC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ミームコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "岡部さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
