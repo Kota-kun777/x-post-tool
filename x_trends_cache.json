@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-11T19:29:20.796975+09:00",
-  "count": 21,
+  "updated_at": "2026-03-11T21:29:21.567343+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "ペルシャ湾で商船三井コンテナ船が攻撃を受け船尾に穴",
-      "post_count": 26268,
+      "title": "群馬県職員、世界一周クルーズで14日欠勤し停職3カ月処分",
+      "post_count": 3249,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "海上自衛隊哨戒機、神奈川上空でレーザー照射される",
-      "post_count": 3166,
+      "title": "グレタ・トゥンベリの「年収3億円」デマがXで拡散される",
+      "post_count": 1697,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン、ホルムズ海峡に機雷敷設の兆候　米軍が敷設艦16隻撃破",
-      "post_count": 650,
+      "title": "POPOPOが3月18日新サービス発表会を予告、庵野秀明・GACKT・ひろゆきら豪華登壇",
+      "post_count": 708,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,62 +28,22 @@
     },
     {
       "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 208,
+      "post_count": 211,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Chatworkでフィッシング詐欺多発、運営が緊急注意喚起",
-      "post_count": 133,
+      "title": "Chatworkフィッシング被害が急増、フリーランスに連鎖注意喚起",
+      "post_count": 149,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "アマゾン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヨコヨコ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
+      "title": "オアシス",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,15 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "ホルムズ海峡",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "信用取引",
+      "title": "#TradeNote",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "岡部さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "岡部さん",
+      "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,15 +107,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ニデック",
+      "title": "#日本株",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "JPYC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
