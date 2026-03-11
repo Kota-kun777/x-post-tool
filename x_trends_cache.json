@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-11T08:29:18.214583+09:00",
-  "count": 19,
+  "updated_at": "2026-03-11T09:29:17.290947+09:00",
+  "count": 22,
   "trends": [
     {
-      "title": "Xが米国で高金利6％のX Moneyベータ版開始",
-      "post_count": 9071,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "オラクル3四半期決算、クラウド収益44％増で株価9％急騰",
-      "post_count": 1284,
+      "title": "オラクル3四半期連続増収増益、AIクラウド爆発的成長で株価9％超上昇",
+      "post_count": 1574,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +12,15 @@
     },
     {
       "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 163,
+      "post_count": 166,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米軍、中東にAI小型ドローン「メロプス」配備　イラン製ドローン対策でコスト400分の1",
+      "post_count": 122,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,14 +28,14 @@
     },
     {
       "title": "ゴールドマン判断引き上げでレーザーテック株が14%急伸首位",
-      "post_count": 86,
+      "post_count": 90,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "押し目買い",
+      "title": "ヨコヨコ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -43,15 +43,7 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "原油価格",
+      "title": "株式市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,39 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ナスダック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ファミペイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "JPYC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヨコヨコ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ボラティリティ",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,6 +75,54 @@
       "origin": "x_news"
     },
     {
+      "title": "ホールド",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ファミペイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ボラティリティ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#米国株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "溝口さん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "トランプ大統領",
       "post_count": 0,
       "category": "政治 · トレンド",
@@ -123,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
+      "title": "JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +147,23 @@
       "origin": "x_news"
     },
     {
+      "title": "オラクル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "信用取引",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "サンコール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
