@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-11T18:29:20.044589+09:00",
-  "count": 17,
+  "updated_at": "2026-03-11T19:29:20.796975+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "ペルシャ湾で商船三井コンテナ船が損傷　負傷者なし自力航行可能",
-      "post_count": 12249,
+      "title": "ペルシャ湾で商船三井コンテナ船が攻撃を受け船尾に穴",
+      "post_count": 26268,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Xが米国で高金利6％のX Moneyベータ版開始",
-      "post_count": 10731,
+      "title": "海上自衛隊哨戒機、神奈川上空でレーザー照射される",
+      "post_count": 3166,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相側近とサナエトークン発行者、LINEやり取りが発覚",
-      "post_count": 3627,
+      "title": "イラン、ホルムズ海峡に機雷敷設の兆候　米軍が敷設艦16隻撃破",
+      "post_count": 650,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +28,30 @@
     },
     {
       "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 207,
+      "post_count": 208,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Chatworkでフィッシング被害急増、公式が注意喚起",
-      "post_count": 126,
+      "title": "Chatworkでフィッシング詐欺多発、運営が緊急注意喚起",
+      "post_count": 133,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "信用取引",
+      "title": "#TradeNote",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +75,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "ヨコヨコ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,6 +99,22 @@
       "origin": "x_news"
     },
     {
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用取引",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -91,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,9 +147,9 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "ニデック",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
