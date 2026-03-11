@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-03-11T22:29:18.436636+09:00",
-  "count": 13,
+  "updated_at": "2026-03-12T00:29:20.641518+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "POPOPOが3月18日新サービス発表会を予告、庵野秀明・GACKT・ひろゆきら豪華登壇",
-      "post_count": 1698,
+      "title": "群馬県、再任用職員を停職3カ月処分 世界一周クルーズで14日無断欠勤",
+      "post_count": 9988,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米国2月CPI、市場予想通りに安定　インフレ目標近辺で利下げ期待維持",
-      "post_count": 644,
+      "title": "グレタ・トゥンベリの「年収3億円」デマがXで拡散される",
+      "post_count": 2517,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "開発者間でClaude CodeとCodex CLIの使い分け議論活発",
-      "post_count": 411,
+      "title": "東日本大震災15年、小泉進次郎防衛大臣の心揺さぶるX投稿",
+      "post_count": 1534,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 211,
+      "title": "Claude Codeの設定を99%削除したら出力が劇的に向上",
+      "post_count": 542,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Chatworkフィッシング被害が急増、フリーランスに連鎖注意喚起",
-      "post_count": 151,
+      "post_count": 153,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,6 +44,22 @@
     },
     {
       "title": "#JPYC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "製品概要",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +75,15 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "オラクル",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,33 +99,17 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "共同通信",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "TACO",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "サンコール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
