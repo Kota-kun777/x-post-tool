@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-11T15:29:26.629429+09:00",
-  "count": 15,
+  "updated_at": "2026-03-11T16:29:29.352311+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "国会で「NISA貧乏」に片山財務相がショック表明",
-      "post_count": 10882,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "しまなみ海道の離島コワーキング「LLACハウス」、1年半で閉店へ　6000万円借金の挑戦と挫折",
-      "post_count": 5173,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "任天堂株が1万円台回復、『ぽこ あ ポケモン』好調で続伸",
-      "post_count": 2729,
+      "post_count": 3076,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米中央軍、ホルムズ海峡でイラン機雷敷設艦16隻を排除　トランプ氏も警告",
+      "post_count": 1856,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "松崎悠希氏、日本の映画界性加害に一般ユーザー圧力を呼びかけ",
+      "post_count": 1024,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +28,7 @@
     },
     {
       "title": "東証信用買い残高、19年10ヶ月ぶり高水準に到達",
-      "post_count": 195,
+      "post_count": 199,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +36,14 @@
     },
     {
       "title": "Chatworkアカウント乗っ取り被害が急増、偽請求書リンクの手口広がる",
-      "post_count": 26,
+      "post_count": 66,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ダイドーリミテッド",
+      "title": "ヨコヨコ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用取引",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -60,6 +76,14 @@
     },
     {
       "title": "NISA貧乏",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,15 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "溝口さん",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "信用取引",
+      "title": "ダイドーリミテッド",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
