@@ -1,49 +1,73 @@
 {
-  "updated_at": "2026-03-12T03:29:19.676794+09:00",
-  "count": 11,
+  "updated_at": "2026-03-12T08:29:19.812292+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "梅田で鋼鉄管が地下から10m超せり上がり渋滞発生",
-      "post_count": 325400,
+      "title": "イラン、ホルムズ海峡に機雷敷設か　米軍が敷設艦破壊も封鎖長期化",
+      "post_count": 5505,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本政府、中東邦人830人帰国支援 韓国人も助け合う",
-      "post_count": 31398,
+      "title": "トランプ大統領、イラン戦争で「勝利」を宣言も戦闘継続中",
+      "post_count": 5234,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ENEOS、ガソリン卸売価格を26円引き上げ 駆け込み給油で全国混雑",
-      "post_count": 4282,
+      "title": "トランプ大統領、イラン戦争で「勝利」宣言もホルムズ海峡封鎖継続",
+      "post_count": 4719,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均776円高の55,025円で続伸、中東懸念からの回復",
-      "post_count": 421,
+      "title": "年収1000万円の手取り、日本は先進国並みか検証議論",
+      "post_count": 862,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Chatworkフィッシング被害が急増、フリーランスに連鎖注意喚起",
-      "post_count": 155,
+      "title": "PayPay、ナスダックIPO価格を16ドルに設定 当初想定下回る",
+      "post_count": 129,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "商船三井",
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブロックチェーン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヨコヨコ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "製品情報",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,22 +83,6 @@
       "origin": "x_news"
     },
     {
-      "title": "#JPYC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "信用取引",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "オラクル",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -83,9 +91,25 @@
       "origin": "x_news"
     },
     {
-      "title": "TACO",
+      "title": "NISA貧乏",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "石油備蓄放出",
+      "post_count": 0,
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
