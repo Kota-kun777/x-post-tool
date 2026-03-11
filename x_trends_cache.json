@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-11T21:29:21.567343+09:00",
-  "count": 17,
+  "updated_at": "2026-03-11T22:29:18.436636+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "群馬県職員、世界一周クルーズで14日欠勤し停職3カ月処分",
-      "post_count": 3249,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "グレタ・トゥンベリの「年収3億円」デマがXで拡散される",
-      "post_count": 1697,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "POPOPOが3月18日新サービス発表会を予告、庵野秀明・GACKT・ひろゆきら豪華登壇",
-      "post_count": 708,
+      "post_count": 1698,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米国2月CPI、市場予想通りに安定　インフレ目標近辺で利下げ期待維持",
+      "post_count": 644,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "開発者間でClaude CodeとCodex CLIの使い分け議論活発",
+      "post_count": 411,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,8 +36,16 @@
     },
     {
       "title": "Chatworkフィッシング被害が急増、フリーランスに連鎖注意喚起",
-      "post_count": 149,
+      "post_count": 151,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#JPYC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,39 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ヤマハ発動機",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ホルムズ海峡",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "岡部さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,22 +83,6 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "JPYC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -132,6 +92,14 @@
     },
     {
       "title": "サンコール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
