@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-12T08:29:19.812292+09:00",
-  "count": 14,
+  "updated_at": "2026-03-12T09:29:20.229172+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "イラン、ホルムズ海峡に機雷敷設か　米軍が敷設艦破壊も封鎖長期化",
-      "post_count": 5505,
+      "title": "高市首相、中東危機で石油備蓄単独放出を表明",
+      "post_count": 22103,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、イラン戦争で「勝利」を宣言も戦闘継続中",
-      "post_count": 5234,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "トランプ大統領、イラン戦争で「勝利」宣言もホルムズ海峡封鎖継続",
-      "post_count": 4719,
+      "title": "63歳再任用職員、世界一周クルーズで有給使い切り停職3カ月",
+      "post_count": 19541,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,46 +20,46 @@
     },
     {
       "title": "年収1000万円の手取り、日本は先進国並みか検証議論",
-      "post_count": 862,
+      "post_count": 2539,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "PayPay、ナスダックIPO価格を16ドルに設定 当初想定下回る",
-      "post_count": 129,
+      "title": "PayPay、NASDAQ上場で公開価格を16ドルに引き下げ",
+      "post_count": 229,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン戦争",
+      "title": "Chatworkフィッシング被害が急増、フリーランスに連鎖注意喚起",
+      "post_count": 157,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#ドル円",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヤマハ発動機",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "ブロックチェーン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヨコヨコ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "製品情報",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +75,31 @@
       "origin": "x_news"
     },
     {
-      "title": "オラクル",
+      "title": "ヨコヨコ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン戦争",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商船三井",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,9 +123,17 @@
       "origin": "x_news"
     },
     {
-      "title": "石油備蓄放出",
+      "title": "為替介入",
       "post_count": 0,
-      "category": "ニュース · トレンド",
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "オラクル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
