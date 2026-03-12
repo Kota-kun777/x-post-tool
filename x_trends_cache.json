@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-13T07:29:17.261808+09:00",
-  "count": 9,
+  "updated_at": "2026-03-13T08:29:17.094897+09:00",
+  "count": 13,
   "trends": [
     {
       "title": "米軍内部調査でイラン小学校誤爆確認 死者少なくとも175人、主に児童",
-      "post_count": 289240,
+      "post_count": 311446,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "63歳再任用職員、世界一周クルーズで14日無断欠勤　停職3カ月処分も称賛の声",
-      "post_count": 35653,
+      "title": "高市首相、風邪疑いで公務取りやめ 訪米調整続く",
+      "post_count": 72419,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,32 +20,32 @@
     },
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 28488,
+      "post_count": 29344,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "中東情勢悪化でドル円159円台前半、1カ月半ぶり高値",
-      "post_count": 2268,
+      "title": "イラン革命防衛隊、グーグルなど米AI企業7社の29拠点を新たな標的に指定",
+      "post_count": 268,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ごぼうの党奥野氏の子ども食堂、国税捜査でシェフが擁護エピソード",
-      "post_count": 527,
+      "title": "前川喜平氏、高市首相に「急性肺炎」発言で批判殺到",
+      "post_count": 239,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡",
+      "title": "#米国株",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +59,23 @@
       "origin": "x_news"
     },
     {
+      "title": "ホルムズ海峡",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -70,6 +86,22 @@
       "title": "PayPay",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#usdjpy",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
