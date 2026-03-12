@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-03-12T10:29:21.702937+09:00",
-  "count": 16,
+  "updated_at": "2026-03-12T12:29:22.749162+09:00",
+  "count": 21,
   "trends": [
     {
-      "title": "高市首相、日本単独で石油備蓄放出を表明 中東危機に対応",
-      "post_count": 77558,
+      "title": "片山財務相、中国系スマホ決済の税逃れを「由々しき問題」と認め是正へ",
+      "post_count": 44301,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相、中東危機で石油備蓄45日分放出を表明",
-      "post_count": 30347,
+      "title": "メタプラネット、ビットコイン強化へ子会社2社設立とJPYCに最大4億円投資",
+      "post_count": 2055,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット、ビットコインインフラ強化へ子会社2社設立　JPYCに最大4億円投資",
-      "post_count": 1219,
+      "title": "Chatwork狙いフィッシング詐欺が3月急増、フリーランスに被害相次ぐ",
+      "post_count": 207,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "3000万円未満でFIREを実現した人が3割超の調査データに注目集まる",
-      "post_count": 892,
+      "title": "アマゾン、AIコード変更の障害増加でシニア承認を義務化",
+      "post_count": 42,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Chatworkフィッシング被害が急増、フリーランスに連鎖注意喚起",
-      "post_count": 162,
+      "title": "PeopleXが人事特化AIエージェント基盤「PeopleX AgenticHR」を正式提供開始",
+      "post_count": 41,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -51,39 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブロックチェーン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヨコヨコ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "岡部さん",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +67,63 @@
       "origin": "x_news"
     },
     {
-      "title": "#usdjpy",
+      "title": "Bitcoin",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヨコヨコ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "楽天社員経由",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#ドル円",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "信用取引",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "備蓄放出",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "岡部さん",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +139,15 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "ドローン",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "サンコール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +155,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ドローン",
+      "title": "タイムセール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タンカー",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
