@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-13T02:29:22.694332+09:00",
-  "count": 11,
+  "updated_at": "2026-03-13T03:29:17.290677+09:00",
+  "count": 12,
   "trends": [
     {
-      "title": "米軍調査でイラン小学校誤爆確認、トランプ大統領は責任否定",
-      "post_count": 170106,
+      "title": "米軍、イラン女子小学校誤爆を認定 古いデータで175人死亡、主に少女",
+      "post_count": 198340,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "63歳再任用職員、世界一周クルーズで14日無断欠勤　停職3カ月もXで勇者称賛",
-      "post_count": 34351,
+      "title": "衆院予算委で中国系スマホ決済の税務問題が浮上、片山財務相が是正を約束",
+      "post_count": 76374,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +20,7 @@
     },
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 25857,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラネット、JPYCに最大4億円出資でビットコインエコシステム構築へ",
-      "post_count": 6392,
+      "post_count": 26348,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,8 +28,24 @@
     },
     {
       "title": "イーロン・マスク氏、フォーブス長者番付で2年連続首位 資産8390億ドルに急増",
-      "post_count": 3706,
+      "post_count": 3844,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均先物が夜間取引で2.5%超安、中東情勢緊迫で株安加速",
+      "post_count": 31,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホルムズ海峡",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,6 +67,14 @@
       "origin": "x_news"
     },
     {
+      "title": "下方修正",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -68,14 +84,6 @@
     },
     {
       "title": "楽天社員経由",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
