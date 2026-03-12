@@ -1,81 +1,49 @@
 {
-  "updated_at": "2026-03-13T00:29:19.890569+09:00",
-  "count": 15,
+  "updated_at": "2026-03-13T01:29:19.825884+09:00",
+  "count": 11,
   "trends": [
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 23737,
+      "post_count": 25092,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米情報機関、イラン体制に崩壊兆候なしと分析　トランプ氏勝利主張",
-      "post_count": 8420,
+      "title": "高市早苗首相、風邪疑いで外交公務をキャンセル",
+      "post_count": 10412,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相、風邪疑いで中東大使会合をキャンセル",
-      "post_count": 7639,
+      "title": "小泉防衛相発言動画が海外で誤解拡散、日本平和イメージに影",
+      "post_count": 760,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット、ビットコイン強化へ新子会社2社設立とJPYCに最大4億円投資",
-      "post_count": 5380,
+      "title": "「NISA貧乏」がXで話題 若者投資と生活のジレンマ",
+      "post_count": 61,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "インフルエンサー片山さつき氏らしきDM受け困惑 偽アカウント疑い",
-      "post_count": 761,
+      "title": "ネタニヤフ首相死亡説がXで広がるも公式がフェイクニュースと否定",
+      "post_count": 44,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "従業員紹介キャンペーン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "為替介入",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Bitcoin",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "東京海上",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラネット",
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "メタプラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ヒューリック",
+      "title": "従業員紹介キャンペーン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
