@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-13T06:29:16.733971+09:00",
-  "count": 11,
+  "updated_at": "2026-03-13T07:29:17.261808+09:00",
+  "count": 9,
   "trends": [
     {
       "title": "米軍内部調査でイラン小学校誤爆確認 死者少なくとも175人、主に児童",
-      "post_count": 265056,
+      "post_count": 289240,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "63歳再任用職員、世界一周クルーズで14日無断欠勤　停職3カ月処分も称賛の声",
+      "post_count": 35653,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,48 +20,24 @@
     },
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 27682,
+      "post_count": 28488,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ゴルたぬさん、街中で見知らぬ人に1万円貸すエピソードが話題",
-      "post_count": 1754,
+      "title": "中東情勢悪化でドル円159円台前半、1カ月半ぶり高値",
+      "post_count": 2268,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "政府成長戦略資料からWeb3関連記述が完全削除",
-      "post_count": 1693,
+      "title": "ごぼうの党奥野氏の子ども食堂、国税捜査でシェフが擁護エピソード",
+      "post_count": 527,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "高市首相、体調不良で公務切り上げ 公邸で休息",
-      "post_count": 1103,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "PayPay",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "アマゾン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -67,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "商品詳細",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "下方修正",
+      "title": "アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,9 +67,9 @@
       "origin": "x_news"
     },
     {
-      "title": "ガソリン価格",
+      "title": "PayPay",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
