@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-13T05:29:16.894599+09:00",
-  "count": 12,
+  "updated_at": "2026-03-13T06:29:16.733971+09:00",
+  "count": 11,
   "trends": [
     {
-      "title": "米軍調査でイラン小学校誤爆判明、死者175人超　トランプ氏責任回避",
-      "post_count": 243254,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "63歳再任用職員、世界一周クルーズで14日無断欠勤し停職3カ月",
-      "post_count": 34910,
+      "title": "米軍内部調査でイラン小学校誤爆確認 死者少なくとも175人、主に児童",
+      "post_count": 265056,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,48 +12,40 @@
     },
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 27114,
+      "post_count": 27682,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NHK、受信料未払いのホテル運営2社を7年ぶりに提訴",
-      "post_count": 9621,
+      "title": "ゴルたぬさん、街中で見知らぬ人に1万円貸すエピソードが話題",
+      "post_count": 1754,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イーロン・マスク、フォーブス長者番付で2年連続首位 資産8390億ドル史上最高",
-      "post_count": 4066,
+      "title": "政府成長戦略資料からWeb3関連記述が完全削除",
+      "post_count": 1693,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "データ無制限",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "高市首相、体調不良で公務切り上げ 公邸で休息",
+      "post_count": 1103,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡",
+      "title": "PayPay",
       "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "楽天社員経由",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -75,9 +59,9 @@
       "origin": "x_news"
     },
     {
-      "title": "PayPay",
+      "title": "ホルムズ海峡",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -94,6 +78,14 @@
       "title": "下方修正",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ガソリン価格",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
