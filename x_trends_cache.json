@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-03-13T18:29:20.987691+09:00",
-  "count": 21,
+  "updated_at": "2026-03-13T19:29:25.672771+09:00",
+  "count": 22,
   "trends": [
     {
+      "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
+      "post_count": 35996,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "メタプラネット、JPYCに最大4億円出資でビットコインインフラ強化 一方政府成長戦略からWeb3削除で波紋",
-      "post_count": 9635,
+      "post_count": 9934,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ドル円一時159円68銭、1年8カ月ぶり高値更新",
-      "post_count": 1047,
+      "title": "日経平均633円安で大幅続落、原油高が投資家心理を冷やす",
+      "post_count": 865,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均、中東緊迫で633円安の5万3819円で終了",
-      "post_count": 661,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン攻撃続く中、金価格が予想外に下落 トレーダー議論活発",
-      "post_count": 654,
+      "title": "イランによるインジルリク基地攻撃の噂、公式は被害なしと否定",
+      "post_count": 203,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +36,14 @@
     },
     {
       "title": "SBIホールディングス、2026年3月期末配当を75円に修正 実質増配で株価反発",
-      "post_count": 41,
+      "post_count": 74,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "東京海上",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "アマゾン",
+      "title": "Bitcoin",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#TradeNote",
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "東京海上",
+      "title": "ヨコヨコ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,15 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
+      "title": "ヒューリック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +107,31 @@
       "origin": "x_news"
     },
     {
-      "title": "Bitcoin",
+      "title": "#TradeNote",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マンデー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,14 +155,6 @@
       "origin": "x_news"
     },
     {
-      "title": "フジクラ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "共栄タンカー",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,7 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "フジクラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +171,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ノートレ",
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
