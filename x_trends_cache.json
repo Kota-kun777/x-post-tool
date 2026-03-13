@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-13T08:29:17.094897+09:00",
-  "count": 13,
+  "updated_at": "2026-03-13T09:29:19.395457+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "米軍内部調査でイラン小学校誤爆確認 死者少なくとも175人、主に児童",
-      "post_count": 311446,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "高市首相、風邪疑いで公務取りやめ 訪米調整続く",
-      "post_count": 72419,
+      "title": "高市首相、体調不良で中東外交日程を急遽中止",
+      "post_count": 75507,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,30 +12,38 @@
     },
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 29344,
+      "post_count": 30114,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン革命防衛隊、グーグルなど米AI企業7社の29拠点を新たな標的に指定",
-      "post_count": 268,
+      "title": "イラン情勢悪化でガソリン価格200円超え続出",
+      "post_count": 15270,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "前川喜平氏、高市首相に「急性肺炎」発言で批判殺到",
-      "post_count": 239,
+      "title": "投資家ゴルたぬ氏、道端の男に1万円貸すエピソードが議論に",
+      "post_count": 2723,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#米国株",
+      "title": "イラン攻撃後、金価格が意外に下落　トレーダー活発に議論",
+      "post_count": 221,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "商品詳細",
+      "title": "米国市場",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +75,31 @@
       "origin": "x_news"
     },
     {
-      "title": "米国市場",
+      "title": "#米国株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヤマハ発動機",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#usdjpy",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,15 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#usdjpy",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナスダック",
+      "title": "メジャーSQ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
