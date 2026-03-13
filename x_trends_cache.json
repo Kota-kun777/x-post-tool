@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-13T12:29:17.279660+09:00",
-  "count": 15,
+  "updated_at": "2026-03-13T13:29:20.585140+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "高市首相、風邪疑いで中東大使会合取りやめも訪米は予定通り",
-      "post_count": 85892,
+      "title": "高市首相、来週トランプ氏と首脳会談へ　米議会演説は見送り、自衛隊ホルムズ派遣想定せず",
+      "post_count": 88539,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "政府成長戦略からWeb3消え、民間メタプラネットがJPYCに4億円出資",
-      "post_count": 8343,
+      "title": "メタプラネット、ビットコインインフラ投資ファンド40億円規模を発表",
+      "post_count": 8622,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,22 +20,30 @@
     },
     {
       "title": "フォーブス2026年長者番付、イーロン・マスク氏が2年連続首位で資産8390億ドル",
-      "post_count": 5583,
+      "post_count": 5916,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン新最高指導者モジタバ・ハメネイ師の消息不明、AI画像疑惑浮上",
-      "post_count": 242,
+      "title": "イラン攻撃続く中、金価格が予想外に下落 トレーダー議論活発",
+      "post_count": 517,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ナスダック",
+      "title": "ソースネクストの「0秒読書」アプリ、電子書籍をAI要約する便利ツールに注目集まる",
+      "post_count": 104,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -43,23 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "配当利回り",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メジャーSQ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "株主優待",
+      "title": "#ドル円",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +67,15 @@
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
+      "title": "未来の自分",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,6 +91,22 @@
       "origin": "x_news"
     },
     {
+      "title": "配当利回り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "東京海上",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "コーエーテクモ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,15 +123,15 @@
       "origin": "x_news"
     },
     {
-      "title": "PayPay",
+      "title": "メジャーSQ",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#ドル円",
+      "title": "ナスダック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
