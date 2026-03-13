@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-03-13T20:29:17.628621+09:00",
-  "count": 23,
+  "updated_at": "2026-03-13T21:29:25.528018+09:00",
+  "count": 25,
   "trends": [
     {
-      "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 36476,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "メタプラネット、JPYCに最大4億円出資でビットコインインフラ強化 一方政府成長戦略からWeb3削除で波紋",
-      "post_count": 10301,
+      "post_count": 10717,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ペンタゴン近くピザ屋深夜混雑、軍事作戦の兆候か",
-      "post_count": 1591,
+      "title": "政府、国家情報局新設法案を閣議決定　ヤジ騒動で国会波紋",
+      "post_count": 5827,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日銀、18-19日会合で政策金利0.75％据え置き公算大",
-      "post_count": 1071,
+      "title": "ペンタゴン近くのピザ注文急増で軍事行動の兆しとXで注目",
+      "post_count": 1904,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン攻撃続く中、金価格が予想外に下落 トレーダー議論活発",
+      "post_count": 718,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,8 +36,120 @@
     },
     {
       "title": "SBIホールディングス増配発表で投資家喜びの声相次ぐ",
-      "post_count": 281,
+      "post_count": 485,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商品説明",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#高配当",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#カビュウ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Bitcoin",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Web3",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三井住友",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#JPYC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "配当利回り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヒューリック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヤマハ発動機",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "フジクラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "共栄タンカー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,94 +171,6 @@
       "origin": "x_news"
     },
     {
-      "title": "配当利回り",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#高配当株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Bitcoin",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商品説明",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三井住友",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "フジクラ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#JPYC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヤマハ発動機",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヒューリック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "レーザーテック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -155,15 +179,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マンデー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "共栄タンカー",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
