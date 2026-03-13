@@ -1,65 +1,49 @@
 {
-  "updated_at": "2026-03-13T13:29:20.585140+09:00",
-  "count": 17,
+  "updated_at": "2026-03-13T14:29:27.117493+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "高市首相、来週トランプ氏と首脳会談へ　米議会演説は見送り、自衛隊ホルムズ派遣想定せず",
-      "post_count": 88539,
+      "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
+      "post_count": 33211,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット、ビットコインインフラ投資ファンド40億円規模を発表",
-      "post_count": 8622,
+      "title": "メタプラネット、JPYCに最大4億円出資でビットコインインフラ強化 一方政府成長戦略からWeb3削除で波紋",
+      "post_count": 8818,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "フォーブス2026年長者番付、イーロン・マスク氏が2年連続首位で資産8390億ドル",
-      "post_count": 5916,
+      "title": "富士宮市で最大級メガソーラー工事開始、住民反対高まる",
+      "post_count": 2126,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン攻撃続く中、金価格が予想外に下落 トレーダー議論活発",
-      "post_count": 517,
+      "title": "メタプラネット、株主優待を大幅拡充 ビットコイン特典中心に13社提携",
+      "post_count": 1373,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソースネクストの「0秒読書」アプリ、電子書籍をAI要約する便利ツールに注目集まる",
-      "post_count": 104,
+      "title": "イラン新最高指導者モジタバ師のプロフィール画像にAI編集の痕跡",
+      "post_count": 482,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#ドル円",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商品説明",
+      "title": "東京海上",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "株主優待",
+      "title": "メジャーSQ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "長期保有",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "東京海上",
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,25 +99,9 @@
       "origin": "x_news"
     },
     {
-      "title": "コーエーテクモ",
+      "title": "ロイター",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メジャーSQ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナスダック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "ニュース · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
