@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-13T19:29:25.672771+09:00",
-  "count": 22,
+  "updated_at": "2026-03-13T20:29:17.628621+09:00",
+  "count": 23,
   "trends": [
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 35996,
+      "post_count": 36476,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,38 +12,62 @@
     },
     {
       "title": "メタプラネット、JPYCに最大4億円出資でビットコインインフラ強化 一方政府成長戦略からWeb3削除で波紋",
-      "post_count": 9934,
+      "post_count": 10301,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均633円安で大幅続落、原油高が投資家心理を冷やす",
-      "post_count": 865,
+      "title": "ペンタゴン近くピザ屋深夜混雑、軍事作戦の兆候か",
+      "post_count": 1591,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イランによるインジルリク基地攻撃の噂、公式は被害なしと否定",
-      "post_count": 203,
+      "title": "日銀、18-19日会合で政策金利0.75％据え置き公算大",
+      "post_count": 1071,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "SBIホールディングス、2026年3月期末配当を75円に修正 実質増配で株価反発",
-      "post_count": 74,
+      "title": "SBIホールディングス増配発表で投資家喜びの声相次ぐ",
+      "post_count": 281,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東京海上",
+      "title": "メタプラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#TradeNote",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "配当利回り",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#高配当株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -52,6 +76,22 @@
     },
     {
       "title": "Bitcoin",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商品説明",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "フジクラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,55 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ヨコヨコ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ヒューリック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#高配当株",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マンデー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
+      "title": "#JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +139,23 @@
       "origin": "x_news"
     },
     {
-      "title": "JPYC",
+      "title": "ヒューリック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "レーザーテック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マンデー",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +171,7 @@
       "origin": "x_news"
     },
     {
-      "title": "フジクラ",
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,7 +179,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "ノートレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
