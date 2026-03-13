@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-14T01:29:20.912094+09:00",
+  "updated_at": "2026-03-14T02:29:16.940847+09:00",
   "count": 15,
   "trends": [
     {
       "title": "メタプラネット、JPYCに最大4億円出資でビットコインインフラ強化 一方政府成長戦略からWeb3削除で波紋",
-      "post_count": 11868,
+      "post_count": 11936,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,7 @@
     },
     {
       "title": "ペンタゴン近くピザ屋の深夜混雑、軍事作戦の予兆か",
-      "post_count": 2307,
+      "post_count": 2339,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +20,7 @@
     },
     {
       "title": "SBIホールディングス、2026年3月期配当を95円に増配　フジ・メディアHD株6.2%保有も明らかに",
-      "post_count": 816,
+      "post_count": 833,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,16 +28,24 @@
     },
     {
       "title": "イラン攻撃続く中、金価格が予想外に下落 トレーダー議論活発",
-      "post_count": 762,
+      "post_count": 766,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米軍、世界最大バンカーバスターでイラン核施設攻撃もウラン到達不能か",
-      "post_count": 156,
+      "title": "フジクラ、光ファイバー生産3倍化へ最大3000億円投資発表 株価急伸",
+      "post_count": 301,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "楽天モバイル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,7 +59,15 @@
       "origin": "x_news"
     },
     {
-      "title": "楽天モバイル",
+      "title": "PayPay",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "楽天ID",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "楽天ID",
+      "title": "フジクラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,22 +99,6 @@
       "origin": "x_news"
     },
     {
-      "title": "フジクラ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "為替介入",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ソニーFG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -107,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "ノートレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ノートレ",
+      "title": "マンデー",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
