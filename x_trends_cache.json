@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-13T09:29:19.395457+09:00",
-  "count": 15,
+  "updated_at": "2026-03-13T10:29:17.619986+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "高市首相、体調不良で中東外交日程を急遽中止",
-      "post_count": 75507,
+      "title": "米軍内部調査でイラン小学校誤爆確認 死者少なくとも175人、主に児童",
+      "post_count": 346053,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "高市首相、風邪疑いで中東大使会合取りやめ イラン情勢緊迫下で注目",
+      "post_count": 78779,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,48 +20,24 @@
     },
     {
       "title": "中国外務省、イラン湾岸諸国攻撃を非難し軍事行動停止を要求",
-      "post_count": 30114,
+      "post_count": 30746,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン情勢悪化でガソリン価格200円超え続出",
-      "post_count": 15270,
+      "title": "メタプラネット、JPYCに最大4億円出資　ビットコインインフラ構築へ",
+      "post_count": 7802,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "投資家ゴルたぬ氏、道端の男に1万円貸すエピソードが議論に",
-      "post_count": 2723,
+      "title": "ドル円1カ月半ぶり159円台突入、中東リスクで原油高株安加速",
+      "post_count": 3021,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン攻撃後、金価格が意外に下落　トレーダー活発に議論",
-      "post_count": 221,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラネット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米国市場",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -67,15 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "アマゾン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#米国株",
+      "title": "株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,6 +67,30 @@
       "origin": "x_news"
     },
     {
+      "title": "アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メジャーSQ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ヤマハ発動機",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#usdjpy",
+      "title": "#米国株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +115,15 @@
       "origin": "x_news"
     },
     {
-      "title": "メジャーSQ",
+      "title": "米国市場",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#ドル円",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
