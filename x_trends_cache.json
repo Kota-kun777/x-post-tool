@@ -1,49 +1,57 @@
 {
-  "updated_at": "2026-03-14T03:29:22.361991+09:00",
-  "count": 15,
+  "updated_at": "2026-03-14T11:29:21.859295+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "トランプ氏、イラン政権を「完全に破壊中」とTruth Socialで主張",
-      "post_count": 42509,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "メタプラネット、JPYCに最大4億円出資でビットコインインフラ強化 一方政府成長戦略からWeb3削除で波紋",
-      "post_count": 11970,
+      "post_count": 12710,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日米、南鳥島沖レアアース共同開発を首脳会談で確認へ",
-      "post_count": 3489,
+      "title": "日米首脳会談で南鳥島沖レアアース共同開発を確認へ",
+      "post_count": 12416,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン攻撃続く中、金価格が予想外に下落 トレーダー議論活発",
-      "post_count": 769,
+      "title": "マッキンゼー社内AI「Lilli」にSQLインジェクションの深刻脆弱性",
+      "post_count": 1725,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "前澤友作氏「電力が未来の通貨」国民総発電所構想に注目集まる",
-      "post_count": 404,
+      "title": "SBIホールディングス、2026年3月期配当を95円に増配　フジ・メディアHD株6.2%保有も明らかに",
+      "post_count": 932,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "楽天ID",
+      "title": "イラン新最高指導者忠誠式で段ボールパネル登場の動画が話題",
+      "post_count": 203,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヤマハ発動機",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナスダック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "SP500",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ヤマハ発動機",
+      "title": "#株クラの輪を拡げよう",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ソニーFG",
+      "title": "楽天ID",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "東京海上",
+      "title": "配当利回り",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "フジクラ",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,23 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "PayPay",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ノートレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "マンデー",
+      "title": "#株主優待",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
