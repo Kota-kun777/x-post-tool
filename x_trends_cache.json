@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-15T00:29:17.958637+09:00",
-  "count": 6,
+  "updated_at": "2026-03-15T01:29:18.443948+09:00",
+  "count": 7,
   "trends": [
     {
-      "title": "日米首脳会談で南鳥島レアアース共同開発を確認へ",
-      "post_count": 55785,
+      "title": "日米首脳会談で南鳥島沖レアアース共同開発を確認へ",
+      "post_count": 59741,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +12,15 @@
     },
     {
       "title": "イーロン・マスク氏、世界一の富豪が「お金は10年後ほぼ無意味」と予測",
-      "post_count": 7395,
+      "post_count": 7542,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "官民一体で国産LNG船建造復活へ検討開始 高市政権が経済安保強化",
+      "post_count": 4293,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +28,7 @@
     },
     {
       "title": "3000万円未満でFIREが可能か、調査データが議論を呼ぶ",
-      "post_count": 1732,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "SBIホールディングス、2026年3月期配当を95円に増配　フジ・メディアHD株6.2%保有も明らかに",
-      "post_count": 1059,
+      "post_count": 1843,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,7 +36,7 @@
     },
     {
       "title": "ドル円159円74銭台へ急伸、160円目前に中東リスクでドル買い加速",
-      "post_count": 1002,
+      "post_count": 1161,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,6 +44,14 @@
     },
     {
       "title": "#株主優待",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
