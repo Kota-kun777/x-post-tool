@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-15T06:29:17.003160+09:00",
-  "count": 8,
+  "updated_at": "2026-03-15T07:29:20.732650+09:00",
+  "count": 9,
   "trends": [
     {
+      "title": "日米首脳会談で南鳥島レアアース共同開発とゴールデン・ドーム参加が焦点",
+      "post_count": 72579,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "松本人志がXで「ダウンタウンプラス」会員激減説を完全否定",
-      "post_count": 20440,
+      "post_count": 20919,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,15 +20,7 @@
     },
     {
       "title": "国産LNG運搬船建造、2019年以来の復活へ検討",
-      "post_count": 4847,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "3000万円未満でFIREが可能か、調査データが議論を呼ぶ",
-      "post_count": 2072,
+      "post_count": 4973,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +28,30 @@
     },
     {
       "title": "Levelaのシンガポール旅行投稿が偽装請負疑惑を呼ぶ",
-      "post_count": 2069,
+      "post_count": 2210,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "トランプ大統領、日本にホルムズ海峡軍艦派遣を要求",
-      "post_count": 795,
+      "title": "3000万円未満でFIREが可能か、調査データが議論を呼ぶ",
+      "post_count": 2133,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "マンデー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "アマゾン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "アマゾン",
+      "title": "#FIRE自己紹介",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
