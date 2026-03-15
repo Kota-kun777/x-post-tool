@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-15T19:29:17.307388+09:00",
-  "count": 15,
+  "updated_at": "2026-03-15T20:29:18.210400+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "高市首相とトランプ大統領会談で資源・防衛協力が焦点",
-      "post_count": 113136,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Levela代表・駒居氏、偽装請負疑惑に「専門家相談済み」と反論",
-      "post_count": 11547,
+      "title": "相続税廃止の声がXで広がる、日露戦争起源に疑問",
+      "post_count": 53778,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +12,7 @@
     },
     {
       "title": "国産LNG船建造復活へ、政府と民間が検討開始",
-      "post_count": 6415,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "フーシ派高官、イラン連携で「Hour Zero」予告",
-      "post_count": 1466,
+      "post_count": 6593,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,40 +20,24 @@
     },
     {
       "title": "WTI原油先物、サンデー取引で98ドル割れ後の急反発",
-      "post_count": 818,
+      "post_count": 847,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "株価暴落対策",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "国産LNG運搬船建造復活へ、政府と民間が連携検討",
+      "post_count": 356,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "革命防衛隊",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "紹介コード",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "title": "心房細動患者に朗報 カフェイン入りコーヒーが再発リスク39%低減の研究",
+      "post_count": 171,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,7 +51,15 @@
       "origin": "x_news"
     },
     {
-      "title": "投資商品",
+      "title": "iDeCo",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Bitcoin",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "資産形成",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#FIRE自己紹介",
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -116,6 +92,14 @@
     },
     {
       "title": "業務委託",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#FIRE自己紹介",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
