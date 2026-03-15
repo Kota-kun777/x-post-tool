@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-15T22:29:17.517637+09:00",
-  "count": 14,
+  "updated_at": "2026-03-15T23:29:17.660034+09:00",
+  "count": 12,
   "trends": [
     {
-      "title": "へずまりゅう氏の投稿で相続税廃止論が広がる",
-      "post_count": 57669,
+      "title": "トランプ氏、日本にホルムズ海峡艦船派遣を要求 高市首相は慎重",
+      "post_count": 211152,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Levelaの業務委託が偽装請負疑惑で議論沸騰",
-      "post_count": 16647,
+      "title": "ホンダ、EV戦略見直しで上場初の赤字転落　最大2.5兆円損失",
+      "post_count": 25068,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Levelaのシンガポール旅行投稿が偽装請負疑惑を呼ぶ",
+      "post_count": 17631,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,38 +28,30 @@
     },
     {
       "title": "小6卒業4日前ボロボロ上履きがXで話題に",
-      "post_count": 1150,
+      "post_count": 2120,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "株主優待の魅力がXで再燃、東京メトロが話題の的",
-      "post_count": 1052,
+      "title": "国産LNG運搬船建造復活へ、政府と民間が協議開始",
+      "post_count": 1166,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "WTI原油先物、サンデー取引で98ドル割れ後の急反発",
-      "post_count": 881,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ネタニヤフ",
+      "title": "タイムセール",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "iDeCo",
+      "title": "楽天モバイル従業員紹介キャンペーン実施中",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,31 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "資産形成",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "NISA貧乏",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイムセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#FIRE自己紹介",
+      "title": "iDeCo",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -108,6 +84,14 @@
     },
     {
       "title": "業務委託",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "NISA貧乏",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
