@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-16T05:29:25.841860+09:00",
-  "count": 8,
+  "updated_at": "2026-03-16T06:29:19.121881+09:00",
+  "count": 7,
   "trends": [
     {
       "title": "トランプ氏、日本にホルムズ海峡へ軍艦派遣を期待表明　国内で反対の声広がる",
-      "post_count": 264787,
+      "post_count": 272328,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ホルムズ海峡封鎖で原油高騰、トイレットペーパーデマ広がるが本当のリスクはナフサ不足",
+      "post_count": 42598,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,31 +20,23 @@
     },
     {
       "title": "国産LNG船建造復活へ、政府と民間が検討開始",
-      "post_count": 7365,
+      "post_count": 7396,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "税理士がClaude Codeでスタッフゼロ、60社顧問を自動処理",
-      "post_count": 1683,
+      "title": "心房細動患者に朗報 カフェイン入りコーヒーが再発リスク39%低減の研究",
+      "post_count": 1537,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "WTI原油先物、サンデー取引で98ドル割れ後の急反発",
-      "post_count": 901,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ホルムズ海峡封鎖でナフサ不足、プラスチック生産に減産危機",
-      "post_count": 234,
+      "title": "ホルムズ海峡封鎖でナフサ不足、日本石化業界が減産検討",
+      "post_count": 227,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -52,14 +52,6 @@
     },
     {
       "title": "Bitcoin",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "業務委託",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
