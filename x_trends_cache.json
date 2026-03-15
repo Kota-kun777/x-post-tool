@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-16T07:29:18.388177+09:00",
-  "count": 6,
+  "updated_at": "2026-03-16T08:29:19.453142+09:00",
+  "count": 10,
   "trends": [
     {
-      "title": "トランプ氏、自衛隊ホルムズ海峡派遣を呼びかけ 日本で反対世論高まる",
-      "post_count": 283232,
+      "title": "相続税廃止の声がXで広がる、日露戦争起源に批判集中",
+      "post_count": 68311,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Levelaの偽装請負疑惑、スタッフ600人超で社保加入1名のみ",
+      "post_count": 21872,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,32 +20,32 @@
     },
     {
       "title": "国産LNG船建造復活へ、政府と民間が検討開始",
-      "post_count": 7430,
+      "post_count": 7480,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "税理士がClaude Codeでスタッフゼロ、60社顧問を自動処理",
-      "post_count": 1786,
+      "title": "サウジアラビア、45年前のパイプラインでホルムズ危機を緩和",
+      "post_count": 1086,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "心房細動患者に朗報 カフェイン入りコーヒーが再発リスク39%低減の研究",
-      "post_count": 1653,
+      "title": "米イラン紛争でビットコインが72,000ドル超えに急騰、伝統資産は下落",
+      "post_count": 129,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NISA貧乏の実例がXで議論を呼ぶ",
-      "post_count": 1540,
-      "category": "",
+      "title": "iDeCo",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -46,6 +54,30 @@
       "title": "業務委託",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "自己投資",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Amazon",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日米首脳会談",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
