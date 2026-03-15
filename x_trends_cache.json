@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-15T21:29:20.712917+09:00",
-  "count": 13,
+  "updated_at": "2026-03-15T22:29:17.517637+09:00",
+  "count": 14,
   "trends": [
     {
-      "title": "相続税廃止の声がXで広がる、日露戦争起源に注目",
-      "post_count": 55626,
+      "title": "へずまりゅう氏の投稿で相続税廃止論が広がる",
+      "post_count": 57669,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "韓国軍機で日本人3人サウジから無事ソウル到着 日韓協力実る",
-      "post_count": 11140,
+      "title": "Levelaの業務委託が偽装請負疑惑で議論沸騰",
+      "post_count": 16647,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "小6卒業4日前ボロボロ上履きがXで話題に",
+      "post_count": 1150,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +28,7 @@
     },
     {
       "title": "株主優待の魅力がXで再燃、東京メトロが話題の的",
-      "post_count": 932,
+      "post_count": 1052,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,32 +36,8 @@
     },
     {
       "title": "WTI原油先物、サンデー取引で98ドル割れ後の急反発",
-      "post_count": 872,
+      "post_count": 881,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "国産LNG運搬船建造復活へ、政府と民間が検討開始",
-      "post_count": 803,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Bitcoin",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "iDeCo",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -67,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "資産形成",
+      "title": "iDeCo",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,7 +59,23 @@
       "origin": "x_news"
     },
     {
-      "title": "業務委託",
+      "title": "ふゆちゃん",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Bitcoin",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "資産形成",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -100,6 +100,14 @@
     },
     {
       "title": "#FIRE自己紹介",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "業務委託",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
