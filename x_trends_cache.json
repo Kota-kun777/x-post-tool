@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-15T11:29:19.716830+09:00",
-  "count": 13,
+  "updated_at": "2026-03-15T12:29:17.508602+09:00",
+  "count": 12,
   "trends": [
     {
-      "title": "イラン外相、ホルムズ海峡を敵国以外に開放表明　トランプ氏が日本などに軍艦派遣要請",
-      "post_count": 140955,
+      "title": "イラン外相、ホルムズ海峡を米イスラエル同盟国以外に開放表明",
+      "post_count": 168318,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "相続税廃止の声がXで広がり議論過熱",
-      "post_count": 34823,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン外相、ホルムズ海峡は敵国以外通過可能と主張　石油供給懸念拡大",
-      "post_count": 4498,
+      "title": "国産LNG運搬船建造、2019年以来の復活へ検討",
+      "post_count": 5580,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +20,7 @@
     },
     {
       "title": "Levelaのシンガポール社員旅行投稿で偽装請負疑惑が議論に",
-      "post_count": 4152,
+      "post_count": 4869,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,16 +28,16 @@
     },
     {
       "title": "3000万円未満でFIRE達成者が3割超、マネーフォワード調査が議論呼ぶ",
-      "post_count": 2944,
+      "post_count": 3167,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "サラリーマン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "不採用時の履歴書返却を求める声がXで広がる",
+      "post_count": 450,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -54,6 +46,14 @@
       "title": "株価暴落対策",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ネタニヤフ",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -75,14 +75,6 @@
       "origin": "x_news"
     },
     {
-      "title": "ネタニヤフ",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "#FIRE自己紹介",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,7 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#株主優待",
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
