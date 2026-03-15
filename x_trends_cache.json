@@ -1,18 +1,26 @@
 {
-  "updated_at": "2026-03-15T14:29:17.725964+09:00",
+  "updated_at": "2026-03-15T15:29:17.865458+09:00",
   "count": 14,
   "trends": [
     {
-      "title": "イラン外相、ホルムズ海峡を敵対国以外に開放表明　トランプ氏、日本などに艦艇派遣要請",
-      "post_count": 228751,
+      "title": "イラン外相、ホルムズ海峡を敵国以外に開放表明　トランプ氏、日本に艦艇派遣要請",
+      "post_count": 252424,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Levelaの業務委託が偽装請負疑惑でX上で議論沸騰",
-      "post_count": 6504,
+      "title": "Levelaの「偽装請負」疑い、シンガポール旅行投稿が発端に",
+      "post_count": 7272,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "官民連携で国産LNG船建造復活へ　高市政権の経済安保戦略",
+      "post_count": 6001,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,30 +28,38 @@
     },
     {
       "title": "3000万円未満でFIREは可能か、Xで議論が広がる",
-      "post_count": 3589,
+      "post_count": 3768,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "WTI原油先物、サンデートレーディングで100ドル割れ98ドル台に下落",
-      "post_count": 115,
+      "title": "ニートのマサニー氏、紺綬褒章を履歴書面倒で辞退と投稿が話題に",
+      "post_count": 1073,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ママ投資家ちょる子、新刊見本誌到着で興奮投稿",
-      "post_count": 94,
-      "category": "",
+      "title": "サンデーダウ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡",
+      "title": "ネタニヤフ",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "革命防衛隊",
       "post_count": 0,
       "category": "政治 · トレンド",
       "time_ago": "",
@@ -59,23 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "革命防衛隊",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ネタニヤフ",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "資産形成",
+      "title": "サイドFIRE",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,15 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "サイドFIRE",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#FIRE自己紹介",
+      "title": "資産形成",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -108,6 +100,14 @@
     },
     {
       "title": "NISA貧乏",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#FIRE自己紹介",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
