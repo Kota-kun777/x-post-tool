@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-17T00:29:17.912183+09:00",
-  "count": 12,
+  "updated_at": "2026-03-17T01:29:18.537073+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "相続税廃止の声がXで広がる、日露戦争由来の理不尽を指摘",
-      "post_count": 97302,
+      "title": "ナビダイヤル携帯通話料が2026年10月から大幅値上げ",
+      "post_count": 12505,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホンダとヤマハ発動機の高配当株が投資家注目、優待喜びの声",
-      "post_count": 1040,
+      "title": "Levela偽装請負疑惑でSNS炎上、シンガポール旅行投稿が発端",
+      "post_count": 5125,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,22 +20,30 @@
     },
     {
       "title": "チューリングPR担当がClaudeで32人仮想チーム構築、Xで話題",
-      "post_count": 534,
+      "post_count": 555,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "岸田元首相、「NISA貧乏」避け生活優先を助言　Xで賛否広がる",
-      "post_count": 27,
+      "title": "トランプ氏、中国にホルムズ海峡軍事連合参加要請も拒否される",
+      "post_count": 294,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "資金調達",
+      "title": "キオクシア株7%超急騰、日経平均を大きく上回る",
+      "post_count": 75,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イーサリアム",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +59,23 @@
       "origin": "x_news"
     },
     {
-      "title": "ウォレット",
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "資金調達",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,15 +91,7 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イーサリアム",
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -86,14 +102,6 @@
       "title": "ソニーFG",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラネット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
