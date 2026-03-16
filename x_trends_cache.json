@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-17T07:29:27.376814+09:00",
-  "count": 8,
+  "updated_at": "2026-03-17T08:29:19.469997+09:00",
+  "count": 11,
   "trends": [
     {
-      "title": "相続税廃止の声がXで広がる、日露戦争由来の理不尽を指摘",
-      "post_count": 104670,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ナビダイヤル通話料、2026年10月から約33%値上げ",
-      "post_count": 15326,
+      "title": "NTTドコモビジネス、携帯ナビダイヤル通話料を約2倍に値上げ",
+      "post_count": 16353,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +12,7 @@
     },
     {
       "title": "Levela代表のシンガポール旅行投稿が偽装請負疑いで大炎上",
-      "post_count": 5864,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ホンダとヤマハ発動機の高配当株が投資家注目、優待喜びの声",
-      "post_count": 1055,
+      "post_count": 6219,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +20,30 @@
     },
     {
       "title": "チューリングPR担当がClaudeで32人仮想チーム構築、Xで話題",
-      "post_count": 617,
+      "post_count": 644,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#ビットコイン",
+      "title": "米クレジットカード遅延率がリーマン級の12.7％に急上昇",
+      "post_count": 619,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "エヌビディア、2027年末AI半導体売上1兆ドル超の見通しを発表",
+      "post_count": 213,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "資金調達",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,31 @@
       "origin": "x_news"
     },
     {
-      "title": "#イーサリアム",
+      "title": "ビットコイン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストラテジー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イーサリアム",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
