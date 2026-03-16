@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-16T23:29:18.736641+09:00",
-  "count": 16,
+  "updated_at": "2026-03-17T00:29:17.912183+09:00",
+  "count": 12,
   "trends": [
     {
-      "title": "ナビダイヤル携帯通話料が2026年10月から大幅値上げ",
-      "post_count": 10579,
+      "title": "相続税廃止の声がXで広がる、日露戦争由来の理不尽を指摘",
+      "post_count": 97302,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Levelaのシンガポール旅行投稿が偽装請負疑惑で議論沸騰",
-      "post_count": 4586,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均3日続落、68円安の5万3751円で終了",
-      "post_count": 1698,
+      "title": "ホンダとヤマハ発動機の高配当株が投資家注目、優待喜びの声",
+      "post_count": 1040,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +20,22 @@
     },
     {
       "title": "チューリングPR担当がClaudeで32人仮想チーム構築、Xで話題",
-      "post_count": 506,
+      "post_count": 534,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "伝説投資家清原達郎氏、日本株との決別を宣言 高値相場に警戒",
-      "post_count": 127,
+      "title": "岸田元首相、「NISA貧乏」避け生活優先を助言　Xで賛否広がる",
+      "post_count": 27,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "資金調達",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,31 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "資金調達",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ウォレット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,14 +75,6 @@
       "origin": "x_news"
     },
     {
-      "title": "FOMC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "イーサリアム",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -126,6 +86,14 @@
       "title": "ソニーFG",
       "post_count": 0,
       "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
