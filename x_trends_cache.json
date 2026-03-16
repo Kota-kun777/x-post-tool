@@ -1,26 +1,34 @@
 {
-  "updated_at": "2026-03-16T13:29:17.797996+09:00",
-  "count": 12,
+  "updated_at": "2026-03-16T14:29:20.204799+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "へずまりゅう氏の投稿で相続税廃止論が急拡大",
-      "post_count": 74774,
+      "title": "Levela社偽装請負疑惑で雇用形態に疑問集中",
+      "post_count": 30047,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "サナエトークン設計者、過去に玉木トークンも計画　事務所は関係否定",
-      "post_count": 179,
+      "title": "ホンダ、EV戦略見直しで上場初の赤字転落　最大2.5兆円損失",
+      "post_count": 29947,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "木原官房長官、原油輸入3月下旬以降大幅減少の見込みと発表、中東情勢緊迫で備蓄頼み",
-      "post_count": 129,
+      "title": "高市首相の外国人労働者拡大に保守層から移民政策批判の声",
+      "post_count": 18396,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イラン外相、各国に米イスラエル作戦関与を控えるよう呼びかけ",
+      "post_count": 2844,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,15 +36,7 @@
     },
     {
       "title": "チューリングPR担当がClaudeで32人仮想チーム構築、業務を激変",
-      "post_count": 50,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FP1級実技試験、合格率86.71%で高水準を更新",
-      "post_count": 28,
+      "post_count": 83,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -67,9 +67,9 @@
       "origin": "x_news"
     },
     {
-      "title": "QDレーザ",
+      "title": "トランプ政権",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,9 +83,9 @@
       "origin": "x_news"
     },
     {
-      "title": "日米首脳会談",
+      "title": "QDレーザ",
       "post_count": 0,
-      "category": "政治 · トレンド",
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -94,6 +94,14 @@
       "title": "業務委託",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日米首脳会談",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
