@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-16T21:29:20.393025+09:00",
-  "count": 16,
+  "updated_at": "2026-03-16T22:29:21.007054+09:00",
+  "count": 18,
   "trends": [
     {
-      "title": "相続税廃止の声がXで広がる、日露戦争由来の理不尽を指摘",
-      "post_count": 91397,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "中東情勢緊迫で日本ガソリン180円超え、政府備蓄放出で対応",
-      "post_count": 46649,
+      "title": "ナビダイヤル携帯通話料が10月から33%値上げ、ユーザー反発相次ぐ",
+      "post_count": 9226,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,15 +12,15 @@
     },
     {
       "title": "Levela偽装請負疑惑、シンガポール旅行投稿で議論過熱",
-      "post_count": 3128,
+      "post_count": 4127,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "e-Taxの使い勝手が年々向上しユーザーから感動の声",
-      "post_count": 1661,
+      "title": "日経平均3日続落、68円安の5万3751円で終了",
+      "post_count": 1587,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,22 +28,30 @@
     },
     {
       "title": "チューリングPR担当がClaudeで32人仮想チーム構築",
-      "post_count": 393,
+      "post_count": 459,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ワラント",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "ホーチキと全国保証が期末配当を大幅増額修正",
+      "post_count": 265,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "qdレーザ",
+      "title": "ソニーFG",
+      "post_count": 0,
+      "category": "テクノロジー · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,31 @@
       "origin": "x_news"
     },
     {
+      "title": "ウォレット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イーサリアム",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ワラント",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,23 +107,15 @@
       "origin": "x_news"
     },
     {
+      "title": "FOMC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "共栄タンカー",
+      "title": "QDレーザ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
