@@ -1,65 +1,49 @@
 {
-  "updated_at": "2026-03-16T19:29:19.214048+09:00",
-  "count": 15,
+  "updated_at": "2026-03-16T20:29:19.375154+09:00",
+  "count": 17,
   "trends": [
     {
+      "title": "相続税廃止の声がXで広がる、日露戦争由来の理不尽を指摘",
+      "post_count": 89285,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "Levela偽装請負疑惑でX上で議論白熱、駒居氏がシンガポール旅行投稿が発端",
+      "post_count": 37465,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ナビダイヤル携帯通話料が10月から33%値上げ、ユーザー反発相次ぐ",
-      "post_count": 4752,
+      "post_count": 6375,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "信越化学、塩ビを従来比2割値上げ　ホルムズ封鎖が原因",
-      "post_count": 411,
+      "title": "ガソリンスタンドの「トランプにより入荷なし」看板が話題に",
+      "post_count": 4173,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "チューリングPR担当がClaudeで32人仮想チーム構築",
-      "post_count": 312,
+      "title": "Levelaの偽装請負疑惑、社員旅行投稿でX炎上",
+      "post_count": 1443,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "渋谷でAIロボット持ち込み勉強会が満員開催",
-      "post_count": 35,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "為替介入",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,6 +67,30 @@
       "origin": "x_news"
     },
     {
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "#JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,14 +107,6 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "業務委託",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -115,7 +115,23 @@
       "origin": "x_news"
     },
     {
+      "title": "日米首脳会談",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "パワーエックス",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "共栄タンカー",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
