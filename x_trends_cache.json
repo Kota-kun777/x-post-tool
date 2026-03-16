@@ -1,26 +1,18 @@
 {
-  "updated_at": "2026-03-16T18:29:27.247832+09:00",
-  "count": 13,
+  "updated_at": "2026-03-16T19:29:19.214048+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "相続税廃止の声がXで広がる、日露戦争由来の理不尽を指摘",
-      "post_count": 84658,
+      "title": "ナビダイヤル携帯通話料が10月から33%値上げ、ユーザー反発相次ぐ",
+      "post_count": 4752,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Levelaのシンガポール社員旅行投稿が偽装請負疑惑で炎上",
-      "post_count": 33944,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "高市首相、選択的夫婦別姓に慎重　女性天皇は機熟せずと答弁",
-      "post_count": 7529,
+      "title": "信越化学、塩ビを従来比2割値上げ　ホルムズ封鎖が原因",
+      "post_count": 411,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,30 +20,22 @@
     },
     {
       "title": "チューリングPR担当がClaudeで32人仮想チーム構築",
-      "post_count": 281,
+      "post_count": 312,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "auじぶん銀行、変動金利基準金利を0.3％引き上げ発表",
-      "post_count": 122,
+      "title": "渋谷でAIロボット持ち込み勉強会が満員開催",
+      "post_count": 35,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#JPYC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "業務委託",
+      "title": "為替介入",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "為替介入",
+      "title": "#JPYC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -92,6 +92,22 @@
     },
     {
       "title": "QDレーザ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイムセール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "業務委託",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
