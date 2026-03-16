@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-03-16T22:29:21.007054+09:00",
-  "count": 18,
+  "updated_at": "2026-03-16T23:29:18.736641+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "ナビダイヤル携帯通話料が10月から33%値上げ、ユーザー反発相次ぐ",
-      "post_count": 9226,
+      "title": "ナビダイヤル携帯通話料が2026年10月から大幅値上げ",
+      "post_count": 10579,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Levela偽装請負疑惑、シンガポール旅行投稿で議論過熱",
-      "post_count": 4127,
+      "title": "Levelaのシンガポール旅行投稿が偽装請負疑惑で議論沸騰",
+      "post_count": 4586,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,32 +20,40 @@
     },
     {
       "title": "日経平均3日続落、68円安の5万3751円で終了",
-      "post_count": 1587,
+      "post_count": 1698,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "チューリングPR担当がClaudeで32人仮想チーム構築",
-      "post_count": 459,
+      "title": "チューリングPR担当がClaudeで32人仮想チーム構築、Xで話題",
+      "post_count": 506,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホーチキと全国保証が期末配当を大幅増額修正",
-      "post_count": 265,
+      "title": "伝説投資家清原達郎氏、日本株との決別を宣言 高値相場に警戒",
+      "post_count": 127,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ソニーFG",
+      "title": "ブリヂストン",
       "post_count": 0,
-      "category": "テクノロジー · トレンド",
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "全国保証",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "資金調達",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,15 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "イーサリアム",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "口座開設",
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "イーサリアム",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,25 +123,9 @@
       "origin": "x_news"
     },
     {
-      "title": "全国保証",
+      "title": "ソニーFG",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "QDレーザ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "パワーエックス",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
