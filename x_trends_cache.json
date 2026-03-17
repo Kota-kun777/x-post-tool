@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-03-17T22:29:16.676328+09:00",
+  "updated_at": "2026-03-17T23:29:16.995285+09:00",
   "count": 20,
   "trends": [
     {
-      "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3277,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "日経平均4日続落、中東緊張で原油高が株安圧力",
-      "post_count": 2052,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "高市首相の病気辞任予想がXで広がる　手袋姿に憶測集中",
-      "post_count": 795,
+      "post_count": 2193,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,24 +12,32 @@
     },
     {
       "title": "じっちゃま、中東危機で株売却を警告　ホルムズ海峡閉鎖が深刻化",
-      "post_count": 476,
+      "post_count": 547,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "小規模事業者持続化補助金第18回採択結果を発表 一般型採択率48.1％に低下",
-      "post_count": 152,
+      "title": "日本製鉄、USスチール買収にJBICとメガバンクが9000億円融資",
+      "post_count": 410,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "三菱商事",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "マイクロソフト、無料ユーザー向けCopilot ChatのOfficeアプリ利用を4月15日から制限",
+      "post_count": 263,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "湾岸諸国、イラン脅威除去を望み米国に完全無力化求める",
+      "post_count": 237,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,7 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#メタプラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -68,14 +76,6 @@
     },
     {
       "title": "資金調達",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,15 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
+      "title": "#日本株",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,15 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ワラント",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ジャパンディスプレイ",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,9 +139,25 @@
       "origin": "x_news"
     },
     {
+      "title": "ワラント",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ソニーFG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日米首脳会談",
+      "post_count": 0,
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
