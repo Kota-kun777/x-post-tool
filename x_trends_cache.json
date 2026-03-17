@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-03-17T19:29:22.222853+09:00",
-  "count": 19,
+  "updated_at": "2026-03-17T20:29:16.555781+09:00",
+  "count": 20,
   "trends": [
     {
-      "title": "米クレジットカード延滞率、リーマン後最高水準に",
-      "post_count": 2760,
+      "title": "中東情勢緊迫で原油高騰、ガソリン183円超にパニック買い広がる",
+      "post_count": 1317,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "JPYC岡部氏、溝口氏とのX交流を絶つ宣言",
-      "post_count": 2507,
+      "title": "日経平均4日続落、5万3700円で終了 トレーダー共感の我慢相場",
+      "post_count": 997,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "税理士がAIで60社顧問をスタッフゼロで運営",
-      "post_count": 197,
+      "title": "トランプ大統領、イラン攻撃前に湾岸報復の警告受けていた",
+      "post_count": 675,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ホルムズ海峡封鎖で原油高騰、日本物流に深刻打撃　中小運送倒産懸念",
-      "post_count": 123,
+      "title": "日経平均小幅安で4日続落、デイトレーダー我慢の相場に苦戦",
+      "post_count": 135,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,38 +36,14 @@
     },
     {
       "title": "ヒロシ社長が林顧問に500万円投資、4ヶ月のリアルを告白",
-      "post_count": 61,
+      "post_count": 118,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ウォレット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +67,31 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "#TradeNote",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "資金調達",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ウォレット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +115,23 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,15 +155,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイムセール",
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
