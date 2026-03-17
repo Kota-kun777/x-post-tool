@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-18T00:29:18.702034+09:00",
-  "count": 17,
+  "updated_at": "2026-03-18T01:29:19.018345+09:00",
+  "count": 20,
   "trends": [
     {
-      "title": "楽天、Rakuten AI 3.0公開もDeepSeek V3ベース疑惑で議論",
-      "post_count": 6746,
+      "title": "ナビダイヤル携帯通話料が33%値上げ、ユーザーから強い不満の声",
+      "post_count": 22172,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "イラン情勢悪化で日経平均急落、ガソリン200円超も政府が4カ月分備蓄確保",
-      "post_count": 6247,
+      "title": "楽天「Rakuten AI 3.0」DeepSeek V3ベースで議論に",
+      "post_count": 7700,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3473,
+      "title": "ドル円159円台で高止まり、中東緊迫と介入警戒交錯",
+      "post_count": 5662,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,48 +28,16 @@
     },
     {
       "title": "日本製鉄株、PTSで4％超急騰　USスチール買収に9000億円融資決定",
-      "post_count": 495,
+      "post_count": 524,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Codeが非エンジニアの業務を日本語で自動化",
-      "post_count": 448,
+      "title": "非エンジニアがClaude Codeで業務を自動化、ガイド投稿が大反響",
+      "post_count": 369,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ソニーfg",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "資金調達",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -83,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "コインチェック",
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "製品概要",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "FOMC",
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "資金調達",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +91,63 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#リップル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "コインチェック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#XAUUSD",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FOMC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ソニーFG",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
