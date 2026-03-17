@@ -1,10 +1,26 @@
 {
-  "updated_at": "2026-03-17T12:29:18.237994+09:00",
-  "count": 17,
+  "updated_at": "2026-03-17T13:29:17.465719+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "ナビダイヤル携帯料金が3割値上げ、ユーザーから解約妨害批判相次ぐ",
-      "post_count": 18665,
+      "title": "Levela偽装請負疑惑でX上で議論白熱、駒居氏がシンガポール旅行投稿が発端",
+      "post_count": 43672,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ナビダイヤル携帯通話料が33％値上げで利用者反発",
+      "post_count": 19301,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ベトナム、中東危機で日本に原油調達支援要請　東京フォーラムで副大臣が直接会談",
+      "post_count": 14017,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,78 +28,22 @@
     },
     {
       "title": "米クレジットカード遅延率、リーマン後最高水準に",
-      "post_count": 1577,
+      "post_count": 1762,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NVIDIA、GTC 2026で次世代AIプラットフォーム「Vera Rubin」を発表",
-      "post_count": 277,
+      "title": "岡部氏、溝口氏とのDM交流を6年ぶりに断つ宣言",
+      "post_count": 970,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イラン戦争でヘリウム供給3割ストップ、価格2倍超に",
-      "post_count": 55,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "Levelaの偽装請負疑惑、社員旅行投稿で注目集まる",
-      "post_count": 32,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ビットコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイムセール",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#仮想通貨",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,6 +59,14 @@
       "origin": "x_news"
     },
     {
+      "title": "#仮想通貨",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ストラテジー",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -107,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "アマゾン",
+      "title": "ビットコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,6 +91,30 @@
       "origin": "x_news"
     },
     {
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日米首脳会談",
+      "post_count": 0,
+      "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -131,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
