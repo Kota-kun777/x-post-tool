@@ -1,34 +1,18 @@
 {
-  "updated_at": "2026-03-17T18:29:20.970081+09:00",
+  "updated_at": "2026-03-17T19:29:22.222853+09:00",
   "count": 19,
   "trends": [
     {
-      "title": "ヘッドフォンのイヤーパッド剥がれにユーザー共感の声広がる",
-      "post_count": 4436,
+      "title": "米クレジットカード延滞率、リーマン後最高水準に",
+      "post_count": 2760,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米クレジットカード延滞率12年ぶり高水準に",
-      "post_count": 2526,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日経平均、後場に原油高で急落も小幅続落",
-      "post_count": 1116,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "元米軍指揮官のホルムズ海峡批判声明、フェイク疑い強まる",
-      "post_count": 604,
+      "title": "JPYC岡部氏、溝口氏とのX交流を絶つ宣言",
+      "post_count": 2507,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +20,30 @@
     },
     {
       "title": "税理士がAIで60社顧問をスタッフゼロで運営",
-      "post_count": 185,
+      "post_count": 197,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "ホルムズ海峡封鎖で原油高騰、日本物流に深刻打撃　中小運送倒産懸念",
+      "post_count": 123,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ヒロシ社長が林顧問に500万円投資、4ヶ月のリアルを告白",
+      "post_count": 61,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "#TradeNote",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "イーサリアム",
+      "title": "ウォレット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +67,15 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "コインチェック",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三井物産",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
+      "title": "メタプラネット",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
+      "title": "FOMC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +139,7 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,15 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#ETH",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FOMC",
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
