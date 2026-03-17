@@ -1,51 +1,43 @@
 {
-  "updated_at": "2026-03-17T11:29:20.228101+09:00",
-  "count": 16,
+  "updated_at": "2026-03-17T12:29:18.237994+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "Levela偽装請負疑惑でX上で議論白熱、駒居氏がシンガポール旅行投稿が発端",
-      "post_count": 43229,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ナビダイヤル携帯料金が3割値上げ、ユーザーから解約妨害批判相次ぐ",
-      "post_count": 18041,
+      "post_count": 18665,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米クレジットカード深刻遅延率が12.7％に急上昇、2011年以来の高水準",
-      "post_count": 1395,
+      "title": "米クレジットカード遅延率、リーマン後最高水準に",
+      "post_count": 1577,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "チューリングPR担当がClaudeで32人仮想チーム構築、Xで話題",
-      "post_count": 740,
+      "title": "NVIDIA、GTC 2026で次世代AIプラットフォーム「Vera Rubin」を発表",
+      "post_count": 277,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "全国保証、業績上方修正と5円増配を発表　2030年配当149円目標",
-      "post_count": 414,
+      "title": "イラン戦争でヘリウム供給3割ストップ、価格2倍超に",
+      "post_count": 55,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "#仮想通貨",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "Levelaの偽装請負疑惑、社員旅行投稿で注目集まる",
+      "post_count": 32,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -59,55 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "口座開設",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストラテジー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "プラネット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ワラント",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#ビットコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ジャパンディスプレイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "アマゾン",
+      "title": "ビットコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,7 +67,71 @@
       "origin": "x_news"
     },
     {
+      "title": "口座開設",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#仮想通貨",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#ETH",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストラテジー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ワラント",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
