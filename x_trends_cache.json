@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-03-17T09:29:21.199854+09:00",
-  "count": 15,
+  "updated_at": "2026-03-17T10:29:19.396088+09:00",
+  "count": 16,
   "trends": [
     {
       "title": "NTTドコモビジネス、ナビダイヤル携帯通話料を33%値上げへ",
-      "post_count": 17118,
+      "post_count": 17577,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Levela代表のシンガポール旅行投稿が偽装請負疑いで大炎上",
-      "post_count": 6498,
+      "title": "トランプ大統領、中国訪問をイラン情勢で1カ月延期要請",
+      "post_count": 1789,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "米クレジットカード遅延率、リーマン後ピークに迫る",
-      "post_count": 1047,
+      "title": "米クレジットカードの深刻遅延率、リーマン以来の12.7%に",
+      "post_count": 1226,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "チューリングPR担当がClaudeで32人仮想チーム構築、Xで話題",
-      "post_count": 678,
+      "title": "高市首相、石油備蓄放出を単独開始 ホルムズ海峡封鎖対応",
+      "post_count": 628,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NVIDIA、GTC 2026でNemoClaw発表　OpenClawを1コマンドでセキュア展開",
-      "post_count": 293,
+      "title": "NVIDIA、次世代AIチップを2026年後半投入へ 受注残1兆ドル超",
+      "post_count": 312,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "資金調達",
+      "title": "#ビットコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,31 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#仮想通貨",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ワラント",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストラテジー",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ビットコイン",
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +67,31 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "アマゾン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#仮想通貨",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストラテジー",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ワラント",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "アマゾン",
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -118,6 +118,14 @@
       "title": "日米首脳会談",
       "post_count": 0,
       "category": "政治 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "プラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
