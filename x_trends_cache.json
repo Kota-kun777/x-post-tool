@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-17T15:29:19.413712+09:00",
-  "count": 14,
+  "updated_at": "2026-03-17T16:29:16.764861+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "ナビダイヤル携帯通話料が33%値上げ　利用者不満噴出",
-      "post_count": 20294,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "米クレジットカードの深刻遅延率、リーマン後以来の高水準に",
-      "post_count": 2110,
+      "post_count": 2207,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -27,7 +19,7 @@
       "origin": "x_news"
     },
     {
-      "title": "子どもの言葉学習アプリ「こともん」リリースで教育論争",
+      "title": "税理士がAIで60社顧問をスタッフゼロで運営",
       "post_count": 161,
       "category": "",
       "time_ago": "",
@@ -35,15 +27,23 @@
       "origin": "x_news"
     },
     {
-      "title": "税理士がAIで60社顧問をスタッフゼロで運営",
-      "post_count": 151,
+      "title": "NVIDIA CEO、2027年末AI半導体注文1兆ドル予測を発表",
+      "post_count": 105,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "AIコーディングツール比較でCursorが平均11%性能向上のトップ",
+      "post_count": 50,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ストラテジー",
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,31 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#ビットコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ワラント",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#ETH",
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "#ビットコイン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +83,47 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "イーサリアム",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FOMC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ワラント",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
