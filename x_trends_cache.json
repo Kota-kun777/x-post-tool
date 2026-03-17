@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-17T16:29:16.764861+09:00",
-  "count": 16,
+  "updated_at": "2026-03-17T17:29:16.626535+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "米クレジットカードの深刻遅延率、リーマン後以来の高水準に",
-      "post_count": 2207,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "全国保証、業績上方修正と5円増配を発表　2030年配当149円目標",
-      "post_count": 460,
+      "title": "米クレジットカード延滞率、リーマン後並みに上昇　家計圧迫の兆候",
+      "post_count": 2322,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +12,7 @@
     },
     {
       "title": "税理士がAIで60社顧問をスタッフゼロで運営",
-      "post_count": 161,
+      "post_count": 171,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,7 +20,7 @@
     },
     {
       "title": "NVIDIA CEO、2027年末AI半導体注文1兆ドル予測を発表",
-      "post_count": 105,
+      "post_count": 114,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -36,14 +28,14 @@
     },
     {
       "title": "AIコーディングツール比較でCursorが平均11%性能向上のトップ",
-      "post_count": 50,
+      "post_count": 56,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "イーサリアム",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +43,15 @@
       "origin": "x_news"
     },
     {
-      "title": "タイムセール",
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三井物産",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -75,31 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#ビットコイン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イーサリアム",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "メタプラネット",
+      "title": "口座開設",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,6 +91,14 @@
       "origin": "x_news"
     },
     {
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ワラント",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -123,7 +107,31 @@
       "origin": "x_news"
     },
     {
+      "title": "メタプラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "ブリヂストン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "タイムセール",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
