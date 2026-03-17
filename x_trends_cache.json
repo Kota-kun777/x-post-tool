@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-18T03:29:19.401378+09:00",
-  "count": 15,
+  "updated_at": "2026-03-18T04:29:25.818436+09:00",
+  "count": 12,
   "trends": [
     {
       "title": "楽天「Rakuten AI 3.0」DeepSeek V3ベースで議論に",
-      "post_count": 8627,
+      "post_count": 8916,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,62 +12,38 @@
     },
     {
       "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3544,
+      "post_count": 3565,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "高市首相の国会姿とトランプ氏動画にXで批判の声",
-      "post_count": 1026,
+      "title": "IT導入補助金で㈱MY補助金パートナーの登録取り消し追加",
+      "post_count": 1109,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄のUSスチール買収、官民9000億円融資決定で株価4%超上昇",
-      "post_count": 545,
+      "title": "日本製鉄のUSスチール買収へ官民9000億円融資決定、株価4％超上昇",
+      "post_count": 556,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "Claude Codeが非エンジニアの業務自動化を革新、非エンジニアもファイル操作を実現",
-      "post_count": 332,
+      "title": "非エンジニアがClaude Codeで業務を自動化、ガイド投稿が大反響",
+      "post_count": 521,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "#リップル",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "コインチェック",
+      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
