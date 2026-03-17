@@ -1,10 +1,34 @@
 {
-  "updated_at": "2026-03-17T17:29:16.626535+09:00",
-  "count": 17,
+  "updated_at": "2026-03-17T18:29:20.970081+09:00",
+  "count": 19,
   "trends": [
     {
-      "title": "米クレジットカード延滞率、リーマン後並みに上昇　家計圧迫の兆候",
-      "post_count": 2322,
+      "title": "ヘッドフォンのイヤーパッド剥がれにユーザー共感の声広がる",
+      "post_count": 4436,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "米クレジットカード延滞率12年ぶり高水準に",
+      "post_count": 2526,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均、後場に原油高で急落も小幅続落",
+      "post_count": 1116,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "元米軍指揮官のホルムズ海峡批判声明、フェイク疑い強まる",
+      "post_count": 604,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,24 +36,24 @@
     },
     {
       "title": "税理士がAIで60社顧問をスタッフゼロで運営",
-      "post_count": 171,
+      "post_count": 185,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NVIDIA CEO、2027年末AI半導体注文1兆ドル予測を発表",
-      "post_count": 114,
-      "category": "",
+      "title": "ブリヂストン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "AIコーディングツール比較でCursorが平均11%性能向上のトップ",
-      "post_count": 56,
-      "category": "",
+      "title": "メタプラネット",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -43,7 +67,23 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "タイムセール",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -59,7 +99,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#デイトレ",
+      "title": "ジャパンディスプレイ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,22 +123,6 @@
       "origin": "x_news"
     },
     {
-      "title": "FOMC",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "ワラント",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -107,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラ",
+      "title": "INPEX",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +139,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "#ETH",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -123,15 +147,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ブリヂストン",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タイムセール",
+      "title": "FOMC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
