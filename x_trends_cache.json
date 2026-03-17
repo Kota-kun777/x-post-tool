@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-17T21:29:17.978025+09:00",
-  "count": 21,
+  "updated_at": "2026-03-17T22:29:16.676328+09:00",
+  "count": 20,
   "trends": [
     {
-      "title": "ナビダイヤル携帯通話料が33％値上げ　消費者不満噴出",
-      "post_count": 21865,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "米クレジットカード延滞率、リーマン後最高水準に",
-      "post_count": 3111,
+      "title": "米クレジットカード延滞率が2011年以来の高水準に",
+      "post_count": 3277,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,23 +12,31 @@
     },
     {
       "title": "日経平均4日続落、中東緊張で原油高が株安圧力",
-      "post_count": 1779,
+      "post_count": 2052,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "全国保証、業績上方修正と5円増配を発表　2030年配当149円目標",
-      "post_count": 495,
+      "title": "高市首相の病気辞任予想がXで広がる　手袋姿に憶測集中",
+      "post_count": 795,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄のUSスチール買収、官民9000億円融資で財務強化へ",
-      "post_count": 132,
+      "title": "じっちゃま、中東危機で株売却を警告　ホルムズ海峡閉鎖が深刻化",
+      "post_count": 476,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "小規模事業者持続化補助金第18回採択結果を発表 一般型採択率48.1％に低下",
+      "post_count": 152,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -51,7 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日経平均株価",
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,63 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "コインチェック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ウォレット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#TradeNote",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "資金調達",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ブリヂストン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -139,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +91,39 @@
       "origin": "x_news"
     },
     {
-      "title": "ジャパンディスプレイ",
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#デイトレ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ブリヂストン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "コインチェック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "メタプラ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -163,7 +139,23 @@
       "origin": "x_news"
     },
     {
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "FOMC",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ソニーFG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
