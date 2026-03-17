@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-03-17T23:29:16.995285+09:00",
-  "count": 20,
+  "updated_at": "2026-03-18T00:29:18.702034+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "日経平均4日続落、中東緊張で原油高が株安圧力",
-      "post_count": 2193,
+      "title": "楽天、Rakuten AI 3.0公開もDeepSeek V3ベース疑惑で議論",
+      "post_count": 6746,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "じっちゃま、中東危機で株売却を警告　ホルムズ海峡閉鎖が深刻化",
-      "post_count": 547,
+      "title": "イラン情勢悪化で日経平均急落、ガソリン200円超も政府が4カ月分備蓄確保",
+      "post_count": 6247,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄、USスチール買収にJBICとメガバンクが9000億円融資",
-      "post_count": 410,
+      "title": "米クレジットカード延滞率が2011年以来の高水準に",
+      "post_count": 3473,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "マイクロソフト、無料ユーザー向けCopilot ChatのOfficeアプリ利用を4月15日から制限",
-      "post_count": 263,
+      "title": "日本製鉄株、PTSで4％超急騰　USスチール買収に9000億円融資決定",
+      "post_count": 495,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "湾岸諸国、イラン脅威除去を望み米国に完全無力化求める",
-      "post_count": 237,
+      "title": "Claude Codeが非エンジニアの業務を日本語で自動化",
+      "post_count": 448,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -44,46 +44,6 @@
     },
     {
       "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "デイトレ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#メタプラネット",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "資金調達",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "#日本株",
+      "title": "ソニーfg",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,15 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "コインチェック",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ストップ高",
+      "title": "資金調達",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,6 +83,22 @@
       "origin": "x_news"
     },
     {
+      "title": "コインチェック",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日本株",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "FOMC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -139,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ワラント",
+      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -147,7 +115,15 @@
       "origin": "x_news"
     },
     {
-      "title": "ソニーFG",
+      "title": "メタプラ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
