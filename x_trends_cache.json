@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-03-18T10:29:22.207907+09:00",
-  "count": 15,
+  "updated_at": "2026-03-18T11:29:23.943881+09:00",
+  "count": 16,
   "trends": [
     {
-      "title": "トランプ大統領、ホルムズ海峡支援で日本など不要と表明 要請を事実上撤回",
-      "post_count": 3773,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3739,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "王子HD、退職一時金を廃止し基本給に上乗せへ",
-      "post_count": 1610,
+      "post_count": 3760,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,16 +12,40 @@
     },
     {
       "title": "日本製鉄、USスチール買収に9000億円融資で株価4%超上昇",
-      "post_count": 691,
+      "post_count": 726,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "NYSE FANG+指数、3月再構成でマイクロン追加・クラウドストライク除外",
-      "post_count": 478,
+      "title": "歯科用麻酔薬供給不足が半年続き治療に影響",
+      "post_count": 451,
       "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "バルミューダ、新時計「The Clock」発表 光で良い時間を提案",
+      "post_count": 208,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経平均が一時1100円超上昇、5万4900円台到達",
+      "post_count": 49,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
@@ -51,23 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "FANG",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
+      "title": "キオクシア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,7 +75,23 @@
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商船三井",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +107,7 @@
       "origin": "x_news"
     },
     {
-      "title": "INPEX",
+      "title": "FOMC",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +123,7 @@
       "origin": "x_news"
     },
     {
-      "title": "FOMC",
+      "title": "ストップ高",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
