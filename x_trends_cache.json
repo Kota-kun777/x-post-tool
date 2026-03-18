@@ -1,18 +1,10 @@
 {
-  "updated_at": "2026-03-18T08:29:16.751084+09:00",
-  "count": 11,
+  "updated_at": "2026-03-18T09:29:17.232504+09:00",
+  "count": 13,
   "trends": [
     {
-      "title": "ホルムズ海峡封鎖で「わさビーフ」生産停止　重油不足が日常に波及",
-      "post_count": 140046,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "楽天の日本語AI「Rakuten AI 3.0」、DeepSeek V3ベースと判明し議論に",
-      "post_count": 11494,
+      "post_count": 12374,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,7 +12,15 @@
     },
     {
       "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3679,
+      "post_count": 3720,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "悠仁親王の筑波大通学疑惑投稿に大学経験者から総ツッコミ",
+      "post_count": 3589,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -28,22 +28,22 @@
     },
     {
       "title": "日本製鉄、USスチール買収に9000億円融資で株価4%超上昇",
-      "post_count": 642,
+      "post_count": 665,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "39万円財布を拾い交番へ 心温まる行動が話題",
-      "post_count": 382,
+      "title": "NYSE FANG+指数、3月再構成でマイクロン追加・クラウドストライク除外",
+      "post_count": 157,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経先物",
+      "title": "上方修正",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -51,7 +51,23 @@
       "origin": "x_news"
     },
     {
-      "title": "エヌビディア",
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均株価",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日経先物",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -67,7 +83,7 @@
       "origin": "x_news"
     },
     {
-      "title": "メタプラネット",
+      "title": "エヌビディア",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
