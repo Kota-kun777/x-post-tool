@@ -1,18 +1,34 @@
 {
-  "updated_at": "2026-03-18T13:29:27.461488+09:00",
-  "count": 15,
+  "updated_at": "2026-03-18T14:29:20.795846+09:00",
+  "count": 17,
   "trends": [
     {
-      "title": "インフルエンサー黒木麗香被告、東京地裁で1億5700万円脱税認める",
-      "post_count": 783,
+      "title": "中東情勢緊迫でドル円159円台上昇、原油高が市場を揺らす",
+      "post_count": 5997,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東電HD株価がストップ高、数十社が資本提携に名乗り",
-      "post_count": 349,
+      "title": "米クレジットカード延滞率が2011年以来の高水準に",
+      "post_count": 3838,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "王子HD、退職一時金廃止で初任給を月28万円に引き上げ",
+      "post_count": 2347,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "東電HD株がストップ高、数十社が資本提携に興味",
+      "post_count": 546,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,54 +36,14 @@
     },
     {
       "title": "日経平均株価が1000円超上昇 大幅反発",
-      "post_count": 277,
+      "post_count": 521,
       "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "林尚弘氏の「総理大臣になりたかったからFCを選んだ」投稿が話題",
-      "post_count": 144,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "イーロン・マスクの質素なプレハブ小屋自宅が話題に",
-      "post_count": 33,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -83,14 +59,6 @@
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "三井物産",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
@@ -99,7 +67,55 @@
       "origin": "x_news"
     },
     {
-      "title": "エヌビディア",
+      "title": "日本製鉄",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "商船三井",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ストップ高",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マイクロン",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三菱マテリアル",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +131,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マイクロン",
+      "title": "ユニチカ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
