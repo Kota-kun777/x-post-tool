@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-03-18T16:29:18.521297+09:00",
-  "count": 23,
+  "updated_at": "2026-03-18T17:29:25.692466+09:00",
+  "count": 24,
   "trends": [
     {
       "title": "中東情勢緊迫でドル円159円台上昇、原油高が市場を揺らす",
-      "post_count": 6047,
+      "post_count": 6072,
+      "category": "",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "2026年公示地価、全国平均2.8％上昇で5年連続プラス",
+      "post_count": 3875,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -12,7 +20,7 @@
     },
     {
       "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3864,
+      "post_count": 3875,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -20,23 +28,15 @@
     },
     {
       "title": "東電株がストップ高、資本提携報道で電力セクターが活気づく",
-      "post_count": 870,
+      "post_count": 1004,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日本製鉄、USスチール買収に9000億円融資で株価4%超上昇",
-      "post_count": 791,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "タマホームの業績グラフが不自然な集中で疑問の声",
-      "post_count": 119,
+      "title": "田舎の家を檻で囲む画像がXで話題、政府批判広がる",
+      "post_count": 136,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
@@ -51,31 +51,7 @@
       "origin": "x_news"
     },
     {
-      "title": "高市首相",
-      "post_count": 0,
-      "category": "政治 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "#日経平均株価",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ソニーFG",
-      "post_count": 0,
-      "category": "テクノロジー · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "デイトレ",
+      "title": "マイクロン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -91,7 +67,7 @@
       "origin": "x_news"
     },
     {
-      "title": "三井物産",
+      "title": "デイトレ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -99,7 +75,7 @@
       "origin": "x_news"
     },
     {
-      "title": "東京電力",
+      "title": "上方修正",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +91,31 @@
       "origin": "x_news"
     },
     {
+      "title": "三菱マテリアル",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
       "title": "商船三井",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "三井物産",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "日本製鉄",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +131,15 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱マテリアル",
+      "title": "東京電力",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "#日経平均株価",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -155,7 +163,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マイクロン",
+      "title": "ユニチカ",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -171,17 +179,17 @@
       "origin": "x_news"
     },
     {
-      "title": "ユニチカ",
+      "title": "高市首相",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "政治 · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "ストップ高",
+      "title": "ソニーFG",
       "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "category": "テクノロジー · トレンド",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
