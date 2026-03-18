@@ -1,97 +1,49 @@
 {
-  "updated_at": "2026-03-18T14:29:20.795846+09:00",
-  "count": 17,
+  "updated_at": "2026-03-18T15:29:17.166615+09:00",
+  "count": 15,
   "trends": [
     {
-      "title": "中東情勢緊迫でドル円159円台上昇、原油高が市場を揺らす",
-      "post_count": 5997,
-      "category": "",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
       "title": "米クレジットカード延滞率が2011年以来の高水準に",
-      "post_count": 3838,
+      "post_count": 3851,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "王子HD、退職一時金廃止で初任給を月28万円に引き上げ",
-      "post_count": 2347,
+      "title": "日本製鉄、USスチール買収に9000億円融資で株価4%超上昇",
+      "post_count": 780,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "東電HD株がストップ高、数十社が資本提携に興味",
-      "post_count": 546,
+      "title": "東電HD株がストップ高、資本提携報道で急騰",
+      "post_count": 703,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "日経平均株価が1000円超上昇 大幅反発",
-      "post_count": 521,
+      "title": "日米第2弾投資11兆円超、日米首脳会談に合わせ発表へ",
+      "post_count": 414,
       "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
-      "title": "キオクシア",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "三菱商事",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
+      "title": "王子HD、新卒退職一時金廃止で初任給を月給上乗せ",
+      "post_count": 83,
+      "category": "",
       "time_ago": "",
       "source": "X ニューストレンド",
       "origin": "x_news"
     },
     {
       "title": "三井物産",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "日本製鉄",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "INPEX",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "ジャパンディスプレイ",
-      "post_count": 0,
-      "category": "ビジネス・金融 · トレンド",
-      "time_ago": "",
-      "source": "X ニューストレンド",
-      "origin": "x_news"
-    },
-    {
-      "title": "商船三井",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -107,7 +59,7 @@
       "origin": "x_news"
     },
     {
-      "title": "マイクロン",
+      "title": "商船三井",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -115,7 +67,39 @@
       "origin": "x_news"
     },
     {
-      "title": "三菱マテリアル",
+      "title": "三菱商事",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "ジャパンディスプレイ",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "INPEX",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "キオクシア",
+      "post_count": 0,
+      "category": "ビジネス・金融 · トレンド",
+      "time_ago": "",
+      "source": "X ニューストレンド",
+      "origin": "x_news"
+    },
+    {
+      "title": "マイクロン",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
@@ -131,7 +115,7 @@
       "origin": "x_news"
     },
     {
-      "title": "ユニチカ",
+      "title": "FANG",
       "post_count": 0,
       "category": "ビジネス・金融 · トレンド",
       "time_ago": "",
